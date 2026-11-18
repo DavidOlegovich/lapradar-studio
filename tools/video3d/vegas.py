@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Лас-Вегас: самая яркая гонка сезона и самая скользкая». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "las-vegas-cold-night",
+  "track": "las-vegas", "theme": "vegas",
+  "shots": [
+    {"type": "fly", "from": 0.42, "to": 0.5, "h": 14, "h2": 40, "side": 0, "ahead": 200},
+    {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 4, "h2": 3.2, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "act": {"type": "cold", "at": 0.45}, "hud": {"type": "thermo", "from": 28, "to": 12}},
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 10, "h": 6.5, "h2": 6, "side": 4.5, "side2": 4, "look": 10, "drop": 3.2, "act": {"type": "slide", "cold": True}},
+    {"type": "top", "reveal": True, "badges": True, "k": 1.12, "tilt": 0.22, "rot0": 0.12, "rot1": 0.3, "act": {"type": "trace", "at": 0.05}},
+    {"type": "chase", "car": 4, "dist": 30, "dist2": 24, "h": 12, "h2": 9, "side": -4, "side2": 3, "look": 70, "drop": 4, "act": {"type": "restart", "release": 0.38}},
+    {"type": "fly", "from": 0.7, "to": 0.78, "h": 120, "h2": 200, "side": -60, "ahead": 300},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 4, "dist": 11, "h": 3.2, "side": -3, "look": 40, "drop": 2, "t0": 8, "fov": 46}},
+    {"name": "map", "w": 1200, "h": 800, "t": 3, "u": 1, "shot": {"type": "top", "reveal": True, "badges": True, "k": 1.2, "tilt": 0.2}},
+    {"name": "night", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "orbit", "at": 0.015, "r": 240, "h": 110, "a0": 0.8, "a1": 0.9, "t0": 0}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "ВЕГАС", "sub": "самая скользкая гонка сезона", "say": "Лас-Вегас. Самая яркая гонка сезона и при этом самая скользкая. Почему?"},
+      {"kind": "big", "big": "10–15 °C", "sub": "ноябрьская ночь в пустыне", "say": "Гонка идёт ночью, а в ноябре в пустыне холодно: воздух от десяти до пятнадцати градусов."},
+      {"kind": "list", "head": "Холодные шины", "items": ["Хуже держат", "Машину сносит", "Грейнинг"], "say": "Шины Формулы один рассчитаны на жару. Холодная резина хуже держит, а её поверхность рвётся на катышки."},
+      {"kind": "big", "big": "≈6,2 км", "sub": "прямые и повороты под 90°", "say": "Круг больше шести километров: длинные прямые по Стрипу и медленные повороты под прямым углом."},
+      {"kind": "list", "head": "Итог", "items": ["Мягкие в плюсе", "Жёсткие не греются", "Рестарт как лотерея"], "say": "Поэтому здесь в плюсе мягкие шины, жёсткие могут так и не прогреться, а каждый рестарт превращается в лотерею."},
+      {"kind": "end", "tag": "Шины и интервалы вживую", "say": "Шины и интервалы всех пилотов по ходу гонки есть на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "VEGAS", "sub": "the slipperiest race of the year", "say": "Las Vegas. The brightest race of the season, and the slipperiest. Why?"},
+      {"kind": "big", "big": "10–15 °C", "sub": "a November desert night", "say": "It's a night race, and November nights in the desert are cold, with the air at around ten to fifteen degrees."},
+      {"kind": "list", "head": "Cold tyres", "items": ["Less grip", "Cars slide", "Graining"], "say": "F1 tyres are built for heat. Cold rubber grips less, and the surface tears into little rolls of rubber."},
+      {"kind": "big", "big": "≈6.2 km", "sub": "straights and 90° corners", "say": "The lap is over six kilometres: long straights down the Strip and slow ninety-degree corners."},
+      {"kind": "list", "head": "The result", "items": ["Softs work better", "Hards won't warm up", "Restarts are a lottery"], "say": "That's why softs shine here, hards may never get up to temperature, and every restart becomes a lottery."},
+      {"kind": "end", "tag": "Tyres and gaps, live", "say": "Follow every driver's tyres and gaps live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "VEGAS", "sub": "la carrera más resbaladiza del año", "say": "Las Vegas. La carrera más brillante del año y también la más resbaladiza. ¿Por qué?"},
+      {"kind": "big", "big": "10–15 °C", "sub": "noche de noviembre en el desierto", "say": "Se corre de noche, y en noviembre el desierto es frío: el aire ronda los diez o quince grados."},
+      {"kind": "list", "head": "Gomas frías", "items": ["Menos agarre", "El coche desliza", "Graining"], "say": "Los neumáticos de Fórmula Uno están hechos para el calor. En frío agarran menos y la superficie se rompe en bolitas de goma."},
+      {"kind": "big", "big": "≈6,2 km", "sub": "rectas y curvas de 90°", "say": "La vuelta pasa de seis kilómetros: rectas largas por el Strip y curvas lentas de noventa grados."},
+      {"kind": "list", "head": "El resultado", "items": ["El blando rinde más", "El duro no calienta", "Relanzadas, una lotería"], "say": "Por eso aquí el blando rinde más, el duro puede no llegar a calentarse y cada relanzada es una lotería."},
+      {"kind": "end", "tag": "Neumáticos y diferencias en directo", "say": "Sigue en directo los neumáticos y las diferencias de cada piloto en LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "VEGAS", "sub": "a corrida mais escorregadia do ano", "say": "Las Vegas. A corrida mais brilhante do ano e também a mais escorregadia. Por quê?"},
+      {"kind": "big", "big": "10–15 °C", "sub": "noite de novembro no deserto", "say": "A corrida é à noite, e em novembro o deserto é frio: o ar fica entre dez e quinze graus."},
+      {"kind": "list", "head": "Pneus frios", "items": ["Menos aderência", "O carro escorrega", "Granulação"], "say": "Os pneus da Fórmula Um são feitos para o calor. Frios, eles seguram menos e a superfície se rasga em bolinhas de borracha."},
+      {"kind": "big", "big": "≈6,2 km", "sub": "retas e curvas de 90°", "say": "A volta passa de seis quilômetros: retas longas pela Strip e curvas lentas de noventa graus."},
+      {"kind": "list", "head": "O resultado", "items": ["O macio rende mais", "O duro não esquenta", "Relargada vira loteria"], "say": "Por isso aqui o macio rende mais, o duro pode nem esquentar e cada relargada vira loteria."},
+      {"kind": "end", "tag": "Pneus e diferenças ao vivo", "say": "Acompanhe ao vivo os pneus e as diferenças de cada piloto no LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "VEGAS", "sub": "das rutschigste Rennen des Jahres", "say": "Las Vegas. Das hellste Rennen der Saison und das rutschigste. Warum?"},
+      {"kind": "big", "big": "10–15 °C", "sub": "eine Wüstennacht im November", "say": "Es ist ein Nachtrennen, und Novembernächte in der Wüste sind kalt, die Luft hat nur etwa zehn bis fünfzehn Grad."},
+      {"kind": "list", "head": "Kalte Reifen", "items": ["Weniger Grip", "Autos rutschen", "Graining"], "say": "Formel-Eins-Reifen sind für Hitze gebaut. Kaltes Gummi greift schlechter, und die Oberfläche reißt zu kleinen Gummiröllchen auf."},
+      {"kind": "big", "big": "≈6,2 km", "sub": "Geraden und 90°-Kurven", "say": "Die Runde ist über sechs Kilometer lang: lange Geraden auf dem Strip und langsame Neunzig-Grad-Kurven."},
+      {"kind": "list", "head": "Das Ergebnis", "items": ["Soft arbeitet besser", "Hard wird nicht warm", "Restart als Lotterie"], "say": "Deshalb glänzt hier der Soft, der Hard kommt womöglich nie auf Temperatur, und jeder Restart wird zur Lotterie."},
+      {"kind": "end", "tag": "Reifen und Abstände live", "say": "Reifen und Abstände jedes Fahrers verfolgst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "维加斯", "sub": "全年最滑的比赛", "say": "拉斯维加斯。本赛季最耀眼、也最滑的一场比赛。为什么？"},
+      {"kind": "big", "big": "10–15°C", "sub": "十一月的沙漠之夜", "say": "这是一场夜赛，而沙漠里十一月的夜晚很冷，气温只有十到十五度左右。"},
+      {"kind": "list", "head": "冷轮胎", "items": ["抓地力下降", "赛车打滑", "颗粒化"], "say": "一级方程式的轮胎是为高温设计的。冷轮胎抓地力差，胎面还会撕起一个个小橡胶卷。"},
+      {"kind": "big", "big": "≈6.2公里", "sub": "长直道和90度弯", "say": "一圈超过六公里：大道上的长直道，加上低速的九十度弯。"},
+      {"kind": "list", "head": "结果", "items": ["软胎更好用", "硬胎热不起来", "重新起跑像抽签"], "say": "所以这里软胎更吃香，硬胎可能始终达不到工作温度，每次重新起跑都像抽签。"},
+      {"kind": "end", "tag": "轮胎与差距实时看", "say": "在LapRadar上实时查看每位车手的轮胎和差距。"},
+    ],
+  },
+}

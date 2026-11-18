@@ -1,0 +1,135 @@
+{
+ "slug": "f1-2026-no-drs",
+ "date": "2026-11-14",
+ "tags": [
+  "f1",
+  "rules",
+  "2026"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f1-2026-no-drs-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Формула 1 без DRS: как обгоняют по правилам 2026 года",
+   "lead": "В 2026-м DRS из Формулы 1 убрали. На смену пришли подвижные крылья, режим обгона и батарея, от которой теперь зависит исход гонки.",
+   "body": [
+    "## Новые машины и новые моторы",
+    "С 2026 года в Формуле 1 новые машины и новые силовые установки. Машины стали меньше и легче, а мотор куда сильнее опирается на электричество: на электромотор теперь приходится примерно половина мощности, сложный узел MGU-H убрали, а топливо полностью устойчивое, не нефтяное. Вслед за этим поменяли и всё, что связано с обгонами.",
+    "## Крылья с двумя положениями",
+    "Раньше на прямых открывалась только заслонка заднего антикрыла, тот самый DRS, и только если ты в секунде от соперника. Теперь подвижные элементы есть и на переднем, и на заднем крыле. В «режиме поворотов» они закрыты и дают максимум прижимной силы. В «режиме прямой» открыты: сопротивление меньше, скорость выше. Режим прямой включают в специальных зонах на каждом круге, и неважно, едет кто-то впереди или нет.",
+    "![Длинная прямая Монцы: здесь крылья переходят в режим прямой](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## Overtake mode вместо DRS",
+    "Настоящая замена DRS называется режимом обгона (Overtake mode). Если на точке замера ты в пределах секунды от машины впереди, на следующем круге получаешь дополнительную электрическую энергию. Машина дольше держит полную мощность электромотора и быстрее разгоняется. Потратить запас можно разом, а можно растянуть на весь круг.",
+    "![В секунде от соперника: на следующем круге будет дополнительная энергия](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost и вечная нехватка заряда",
+    "Кроме того, у пилота есть кнопка Boost: дополнительная энергия для атаки или защиты в любой точке трассы. Батарея при этом небольшая, и всё потраченное надо вернуть на торможениях. Вот пилоты и решают весь круг, где тратить заряд, а где копить. Бывает, что в конце длинной прямой энергия кончается и машина начинает терять мощность.",
+    "## Секунда теперь значит другое",
+    "Обгоны стали тактикой. Можно атаковать там, где соперник не ждёт, а можно спустить заряд и остаться пустым на следующей прямой. Отставание в секунду по-прежнему важно, только открывает оно теперь не заслонку, а дополнительную энергию.",
+    "## У кого есть режим обгона",
+    "Проще всего понять это по интервалу до машины впереди. В Live-центре LapRadar он виден у каждого пилота."
+   ]
+  },
+  "en": {
+   "title": "Formula 1 without DRS: how overtaking works under the 2026 rules",
+   "lead": "DRS is gone from Formula 1 in 2026. In its place come moving wings, an overtake mode and a battery that now has a big say in how races play out.",
+   "body": [
+    "## New cars, new engines",
+    "For 2026 Formula 1 has new cars and new power units. The cars are smaller and lighter, and the power unit leans far more on electricity: the electric motor now supplies around half the power, the complex MGU-H has been dropped and the fuel is fully sustainable. The overtaking tools changed along with all that.",
+    "## Wings with two settings",
+    "Until last season only a flap on the rear wing opened on the straights. That was DRS, and you only got it within a second of the car ahead. Now both the front and rear wings have moving elements. Corner mode keeps them closed for maximum downforce. Straight mode opens them up for less drag and more speed. Drivers use straight mode in designated zones on every lap, whether there's anyone in front or not.",
+    "![A long Monza straight, where the wings switch to straight mode](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## Overtake mode",
+    "The real replacement for DRS is Overtake mode. Be within a second of the car ahead at the detection point and on the next lap you get extra electrical energy: the car holds full electric power for longer and accelerates harder. You can use it all in one go or spread it over the lap.",
+    "![Within a second of the car ahead: extra energy on the next lap](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost and the constant energy squeeze",
+    "Drivers also have Boost, a button for extra energy to attack or defend anywhere on the lap. The battery is small, though, and whatever you use has to be recovered under braking. So drivers are forever deciding where to spend charge and where to save it. Sometimes the energy runs out near the end of a long straight and the car's power tails off.",
+    "## What the one-second gap means now",
+    "Overtaking has become tactical. You can attack where your rival isn't expecting it, or burn all your energy and have nothing left for the next straight. The one-second gap still matters, but it now unlocks extra energy instead of a flap.",
+    "## Who can use Overtake mode",
+    "The quickest way to tell is the interval to the car ahead. LapRadar's Live centre shows it for every driver."
+   ]
+  },
+  "es": {
+   "title": "Fórmula 1 sin DRS: cómo funcionan los adelantamientos con las reglas de 2026",
+   "lead": "En 2026 el DRS desapareció de la Fórmula 1. Su lugar lo ocupan los alerones móviles, un modo de adelantamiento y una batería que pesa muchísimo en el resultado de cada carrera.",
+   "body": [
+    "## Coches y motores nuevos",
+    "Desde 2026 la Fórmula 1 estrena coches y unidades de potencia. Los coches son más pequeños y ligeros, y el motor depende mucho más de la electricidad: la parte eléctrica aporta cerca de la mitad de la potencia, el complejo MGU-H se ha eliminado y el combustible es totalmente sostenible. Con todo eso cambiaron también las herramientas para adelantar.",
+    "## Alerones con dos posiciones",
+    "Hasta la temporada pasada solo se abría una aleta del alerón trasero en las rectas, el DRS, y solo a menos de un segundo del coche de delante. Ahora tanto el alerón delantero como el trasero tienen elementos móviles. En modo curva van cerrados y dan la máxima carga. En modo recta se abren: menos resistencia y más velocidad. Los pilotos usan el modo recta en zonas señaladas en cada vuelta, tengan o no a alguien delante.",
+    "![Una recta larga de Monza, donde los alerones pasan al modo recta](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## El modo adelantamiento",
+    "El verdadero sustituto del DRS es el Overtake mode. Si en el punto de detección estás a menos de un segundo del coche de delante, en la vuelta siguiente tienes energía eléctrica extra: el coche mantiene la potencia eléctrica máxima durante más tiempo y acelera mejor. Puedes gastarla de golpe o repartirla a lo largo de la vuelta.",
+    "![A menos de un segundo del rival: energía extra en la siguiente vuelta](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost y recarga",
+    "Además está el Boost, energía extra para atacar o defenderse en cualquier punto del circuito. Pero la batería es pequeña y lo que gastas tienes que recuperarlo frenando. Los pilotos se pasan la vuelta decidiendo dónde gastar y dónde ahorrar, y a veces la energía se acaba al final de una recta larga y el coche pierde potencia.",
+    "## Lo que cambia para el aficionado",
+    "Adelantar es ahora cuestión de táctica: puedes atacar donde el rival no lo espera o quemar la energía y quedarte sin nada para la siguiente recta. El segundo de diferencia sigue contando, pero ya no abre una aleta: da energía extra.",
+    "## Quién tiene el modo adelantamiento",
+    "Lo más fácil es mirar el intervalo con el coche de delante. El centro Live de LapRadar lo muestra para cada piloto."
+   ]
+  },
+  "pt": {
+   "title": "Fórmula 1 sem DRS: como funcionam as ultrapassagens com as regras de 2026",
+   "lead": "Em 2026 o DRS saiu da Fórmula 1. No lugar dele entraram asas móveis, um modo de ultrapassagem e uma bateria que pesa muito no resultado das corridas.",
+   "body": [
+    "## Carros e motores novos",
+    "Desde 2026 a Fórmula 1 tem carros e unidades de potência novos. Os carros ficaram menores e mais leves, e o motor depende muito mais da eletricidade: a parte elétrica fornece cerca de metade da potência, o complexo MGU-H foi eliminado e o combustível é totalmente sustentável. Junto com tudo isso mudaram as ferramentas de ultrapassagem.",
+    "## Asas com duas posições",
+    "Até a temporada passada só uma aba da asa traseira abria nas retas, o DRS, e só a menos de um segundo do carro da frente. Agora as asas dianteira e traseira têm elementos móveis. No modo curva elas ficam fechadas e dão o máximo de pressão aerodinâmica. No modo reta abrem: menos arrasto, mais velocidade. Os pilotos usam o modo reta em zonas definidas em todas as voltas, tendo ou não alguém à frente.",
+    "![Uma reta longa de Monza, onde as asas passam para o modo reta](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## O modo de ultrapassagem",
+    "O verdadeiro substituto do DRS é o Overtake mode. Se no ponto de detecção você está a menos de um segundo do carro da frente, na volta seguinte ganha energia elétrica extra: o carro mantém a potência elétrica máxima por mais tempo e acelera melhor. Dá para gastar tudo de uma vez ou distribuir pela volta.",
+    "![A menos de um segundo do rival: energia extra na volta seguinte](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost e recarga",
+    "Além disso, existe o Boost, energia extra para atacar ou defender em qualquer ponto da pista. Só que a bateria é pequena, e tudo o que se gasta precisa ser recuperado nas frenagens. Os pilotos passam a volta decidindo onde gastar e onde economizar, e às vezes a energia acaba no fim de uma reta longa e o carro perde potência.",
+    "## O que muda para o torcedor",
+    "Ultrapassar virou questão de tática: dá para atacar onde o rival não espera ou queimar a energia e ficar sem nada na reta seguinte. O segundo de diferença continua importando, mas agora libera energia extra, e não uma aba.",
+    "## Quem tem o modo de ultrapassagem",
+    "O jeito mais fácil é olhar o intervalo para o carro da frente. O centro Live do LapRadar mostra esse número para cada piloto."
+   ]
+  },
+  "de": {
+   "title": "Formel 1 ohne DRS: So funktioniert das Überholen mit den Regeln von 2026",
+   "lead": "2026 ist DRS aus der Formel 1 verschwunden. An seine Stelle treten bewegliche Flügel, ein Overtake-Modus und eine Batterie, die jetzt kräftig mitbestimmt, wie ein Rennen verläuft.",
+   "body": [
+    "## Neue Autos, neue Motoren",
+    "Für 2026 hat die Formel 1 neue Autos und neue Antriebseinheiten. Die Autos sind kleiner und leichter, und der Antrieb setzt viel stärker auf Elektrizität: Der Elektromotor liefert jetzt etwa die Hälfte der Leistung, die komplexe MGU-H ist weggefallen, und der Kraftstoff ist vollständig nachhaltig. Mit alldem haben sich auch die Werkzeuge zum Überholen geändert.",
+    "## Flügel mit zwei Stellungen",
+    "Bis zur vergangenen Saison öffnete sich auf den Geraden nur eine Klappe am Heckflügel. Das war DRS, und es gab ihn nur, wenn man weniger als eine Sekunde hinter dem Vordermann lag. Jetzt haben Front- und Heckflügel bewegliche Elemente. Im Kurvenmodus bleiben sie geschlossen, für maximalen Abtrieb. Im Geradenmodus öffnen sie sich, für weniger Luftwiderstand und mehr Tempo. Den Geradenmodus nutzen die Fahrer in festgelegten Zonen in jeder Runde, egal ob jemand vor ihnen fährt oder nicht.",
+    "![Eine lange Gerade in Monza, auf der die Flügel in den Geradenmodus wechseln](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## Der Overtake-Modus",
+    "Der eigentliche Ersatz für DRS ist der Overtake-Modus. Liegst du am Messpunkt weniger als eine Sekunde hinter dem Vordermann, bekommst du in der nächsten Runde zusätzliche elektrische Energie: Das Auto hält die volle elektrische Leistung länger und beschleunigt kräftiger. Du kannst sie auf einmal einsetzen oder über die Runde verteilen.",
+    "![Weniger als eine Sekunde hinter dem Vordermann: zusätzliche Energie in der nächsten Runde](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost und der ständige Kampf um Energie",
+    "Außerdem gibt es Boost, einen Knopf für zusätzliche Energie, mit dem man an jeder Stelle der Runde angreifen oder verteidigen kann. Die Batterie ist allerdings klein, und was man verbraucht, muss beim Bremsen zurückgewonnen werden. Die Fahrer entscheiden also ständig, wo sie Ladung ausgeben und wo sie sparen. Manchmal geht gegen Ende einer langen Geraden die Energie aus, und die Leistung des Autos lässt nach.",
+    "## Was die eine Sekunde jetzt bedeutet",
+    "Überholen ist taktisch geworden. Man kann dort angreifen, wo der Gegner nicht damit rechnet, oder die ganze Energie verpulvern und auf der nächsten Geraden nichts mehr übrig haben. Der Abstand von einer Sekunde zählt weiterhin, schaltet jetzt aber zusätzliche Energie frei statt einer Klappe.",
+    "## Wer den Overtake-Modus nutzen kann",
+    "Am schnellsten erkennt man es am Intervall zum Vordermann. Das Live-Center von LapRadar zeigt es für jeden Fahrer."
+   ]
+  },
+  "zh": {
+   "title": "没有DRS的F1：2026年新规下怎么超车",
+   "lead": "2026年，DRS从F1中消失了。取而代之的是可动翼片、超车模式（Overtake mode），以及一块如今对比赛走向举足轻重的电池。",
+   "body": [
+    "## 新赛车，新动力单元",
+    "2026年，F1迎来了新赛车和新动力单元。赛车更小、更轻，动力单元也更加依赖电能：电机如今提供大约一半的功率，结构复杂的MGU-H被取消，燃料也全部改为可持续燃料。超车手段也随之改变。",
+    "## 有两种设置的翼片",
+    "直到上赛季，直道上只有尾翼上的一片襟翼可以打开。那就是DRS，而且只有在距前车一秒以内时才能使用。如今前翼和尾翼都有可动部件。弯道模式下翼片保持关闭，以获得最大下压力；直道模式下翼片打开，减小阻力、提高速度。车手每一圈都会在指定区域使用直道模式，无论前面有没有车。",
+    "![蒙扎的一条长直道，翼片在这里切换为直道模式](/img/articles/3d/f1-2026-no-drs-straight.jpg)",
+    "## 超车模式",
+    "真正取代DRS的是超车模式。在检测点距前车一秒以内，下一圈就能获得额外的电能：赛车能更长时间保持满电功率，加速也更猛。这部分能量可以一次用完，也可以分散在整圈使用。",
+    "![距前车一秒以内：下一圈获得额外能量](/img/articles/3d/f1-2026-no-drs-duel.jpg)",
+    "## Boost与时刻紧张的电量",
+    "车手还有Boost，这是一个按钮，可以在一圈中的任何位置调用额外能量，用于进攻或防守。不过电池容量很小，用掉的电必须在刹车时回收回来。因此车手总在权衡哪里用电、哪里省电。有时在长直道快到尽头时电量耗尽，赛车的动力就会衰减。",
+    "## 一秒差距如今意味着什么",
+    "超车变成了一门战术。你可以在对手意想不到的地方发起进攻，也可能把能量全部烧光，到了下一条直道已经无电可用。一秒差距依然重要，但它现在解锁的是额外能量，而不是一片襟翼。",
+    "## 谁能使用超车模式",
+    "最快的判断方法是看与前车的间隔。LapRadar的Live中心会显示每位车手的这一数据。"
+   ]
+  }
+ }
+}

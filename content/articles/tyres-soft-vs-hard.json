@@ -1,0 +1,123 @@
+{
+ "slug": "tyres-soft-vs-hard",
+ "date": "2026-11-14",
+ "tags": [
+  "f1",
+  "tyres",
+  "strategy"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/tyres-soft-vs-hard-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Мягкие, средние, жёсткие: почему самая быстрая резина не всегда побеждает",
+   "lead": "На мягкой шине получается лучший круг, а гонку нередко забирает тот, кто сделал ставку на жёсткую. На одних трассах «софт» становится оружием, на других превращается в ловушку, и почти всё решают асфальт и погода.",
+   "body": [
+    "## Красная, жёлтая, белая полоса",
+    "На каждый этап Pirelli привозит три сухих состава: мягкий с красной полосой на боковине, средний с жёлтой и жёсткий с белой. Мягкая смесь лучше держит асфальт и быстрее прогревается. Расплата за это износ. Между соседними составами обычно от трёх десятых до секунды на круг, а по ресурсу разница бывает двукратной.",
+    "![Группа на Сильверстоуне: у каждого пилота свой план по шинам](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## Зачем вообще нужны жёсткие",
+    "Гонку считают по сумме кругов, а не по лучшему из них. Мягкая шина сдаёт быстро: каждый круг машина теряет несколько сотых, а потом наступает «обрыв», когда сцепление пропадает почти разом. Пит-стоп обходится примерно в 20–25 секунд, так что лишняя остановка должна окупиться. Вот команды и считают, сколько раз заезжать в боксы и какие составы ставить, чтобы итоговое время вышло минимальным.",
+    "## Монако, Сингапур и холодный Вегас",
+    "Мягкая резина хороша на гладком асфальте, при небольшой нагрузке на шины и там, где обгонять почти негде. В Монако и Сингапуре позиция на трассе решает всё, износ невысокий, и многое определяется ещё в квалификации на «софте». В Монако с 2025 года обязательны две смены шин, но команды используют их скорее чтобы удержать место, чем чтобы атаковать. Отдельная история ночной Лас-Вегас. Там холодно, жёсткую шину трудно прогреть, и мягкая выигрывает просто потому, что вообще работает.",
+    "## Бахрейн, Катар и быстрые связки",
+    "На абразивном покрытии и в жару мягкая шина перегревается и сгорает за несколько кругов. Так бывает в Бахрейне, Катаре, в жаркой Барселоне. Там выигрывают средний и жёсткий составы: на одном круге они медленнее, зато держат темп весь отрезок. Скоростные связки Сузуки и Сильверстоуна сильно грузят боковины и тоже наказывают за выбор мягкой резины.",
+    "![Быстрые связки Сильверстоуна сильно грузят боковины шин](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## Как понять, что отрезок заканчивается",
+    "Смотрите, когда меняют шины лидеры, и следите за темпом по кругам. Если пилот на мягких каждый круг отдаёт десятую тому, кто едет на жёстких, скоро он свернёт в боксы. В Live-центре LapRadar у каждого пилота видны состав и возраст комплекта, так что стратегию можно читать прямо по ходу гонки."
+   ]
+  },
+  "en": {
+   "title": "Soft, medium, hard: why the fastest tyre doesn't always win",
+   "lead": "The soft gives you the best lap, yet plenty of races are won on the hard. At some Grands Prix the soft is a weapon, at others it's a trap, and it mostly comes down to the asphalt and the temperature.",
+   "body": [
+    "## Red, yellow, white",
+    "Pirelli brings three dry compounds to every round: the soft with a red stripe on the sidewall, the medium with yellow and the hard with white. The softer the rubber, the more grip it has and the quicker it comes up to temperature. The price is wear. Neighbouring compounds are usually three tenths to a second apart per lap, and one can last twice as long as the other.",
+    "![A pack at Silverstone: every driver has his own tyre plan](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## The case for the hard tyre",
+    "A race is about total time, not the single best lap. The soft fades fast: a few hundredths slower every lap, and then it hits the cliff, where the grip drops away almost at once. A pit stop costs roughly 20–25 seconds, so every extra stop has to pay for itself. That's the sum the strategists are doing: how many stops, on which compounds, for the lowest overall time.",
+    "## Monaco, Singapore and a cold night in Vegas",
+    "Softs come into their own on smooth tarmac with low tyre loads, especially where passing is close to impossible. In Monaco and Singapore track position is king and wear is low, so a lot gets settled in qualifying on the soft. Monaco has had two mandatory tyre changes since 2025, and teams mostly use them to protect position rather than to attack. Las Vegas is a different story. It's a cold night race, the hard struggles to get up to temperature, and the soft wins simply because it works.",
+    "## Bahrain, Qatar and the fast sweeps",
+    "On abrasive surfaces and in the heat, the soft overheats and is finished within a few laps. Think Bahrain, Qatar or Barcelona on a hot weekend. That's where the medium and hard come through: slower over a lap, but they hold their pace for the whole stint. The quick sequences at Suzuka and Silverstone put huge load through the sidewalls and punish the soft as well.",
+    "![Silverstone's fast sweeps put a heavy load on the sidewalls](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## Spotting the end of a stint",
+    "Keep an eye on when the leaders stop and on their lap times. If a driver on softs is giving away a tenth a lap to someone on hards, he'll be in the pits soon. LapRadar's Live centre shows every driver's compound and tyre age, so you can follow the strategy as it plays out."
+   ]
+  },
+  "es": {
+   "title": "Blando, medio, duro: por qué el neumático más rápido no siempre gana",
+   "lead": "Con el blando sale la mejor vuelta, pero muchas carreras se ganan con el duro. En algunos Grandes Premios el blando es un arma y en otros una trampa, y casi todo depende del asfalto y de la temperatura.",
+   "body": [
+    "## Rojo, amarillo y blanco",
+    "Pirelli lleva a cada carrera tres compuestos de seco: el blando, con banda roja en el flanco; el medio, con amarilla, y el duro, con blanca. Cuanto más blando, más agarre y antes entra en temperatura. A cambio, dura menos. Entre compuestos vecinos suele haber de tres décimas a un segundo por vuelta, y uno puede durar el doble que otro.",
+    "![Un grupo en Silverstone: cada piloto tiene su propio plan de neumáticos](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## Para qué sirve el duro",
+    "Una carrera se gana con el tiempo total, no con la mejor vuelta. El blando cae rápido: cada vuelta el coche pierde unas centésimas, hasta que llega el «acantilado» y el agarre desaparece casi de golpe. Cada parada cuesta unos 20–25 segundos, así que tiene que compensar. Los estrategas hacen cuentas: cuántas paradas y con qué compuestos para que el tiempo total sea el mínimo.",
+    "## Mónaco, Singapur y el frío de Las Vegas",
+    "El blando rinde en asfalto liso, con poca carga sobre los neumáticos y donde adelantar es casi imposible. En Mónaco y Singapur la posición en pista lo es todo y el desgaste es bajo, así que mucho se decide en la clasificación con blandos. Desde 2025 Mónaco obliga a hacer dos cambios de neumáticos, y los equipos los usan más para defender la posición que para atacar. Las Vegas es otro caso: se corre de noche y con frío, al duro le cuesta calentarse y el blando gana simplemente porque funciona.",
+    "## Baréin, Catar y las curvas rápidas",
+    "Con asfalto abrasivo y calor, el blando se sobrecalienta y se acaba en pocas vueltas. Pasa en Baréin, en Catar o en una Barcelona calurosa. Ahí mandan el medio y el duro: más lentos a una vuelta, pero aguantan el ritmo toda la tanda. Las curvas rápidas encadenadas de Suzuka y Silverstone castigan los flancos y tampoco perdonan al blando.",
+    "![Las curvas rápidas de Silverstone castigan los flancos](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## Cuándo se acaba una tanda",
+    "Fíjate en cuándo paran los de delante y en los tiempos por vuelta. Si un piloto con blandos pierde una décima por vuelta frente a otro con duros, pronto entrará en boxes. En el centro Live de LapRadar se ven el compuesto y las vueltas de cada juego, así que la estrategia se puede seguir en directo."
+   ]
+  },
+  "pt": {
+   "title": "Macio, médio, duro: por que o pneu mais rápido nem sempre vence",
+   "lead": "Com o macio sai a melhor volta, mas muita corrida é vencida com o duro. Em alguns GPs o macio é uma arma, em outros vira armadilha, e quase tudo depende do asfalto e da temperatura.",
+   "body": [
+    "## Vermelho, amarelo e branco",
+    "A Pirelli leva a cada etapa três compostos para pista seca: o macio, com faixa vermelha na lateral; o médio, com amarela; e o duro, com branca. Quanto mais macio, mais aderência e mais rápido ele esquenta. Em troca, se gasta mais rápido. Entre compostos vizinhos a diferença costuma ficar entre três décimos e um segundo por volta, e um pode durar o dobro do outro.",
+    "![Um pelotão em Silverstone: cada piloto tem seu plano de pneus](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## Para que serve o duro",
+    "Corrida se ganha no tempo total, não na melhor volta. O macio cai rápido: a cada volta o carro perde alguns centésimos, até chegar ao “penhasco”, quando a aderência some quase de uma vez. Cada pit stop custa uns 20–25 segundos, então a parada extra precisa se pagar. É essa a conta dos estrategistas: quantas paradas e com quais compostos para chegar ao menor tempo total.",
+    "## Mônaco, Singapura e o frio de Las Vegas",
+    "O macio rende em asfalto liso, com pouca carga nos pneus e onde quase não dá para ultrapassar. Em Mônaco e Singapura a posição na pista é tudo e o desgaste é baixo, então muita coisa se resolve na classificação com macios. Desde 2025 Mônaco exige duas trocas de pneus, e as equipes usam isso mais para segurar posição do que para atacar. Las Vegas é outro caso: corrida noturna e fria, o duro custa a esquentar e o macio leva vantagem simplesmente porque funciona.",
+    "## Bahrein, Catar e as curvas de alta",
+    "Em asfalto abrasivo e no calor, o macio superaquece e acaba em poucas voltas. Acontece no Bahrein, no Catar ou numa Barcelona quente. Ali quem manda são o médio e o duro: mais lentos numa volta, mas seguram o ritmo o stint inteiro. As sequências de curvas rápidas de Suzuka e Silverstone castigam as laterais e também não perdoam o macio.",
+    "![As curvas rápidas de Silverstone castigam as laterais dos pneus](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## Quando o stint está no fim",
+    "Fique de olho em quando os líderes param e nos tempos de volta. Se um piloto de macios perde um décimo por volta para outro de duros, ele vai para os boxes logo. No centro Live do LapRadar aparecem o composto e as voltas de cada jogo, e dá para acompanhar a estratégia ao vivo."
+   ]
+  },
+  "de": {
+   "title": "Soft, Medium, Hard: Warum der schnellste Reifen nicht immer gewinnt",
+   "lead": "Auf dem Soft gelingt die schnellste Runde, und doch werden viele Rennen auf dem harten Reifen gewonnen. Bei manchen Grands Prix ist der Soft eine Waffe, bei anderen eine Falle, und meistens entscheiden Asphalt und Temperatur.",
+   "body": [
+    "## Rot, Gelb, Weiß",
+    "Pirelli bringt zu jedem Rennwochenende drei Trockenmischungen mit: den Soft mit rotem Streifen auf der Flanke, den Medium mit gelbem und den Hard mit weißem. Je weicher die Mischung, desto mehr Grip hat sie und desto schneller kommt sie auf Temperatur. Der Preis dafür ist der Verschleiß. Zwischen benachbarten Mischungen liegen pro Runde meist drei Zehntel bis eine Sekunde, und die eine kann doppelt so lange halten wie die andere.",
+    "![Ein Pulk in Silverstone: Jeder Fahrer hat seinen eigenen Reifenplan](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## Wozu es den harten Reifen braucht",
+    "Im Rennen zählt die Gesamtzeit, nicht die eine schnellste Runde. Der Soft baut schnell ab: Jede Runde wird das Auto ein paar Hundertstel langsamer, und dann kommt die „Klippe“, an der der Grip fast schlagartig wegbricht. Ein Boxenstopp kostet rund 20–25 Sekunden, also muss sich jeder zusätzliche Stopp lohnen. Genau das rechnen die Strategen durch: wie viele Stopps, auf welchen Mischungen, damit die Gesamtzeit am kürzesten ist.",
+    "## Monaco, Singapur und eine kalte Nacht in Vegas",
+    "Der Soft spielt seine Stärken auf glattem Asphalt und bei geringer Reifenbelastung aus, vor allem dort, wo Überholen fast unmöglich ist. In Monaco und Singapur ist die Position auf der Strecke alles und der Verschleiß gering, deshalb fällt vieles schon im Qualifying auf dem Soft. In Monaco sind seit 2025 zwei Reifenwechsel Pflicht, doch die Teams nutzen sie eher, um ihre Position zu halten, als um anzugreifen. Las Vegas ist ein Fall für sich. Dort wird in einer kalten Nacht gefahren, der harte Reifen kommt kaum auf Temperatur, und der Soft gewinnt schlicht deshalb, weil er überhaupt funktioniert.",
+    "## Bahrain, Katar und schnelle Kurvenfolgen",
+    "Auf abrasivem Belag und bei Hitze überhitzt der Soft und ist nach wenigen Runden am Ende. So ist es in Bahrain, in Katar oder an einem heißen Wochenende in Barcelona. Dann schlägt die Stunde von Medium und Hard: Auf eine Runde sind sie langsamer, dafür halten sie das Tempo über den ganzen Stint. Die schnellen Kurvenfolgen in Suzuka und Silverstone belasten die Flanken enorm und bestrafen den Soft ebenfalls.",
+    "![Die schnellen Kurven von Silverstone belasten die Reifenflanken stark](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## Woran man das Ende eines Stints erkennt",
+    "Achte darauf, wann die Spitzenfahrer an die Box kommen und wie sich ihre Rundenzeiten entwickeln. Verliert ein Fahrer auf Soft pro Runde eine Zehntel auf jemanden mit harten Reifen, biegt er bald in die Boxengasse ab. Im Live-Center von LapRadar siehst du bei jedem Fahrer die Mischung und das Alter des Reifensatzes, so lässt sich die Strategie direkt während des Rennens lesen."
+   ]
+  },
+  "zh": {
+   "title": "软胎、中性胎、硬胎：最快的轮胎为何未必能赢",
+   "lead": "软胎能跑出最快的单圈，但不少比赛却是靠硬胎赢下来的。在有些大奖赛上，软胎是利器；在另一些大奖赛上，它却是陷阱。关键大多在于路面和温度。",
+   "body": [
+    "## 红、黄、白",
+    "倍耐力每站都会带来三种干地配方：胎壁上带红色条纹的软胎、黄色的中性胎和白色的硬胎。配方越软，抓地力越强，升温也越快，代价是磨损更快。相邻两种配方之间，单圈通常相差0.3秒到1秒，耐用程度则可能相差一倍。",
+    "![银石赛道上的车阵：每位车手都有自己的轮胎计划](/img/articles/3d/tyres-soft-vs-hard-pack.jpg)",
+    "## 为什么还需要硬胎",
+    "正赛比的是总时间，而不是某一个最快圈。软胎衰退得很快：每圈都会慢上几百分之一秒，然后遇到「断崖」，抓地力几乎在一瞬间消失。一次进站大约要花20–25秒，所以每多停一次都必须赚得回来。策略师算的正是这笔账：停几次、用哪些配方，才能让总时间最短。",
+    "## 摩纳哥、新加坡和寒冷的维加斯之夜",
+    "软胎最适合路面平整、轮胎负荷小的赛道，尤其是几乎无法超车的地方。在摩纳哥和新加坡，赛道位置决定一切，磨损又低，很多名次在排位赛用软胎时就已经定下了。摩纳哥从2025年起强制要求两次换胎，但车队更多是用它来守住位置，而不是发起进攻。拉斯维加斯则是另一回事。那里是寒冷的夜赛，硬胎很难升温，软胎占优只是因为它能正常工作。",
+    "## 巴林、卡塔尔和高速连续弯",
+    "在粗糙的路面上和高温下，软胎会过热，几圈之内就报废。巴林、卡塔尔，或者天气炎热时的巴塞罗那，都是如此。这时中性胎和硬胎占了上风：单圈慢一些，却能在整段轮胎周期里保持节奏。铃鹿和银石的高速连续弯对胎壁负荷极大，同样会惩罚软胎。",
+    "![银石的高速弯给胎壁带来很大负荷](/img/articles/3d/tyres-soft-vs-hard-corner.jpg)",
+    "## 怎样看出一段轮胎周期快到头了",
+    "留意领先车手什么时候进站，并关注他们的圈速。如果用软胎的车手每圈都比用硬胎的对手慢十分之一秒，他很快就会进站。LapRadar的Live中心会显示每位车手的轮胎配方和胎龄，你可以在比赛进行中直接解读策略。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Формула 1 без DRS: как обгоняют по правилам 2026 года». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "f1-2026-no-drs",
+  "track": "monza", "theme": "day",
+  "shots": [
+    {"type": "chase", "car": 2, "dist": 11, "dist2": 15, "h": 5, "h2": 7.5, "side": 2.2, "side2": 1, "look": 20, "drop": 5, "t0": 2},
+    {"type": "chase", "car": 0, "dist": 10, "dist2": 9, "h": 3.6, "h2": 3.2, "side": -2.2, "side2": 2.2, "look": 10, "drop": 2.8, "act": {"type": "wings"}},
+    {"type": "chase", "car": 1, "dist": 18, "dist2": 14, "h": 6.5, "h2": 5, "side": -3, "side2": -2, "look": 40, "drop": 2, "act": {"type": "boost"}},
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 10, "h": 4.5, "h2": 4.2, "side": 1.5, "side2": 1, "look": 10, "drop": 3, "act": {"type": "energy"}, "hud": {"type": "battery"}},
+    {"type": "chase", "car": 0, "dist": 23, "dist2": 20, "h": 8, "h2": 7.5, "side": 2.5, "side2": 2.5, "look": 14, "drop": 3, "act": {"type": "duel"}},
+    {"type": "chase", "car": 3, "dist": 18, "dist2": 12, "h": 10, "h2": 5, "side": 6, "side2": 2, "look": 40, "drop": 2, "t0": 30},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 5, "dist": 10, "h": 2.6, "side": -3.2, "look": 40, "drop": 1.8, "t0": 4, "fov": 46}},
+    {"name": "straight", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 3, "dist": 36, "h": 15, "side": 5, "look": 50, "drop": 6, "t0": 3, "fov": 46}},
+    {"name": "duel", "w": 1200, "h": 800, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 1, "dist": 9, "h": 3, "side": -3, "look": 34, "drop": 1.8, "t0": 16, "fov": 46}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "БЕЗ DRS", "sub": "как обгоняют в 2026 году", "say": "В Формуле один больше нет DRS. Как же теперь обгоняют?"},
+      {"kind": "list", "head": "Крылья", "items": ["Режим поворотов", "Режим прямой", "Для всех, каждый круг"], "say": "Теперь двигаются и переднее, и заднее крыло. На прямых их открывает каждый пилот на каждом круге."},
+      {"kind": "big", "big": "< 1 с", "sub": "и у тебя режим обгона", "say": "Если на точке замера ты в секунде от машины впереди, получаешь режим обгона: дополнительную электроэнергию."},
+      {"kind": "big", "big": "≈50%", "sub": "мощности даёт электромотор", "say": "Электромотор теперь даёт примерно половину мощности, а батарею приходится заряжать на торможениях."},
+      {"kind": "list", "head": "Итог", "items": ["Обгон стал тактикой", "Где тратить заряд", "Где его копить"], "say": "Так что обгон превратился в тактику: где потратить заряд, а где его накопить."},
+      {"kind": "end", "tag": "Интервалы всех пилотов вживую", "say": "Интервалы и позиции всех пилотов по ходу гонки смотрите на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "NO DRS", "sub": "how overtaking works in 2026", "say": "Formula One has no DRS any more. So how do drivers overtake now?"},
+      {"kind": "list", "head": "The wings", "items": ["Corner mode", "Straight mode", "For everyone, every lap"], "say": "Both the front and rear wings now move. Every driver opens them on the straights, every lap."},
+      {"kind": "big", "big": "< 1 s", "sub": "and you get Overtake mode", "say": "Be within a second of the car ahead at the detection point, and you get Overtake mode: extra electrical energy."},
+      {"kind": "big", "big": "≈50%", "sub": "of the power is electric", "say": "The electric motor now delivers about half the power, and the battery has to be recharged under braking."},
+      {"kind": "list", "head": "The result", "items": ["Overtaking is tactics", "Where to spend charge", "Where to save it"], "say": "So overtaking has become tactical: where to spend your energy, and where to save it."},
+      {"kind": "end", "tag": "Every driver's gaps, live", "say": "Follow every driver's gaps and positions live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "SIN DRS", "sub": "cómo se adelanta en 2026", "say": "La Fórmula Uno ya no tiene DRS. ¿Cómo se adelanta ahora?"},
+      {"kind": "list", "head": "Los alerones", "items": ["Modo curva", "Modo recta", "Para todos, cada vuelta"], "say": "Ahora se mueven los alerones delantero y trasero. En las rectas los abre cada piloto en cada vuelta."},
+      {"kind": "big", "big": "< 1 s", "sub": "y tienes modo adelantamiento", "say": "Si en el punto de detección estás a menos de un segundo del coche de delante, recibes energía eléctrica extra."},
+      {"kind": "big", "big": "≈50%", "sub": "de la potencia es eléctrica", "say": "El motor eléctrico aporta ya cerca de la mitad de la potencia, y la batería se recarga en las frenadas."},
+      {"kind": "list", "head": "El resultado", "items": ["Adelantar es táctica", "Dónde gastar energía", "Dónde ahorrarla"], "say": "Adelantar se ha vuelto cuestión de táctica: dónde gastar la energía y dónde guardarla."},
+      {"kind": "end", "tag": "Diferencias en directo", "say": "Sigue en directo las diferencias y posiciones de cada piloto en LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "SEM DRS", "sub": "como se ultrapassa em 2026", "say": "A Fórmula Um não tem mais DRS. Como se ultrapassa agora?"},
+      {"kind": "list", "head": "As asas", "items": ["Modo curva", "Modo reta", "Para todos, toda volta"], "say": "Agora as asas dianteira e traseira se movem. Nas retas, todo piloto abre as asas em toda volta."},
+      {"kind": "big", "big": "< 1 s", "sub": "e você ganha o modo ultrapassagem", "say": "Se no ponto de detecção você está a menos de um segundo do carro da frente, ganha energia elétrica extra."},
+      {"kind": "big", "big": "≈50%", "sub": "da potência é elétrica", "say": "O motor elétrico agora entrega cerca de metade da potência, e a bateria é recarregada nas frenagens."},
+      {"kind": "list", "head": "O resultado", "items": ["Ultrapassar é tática", "Onde gastar energia", "Onde economizar"], "say": "Ultrapassar virou questão de tática: onde gastar a energia e onde guardar."},
+      {"kind": "end", "tag": "Diferenças ao vivo", "say": "Acompanhe ao vivo as diferenças e posições de cada piloto no LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "OHNE DRS", "sub": "so wird 2026 überholt", "say": "Die Formel Eins hat kein DRS mehr. Wie wird jetzt überholt?"},
+      {"kind": "list", "head": "Die Flügel", "items": ["Kurvenmodus", "Geradenmodus", "Für alle, jede Runde"], "say": "Front- und Heckflügel sind jetzt beweglich. Jeder Fahrer öffnet sie auf den Geraden, und zwar in jeder Runde."},
+      {"kind": "big", "big": "< 1 s", "sub": "und du bekommst Overtake", "say": "Liegst du am Messpunkt weniger als eine Sekunde hinter dem Vordermann, bekommst du den Overtake-Modus: zusätzliche elektrische Energie."},
+      {"kind": "big", "big": "≈50 %", "sub": "der Leistung ist elektrisch", "say": "Der Elektromotor liefert jetzt etwa die Hälfte der Leistung, und die Batterie muss beim Bremsen wieder aufgeladen werden."},
+      {"kind": "list", "head": "Die Folge", "items": ["Überholen ist Taktik", "Wo Energie einsetzen", "Wo sie sparen"], "say": "Überholen ist also Taktik geworden: Wo setzt man die Energie ein, und wo spart man sie?"},
+      {"kind": "end", "tag": "Abstände aller Fahrer live", "say": "Abstände und Positionen jedes Fahrers verfolgst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "告别DRS", "sub": "2026年怎么超车", "say": "一级方程式已经没有DRS了。那现在车手怎么超车？"},
+      {"kind": "list", "head": "翼片", "items": ["弯道模式", "直道模式", "人人可用，每圈都用"], "say": "前翼和尾翼现在都能活动。每位车手每一圈都会在直道上把它们打开。"},
+      {"kind": "big", "big": "<1秒", "sub": "即可获得超车模式", "say": "在检测点距前车一秒以内，就能获得超车模式，也就是额外的电能。"},
+      {"kind": "big", "big": "≈50%", "sub": "的功率来自电能", "say": "电机如今提供大约一半的功率，电池还得在刹车时回收能量来充电。"},
+      {"kind": "list", "head": "结果", "items": ["超车靠战术", "在哪里用电", "在哪里省电"], "say": "所以超车变成了战术：在哪里用电，在哪里省电。"},
+      {"kind": "end", "tag": "差距名次实时看", "say": "在LapRadar上实时查看每位车手的差距和名次。"},
+    ],
+  },
+}

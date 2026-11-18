@@ -1,0 +1,131 @@
+{
+ "slug": "f1-v8-return-2031",
+ "date": "2026-11-17",
+ "tags": [
+  "f1",
+  "rules",
+  "engines",
+  "v8",
+  "fia"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f1-v8-return-2031-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "V8 возвращаются в Формулу 1: что предлагает FIA и когда это может случиться",
+   "lead": "FIA и производители моторов обсуждают турбо-V8 объёмом около двух литров, меньше электрики и машины легче на 80 кг. Решения пока нет, проект хотят утвердить в декабре.",
+   "body": [
+    "## Не те V8, что раньше",
+    "В Формуле 1 уже были V8: с 2006 по 2013 год ездили атмосферные моторы объёмом 2,4 литра. Новый мотор будет другим. Самый популярный вариант такой: взять нынешний 1,6-литровый турбо-V6 и добавить к нему два цилиндра, получится примерно 2,1 литра. Так дешевле, чем проектировать мотор с нуля. Турбина останется, но меньше, а давление наддува будет ниже. От атмосферного варианта, по данным GPfans, отказались. Мощность называют около 900 л.с.",
+    "## Электрики станет меньше",
+    "Сейчас электромотор даёт до 350 кВт, примерно половину всей мощности, и пилотам приходится постоянно думать о заряде батареи. В проекте V8 электрическая часть 200 кВт. Из них 100 кВт доступны всегда, а ещё 100 кВт работают как кнопка для обгона, по образцу push-to-pass в IndyCar. Дозаправок не будет: Николас Томбазис из FIA говорил, что за их возвращение не выступают ни федерация, ни команды.",
+    "![Обгон с дополнительной электрикой: так может работать push-to-pass](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## Минус 80 кг",
+    "Машины хотят облегчить примерно на 80 кг, около 30 из них должен дать новый мотор. Цель FIA, по словам Томбазиса, вес меньше 700 кг. Отдельно обсуждают деньги: бюджетный лимит на разработку моторов предлагают урезать примерно вдвое.",
+    "## Кто будет строить мотор",
+    "Здесь спор острее всего. Одна из идей: сторонний поставщик делает базовый мотор, а производители его дорабатывают. Ferrari, Mercedes и другие строят моторы сами и хотят отличаться именно в этом, так что такой вариант им не нравится.",
+    "## Когда ждать",
+    "Нынешние правила по моторам действуют до конца 2030 года, значит первый возможный сезон с V8 2031-й. Президент FIA Мохаммед Бен Сулайем хотел бы начать уже в 2030-м. 16 ноября проект обсуждали FIA и мотористы, окончательное предложение должен утвердить Всемирный совет FIA в декабре. Пока это план, а не принятые правила.",
+    "![Пелетон на прямой Монцы](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "Что решат в декабре, напишем на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "V8s are coming back to F1: what the FIA is proposing and when it could happen",
+   "lead": "The FIA and the engine makers are working on a turbo V8 of around two litres, with less electric power and cars 80 kg lighter. Nothing is decided yet; the plan is to approve it in December.",
+   "body": [
+    "## Not the V8 you remember",
+    "F1 has had V8s before: from 2006 to 2013 the cars ran naturally aspirated 2.4-litre engines. The new one would be different. The favourite option is to take today's 1.6-litre turbo V6 and add two cylinders, for roughly 2.1 litres. That's far cheaper than a clean-sheet design. The turbo stays, but smaller and with less boost. According to GPfans the naturally aspirated route has been dropped. Output is quoted at around 900 hp.",
+    "## Less electric power",
+    "Today the electric motor gives up to 350 kW, about half the total, and drivers spend the race managing the battery. The V8 plan has 200 kW of electric power. 100 kW is there all the time, the other 100 kW works as an overtaking button, modelled on IndyCar's push to pass. No refuelling: the FIA's Nikolas Tombazis has said neither the governing body nor the teams want it back.",
+    "![Extra electric power to pass: how push to pass could look](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## 80 kg off",
+    "The cars should lose about 80 kg, with roughly 30 kg coming from the new engine. Tombazis says the FIA's target is below 700 kg. Money is on the table too: the engine development cost cap could be cut roughly in half.",
+    "## Who builds it",
+    "This is the hottest argument. One idea is an outside supplier building a base engine that manufacturers then develop. Ferrari, Mercedes and the rest build their own engines and want to stand out exactly there, so they don't like it.",
+    "## When",
+    "The current engine rules run until the end of 2030, which makes 2031 the first realistic V8 season. FIA president Mohammed Ben Sulayem would like to start in 2030. The FIA and the manufacturers discussed the plan on 16 November, and the final proposal is due to go to the World Motor Sport Council in December. For now it's a plan, not a rulebook.",
+    "![A pack on the Monza straight](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "We'll cover what gets decided in December on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Los V8 vuelven a la Fórmula 1: qué propone la FIA y cuándo podría pasar",
+   "lead": "La FIA y los fabricantes trabajan en un V8 turbo de unos dos litros, con menos potencia eléctrica y coches 80 kg más ligeros. Aún no hay decisión: quieren aprobarlo en diciembre.",
+   "body": [
+    "## No es el V8 de antes",
+    "La F1 ya tuvo V8: de 2006 a 2013 se usaron motores atmosféricos de 2,4 litros. El nuevo sería otra cosa. La opción favorita es tomar el actual V6 turbo de 1,6 litros y añadirle dos cilindros, para unos 2,1 litros. Sale mucho más barato que diseñar un motor desde cero. El turbo se queda, pero más pequeño y con menos presión. Según GPfans, la versión atmosférica se ha descartado. Se habla de unos 900 CV.",
+    "## Menos electricidad",
+    "Hoy el motor eléctrico da hasta 350 kW, cerca de la mitad del total, y los pilotos van pendientes de la batería toda la carrera. El proyecto V8 deja la parte eléctrica en 200 kW: 100 kW siempre disponibles y otros 100 kW como botón para adelantar, al estilo del push to pass de la IndyCar. No habrá repostajes: Nikolas Tombazis, de la FIA, dijo que ni la federación ni los equipos los quieren.",
+    "![Potencia extra para adelantar: así podría funcionar el push to pass](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## 80 kilos menos",
+    "Los coches deberían perder unos 80 kg, unos 30 gracias al nuevo motor. El objetivo de la FIA, según Tombazis, es bajar de 700 kg. También se habla de dinero: el límite de gasto en desarrollo de motores podría reducirse a la mitad.",
+    "## Quién lo fabrica",
+    "Es la discusión más dura. Una idea es que un proveedor externo haga un motor base y que los fabricantes lo desarrollen. Ferrari, Mercedes y los demás construyen sus propios motores y quieren diferenciarse justo ahí, así que no les convence.",
+    "## Cuándo",
+    "El reglamento actual de motores dura hasta finales de 2030, así que la primera temporada posible con V8 sería 2031. El presidente de la FIA, Mohammed Ben Sulayem, querría empezar en 2030. La FIA y los fabricantes debatieron el plan el 16 de noviembre, y la propuesta final debe pasar por el Consejo Mundial en diciembre. Por ahora es un plan, no un reglamento.",
+    "![Un grupo en la recta de Monza](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "Lo que se decida en diciembre lo contaremos en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Os V8 voltam à Fórmula 1: o que a FIA propõe e quando isso pode acontecer",
+   "lead": "A FIA e as fabricantes discutem um V8 turbo de cerca de dois litros, com menos potência elétrica e carros 80 kg mais leves. Nada foi decidido ainda: a ideia é aprovar em dezembro.",
+   "body": [
+    "## Não é o V8 de antes",
+    "A F1 já teve V8: de 2006 a 2013 os carros usavam motores aspirados de 2,4 litros. O novo seria outra coisa. A opção favorita é pegar o atual V6 turbo de 1,6 litro e acrescentar dois cilindros, chegando a cerca de 2,1 litros. Fica bem mais barato do que projetar um motor do zero. O turbo continua, menor e com menos pressão. Segundo o GPfans, a versão aspirada foi abandonada. Fala-se em uns 900 cv.",
+    "## Menos parte elétrica",
+    "Hoje o motor elétrico entrega até 350 kW, quase metade do total, e os pilotos passam a corrida administrando a bateria. No projeto V8 a parte elétrica cai para 200 kW: 100 kW sempre disponíveis e outros 100 kW como botão de ultrapassagem, inspirado no push to pass da IndyCar. Reabastecimento não volta: Nikolas Tombazis, da FIA, disse que nem a entidade nem as equipes querem isso.",
+    "![Potência extra para ultrapassar: assim pode funcionar o push to pass](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## 80 quilos a menos",
+    "Os carros devem perder cerca de 80 kg, uns 30 vindos do novo motor. A meta da FIA, segundo Tombazis, é ficar abaixo de 700 kg. Também há a questão do dinheiro: o teto de gastos com desenvolvimento de motores pode cair pela metade.",
+    "## Quem constrói",
+    "Aqui está a briga maior. Uma ideia é um fornecedor externo fazer um motor base que as fabricantes depois desenvolvem. Ferrari, Mercedes e as outras fazem seus próprios motores e querem se diferenciar justamente nisso, então não gostam da proposta.",
+    "## Quando",
+    "O regulamento atual de motores vale até o fim de 2030, então a primeira temporada possível com V8 seria 2031. O presidente da FIA, Mohammed Ben Sulayem, gostaria de começar já em 2030. FIA e fabricantes discutiram o plano em 16 de novembro, e a proposta final deve ir ao Conselho Mundial em dezembro. Por enquanto é um plano, não regra.",
+    "![Um pelotão na reta de Monza](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "O que for decidido em dezembro você acompanha no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "V8 kehren in die Formel 1 zurück: was die FIA plant und wann es so weit sein könnte",
+   "lead": "FIA und Motorenhersteller arbeiten an einem Turbo-V8 mit rund zwei Litern, weniger E-Leistung und 80 kg leichteren Autos. Entschieden ist noch nichts, im Dezember soll der Plan abgesegnet werden.",
+   "body": [
+    "## Nicht der V8 von früher",
+    "V8 gab es in der Formel 1 schon: Von 2006 bis 2013 fuhren Saugmotoren mit 2,4 Litern. Der neue wäre etwas anderes. Favorit ist, den heutigen 1,6-Liter-Turbo-V6 zu nehmen und zwei Zylinder anzubauen, das ergibt etwa 2,1 Liter. Das ist viel günstiger als ein komplett neuer Motor. Der Turbo bleibt, wird aber kleiner und arbeitet mit weniger Ladedruck. Laut GPfans ist die Saugmotor-Variante vom Tisch. Die Rede ist von rund 900 PS.",
+    "## Weniger Strom",
+    "Heute liefert der E-Motor bis zu 350 kW, also etwa die Hälfte der Gesamtleistung, und die Fahrer verwalten das ganze Rennen über die Batterie. Im V8-Plan sind es 200 kW: 100 kW stehen immer zur Verfügung, weitere 100 kW gibt es per Überholknopf, nach dem Vorbild von Push-to-Pass in der IndyCar. Nachtanken kommt nicht zurück: Nikolas Tombazis von der FIA sagte, weder der Verband noch die Teams wollten das.",
+    "![Zusatzleistung zum Überholen: so könnte Push-to-Pass aussehen](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## 80 Kilo weniger",
+    "Die Autos sollen rund 80 kg verlieren, etwa 30 davon durch den neuen Motor. Das Ziel der FIA liegt laut Tombazis unter 700 kg. Auch ums Geld geht es: Die Kostenobergrenze für die Motorenentwicklung könnte ungefähr halbiert werden.",
+    "## Wer baut den Motor",
+    "Hier wird am heftigsten gestritten. Eine Idee: Ein externer Lieferant baut einen Basismotor, den die Hersteller weiterentwickeln. Ferrari, Mercedes und die anderen bauen ihre Motoren selbst und wollen sich genau dort abheben, entsprechend wenig halten sie davon.",
+    "## Wann",
+    "Das aktuelle Motorenreglement gilt bis Ende 2030, die erste realistische V8-Saison wäre also 2031. FIA-Präsident Mohammed Ben Sulayem würde gern schon 2030 starten. Am 16. November haben FIA und Hersteller über den Plan gesprochen, der endgültige Vorschlag soll im Dezember vor den Motorsport-Weltrat. Bis dahin ist es ein Plan und kein Reglement.",
+    "![Ein Pulk auf der Geraden von Monza](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "Was im Dezember entschieden wird, steht dann auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "V8引擎重返F1：国际汽联的方案是什么，最早何时实现",
+   "lead": "国际汽联正与引擎厂商讨论约2升的涡轮V8，电力部分减少，赛车减重80公斤。目前还没有定论，计划在12月提交审批。",
+   "body": [
+    "## 不是当年的V8",
+    "F1曾经用过V8：2006年到2013年，赛车使用2.4升自然吸气引擎。新的V8会完全不同。目前最受支持的方案，是在现有1.6升涡轮V6的基础上增加两个气缸，排量约2.1升，比从零设计便宜得多。涡轮保留，但尺寸更小、增压更低。据GPfans报道，自然吸气方案已被放弃，总功率约900匹马力。",
+    "## 电力减少",
+    "现在的电动机最高输出350千瓦，约占总功率一半，车手整场比赛都要管理电池。V8方案中电力部分为200千瓦：100千瓦随时可用，另外100千瓦作为超车按钮，参考IndyCar的“push to pass”。加油不会回归：国际汽联的尼古拉斯·汤姆巴兹斯表示，无论是汽联还是车队都不支持。",
+    "![额外电力帮助超车：push to pass可能的样子](/img/articles/3d/f1-v8-return-2031-boost.jpg)",
+    "## 减重80公斤",
+    "赛车计划减重约80公斤，其中约30公斤来自新引擎。汤姆巴兹斯说，国际汽联的目标是低于700公斤。成本也在讨论之中：引擎研发的预算上限可能减半。",
+    "## 谁来造引擎",
+    "这是争议最大的地方。一种设想是由第三方供应商制造基础引擎，再由厂商自行开发。法拉利、梅赛德斯等厂商都自己造引擎，正想在这方面拉开差距，所以并不认同。",
+    "## 什么时候",
+    "现行引擎规则到2030年底结束，因此V8最早可能在2031赛季登场。国际汽联主席本·苏莱耶姆希望提前到2030年。11月16日，汽联与厂商讨论了这一方案，最终提案预计12月提交世界赛车理事会审批。目前它仍只是计划，并非正式规则。",
+    "![蒙扎直道上的车阵](/img/articles/3d/f1-v8-return-2031-pack.jpg)",
+    "12月的最终决定，我们会在LapRadar上第一时间更新。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "f2-vs-f1-differences",
+ "date": "2026-11-18",
+ "tags": [
+  "f2",
+  "f1",
+  "rules"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f2-vs-f1-differences-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Чем Формула 2 отличается от Формулы 1",
+   "lead": "Формула 2 едет на тех же трассах и в те же выходные, что и Формула 1, но правила у неё свои. Одна машина на всех, две гонки за уикенд и реверсивная решётка.",
+   "body": [
+    "## Одна машина на всех",
+    "В Формуле 1 каждая команда строит свою машину. В Формуле 2 все ездят на одном и том же шасси Dallara, нынешняя версия появилась в 2024 году и внешне похожа на машины F1 с граунд-эффектом. Мотор тоже общий: турбированный V6 объёмом 3,4 литра от Mecachrome, около 620 лошадиных сил. Для сравнения, силовая установка F1 2026 года выдаёт около тысячи.",
+    "## Уикенд на две гонки",
+    "У Формулы 2 короткая программа. В пятницу одна тренировка на 45 минут и квалификация на 30. В субботу спринт на 120 км, в воскресенье главная гонка на 170 км, обе проходят до Гран-при. Формуле 1 на гонку нужно не меньше 305 км.",
+    "![Спринт с реверсом: быстрые машины стартуют из глубины](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## Реверсивная решётка в спринте",
+    "Самая заметная разница в спринте. Первая десятка квалификации стартует в обратном порядке: обладатель лучшего времени уходит десятым, десятый с поула. Поэтому в субботу обгонов много, а победитель квалификации должен пробиваться через пелетон.",
+    "## Обязательный пит-стоп",
+    "В главной гонке каждый пилот должен хотя бы раз заехать в боксы и использовать оба доступных состава шин. Момент заезда выбирают сами команды, поэтому стратегия решает не меньше, чем скорость.",
+    "![Машины одинаковые, разницу делают пилот и стратегия](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## Очки и путь в Формулу 1",
+    "Главная гонка даёт очки по схеме F1, 25 за победу и до десятого места. За поул ещё 2 очка. В спринте очки получают восемь первых, победителю 10. Первые три места в чемпионате приносят по 40 очков суперлицензии, ровно столько нужно для права выступать в F1. В этом году титул решится в Катаре и Абу-Даби между Рафаэлом Камарой и Николой Цоловым. Таблица Формулы 2 есть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "How Formula 2 differs from Formula 1",
+   "lead": "Formula 2 races at the same tracks on the same weekends as F1, but plays by its own rules: one car for everyone, two races per weekend and a reverse grid.",
+   "body": [
+    "## One car for all",
+    "In F1 every team builds its own car. In F2 everyone drives the same Dallara chassis; the current version arrived in 2024 and looks like a ground-effect F1 car. The engine is shared too: a 3.4-litre turbocharged V6 from Mecachrome with about 620 horsepower. An F1 power unit in 2026 makes around a thousand.",
+    "## Two races in a weekend",
+    "The F2 schedule is compact. Friday has one 45-minute practice and a 30-minute qualifying session. Saturday is a 120 km sprint, Sunday a 170 km feature race, both before the Grand Prix. An F1 race has to cover at least 305 km.",
+    "![Reverse-grid sprint: the quick cars start further back](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## The reverse grid",
+    "The biggest difference is the sprint. The top ten from qualifying line up in reverse: the fastest driver starts tenth and the tenth-fastest starts on pole. That means plenty of passing on Saturday, and the pole-sitter has to fight through the pack.",
+    "## A mandatory pit stop",
+    "In the feature race every driver must pit at least once and use both available tyre compounds. Teams choose when to stop, so strategy matters as much as raw pace.",
+    "![Identical cars: the driver and the strategy make the difference](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## Points and the road to F1",
+    "The feature race pays F1-style points, 25 for the win down to tenth, plus 2 for pole. In the sprint the top eight score, with 10 for the winner. The top three in the championship each get 40 superlicence points, exactly what you need to race in F1. This year the title will be decided in Qatar and Abu Dhabi between Rafael Câmara and Nikola Tsolov. F2 standings are on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "En qué se diferencia la Fórmula 2 de la Fórmula 1",
+   "lead": "La F2 corre en los mismos circuitos y fines de semana que la F1, pero con reglas propias: un solo coche para todos, dos carreras por fin de semana y parrilla invertida.",
+   "body": [
+    "## Un coche para todos",
+    "En la F1 cada equipo construye su coche. En la F2 todos usan el mismo chasis Dallara; la versión actual llegó en 2024 y se parece a un F1 de efecto suelo. El motor también es común: un V6 turbo de 3,4 litros de Mecachrome con unos 620 caballos. Una unidad de potencia de F1 en 2026 ronda los mil.",
+    "## Dos carreras en un fin de semana",
+    "El programa de la F2 es corto. El viernes hay unos libres de 45 minutos y una clasificación de 30. El sábado se corre un sprint de 120 km y el domingo la carrera principal de 170 km, ambas antes del Gran Premio. Una carrera de F1 debe cubrir al menos 305 km.",
+    "![Sprint con parrilla invertida: los rápidos salen más atrás](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## La parrilla invertida",
+    "La mayor diferencia está en el sprint. Los diez primeros de la clasificación salen en orden inverso: el más rápido parte décimo y el décimo, desde la pole. Por eso el sábado hay muchos adelantamientos y el poleman tiene que abrirse paso entre el grupo.",
+    "## Parada obligatoria",
+    "En la carrera principal cada piloto debe parar al menos una vez y usar los dos compuestos disponibles. Cada equipo elige cuándo parar, así que la estrategia pesa tanto como el ritmo.",
+    "![Coches idénticos: marcan la diferencia el piloto y la estrategia](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## Puntos y camino a la F1",
+    "La carrera principal reparte puntos como la F1, 25 al ganador y hasta el décimo, y la pole suma 2 más. En el sprint puntúan los ocho primeros, con 10 para el vencedor. Los tres primeros del campeonato reciben 40 puntos de superlicencia, justo lo necesario para correr en F1. Este año el título se decide en Catar y Abu Dabi entre Rafael Câmara y Nikola Tsolov. La clasificación de la F2 está en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "No que a Fórmula 2 é diferente da Fórmula 1",
+   "lead": "A F2 corre nas mesmas pistas e nos mesmos fins de semana da F1, mas com regras próprias: um carro igual para todos, duas corridas por fim de semana e grid invertido.",
+   "body": [
+    "## Um carro para todos",
+    "Na F1 cada equipe constrói o próprio carro. Na F2 todos usam o mesmo chassi Dallara; a versão atual chegou em 2024 e lembra um F1 de efeito solo. O motor também é igual: um V6 turbo de 3,4 litros da Mecachrome, com cerca de 620 cavalos. Uma unidade de potência da F1 em 2026 fica perto de mil.",
+    "## Duas corridas num fim de semana",
+    "A programação da F2 é curta. Na sexta há um treino de 45 minutos e uma classificação de 30. No sábado tem a sprint de 120 km e no domingo a corrida principal de 170 km, as duas antes do GP. Uma corrida de F1 precisa ter pelo menos 305 km.",
+    "![Sprint com grid invertido: os mais rápidos largam mais atrás](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## O grid invertido",
+    "A maior diferença está na sprint. Os dez primeiros da classificação largam em ordem inversa: o mais rápido sai em décimo e o décimo, na pole. Por isso o sábado tem muita ultrapassagem e o pole precisa passar pelo pelotão.",
+    "## Pit stop obrigatório",
+    "Na corrida principal todo piloto precisa parar pelo menos uma vez e usar os dois compostos disponíveis. Cada equipe escolhe a hora da parada, então a estratégia pesa tanto quanto o ritmo.",
+    "![Carros iguais: a diferença está no piloto e na estratégia](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## Pontos e o caminho para a F1",
+    "A corrida principal dá pontos como a F1, 25 para o vencedor e até o décimo, e a pole vale mais 2. Na sprint pontuam os oito primeiros, com 10 para quem vence. Os três primeiros do campeonato recebem 40 pontos de superlicença, exatamente o necessário para correr na F1. Neste ano o título sai no Catar e em Abu Dhabi, entre Rafael Câmara e Nikola Tsolov. A classificação da F2 está no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Was die Formel 2 von der Formel 1 unterscheidet",
+   "lead": "Die Formel 2 fährt auf denselben Strecken und an denselben Wochenenden wie die F1, hat aber eigene Regeln: ein Auto für alle, zwei Rennen pro Wochenende und eine umgedrehte Startaufstellung.",
+   "body": [
+    "## Ein Auto für alle",
+    "In der Formel 1 baut jedes Team sein eigenes Auto. In der Formel 2 fahren alle dasselbe Dallara-Chassis; die aktuelle Version kam 2024 und sieht aus wie ein F1-Auto mit Ground Effect. Auch der Motor ist für alle gleich: ein 3,4-Liter-V6-Turbo von Mecachrome mit rund 620 PS. Eine F1-Antriebseinheit kommt 2026 auf etwa tausend.",
+    "## Zwei Rennen an einem Wochenende",
+    "Das F2-Programm ist kompakt. Am Freitag gibt es ein 45-minütiges Training und ein 30-minütiges Qualifying. Am Samstag folgt ein Sprint über 120 km, am Sonntag das Hauptrennen über 170 km, beide vor dem Grand Prix. Ein F1-Rennen muss mindestens 305 km lang sein.",
+    "![Sprint mit umgedrehter Startaufstellung: Die Schnellen starten weiter hinten](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## Die umgedrehte Startaufstellung",
+    "Der größte Unterschied ist der Sprint. Die Top Ten aus dem Qualifying starten in umgekehrter Reihenfolge: Der Schnellste beginnt als Zehnter, der Zehnte von der Pole. Darum wird am Samstag viel überholt, und der Polesetter muss sich durchs Feld kämpfen.",
+    "## Pflicht-Boxenstopp",
+    "Im Hauptrennen muss jeder Fahrer mindestens einmal an die Box und beide verfügbaren Reifenmischungen fahren. Wann gestoppt wird, entscheiden die Teams selbst, die Strategie zählt also so viel wie das Tempo.",
+    "![Gleiche Autos: Den Unterschied machen Fahrer und Strategie](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## Punkte und der Weg in die F1",
+    "Das Hauptrennen vergibt Punkte wie die F1, 25 für den Sieg bis hinunter zu Platz zehn, dazu 2 für die Pole. Im Sprint punkten die ersten acht, der Sieger bekommt 10. Die ersten drei der Meisterschaft erhalten je 40 Superlizenzpunkte, genau so viele, wie man für die F1 braucht. In diesem Jahr entscheidet sich der Titel in Katar und Abu Dhabi zwischen Rafael Câmara und Nikola Tsolov. Die F2-Tabelle gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "F2和F1有什么不同",
+   "lead": "F2与F1在同一条赛道、同一个周末比赛，但规则自成一套：所有人用同一款赛车，每个周末两场比赛，还有倒序发车。",
+   "body": [
+    "## 所有人同一款车",
+    "在F1，每支车队都自己造车。在F2，所有人都驾驶同一款达拉拉底盘，现款于2024年推出，外形接近采用地面效应的F1赛车。发动机也统一：Mecachrome提供的3.4升涡轮增压V6，约620马力。作为对比，2026年F1动力单元的输出约为一千马力。",
+    "## 一个周末两场比赛",
+    "F2的日程很紧凑。周五一节45分钟练习赛和一节30分钟排位赛。周六是120公里的冲刺赛，周日是170公里的正赛，两场都在大奖赛之前进行。F1正赛的距离则至少要305公里。",
+    "![倒序发车的冲刺赛：快车从后方起步](/img/articles/3d/f2-vs-f1-differences-duel.jpg)",
+    "## 倒序发车",
+    "最大的不同在冲刺赛。排位赛前十名按倒序发车：最快的车手从第十位起步，第十名反而站上杆位。所以周六的超车特别多，排位赛冠军要一路杀出车阵。",
+    "## 强制进站",
+    "正赛中每位车手至少要进站一次，并使用两种可用的轮胎配方。何时进站由车队自己决定，所以策略和速度同样重要。",
+    "![赛车完全相同，差距来自车手和策略](/img/articles/3d/f2-vs-f1-differences-same.jpg)",
+    "## 积分和通往F1之路",
+    "正赛的积分规则和F1相同，冠军25分，前十名都有分，杆位另加2分。冲刺赛前八名得分，冠军10分。年度总成绩前三名各获得40个超级驾照积分，正好是参加F1所需的数量。今年的F2冠军将在卡塔尔和阿布扎比的较量中，于卡马拉和措洛夫之间产生。F2积分榜可在LapRadar上查看。"
+   ]
+  }
+ }
+}

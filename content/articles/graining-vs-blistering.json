@@ -1,0 +1,123 @@
+{
+ "slug": "graining-vs-blistering",
+ "date": "2026-11-15",
+ "tags": [
+  "f1",
+  "tyres",
+  "technique"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/graining-vs-blistering-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Грейнинг и блистеринг: что на самом деле случилось с шиной",
+   "lead": "Комментатор говорит «у него грейнинг», и пилот вдруг теряет секунду на круге. Два самых частых недуга шин Формулы 1 похожи только на первый взгляд.",
+   "body": [
+    "## Катышки на протекторе",
+    "Грейнинг рождается на поверхности. Когда шина скользит по асфальту, тонкие полоски резины отрываются, скатываются и снова прилипают к протектору. Шина становится шершавой, как наждачка, пятно контакта уменьшается, и машина начинает скользить ещё сильнее. Получается замкнутый круг.",
+    "![Занос в повороте: шина скользит, и резина начинает рваться](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## Почему это бывает в холод",
+    "Холодная резина рвётся легче, поэтому грейнинг любит прохладные трассы, ночные гонки и первые круги после пит-стопа. Добавьте сюда недостаточную или избыточную поворачиваемость, не тот компаунд или неудачные давление и развал, и катышки появятся почти наверняка. Хорошая новость: это часто проходит. Если пилот пару кругов едет аккуратнее, шершавый слой стирается, под ним открывается свежая резина, и темп возвращается.",
+    "## Пузыри изнутри",
+    "Блистеринг устроен иначе. Он начинается внутри шины, когда она перегревается. Слои резины теряют связь друг с другом, внутри образуются пузыри, а нагрузка в поворотах вырывает из протектора целые куски. Снаружи это выглядит как поверхность в кратерах. Чаще всего виноваты жаркий асфальт, слишком мягкий для условий состав, высокое давление или чересчур жёсткая подвеска.",
+    "![Перегретые шины: так начинается блистеринг](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## Что хуже для гонки",
+    "Блистеринг хуже, и сильно. Повреждение структурное, оно само не пройдёт и со временем только растёт. Пилот может терять секунду и больше на круге, а у шины растёт риск разрушения. Обычно выход один: внеплановый пит-стоп. С грейнингом можно бороться по ходу отрезка, с блистерингом остаётся считать круги до боксов.",
+    "## Как команды этого избегают",
+    "Начинается всё с выбора состава под трассу и погоду. Дальше идут данные пятничных тренировок, давление и развал, настройки подвески. Пилот тоже помогает: греет шины на прогревочном круге и не атакует сразу после выезда из боксов. В Live-центре LapRadar видно, сколько кругов проехал каждый комплект и кто заехал в боксы раньше плана."
+   ]
+  },
+  "en": {
+   "title": "Graining vs blistering: what actually happened to that tyre",
+   "lead": "The commentator says \"he's got graining\" and suddenly the driver is a second a lap down. F1's two most common tyre problems only look alike at first glance.",
+   "body": [
+    "## Little rolls of rubber",
+    "Graining is a surface problem. When the tyre slides across the tarmac, thin strips of rubber tear off, roll up and stick back onto the tread. The tyre turns rough like sandpaper, the contact patch shrinks, and the car slides even more. It feeds itself.",
+    "![A slide through a corner: the tyre scrubs and the rubber starts to tear](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## Why the cold makes it worse",
+    "Cold rubber tears more easily, so graining loves cool tracks, night races and the first laps after a pit stop. Throw in understeer or oversteer, the wrong compound or poor pressures and camber, and you'll almost certainly see it. The good news is it often clears. If the driver takes it easy for a few laps, the rough layer wears away, fresh rubber appears underneath, and the pace comes back.",
+    "## Bubbles from within",
+    "Blistering works the other way round. It starts inside the tyre when it overheats. The layers of rubber lose their bond, pockets form inside, and cornering loads rip whole chunks out of the tread. From the outside it looks cratered. The usual suspects are hot tarmac, a compound too soft for the conditions, high pressures or a suspension set too stiff.",
+    "![Overheating tyres: this is how blistering starts](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## Which one hurts more",
+    "Blistering, by a distance. The damage is structural, it won't go away and only gets worse. A driver can lose a second or more a lap, and the risk of a failure grows. Usually there's one answer: an unplanned stop. You can manage graining through a stint, but with blistering you're just counting the laps to the pits.",
+    "## How teams avoid both",
+    "The first defence is picking the right compound for the track and the weather. Then come Friday practice data, pressures and camber, and suspension settings. The driver plays a part too, warming the tyres properly and not attacking straight out of the pits. LapRadar's Live centre shows how many laps every set has done and who pitted earlier than planned."
+   ]
+  },
+  "es": {
+   "title": "Graining y blistering: qué le ha pasado de verdad al neumático",
+   "lead": "El comentarista dice «tiene graining» y de repente el piloto pierde un segundo por vuelta. Los dos males más habituales de los neumáticos de F1 solo se parecen a primera vista.",
+   "body": [
+    "## Bolitas de goma en la banda",
+    "El graining nace en la superficie. Cuando el neumático desliza sobre el asfalto, tiras finas de goma se desprenden, se enrollan y vuelven a pegarse a la banda. El neumático se queda rugoso como una lija, la huella de contacto se reduce y el coche desliza todavía más. Es un círculo vicioso.",
+    "![Un derrapaje en curva: el neumático desliza y la goma empieza a romperse](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## Por qué el frío lo empeora",
+    "La goma fría se rompe con más facilidad, así que el graining aparece en pistas frescas, carreras nocturnas y en las primeras vueltas tras una parada. Si a eso se suma subviraje o sobreviraje, un compuesto equivocado o presiones y caídas mal ajustadas, las bolitas están casi aseguradas. La buena noticia es que muchas veces se pasa. Si el piloto va con cuidado unas vueltas, la capa rugosa se gasta, aparece goma nueva debajo y el ritmo vuelve.",
+    "## Burbujas desde dentro",
+    "El blistering funciona al revés. Empieza dentro del neumático cuando se recalienta. Las capas de goma pierden la unión, se forman bolsas en el interior y la carga en curva arranca trozos enteros de la banda. Por fuera parece una superficie llena de cráteres. Los culpables habituales son el asfalto muy caliente, un compuesto demasiado blando, presiones altas o una suspensión muy dura.",
+    "![Neumáticos recalentados: así empieza el blistering](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## Cuál hace más daño",
+    "El blistering, con diferencia. El daño es estructural, no desaparece y va a peor. Se puede perder un segundo o más por vuelta y crece el riesgo de rotura. Normalmente solo hay una salida: una parada no prevista. El graining se puede gestionar durante la tanda; con blistering solo queda contar las vueltas hasta boxes.",
+    "## Cómo lo evitan los equipos",
+    "La primera defensa es elegir el compuesto adecuado para la pista y el tiempo. Después vienen los datos de los libres del viernes, las presiones, las caídas y la suspensión. El piloto también ayuda: calienta bien los neumáticos y no ataca nada más salir de boxes. En el centro Live de LapRadar se ve cuántas vueltas lleva cada juego y quién paró antes de lo previsto."
+   ]
+  },
+  "pt": {
+   "title": "Graining e blistering: o que aconteceu de verdade com o pneu",
+   "lead": "O narrador diz “ele está com graining” e de repente o piloto perde um segundo por volta. Os dois problemas mais comuns dos pneus da F1 só se parecem à primeira vista.",
+   "body": [
+    "## Bolinhas de borracha na banda",
+    "O graining nasce na superfície. Quando o pneu escorrega no asfalto, tiras finas de borracha se soltam, enrolam e grudam de novo na banda. O pneu fica áspero como uma lixa, a área de contato diminui e o carro escorrega ainda mais. Vira um ciclo vicioso.",
+    "![Uma escorregada na curva: o pneu arrasta e a borracha começa a rasgar](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## Por que o frio piora tudo",
+    "Borracha fria rasga com mais facilidade, então o graining aparece em pistas frescas, corridas noturnas e nas primeiras voltas depois de um pit stop. Junte a isso sub ou sobre-esterço, o composto errado ou pressão e cambagem mal acertadas, e as bolinhas são quase certas. A boa notícia é que muitas vezes passa. Se o piloto alivia por algumas voltas, a camada áspera se desgasta, aparece borracha nova por baixo e o ritmo volta.",
+    "## Bolhas por dentro",
+    "O blistering funciona ao contrário. Começa dentro do pneu quando ele superaquece. As camadas de borracha perdem a ligação, formam-se bolsas no interior e a carga nas curvas arranca pedaços inteiros da banda. Por fora, parece uma superfície cheia de crateras. Os culpados de sempre são asfalto quente, composto macio demais para as condições, pressão alta ou suspensão dura demais.",
+    "![Pneus superaquecidos: é assim que começa o blistering](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## Qual é pior para a corrida",
+    "O blistering, de longe. O dano é estrutural, não some e só piora. O piloto pode perder um segundo ou mais por volta, e o risco de o pneu se desfazer aumenta. Em geral a saída é uma só: uma parada fora do plano. Dá para administrar o graining durante o stint, mas com blistering só resta contar as voltas até os boxes.",
+    "## Como as equipes evitam os dois",
+    "A primeira defesa é escolher o composto certo para a pista e o clima. Depois vêm os dados dos treinos de sexta, pressões, cambagem e acerto de suspensão. O piloto também ajuda: aquece bem os pneus e não ataca logo na saída dos boxes. No centro Live do LapRadar dá para ver quantas voltas cada jogo já fez e quem parou antes do previsto."
+   ]
+  },
+  "de": {
+   "title": "Graining oder Blasen: Was mit dem Reifen wirklich los ist",
+   "lead": "Der Kommentator sagt „er hat Graining“, und plötzlich fehlt dem Fahrer eine Sekunde pro Runde. Die zwei häufigsten Reifenprobleme der Formel 1 sehen sich nur auf den ersten Blick ähnlich.",
+   "body": [
+    "## Gummiröllchen auf der Lauffläche",
+    "Graining entsteht an der Oberfläche. Rutscht der Reifen über den Asphalt, reißen dünne Gummistreifen ab, rollen sich auf und kleben wieder an der Lauffläche fest. Der Reifen wird rau wie Schleifpapier, die Aufstandsfläche schrumpft, und das Auto rutscht noch mehr. Ein Teufelskreis.",
+    "![Ein Rutscher in der Kurve: Der Reifen radiert, das Gummi beginnt zu reißen](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## Warum Kälte es schlimmer macht",
+    "Kaltes Gummi reißt leichter, deshalb taucht Graining gern auf kühlen Strecken, bei Nachtrennen und in den ersten Runden nach einem Boxenstopp auf. Kommen Unter- oder Übersteuern, die falsche Mischung oder schlecht gewählter Luftdruck und Sturz dazu, ist es fast sicher. Die gute Nachricht: Oft verschwindet es wieder. Fährt der Fahrer ein paar Runden behutsam, nutzt sich die raue Schicht ab, darunter kommt frisches Gummi zum Vorschein, und das Tempo kehrt zurück.",
+    "## Blasen von innen",
+    "Blasenbildung, im Fahrerlager Blistering genannt, läuft andersherum. Sie beginnt im Inneren des Reifens, wenn er überhitzt. Die Gummischichten verlieren ihre Verbindung, innen bilden sich Hohlräume, und die Kurvenlast reißt ganze Brocken aus der Lauffläche. Von außen sieht das aus wie eine Kraterlandschaft. Typische Ursachen sind heißer Asphalt, eine für die Bedingungen zu weiche Mischung, zu hoher Druck oder eine zu harte Abstimmung.",
+    "![Überhitzte Reifen: So fängt Blasenbildung an](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## Was schlimmer ist",
+    "Die Blasen, und zwar deutlich. Der Schaden ist strukturell, er verschwindet nicht und wird nur größer. Eine Sekunde und mehr pro Runde sind möglich, und das Risiko eines Reifenschadens steigt. Meist bleibt nur ein ungeplanter Boxenstopp. Graining lässt sich im Stint managen, bei Blasen zählt man nur noch die Runden bis zur Box.",
+    "## Wie die Teams vorbeugen",
+    "Die erste Verteidigung ist die richtige Mischung für Strecke und Wetter. Dazu kommen die Daten aus dem Freitagstraining, Luftdruck, Sturz und Fahrwerk. Auch der Fahrer hilft: Er wärmt die Reifen sauber auf und greift nicht direkt nach dem Boxenstopp an. Im Live-Center von LapRadar sieht man, wie viele Runden jeder Satz hinter sich hat und wer früher als geplant an die Box kam."
+   ]
+  },
+  "zh": {
+   "title": "颗粒化还是起泡：轮胎到底出了什么问题",
+   "lead": "解说员说“他的轮胎出现了颗粒化”，车手每圈就突然慢了一秒。F1轮胎最常见的两种毛病，只是乍看相似。",
+   "body": [
+    "## 胎面上的小胶粒",
+    "颗粒化发生在表面。轮胎在路面上打滑时，细条状的橡胶被撕下、卷起，又重新粘回胎面。轮胎变得像砂纸一样粗糙，接地面积变小，赛车滑得更厉害，形成恶性循环。",
+    "![弯中打滑：轮胎摩擦路面，橡胶开始被撕裂](/img/articles/3d/graining-vs-blistering-slide.jpg)",
+    "## 为什么天冷更容易出现",
+    "冷的橡胶更容易被撕裂，所以颗粒化常见于凉爽的赛道、夜赛和进站后的头几圈。再加上转向不足或转向过度、配方选错，或者胎压和外倾角不合适，几乎一定会出现。好消息是它常常能自行消失。车手温和地开几圈，粗糙层被磨掉，下面露出新鲜橡胶，速度就回来了。",
+    "## 从内部鼓起的气泡",
+    "起泡正好相反，它从轮胎内部开始，原因是过热。橡胶层之间失去粘合，内部形成空腔，过弯时的负荷把整块橡胶从胎面上扯下来。从外面看，胎面坑坑洼洼。常见原因是路面太热、配方对当时条件来说太软、胎压过高或悬挂太硬。",
+    "![轮胎过热：起泡就是这样开始的](/img/articles/3d/graining-vs-blistering-heat.jpg)",
+    "## 哪个对比赛伤害更大",
+    "起泡要严重得多。这是结构性损伤，不会自己消失，只会越来越糟。车手每圈可能损失一秒甚至更多，轮胎损坏的风险也在上升。通常只有一个办法：计划外进站。颗粒化可以在一个周期内慢慢调理，起泡就只能数着圈等进站了。",
+    "## 车队如何预防",
+    "第一道防线是根据赛道和天气选对配方。接下来是周五练习赛的数据、胎压、外倾角和悬挂设定。车手也要出力：在暖胎圈把轮胎热好，出站后不要马上猛攻。在LapRadar的Live中心可以看到每套轮胎跑了多少圈，以及谁比计划更早进站。"
+   ]
+  }
+ }
+}

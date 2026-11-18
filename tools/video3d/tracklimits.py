@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Лимиты трассы: как ловят и за что наказывают». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "track-limits",
+  "track": "spielberg", "theme": "day",
+  "shots": [
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 9, "h": 3.6, "h2": 3, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "t0": 6},
+    {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 7, "h2": 6, "side": 4.5, "side2": 4, "look": 10, "drop": 3.2, "act": {"type": "slide", "tc": 0.4}},
+    {"type": "chase", "car": 1, "dist": 13, "dist2": 10, "h": 5, "h2": 4, "side": 3, "side2": -2, "look": 30, "drop": 2.5, "t0": 40},
+    {"type": "top", "reveal": True, "badges": True, "k": 1.15, "tilt": 0.22, "rot0": 0, "rot1": 0.2, "act": {"type": "trace", "at": 0.02}},
+    {"type": "chase", "car": 0, "dist": 30, "dist2": 22, "h": 14, "h2": 10, "side": -4, "side2": 3, "look": 50, "drop": 4, "act": {"type": "convoy", "at": 0.85}},
+    {"type": "orbit", "at": 0.015, "r": 420, "r2": 330, "h": 180, "h2": 130, "a0": 2.0, "a1": 2.6},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 1, "dist": 11, "h": 3.4, "side": -5.5, "look": 40, "drop": 2.4, "t0": 22, "fov": 46}},
+    {"name": "wide", "w": 1200, "h": 800, "t": 2.2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 12, "h": 6, "side": 4.5, "look": 10, "drop": 3, "fov": 46, "act": {"type": "slide", "tc": 0.4}}},
+    {"name": "map", "w": 1200, "h": 800, "t": 3, "u": 1, "shot": {"type": "top", "reveal": True, "badges": True, "k": 1.18, "tilt": 0.2}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "ЛИМИТЫ", "sub": "как ловят и за что наказывают", "say": "Четыре колеса за белой линией, и круг стёрт. Как работают лимиты трассы?"},
+      {"kind": "list", "head": "Правило", "items": ["Линия часть трассы", "Поребрик нет", "Все четыре колеса за линией"], "say": "Белая линия считается частью трассы, поребрик нет. Если все четыре колеса за линией, пилот покинул трассу."},
+      {"kind": "list", "head": "Квалификация", "items": ["Круг удаляют", "Иногда и следующий"], "say": "В квалификации такой круг просто удаляют. Ошибся в последнем повороте, и могут стереть ещё и следующий круг."},
+      {"kind": "list", "head": "Гонка", "items": ["Третий раз: флаг", "Четвёртый: 5 секунд", "Пятый: 10 секунд"], "say": "В гонке за третье нарушение показывают чёрно-белый флаг, за четвёртое дают пять секунд штрафа, за пятое десять."},
+      {"kind": "big", "big": "1200+", "sub": "нарушений проверяли в Австрии", "say": "В Австрии в двадцать третьем году судьи проверяли больше тысячи двухсот возможных нарушений. Итоги пересчитали через пять часов после финиша."},
+      {"kind": "end", "tag": "Позиции и круги вживую", "say": "Позиции и время кругов всех пилотов смотрите вживую на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "TRACK LIMITS", "sub": "how they're policed", "say": "Four wheels over the white line, and the lap is gone. How do track limits work?"},
+      {"kind": "list", "head": "The rule", "items": ["The line is track", "The kerb isn't", "All four wheels over"], "say": "The white line counts as part of the track, the kerb doesn't. With all four wheels over the line, the driver has left the track."},
+      {"kind": "list", "head": "Qualifying", "items": ["Lap deleted", "Sometimes the next one too"], "say": "In qualifying that lap is simply deleted. Get the final corner wrong and the next lap can go as well."},
+      {"kind": "list", "head": "The race", "items": ["Third: the flag", "Fourth: 5 seconds", "Fifth: 10 seconds"], "say": "In the race, the third offence brings the black and white flag, the fourth a five second penalty, the fifth ten seconds."},
+      {"kind": "big", "big": "1200+", "sub": "reports checked in Austria", "say": "At the twenty twenty-three Austrian Grand Prix, officials had to check more than twelve hundred possible offences. The final result came five hours after the flag."},
+      {"kind": "end", "tag": "Positions and lap times, live", "say": "Follow every driver's position and lap times live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "LÍMITES", "sub": "cómo se vigilan y se castigan", "say": "Cuatro ruedas fuera de la línea blanca y la vuelta se borra. ¿Cómo funcionan los límites de pista?"},
+      {"kind": "list", "head": "La norma", "items": ["La línea es pista", "El piano no", "Las cuatro ruedas fuera"], "say": "La línea blanca cuenta como pista, el piano no. Si las cuatro ruedas pasan la línea, el piloto ha salido de la pista."},
+      {"kind": "list", "head": "Clasificación", "items": ["Vuelta borrada", "A veces también la siguiente"], "say": "En clasificación esa vuelta se borra sin más. Si el error es en la última curva, también puede caer la siguiente."},
+      {"kind": "list", "head": "Carrera", "items": ["Tercera: bandera", "Cuarta: 5 segundos", "Quinta: 10 segundos"], "say": "En carrera, la tercera infracción trae la bandera blanca y negra, la cuarta cinco segundos de sanción y la quinta diez."},
+      {"kind": "big", "big": "1200+", "sub": "infracciones revisadas en Austria", "say": "En Austria en dos mil veintitrés los comisarios revisaron más de mil doscientas posibles infracciones. El resultado final llegó cinco horas después de la bandera."},
+      {"kind": "end", "tag": "Posiciones y tiempos en directo", "say": "Sigue en directo posiciones y tiempos por vuelta de cada piloto en LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "LIMITES", "sub": "como são fiscalizados", "say": "Quatro rodas além da linha branca e a volta é apagada. Como funcionam os limites de pista?"},
+      {"kind": "list", "head": "A regra", "items": ["A linha é pista", "A zebra não", "As quatro rodas fora"], "say": "A linha branca conta como pista, a zebra não. Com as quatro rodas além da linha, o piloto saiu da pista."},
+      {"kind": "list", "head": "Classificação", "items": ["Volta apagada", "Às vezes a seguinte também"], "say": "Na classificação essa volta é simplesmente apagada. Errou na última curva, e a volta seguinte também pode cair."},
+      {"kind": "list", "head": "Corrida", "items": ["Terceira: bandeira", "Quarta: 5 segundos", "Quinta: 10 segundos"], "say": "Na corrida, a terceira infração traz a bandeira preta e branca, a quarta cinco segundos de punição e a quinta dez."},
+      {"kind": "big", "big": "1200+", "sub": "infrações checadas na Áustria", "say": "Na Áustria em dois mil e vinte e três os comissários checaram mais de mil e duzentas possíveis infrações. O resultado final saiu cinco horas depois da bandeirada."},
+      {"kind": "end", "tag": "Posições e tempos ao vivo", "say": "Acompanhe ao vivo as posições e os tempos de volta de cada piloto no LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "TRACK LIMITS", "sub": "wie sie überwacht werden", "say": "Vier Räder über der weißen Linie, und die Runde ist weg. Wie funktionieren die Track Limits?"},
+      {"kind": "list", "head": "Die Regel", "items": ["Linie gehört zur Strecke", "Randstein nicht", "Alle vier Räder drüber"], "say": "Die weiße Linie gehört zur Strecke, der Randstein nicht. Sind alle vier Räder über der Linie, hat der Fahrer die Strecke verlassen."},
+      {"kind": "list", "head": "Qualifying", "items": ["Runde gestrichen", "Manchmal auch die nächste"], "say": "Im Qualifying wird die Runde einfach gestrichen. Wer in der letzten Kurve patzt, kann auch die nächste Runde verlieren."},
+      {"kind": "list", "head": "Das Rennen", "items": ["Drittes Mal: Flagge", "Viertes: 5 Sekunden", "Fünftes: 10 Sekunden"], "say": "Im Rennen gibt es beim dritten Verstoß die schwarz-weiße Flagge, beim vierten fünf Sekunden Strafe, beim fünften zehn."},
+      {"kind": "big", "big": "1200+", "sub": "Fälle in Österreich geprüft", "say": "In Österreich mussten die Offiziellen zweitausenddreiundzwanzig mehr als zwölfhundert mögliche Verstöße prüfen. Das Endergebnis kam fünf Stunden nach der Zielflagge."},
+      {"kind": "end", "tag": "Positionen und Rundenzeiten live", "say": "Positionen und Rundenzeiten aller Fahrer verfolgst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "赛道界限", "sub": "怎么判，怎么罚", "say": "四个轮子越过白线，这一圈就作废。赛道界限规则是怎么回事？"},
+      {"kind": "list", "head": "规则", "items": ["白线属于赛道", "路肩不算", "四轮全部出线"], "say": "白线算赛道的一部分，路肩不算。四个轮子全部越过白线，就算驶离赛道。"},
+      {"kind": "list", "head": "排位赛", "items": ["该圈成绩作废", "有时下一圈也作废"], "say": "排位赛里这一圈成绩直接作废。如果是在最后一个弯出界，下一圈也可能被删除。"},
+      {"kind": "list", "head": "正赛", "items": ["第三次：黑白旗", "第四次：罚5秒", "第五次：罚10秒"], "say": "正赛中第三次违规会收到黑白旗，第四次罚时五秒，第五次罚时十秒。"},
+      {"kind": "big", "big": "1200+", "sub": "奥地利站核查的违规", "say": "二零二三年奥地利站，干事们要核查一千二百多起可能的违规，最终成绩在冲线五个小时后才出炉。"},
+      {"kind": "end", "tag": "名次与圈速实时看", "say": "在LapRadar上实时查看每位车手的名次和圈速。"},
+    ],
+  },
+}

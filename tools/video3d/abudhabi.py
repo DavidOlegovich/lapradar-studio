@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Абу-Даби: финал на закате и пит-лейн, который ныряет под трассу». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "abu-dhabi-yas-marina",
+  "track": "yas-island", "theme": "dusk",
+  "shots": [
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 9, "h": 3.6, "h2": 3, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "t0": 20},
+    {"type": "chase", "car": 0, "dist": 30, "dist2": 22, "h": 14, "h2": 10, "side": 4, "side2": -2, "look": 50, "drop": 4, "act": {"type": "convoy", "at": 0.3}},
+    {"type": "chase", "car": 0, "dist": 24, "dist2": 18, "h": 11, "h2": 8, "side": 5, "side2": 3, "autoSide": True, "look": 60, "drop": 3, "act": {"type": "pitexit", "pitcar": 0, "car": 1}},
+    {"type": "top", "reveal": True, "badges": True, "k": 1.15, "tilt": 0.22, "rot0": 0, "rot1": 0.2, "act": {"type": "trace", "at": 0.02}},
+    {"type": "chase", "car": 0, "dist": 14, "dist2": 11, "h": 5, "h2": 4, "side": -2, "side2": 2, "look": 40, "drop": 2.5, "act": {"type": "duel"}},
+    {"type": "orbit", "at": 0.015, "r": 420, "r2": 330, "h": 180, "h2": 130, "a0": 1.0, "a1": 1.6},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 2, "dist": 11, "h": 3.4, "side": -5.5, "look": 40, "drop": 2.4, "t0": 30, "fov": 46}},
+    {"name": "pack", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 22, "h": 8, "side": -4, "look": 50, "drop": 4, "fov": 46, "act": {"type": "convoy", "at": 0.55}}},
+    {"name": "map", "w": 1200, "h": 800, "t": 3, "u": 1, "shot": {"type": "top", "reveal": True, "badges": True, "k": 1.18, "tilt": 0.2}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "АБУ-ДАБИ", "sub": "финал из дня в ночь", "say": "Почему последняя гонка сезона стартует днём, а финиширует в темноте?"},
+      {"kind": "big", "big": "2009", "sub": "первая гонка из дня в ночь", "say": "В две тысячи девятом году здесь прошла первая гонка Формулы один, которая началась днём и закончилась под прожекторами."},
+      {"kind": "list", "head": "Тоннель", "items": ["Выезд с пит-лейна", "Уходит под трассу", "У первого поворота тесно"], "say": "Места у первого поворота мало, поэтому выезд с пит-лейна ныряет в тоннель под трассой."},
+      {"kind": "big", "big": "16", "sub": "поворотов вместо 21", "say": "В двадцать первом году трассу перестроили. Медленную шикану убрали, и поворотов стало шестнадцать вместо двадцати одного."},
+      {"kind": "big", "big": "58", "sub": "кругов в финале", "say": "Финал длится пятьдесят восемь кругов, больше трёхсот километров."},
+      {"kind": "end", "tag": "Финал сезона вживую", "say": "Финал сезона в Абу-Даби смотрите вживую на 3D-карте ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "ABU DHABI", "sub": "a finale from day into night", "say": "Why does the last race of the season start in daylight and finish in the dark?"},
+      {"kind": "big", "big": "2009", "sub": "the first day-night race", "say": "In two thousand nine this was the first Formula One race to start in daylight and finish under floodlights."},
+      {"kind": "list", "head": "The tunnel", "items": ["Pit lane exit", "Dives under the track", "No room at Turn 1"], "say": "There's no room by the first corner, so the pit lane exit dives into a tunnel under the track."},
+      {"kind": "big", "big": "16", "sub": "corners instead of 21", "say": "In twenty twenty-one the track was reshaped. The slow chicane went, and twenty-one corners became sixteen."},
+      {"kind": "big", "big": "58", "sub": "laps in the finale", "say": "The finale runs fifty-eight laps, more than three hundred kilometres."},
+      {"kind": "end", "tag": "The finale, live", "say": "Watch the Abu Dhabi finale live on the LapRadar 3D map."},
+    ],
+    "es": [
+      {"kind": "title", "head": "ABU DABI", "sub": "una final del día a la noche", "say": "¿Por qué la última carrera del año empieza de día y termina a oscuras?"},
+      {"kind": "big", "big": "2009", "sub": "la primera carrera de día a noche", "say": "En dos mil nueve se corrió aquí la primera carrera de Fórmula Uno que empezó de día y acabó con focos."},
+      {"kind": "list", "head": "El túnel", "items": ["Salida del pit lane", "Pasa bajo la pista", "Sin sitio en la curva 1"], "say": "No hay sitio junto a la primera curva, así que la salida del pit lane se mete en un túnel bajo la pista."},
+      {"kind": "big", "big": "16", "sub": "curvas en lugar de 21", "say": "En dos mil veintiuno se rediseñó la pista. Quitaron la chicane lenta y las curvas pasaron de veintiuna a dieciséis."},
+      {"kind": "big", "big": "58", "sub": "vueltas en la final", "say": "La final dura cincuenta y ocho vueltas, más de trescientos kilómetros."},
+      {"kind": "end", "tag": "La final en directo", "say": "Sigue la final de Abu Dabi en directo en el mapa 3D de LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "ABU DHABI", "sub": "uma final do dia para a noite", "say": "Por que a última corrida do ano começa de dia e termina no escuro?"},
+      {"kind": "big", "big": "2009", "sub": "a primeira corrida dia e noite", "say": "Em dois mil e nove foi aqui a primeira corrida de Fórmula Um que começou de dia e terminou sob holofotes."},
+      {"kind": "list", "head": "O túnel", "items": ["Saída do pit lane", "Passa sob a pista", "Sem espaço na curva 1"], "say": "Não há espaço perto da primeira curva, então a saída do pit lane entra num túnel por baixo da pista."},
+      {"kind": "big", "big": "16", "sub": "curvas em vez de 21", "say": "Em dois mil e vinte e um a pista foi redesenhada. A chicane lenta saiu, e as curvas caíram de vinte e uma para dezesseis."},
+      {"kind": "big", "big": "58", "sub": "voltas na final", "say": "A final tem cinquenta e oito voltas, mais de trezentos quilômetros."},
+      {"kind": "end", "tag": "A final ao vivo", "say": "Acompanhe a final de Abu Dhabi ao vivo no mapa 3D do LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "ABU DHABI", "sub": "ein Finale vom Tag in die Nacht", "say": "Warum startet das letzte Rennen der Saison bei Tageslicht und endet im Dunkeln?"},
+      {"kind": "big", "big": "2009", "sub": "das erste Tag-Nacht-Rennen", "say": "Zweitausendneun fand hier das erste Formel-Eins-Rennen statt, das bei Tag begann und unter Flutlicht endete."},
+      {"kind": "list", "head": "Der Tunnel", "items": ["Boxenausfahrt", "Unter der Strecke", "Kein Platz an Kurve 1"], "say": "An der ersten Kurve ist kein Platz, deshalb taucht die Boxenausfahrt in einen Tunnel unter der Strecke ab."},
+      {"kind": "big", "big": "16", "sub": "Kurven statt 21", "say": "Zweitausendeinundzwanzig wurde die Strecke umgebaut. Die langsame Schikane verschwand, aus einundzwanzig Kurven wurden sechzehn."},
+      {"kind": "big", "big": "58", "sub": "Runden im Finale", "say": "Das Finale geht über achtundfünfzig Runden, mehr als dreihundert Kilometer."},
+      {"kind": "end", "tag": "Das Finale live", "say": "Das Finale in Abu Dhabi verfolgst du live auf der 3D-Karte von LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "阿布扎比", "sub": "从白天跑进黑夜的收官战", "say": "为什么赛季最后一场比赛在白天起步，却在黑暗中冲线？"},
+      {"kind": "big", "big": "2009", "sub": "首场昼夜交替的比赛", "say": "二零零九年，这里举办了一级方程式第一场白天开赛、在灯光下结束的比赛。"},
+      {"kind": "list", "head": "隧道", "items": ["维修区出口", "从赛道下方穿过", "一号弯旁没有空间"], "say": "一号弯附近没有空间，所以维修区出口钻进了赛道下方的隧道。"},
+      {"kind": "big", "big": "16", "sub": "个弯，原来是21个", "say": "二零二一年赛道重新改造，慢速减速弯被取消，弯道从二十一个减少到十六个。"},
+      {"kind": "big", "big": "58", "sub": "圈的收官战", "say": "收官战共五十八圈，超过三百公里。"},
+      {"kind": "end", "tag": "收官战实时看", "say": "在LapRadar的3D地图上实时观看阿布扎比收官战。"},
+    ],
+  },
+}

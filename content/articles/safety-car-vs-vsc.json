@@ -1,0 +1,124 @@
+{
+ "slug": "safety-car-vs-vsc",
+ "date": "2026-11-15",
+ "tags": [
+  "f1",
+  "rules",
+  "strategy",
+  "safety-car"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/safety-car-vs-vsc-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Сейфти-кар или виртуальный сейфти-кар: кому везёт",
+   "lead": "Одна авария может перевернуть гонку. Но настоящая машина безопасности и её виртуальная версия работают по-разному, и выигрывают от них разные пилоты.",
+   "body": [
+    "## Колонна за машиной безопасности",
+    "Когда на трассе обломки или машина встала в опасном месте, дирекция гонки выпускает сейфти-кар. Пелотон выстраивается за ним в колонну, обгонять запрещено. Главное последствие простое и жестокое: отрывы исчезают. Лидер, который полгонки уезжал от соперников, теперь видит их у себя в зеркалах.",
+    "![Пелотон за машиной безопасности перед рестартом](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## Виртуальный режим замораживает гонку",
+    "При виртуальном сейфти-каре (VSC) на трассу никто не выезжает. Каждый пилот обязан ехать не быстрее заданного времени на отрезках круга, а на руле видит дельту и следит, чтобы не уйти в минус. Обгонять тоже нельзя, но расстояния между машинами почти не меняются. VSC включают, когда маршалам нужно немного времени, например чтобы убрать с обочины обломок.",
+    "## Дешёвый пит-стоп",
+    "Скорость на пит-лейне ограничена всегда, поэтому обычный заезд в боксы стоит больше 20 секунд. Когда остальные едут медленно, потеря заметно меньше. Под настоящим сейфти-каром пелотон медленнее, чем при VSC, и период длится дольше, так что именно тогда команды чаще всего зовут пилотов за свежими шинами. Самая обидная роль у того, кто успел остановиться за пару кругов до аварии: он заплатил полную цену, а соперники меняют резину почти даром.",
+    "![Пит-стоп под сейфти-каром обходится дешевле обычного](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## Рестарт в руках лидера",
+    "Перед рестартом машина безопасности гасит огни и уходит в боксы. Лидер сам решает, когда разгоняться, а обгонять можно только после линии сейфти-кара. Отстающих на круг дирекция может пропустить вперёд, чтобы они ушли в хвост колонны и не мешали борьбе за позиции. После VSC всё быстрее: загорается зелёный, и все сразу жмут газ.",
+    "## Почему в Вегасе это особенно опасно",
+    "В Лас-Вегасе гонка ночная и холодная. За несколько медленных кругов шины и тормоза остывают, и на рестарте сцепления мало. Ошибиться в первом же повороте после зелёного флага тут проще, чем на большинстве трасс сезона. На LapRadar по ходу гонки видно, кто успел в боксы под сейфти-каром и как перемешались интервалы после рестарта."
+   ]
+  },
+  "en": {
+   "title": "Safety car or virtual safety car: who gets lucky",
+   "lead": "One crash can turn a race upside down. But the real safety car and its virtual cousin work differently, and they help different drivers.",
+   "body": [
+    "## Queueing behind the safety car",
+    "When there's debris on track or a car stopped somewhere dangerous, race control sends out the safety car. The field forms a queue behind it and overtaking is banned. The big consequence is brutal: the gaps are gone. A leader who spent half the race pulling away suddenly has the whole pack in his mirrors.",
+    "![The pack behind the safety car before a restart](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## The virtual version freezes the race",
+    "Under a virtual safety car (VSC) nothing comes out on track. Every driver must stay slower than a set time through each part of the lap, watching a delta on the steering wheel to make sure it never goes negative. Overtaking is still banned, but the gaps hardly change. The VSC is used when marshals need only a short window, say to clear a piece of debris from the verge.",
+    "## The cheap pit stop",
+    "The pit lane speed limit never changes, so a normal stop costs more than 20 seconds. When everyone else is crawling, you lose much less. The field is slower behind a real safety car than under a VSC, and the period lasts longer, which is why that's when teams most often call drivers in for fresh tyres. The unluckiest man is the one who pitted two laps before the crash: he paid full price, and his rivals now change tyres almost for free.",
+    "![A pit stop under the safety car costs less than usual](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## The leader controls the restart",
+    "Before the restart the safety car switches off its lights and peels into the pits. The leader decides when to go, and nobody can pass until the safety car line. Race control may let lapped cars through so they rejoin at the back and stay out of the fight. A VSC ends faster: the lights go green and everyone floors it.",
+    "## Why Vegas makes it riskier",
+    "Las Vegas is a cold night race. A few slow laps are enough to cool the tyres and brakes, so grip at the restart is low and the first corner after the green flag is an easy place to get it wrong. LapRadar shows during the race who pitted under the safety car and how the gaps shuffled after the restart."
+   ]
+  },
+  "es": {
+   "title": "Safety car o safety car virtual: a quién le sonríe la suerte",
+   "lead": "Un solo accidente puede darle la vuelta a una carrera. Pero el coche de seguridad y su versión virtual funcionan distinto y benefician a pilotos distintos.",
+   "body": [
+    "## En fila detrás del coche de seguridad",
+    "Cuando hay restos en la pista o un coche parado en un sitio peligroso, la dirección de carrera saca el safety car. El pelotón se pone en fila detrás y no se puede adelantar. La consecuencia es cruel: las ventajas desaparecen. El líder que llevaba media carrera escapándose ahora tiene a todos pegados en los retrovisores.",
+    "![El pelotón detrás del coche de seguridad antes de la relanzada](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## El virtual congela la carrera",
+    "Con el safety car virtual (VSC) no sale ningún coche. Cada piloto tiene que ir más lento que un tiempo fijado en cada tramo de la vuelta y vigila en el volante un delta que no puede ponerse en negativo. Tampoco se adelanta, pero las distancias apenas cambian. El VSC se usa cuando los comisarios necesitan poco tiempo, por ejemplo para retirar una pieza de la escapatoria.",
+    "## La parada barata",
+    "El límite de velocidad en el pit lane es siempre el mismo, así que una parada normal cuesta más de 20 segundos. Si los demás van despacio, se pierde mucho menos. Detrás del safety car real el pelotón va más lento que con VSC y el periodo dura más, por eso es cuando los equipos llaman a sus pilotos a cambiar neumáticos. El peor parado es quien ya había parado dos vueltas antes del accidente: pagó el precio completo y los rivales cambian gomas casi gratis.",
+    "![Una parada con safety car cuesta menos de lo normal](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## La relanzada la decide el líder",
+    "Antes de la relanzada el safety car apaga las luces y entra en boxes. El líder elige cuándo acelerar, y nadie puede adelantar hasta la línea del safety car. La dirección de carrera puede dejar pasar a los doblados para que se coloquen al final y no molesten. Tras un VSC todo es más rápido: se pone verde y todos aceleran a la vez.",
+    "## Por qué en Las Vegas es más delicado",
+    "Las Vegas es una carrera nocturna y fría. Unas pocas vueltas lentas bastan para que se enfríen neumáticos y frenos, y en la relanzada hay poco agarre. En LapRadar se ve durante la carrera quién paró con el safety car y cómo cambiaron los intervalos después."
+   ]
+  },
+  "pt": {
+   "title": "Safety car ou safety car virtual: quem dá sorte",
+   "lead": "Um acidente pode virar uma corrida de cabeça para baixo. Mas o safety car de verdade e a versão virtual funcionam de jeitos diferentes e ajudam pilotos diferentes.",
+   "body": [
+    "## Em fila atrás do safety car",
+    "Quando há destroços na pista ou um carro parado em lugar perigoso, a direção de prova manda o safety car para a pista. O pelotão forma uma fila atrás dele e ultrapassar é proibido. A consequência é cruel: as vantagens somem. O líder que passou meia corrida abrindo distância agora vê todo mundo no retrovisor.",
+    "![O pelotão atrás do safety car antes da relargada](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## O virtual congela a corrida",
+    "No safety car virtual (VSC) nenhum carro entra na pista. Cada piloto precisa andar mais devagar que um tempo definido em cada trecho da volta e acompanha no volante um delta que não pode ficar negativo. Também não pode ultrapassar, mas as diferenças quase não mudam. O VSC é usado quando os fiscais precisam de pouco tempo, por exemplo para tirar um pedaço de carro da área de escape.",
+    "## O pit stop barato",
+    "O limite de velocidade no pit lane é sempre o mesmo, então uma parada normal custa mais de 20 segundos. Quando os outros estão devagar, a perda é bem menor. Atrás do safety car de verdade o pelotão anda mais lento do que no VSC, e o período dura mais, por isso é aí que as equipes mais chamam os pilotos para trocar pneus. O maior azarado é quem parou duas voltas antes do acidente: pagou o preço cheio, e os rivais trocam pneus quase de graça.",
+    "![Um pit stop sob safety car custa menos que o normal](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## A relargada é do líder",
+    "Antes da relargada o safety car apaga as luzes e entra nos boxes. O líder escolhe a hora de acelerar, e ninguém pode ultrapassar antes da linha do safety car. A direção de prova pode liberar os retardatários para que voltem ao fim da fila e não atrapalhem a disputa. Depois de um VSC é mais rápido: acende o verde e todos aceleram.",
+    "## Por que em Las Vegas é mais arriscado",
+    "Las Vegas é uma corrida noturna e fria. Poucas voltas lentas bastam para esfriar pneus e freios, e na relargada falta aderência. No LapRadar dá para ver durante a corrida quem parou sob safety car e como os intervalos mudaram depois da relargada."
+   ]
+  },
+  "de": {
+   "title": "Safety-Car oder virtuelles Safety-Car: Wer hat Glück",
+   "lead": "Ein einziger Unfall kann ein Rennen auf den Kopf stellen. Doch das echte Safety-Car und seine virtuelle Variante funktionieren unterschiedlich und helfen unterschiedlichen Fahrern.",
+   "body": [
+    "## In der Schlange hinter dem Safety-Car",
+    "Liegen Trümmer auf der Strecke oder steht ein Auto an einer gefährlichen Stelle, schickt die Rennleitung das Safety-Car raus. Das Feld reiht sich dahinter auf, Überholen ist verboten. Die Folge ist hart: Die Abstände sind weg. Wer ein halbes Rennen lang davongefahren ist, hat plötzlich das ganze Feld im Rückspiegel.",
+    "![Das Feld hinter dem Safety-Car vor dem Restart](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## Die virtuelle Variante friert das Rennen ein",
+    "Beim virtuellen Safety-Car (VSC) fährt niemand auf die Strecke. Jeder Fahrer muss in jedem Abschnitt der Runde langsamer als eine Vorgabezeit bleiben und achtet am Lenkrad auf ein Delta, das nie ins Minus rutschen darf. Überholen ist auch hier verboten, aber die Abstände ändern sich kaum. Das VSC kommt, wenn die Streckenposten nur kurz Zeit brauchen, etwa um ein Trümmerteil vom Rand zu holen.",
+    "## Der günstige Boxenstopp",
+    "Das Tempolimit in der Boxengasse gilt immer, deshalb kostet ein normaler Stopp mehr als 20 Sekunden. Wenn alle anderen langsam fahren, verliert man viel weniger. Hinter dem echten Safety-Car ist das Feld langsamer als beim VSC, und die Phase dauert länger. Darum holen die Teams ihre Fahrer meist genau dann zu frischen Reifen. Am meisten Pech hat, wer zwei Runden vor dem Unfall gestoppt hat: Er hat den vollen Preis bezahlt, die Gegner wechseln fast umsonst.",
+    "![Ein Stopp unter Safety-Car kostet weniger als sonst](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## Den Restart bestimmt der Führende",
+    "Vor dem Restart schaltet das Safety-Car die Lichter aus und biegt in die Box ab. Der Führende entscheidet, wann er beschleunigt, überholt werden darf erst nach der Safety-Car-Linie. Überrundete Autos kann die Rennleitung vorbeilassen, damit sie sich hinten einreihen und den Kampf um die Plätze nicht stören. Nach einem VSC geht es schneller: Grün, und alle geben Gas.",
+    "## Warum Las Vegas heikler ist",
+    "Las Vegas ist ein kaltes Nachtrennen. Ein paar langsame Runden reichen, und Reifen und Bremsen kühlen aus, beim Restart fehlt dann Grip. Auf LapRadar siehst du während des Rennens, wer unter Safety-Car an der Box war und wie sich die Abstände nach dem Restart verschoben haben."
+   ]
+  },
+  "zh": {
+   "title": "安全车还是虚拟安全车：谁会走运",
+   "lead": "一次事故就能彻底改写比赛。但真正的安全车和虚拟安全车运作方式不同，受益的车手也不一样。",
+   "body": [
+    "## 跟在安全车后排队",
+    "赛道上出现碎片，或者有赛车停在危险位置，赛事总监就会派出安全车。全场赛车在它后面排成一列，禁止超车。最直接的后果很残酷：差距清零。领跑者花了半场比赛拉开的优势，转眼之间对手又出现在后视镜里。",
+    "![重新起跑前，车队跟在安全车后面](/img/articles/3d/safety-car-vs-vsc-restart.jpg)",
+    "## 虚拟安全车让比赛“冻结”",
+    "虚拟安全车（VSC）期间没有车开上赛道。每位车手在每个计时段都必须慢于规定时间，方向盘上显示一个差值，不能变成负数。同样禁止超车，但车与车之间的距离几乎不变。如果工作人员只需要很短的时间，比如清走路肩上的一块碎片，就会用VSC。",
+    "## 便宜的进站",
+    "维修区限速始终不变，所以一次正常进站要损失二十多秒。别人都在慢速行驶时，损失就小得多。真正的安全车期间，车队整体比VSC时更慢，持续时间也更长，所以车队最常在这时叫车手进站换胎。最倒霉的是事故前两圈刚进过站的人：他付了全价，对手却几乎免费换胎。",
+    "![安全车期间进站比平时划算](/img/articles/3d/safety-car-vs-vsc-pit.jpg)",
+    "## 重新起跑由领跑者掌控",
+    "重新起跑前，安全车关灯驶入维修区。领跑者自己决定何时加速，过了安全车线才能超车。赛事总监可以让被套圈的赛车先超过去，排到队尾，免得干扰名次争夺。VSC结束时更简单：绿灯一亮，大家同时踩油门。",
+    "## 为什么拉斯维加斯更危险",
+    "拉斯维加斯是一场寒冷的夜赛。几圈慢速行驶就足以让轮胎和刹车变凉，重新起跑时抓地力不足，绿旗后的第一个弯很容易出错。比赛中在LapRadar上可以看到谁在安全车期间进了站，以及重新起跑后差距如何变化。"
+   ]
+  }
+ }
+}

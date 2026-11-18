@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Грейнинг и блистеринг: что случилось с шиной». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "graining-vs-blistering",
+  "track": "shanghai", "theme": "day",
+  "shots": [
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 9, "h": 3.6, "h2": 3, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "t0": 12},
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 10, "h": 6.5, "h2": 6, "side": 4.5, "side2": 4, "look": 10, "drop": 3.2, "act": {"type": "slide"}},
+    {"type": "tyre", "hi": 0, "wear": True, "hud": {"type": "laps", "n": 12}},
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 8.5, "h": 3.6, "h2": 2.8, "side": -2, "side2": 2, "look": 14, "drop": 3, "act": {"type": "heat", "at": 0.3}},
+    {"type": "chase", "car": 0, "dist": 15, "dist2": 13, "h": 6.5, "h2": 6, "side": 3, "side2": 1, "look": 14, "drop": 3, "act": {"type": "fade", "t1": 0.45}},
+    {"type": "tyres", "hi": 1},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 1, "dist": 11, "h": 3.4, "side": -5.5, "look": 40, "drop": 2.4, "t0": 18, "fov": 46}},
+    {"name": "slide", "w": 1200, "h": 800, "t": 2.2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 12, "h": 5.5, "side": 4.5, "look": 10, "drop": 3, "fov": 46, "act": {"type": "slide", "tc": 0.4}}},
+    {"name": "heat", "w": 1200, "h": 800, "t": 3, "u": 0.6, "shot": {"type": "chase", "car": 0, "dist": 10, "h": 3.4, "side": -3, "look": 14, "drop": 2.6, "fov": 46, "act": {"type": "heat", "at": 0.3}}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "ГРЕЙНИНГ", "sub": "или блистеринг?", "say": "Шина вроде бы целая, а пилот теряет секунду на круге. Что с ней случилось?"},
+      {"kind": "list", "head": "Грейнинг", "items": ["Шина скользит", "Резина скатывается", "Часто проходит"], "say": "Грейнинг начинается, когда шина скользит. Верхний слой рвётся на мелкие катышки, и сцепление падает."},
+      {"kind": "tyre", "head": "Холодная резина", "laps": 12, "say": "Чаще всего это бывает на холодной трассе или когда шину нагружают раньше, чем она прогрелась."},
+      {"kind": "list", "head": "Блистеринг", "items": ["Перегрев изнутри", "Пузыри и вырывы", "Сам не пройдёт"], "say": "Блистеринг рождается внутри шины от перегрева. Появляются пузыри, и из протектора вырывает куски резины."},
+      {"kind": "big", "big": "1+ с", "sub": "потеря на круге", "say": "Такую шину уже не спасти. Пилот может терять секунду и больше на каждом круге, и остаётся только пит-стоп."},
+      {"kind": "end", "tag": "Шины и пит-стопы вживую", "say": "Возраст шин и пит-стопы всех пилотов смотрите вживую на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "GRAINING", "sub": "or blistering?", "say": "The tyre looks fine, yet the driver is losing a second a lap. What happened to it?"},
+      {"kind": "list", "head": "Graining", "items": ["The tyre slides", "Rubber rolls up", "Often clears"], "say": "Graining starts when the tyre slides. The surface tears into little rolls of rubber, and grip drops."},
+      {"kind": "tyre", "head": "Cold rubber", "laps": 12, "say": "It usually happens on a cold track, or when the tyre is loaded up before it's warm."},
+      {"kind": "list", "head": "Blistering", "items": ["Overheats inside", "Bubbles and chunks", "Won't clear"], "say": "Blistering starts inside the tyre when it overheats. Bubbles form and chunks of rubber tear out of the tread."},
+      {"kind": "big", "big": "1+ s", "sub": "lost every lap", "say": "There's no saving that tyre. A driver can lose a second or more a lap, and the only fix is a pit stop."},
+      {"kind": "end", "tag": "Tyres and pit stops, live", "say": "Follow every driver's tyre age and pit stops live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "GRAINING", "sub": "¿o blistering?", "say": "El neumático parece entero, pero el piloto pierde un segundo por vuelta. ¿Qué le ha pasado?"},
+      {"kind": "list", "head": "Graining", "items": ["El neumático desliza", "La goma hace bolitas", "Suele pasarse"], "say": "El graining empieza cuando el neumático desliza. La superficie se rompe en bolitas de goma y el agarre cae."},
+      {"kind": "tyre", "head": "Goma fría", "laps": 12, "say": "Suele pasar con la pista fría o cuando se carga el neumático antes de que esté caliente."},
+      {"kind": "list", "head": "Blistering", "items": ["Se recalienta por dentro", "Burbujas y arrancones", "No se arregla"], "say": "El blistering nace dentro del neumático cuando se recalienta. Salen burbujas y se arrancan trozos de goma de la banda."},
+      {"kind": "big", "big": "1+ s", "sub": "perdido en cada vuelta", "say": "Ese neumático ya no tiene arreglo. Se puede perder un segundo o más por vuelta y solo queda parar."},
+      {"kind": "end", "tag": "Neumáticos y paradas en directo", "say": "Sigue en directo la edad de los neumáticos y las paradas de cada piloto en LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "GRAINING", "sub": "ou blistering?", "say": "O pneu parece inteiro, mas o piloto perde um segundo por volta. O que aconteceu?"},
+      {"kind": "list", "head": "Graining", "items": ["O pneu escorrega", "A borracha enrola", "Costuma passar"], "say": "O graining começa quando o pneu escorrega. A superfície se rasga em bolinhas de borracha e a aderência cai."},
+      {"kind": "tyre", "head": "Borracha fria", "laps": 12, "say": "Acontece mais com a pista fria ou quando o pneu é exigido antes de esquentar."},
+      {"kind": "list", "head": "Blistering", "items": ["Superaquece por dentro", "Bolhas e arrancões", "Não tem volta"], "say": "O blistering nasce dentro do pneu quando ele superaquece. Surgem bolhas e pedaços de borracha saem da banda."},
+      {"kind": "big", "big": "1+ s", "sub": "perdido a cada volta", "say": "Esse pneu não tem salvação. Dá para perder um segundo ou mais por volta, e só resta parar nos boxes."},
+      {"kind": "end", "tag": "Pneus e paradas ao vivo", "say": "Acompanhe ao vivo a idade dos pneus e as paradas de cada piloto no LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "GRAINING", "sub": "oder Blasenbildung?", "say": "Der Reifen sieht heil aus, trotzdem verliert der Fahrer eine Sekunde pro Runde. Was ist passiert?"},
+      {"kind": "list", "head": "Graining", "items": ["Der Reifen rutscht", "Gummi rollt sich auf", "Geht oft weg"], "say": "Graining beginnt, wenn der Reifen rutscht. Die Oberfläche reißt in kleine Gummiröllchen, und der Grip sinkt."},
+      {"kind": "tyre", "head": "Kalter Gummi", "laps": 12, "say": "Das passiert meist auf kalter Strecke oder wenn der Reifen belastet wird, bevor er warm ist."},
+      {"kind": "list", "head": "Blasen", "items": ["Überhitzt innen", "Blasen und Ausbrüche", "Geht nicht weg"], "say": "Blasen entstehen im Inneren des Reifens, wenn er überhitzt. Dann reißen Gummistücke aus der Lauffläche."},
+      {"kind": "big", "big": "1+ s", "sub": "Verlust pro Runde", "say": "Diesen Reifen rettet nichts mehr. Eine Sekunde und mehr pro Runde sind möglich, da hilft nur noch der Boxenstopp."},
+      {"kind": "end", "tag": "Reifen und Stopps live", "say": "Reifenalter und Boxenstopps jedes Fahrers verfolgst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "颗粒化", "sub": "还是起泡？", "say": "轮胎看起来完好，车手却每圈慢了一秒。轮胎到底怎么了？"},
+      {"kind": "list", "head": "颗粒化", "items": ["轮胎打滑", "胶面卷成颗粒", "常能自行恢复"], "say": "轮胎一打滑，就会出现颗粒化。表层撕成细小的胶粒，抓地力随之下降。"},
+      {"kind": "tyre", "head": "冷胎", "laps": 12, "say": "这多发生在赛道温度低，或者轮胎还没热起来就承受大负荷的时候。"},
+      {"kind": "list", "head": "起泡", "items": ["内部过热", "鼓包和掉块", "无法恢复"], "say": "起泡源于轮胎内部过热。胎面鼓起气泡，一块块橡胶被撕下来。"},
+      {"kind": "big", "big": "1+秒", "sub": "每圈的损失", "say": "这样的轮胎已经救不回来，每圈可能慢一秒甚至更多，只能进站。"},
+      {"kind": "end", "tag": "胎龄与进站实时看", "say": "在LapRadar上实时查看每位车手的胎龄和进站情况。"},
+    ],
+  },
+}

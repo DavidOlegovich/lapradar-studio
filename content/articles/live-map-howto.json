@@ -1,0 +1,135 @@
+{
+ "slug": "live-map-howto",
+ "date": "2026-11-14",
+ "tags": [
+  "lapradar",
+  "live",
+  "howto"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/live-map-howto-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Как смотреть гонку на 3D-карте LapRadar",
+   "lead": "Живая карта трассы, интервалы, шины и чемпионат в реальном времени на одном экране. Бесплатно и без регистрации. Ниже короткая инструкция.",
+   "body": [
+    "## Второй экран к трансляции",
+    "LapRadar задуман как второй экран к гонке. Трансляция идёт своим чередом, а рядом видно, где на трассе каждый пилот, кто кого догоняет, на каких шинах едут лидеры и как меняется чемпионат после каждого обгона.",
+    "![Иллюстрация: группа машин на Сузуке](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## Живая 3D-карта",
+    "Откройте раздел Live. Во время гонки машины едут по карте настоящей трассы с рельефом, зданиями и пит-лейном. Карту можно крутить и приближать, переключить на вид сверху, включить подписи поворотов и знаковых мест. Нажмите на пилота в таблице, и его машина подсветится на карте.",
+    "![Иллюстрация: Сузука сверху с номерами поворотов](/img/articles/3d/live-map-howto-map.jpg)",
+    "## Таблица под картой",
+    "В ней позиции, отставание от лидера, интервал до машины впереди, состав шин и их возраст в кругах. Рядом с каждым пилотом указаны очки, которые он получит, если финиширует на нынешнем месте.",
+    "## Чемпионат по ходу гонки",
+    "Вкладка «Чемпионат в реальном времени» пересчитывает таблицу прямо во время гонки. Видно, кто поднимается, кто теряет и в какой момент титул решается математически. Во вкладке «Прогноз» показаны шансы на победу и подиум.",
+    "## Если пропустили гонку",
+    "Выберите год, Гран-при и сессию, и сервис проиграет её с теми же данными, что шли в прямом эфире. Повторы доступны начиная с 2023 года, воспроизведение можно ускорить.",
+    "## F2, MotoGP, NASCAR и другие серии",
+    "Переключатель серий в шапке открывает календари, результаты и таблицы F2, F3, Formula E, MotoGP, Moto2, Moto3 и NASCAR. В разделе «Разборы» лежат короткие объяснения про стратегию, шины и правила."
+   ]
+  },
+  "en": {
+   "title": "How to watch a race on the LapRadar 3D map",
+   "lead": "A live track map, gaps, tyres and the championship in real time, all on one screen. Free, no sign-up. Here's a quick guide.",
+   "body": [
+    "## A second screen for race day",
+    "LapRadar is built as a second screen for race day. The broadcast does its thing, and alongside it you can see where every driver is on track, who is closing in, which tyres the leaders are on and how the championship shifts after every pass.",
+    "![Illustration: a pack of cars at Suzuka](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## The live 3D map",
+    "Open the Live section. During a race the map shows the cars on the real circuit, complete with terrain, buildings and the pit lane. You can rotate and zoom, switch to a top-down view and turn on labels for corners and landmarks. Tap a driver in the table and their car lights up on the map.",
+    "![Illustration: Suzuka from above with corner numbers](/img/articles/3d/live-map-howto-map.jpg)",
+    "## The timing table",
+    "Positions, gap to the leader, interval to the car ahead, tyre compound and how many laps the tyres have done. Next to each driver you'll see the points they'd score if they finished where they are now.",
+    "## Live championship",
+    "The live championship tab recalculates the standings as the race goes on, so you can see who's climbing, who's dropping and when the title is settled mathematically. The forecast tab gives win and podium chances.",
+    "## Missed the race?",
+    "Pick a year, a Grand Prix and a session, and the replay runs on the same data you'd have seen live. Replays go back to 2023, and you can speed them up.",
+    "## F2, MotoGP, NASCAR and more",
+    "The series switcher in the header opens calendars, results and standings for F2, F3, Formula E, MotoGP, Moto2, Moto3 and NASCAR. The Explainers section has short guides to strategy, tyres and the rules."
+   ]
+  },
+  "es": {
+   "title": "Cómo ver una carrera en el mapa 3D de LapRadar",
+   "lead": "Mapa del circuito en directo, diferencias, neumáticos y el campeonato en tiempo real, todo en una pantalla. Gratis y sin registro. Aquí va una guía rápida.",
+   "body": [
+    "## Una segunda pantalla para la carrera",
+    "LapRadar está pensado como segunda pantalla para el día de carrera. La retransmisión sigue a lo suyo y, al lado, ves dónde está cada piloto, quién se acerca, qué neumáticos llevan los líderes y cómo cambia el campeonato con cada adelantamiento.",
+    "![Ilustración: un grupo de coches en Suzuka](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## El mapa 3D en directo",
+    "Abre la sección Live. Durante la carrera el mapa muestra los coches sobre el circuito real, con relieve, edificios y pit lane. Puedes girarlo, hacer zoom, verlo desde arriba y activar los nombres de curvas y lugares conocidos. Toca un piloto en la tabla y su coche se resalta en el mapa.",
+    "![Ilustración: Suzuka desde arriba con los números de curva](/img/articles/3d/live-map-howto-map.jpg)",
+    "## La tabla de tiempos",
+    "Posiciones, diferencia con el líder, intervalo con el coche de delante, compuesto y vueltas que llevan los neumáticos. Junto a cada piloto aparecen los puntos que sumaría si terminara en esa posición.",
+    "## El campeonato en tiempo real",
+    "La pestaña del campeonato en tiempo real recalcula la clasificación durante la carrera. En la de pronóstico están las opciones de victoria y de podio.",
+    "## ¿Te perdiste la carrera?",
+    "Elige año, Gran Premio y sesión, y la repetición se reproduce con los mismos datos que en directo. Hay repeticiones desde 2023.",
+    "## F2, MotoGP, NASCAR y más",
+    "El selector de series abre calendarios, resultados y clasificaciones de F2, F3, Fórmula E, MotoGP, Moto2, Moto3 y NASCAR."
+   ]
+  },
+  "pt": {
+   "title": "Como assistir a uma corrida no mapa 3D do LapRadar",
+   "lead": "Mapa da pista ao vivo, diferenças, pneus e o campeonato em tempo real, tudo numa tela só. Grátis e sem cadastro. Veja o guia rápido.",
+   "body": [
+    "## Uma segunda tela para a corrida",
+    "O LapRadar foi pensado como segunda tela para o dia de corrida. A transmissão segue normalmente e, ao lado, você vê onde está cada piloto, quem está chegando, com quais pneus os líderes estão e como o campeonato muda a cada ultrapassagem.",
+    "![Ilustração: um grupo de carros em Suzuka](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## O mapa 3D ao vivo",
+    "Abra a seção Live. Durante a corrida o mapa mostra os carros na pista real, com relevo, prédios e pit lane. Dá para girar, dar zoom, ver de cima e ativar os nomes das curvas e dos pontos conhecidos. Toque num piloto na tabela e o carro dele fica destacado no mapa.",
+    "![Ilustração: Suzuka vista de cima com os números das curvas](/img/articles/3d/live-map-howto-map.jpg)",
+    "## A tabela de tempos",
+    "Posições, diferença para o líder, intervalo para o carro da frente, composto e quantas voltas os pneus já têm. Ao lado de cada piloto aparecem os pontos que ele somaria se terminasse naquela posição.",
+    "## O campeonato em tempo real",
+    "A aba do campeonato em tempo real recalcula a classificação durante a corrida. Na aba de previsão ficam as chances de vitória e de pódio.",
+    "## Perdeu a corrida?",
+    "Escolha ano, Grande Prêmio e sessão, e o replay roda com os mesmos dados do ao vivo. Há replays desde 2023.",
+    "## F2, MotoGP, NASCAR e mais",
+    "O seletor de categorias abre calendários, resultados e classificações da F2, F3, Fórmula E, MotoGP, Moto2, Moto3 e NASCAR."
+   ]
+  },
+  "de": {
+   "title": "So verfolgst du ein Rennen auf der 3D-Karte von LapRadar",
+   "lead": "Live-Streckenkarte, Abstände, Reifen und die WM-Wertung in Echtzeit, alles auf einem Bildschirm. Kostenlos und ohne Anmeldung. Hier eine kurze Anleitung.",
+   "body": [
+    "## Ein zweiter Bildschirm für den Renntag",
+    "LapRadar ist als zweiter Bildschirm für den Renntag gedacht. Die TV-Übertragung läuft wie gewohnt, und daneben siehst du, wo jeder Fahrer auf der Strecke ist, wer aufholt, auf welchen Reifen die Spitze unterwegs ist und wie sich die WM nach jedem Überholmanöver verschiebt.",
+    "![Illustration: ein Pulk von Autos in Suzuka](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## Die Live-Karte in 3D",
+    "Öffne den Bereich Live. Während eines Rennens zeigt die Karte die Autos auf der echten Strecke, samt Gelände, Gebäuden und Boxengasse. Du kannst sie drehen und zoomen, in die Draufsicht wechseln und Beschriftungen für Kurven und markante Punkte einblenden. Tippst du in der Tabelle auf einen Fahrer, leuchtet sein Auto auf der Karte auf.",
+    "![Illustration: Suzuka von oben mit Kurvennummern](/img/articles/3d/live-map-howto-map.jpg)",
+    "## Die Zeitentabelle",
+    "Positionen, Abstand zum Führenden, Intervall zum Vordermann, Reifenmischung und wie viele Runden die Reifen schon hinter sich haben. Neben jedem Fahrer stehen die Punkte, die er bekäme, wenn er auf seiner aktuellen Position ins Ziel käme.",
+    "## Die Live-WM",
+    "Der Tab mit der Live-WM rechnet die Wertung während des Rennens laufend neu. So siehst du, wer aufsteigt, wer abrutscht und wann der Titel rechnerisch entschieden ist. Der Prognose-Tab zeigt die Chancen auf Sieg und Podium.",
+    "## Rennen verpasst?",
+    "Wähle ein Jahr, einen Grand Prix und eine Session, und die Wiederholung läuft mit denselben Daten, die du auch live gesehen hättest. Die Wiederholungen reichen bis 2023 zurück, und du kannst sie schneller abspielen.",
+    "## F2, MotoGP, NASCAR und mehr",
+    "Über den Serienumschalter im Kopfbereich öffnest du Kalender, Ergebnisse und Tabellen für F2, F3, Formel E, MotoGP, Moto2, Moto3 und NASCAR. In den Erklärstücken findest du kurze Leitfäden zu Strategie, Reifen und Regeln."
+   ]
+  },
+  "zh": {
+   "title": "如何在LapRadar的3D地图上看比赛",
+   "lead": "实时赛道地图、差距、轮胎和实时积分榜，全在一个屏幕上。免费，无需注册。下面是一份简明指南。",
+   "body": [
+    "## 比赛日的第二块屏幕",
+    "LapRadar是为比赛日打造的第二块屏幕。电视直播照常看，旁边就能看到每位车手在赛道上的位置、谁在逼近、领先者用的是什么轮胎，以及每次超车后积分榜如何变化。",
+    "![示意图：铃鹿赛道上的车阵](/img/articles/3d/live-map-howto-pack.jpg)",
+    "## 实时3D地图",
+    "打开Live板块。比赛进行时，地图会在真实赛道上显示赛车，地形、建筑和维修区一应俱全。你可以旋转、缩放，切换到俯视视角，并打开弯道和地标的标注。在表格里点一下某位车手，他的赛车就会在地图上高亮。",
+    "![示意图：俯瞰铃鹿，标有弯道编号](/img/articles/3d/live-map-howto-map.jpg)",
+    "## 计时表",
+    "名次、与领跑者的差距、与前车的间隔、轮胎配方，以及这套轮胎已经跑了多少圈。每位车手旁边还会显示：如果按当前名次完赛，他能拿到多少积分。",
+    "## 实时积分榜",
+    "实时积分榜标签页会随着比赛进程重新计算排名，谁在上升、谁在下滑、冠军何时在数学上锁定，一看便知。预测标签页则给出赢得比赛和登上领奖台的概率。",
+    "## 错过了比赛？",
+    "选择年份、大奖赛和节次，回放就会用直播时的同一套数据进行。回放最早可追溯到2023年，还可以加速播放。",
+    "## F2、MotoGP、NASCAR等",
+    "通过页面顶部的系列切换器，可以打开F2、F3、Formula E、MotoGP、Moto2、Moto3和NASCAR的赛历、成绩和积分榜。解读板块里还有关于策略、轮胎和规则的简短指南。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+# Самые необычные шлемы Гран-при Лас-Вегаса 2023–2026. Свободных фото этих шлемов нет, поэтому шлемы нарисованы по описаниям. Камера (shots) общая для всех языков.
+VIDEO = {
+ "slug": "las-vegas-gp-special-helmets",
+ "track": "las-vegas",
+ "theme": "vegas",
+ "city": True,
+ "shots": [
+  {"type": "chase", "car": 0, "dist": 11, "dist2": 9, "h": 4, "h2": 3.5, "side": -2.4, "side2": 2, "look": 20, "drop": 3, "act": {"type": "speed"}},
+  {"type": "chase", "car": 0, "dist": 14, "dist2": 12, "h": 5, "h2": 4.5, "side": 3, "side2": -2, "look": 25, "drop": 3, "noCut": True, "act": {"type": "follow", "at": 0.2},
+   "helmet": {"c": ["#c8102e", "#111111", "#ffffff"], "p": "flame"}},
+  {"type": "chase", "car": 1, "dist": 13, "dist2": 11, "h": 5, "h2": 4.5, "side": -3, "side2": 2, "look": 25, "drop": 3, "noCut": True, "act": {"type": "follow", "at": 0.45},
+   "helmet": {"c": ["#ff8000", "#38bdf8", "#ffffff"], "p": "stripes"}},
+  {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 4.5, "h2": 4, "side": 2.5, "side2": -2, "look": 22, "drop": 3, "noCut": True, "act": {"type": "follow", "at": 0.6},
+   "helmet": {"c": ["#f5f5f4", "#d4a017", "#1e3a8a"], "p": "stripes"}},
+  {"type": "chase", "car": 1, "dist": 13, "dist2": 11, "h": 5, "h2": 4.5, "side": -2.5, "side2": 2.5, "look": 25, "drop": 3, "noCut": True, "act": {"type": "follow", "at": 0.75},
+   "helmet": {"c": ["#b91c1c", "#0a0a0a", "#1d4ed8"], "p": "split"}},
+  {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 4.5, "h2": 4, "side": -2.5, "side2": 2, "look": 22, "drop": 3, "noCut": True, "act": {"type": "follow", "at": 0.9},
+   "helmet": {"c": ["#1e40af", "#dbeafe", "#cbd5e1"], "p": "stars"}},
+  {"type": "fly", "from": 0.55, "to": 0.63, "h": 60, "h2": 140, "side": 40, "ahead": 260}
+ ],
+ "images": [
+  {"name": "cover", "w": 1200, "h": 630, "t": 2.0, "u": 0.5,
+   "shot": {"type": "chase", "car": 0, "dist": 11, "h": 4, "side": -2.4, "look": 18, "drop": 3, "fov": 44, "act": {"type": "speed"}}},
+  {"name": "strip", "w": 1200, "h": 800, "t": 2.4, "u": 0.5,
+   "shot": {"type": "chase", "car": 0, "dist": 17, "h": 6.5, "side": -4, "look": 14, "drop": 3, "fov": 44, "act": {"type": "convoy", "at": 0.55}}},
+  {"name": "night", "w": 1200, "h": 800, "t": 1.0, "u": 0.5,
+   "shot": {"type": "chase", "car": 0, "dist": 10, "h": 3.6, "side": 2.4, "look": 14, "drop": 2, "fov": 42, "act": {"type": "duel"}}}
+ ],
+ "scenes": {
+  "ru": [
+   {"kind": "title", "head": "ШЛЕМЫ ВЕГАСА", "sub": "спецдизайны на одну ночь",
+    "say": "Ради одной ночной гонки в Лас-Вегасе пилоты красят отдельные шлемы. Вот самые странные.",
+    "hl": ["самые странные"]},
+   {"kind": "big", "big": "2023", "chip": "Окон · 2023",
+    "say": "Эстебан Окон в двадцать третьем: весь шлем красный, сверху глаза. Это маска Дэдпула.",
+    "hl": ["Дэдпула"]},
+   {"kind": "big", "big": "2025", "chip": "Норрис · 2025",
+    "say": "Ландо Норрис к сто пятидесятому Гран-при: объёмная ручная роспись, на шлеме сценки его лучших гонок.",
+    "hl": ["ручная роспись"]},
+   {"kind": "big", "big": "2025", "chip": "Цунода · 2025",
+    "say": "Юки Цунода выбрал кинцуги: шлем как керамика, трещины заделаны золотом.",
+    "hl": ["золотом"]},
+   {"kind": "big", "big": "2025", "chip": "Окон · 2025",
+    "say": "Окон снова про комиксы: одна половина Человек-паук, другая Веном.",
+    "hl": ["Человек-паук", "Веном"]},
+   {"kind": "big", "big": "2026", "chip": "Ферстаппен · 2026",
+    "say": "А к этой гонке Red Bull уже показал шлем Ферстаппена: синий и весь в блёстках.",
+    "hl": ["в блёстках"]},
+   {"kind": "end", "tag": "Вегас: 21 ноября",
+    "say": "Остальные шлемы покажем, когда их представят. Гонку смотрите на ЛапРадар."}
+  ],
+  "en": [
+   {"kind": "title", "head": "VEGAS HELMETS", "sub": "one-night specials",
+    "say": "For one night race in Las Vegas, drivers paint a whole new helmet. Here are the wildest.",
+    "hl": ["wildest"]},
+   {"kind": "big", "big": "2023", "chip": "Ocon · 2023",
+    "say": "Esteban Ocon in twenty twenty-three: all red, with eyes on top. That's the Deadpool mask.",
+    "hl": ["Deadpool"]},
+   {"kind": "big", "big": "2025", "chip": "Norris · 2025",
+    "say": "Lando Norris for his hundred and fiftieth Grand Prix: raised hand painting with scenes from his best races.",
+    "hl": ["hand painting"]},
+   {"kind": "big", "big": "2025", "chip": "Tsunoda · 2025",
+    "say": "Yuki Tsunoda went for kintsugi: a lid that looks like ceramic, with the cracks filled in gold.",
+    "hl": ["gold"]},
+   {"kind": "big", "big": "2025", "chip": "Ocon · 2025",
+    "say": "Ocon back with the comics: one half Spider-Man, the other half Venom.",
+    "hl": ["Spider-Man", "Venom"]},
+   {"kind": "big", "big": "2026", "chip": "Verstappen · 2026",
+    "say": "And for this year's race, Red Bull has already shown Verstappen's lid: blue and covered in glitter.",
+    "hl": ["glitter"]},
+   {"kind": "end", "tag": "Vegas: November 21",
+    "say": "We'll show the rest once they're revealed. Follow the race on LapRadar."}
+  ]
+ }
+}

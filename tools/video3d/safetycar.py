@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Сейфти-кар или виртуальный сейфти-кар: кому везёт». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "safety-car-vs-vsc",
+  "track": "las-vegas", "theme": "vegas",
+  "shots": [
+    {"type": "chase", "car": 0, "dist": 26, "dist2": 20, "h": 10, "h2": 7, "side": -4, "side2": 3, "look": 60, "drop": 4, "act": {"type": "restart", "release": 0.95}},
+    {"type": "chase", "car": 0, "dist": 28, "dist2": 20, "h": 13, "h2": 10, "side": 4, "side2": -2, "look": 40, "drop": 4, "act": {"type": "convoy", "at": 0.42}},
+    {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 4, "h2": 3.4, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "act": {"type": "convoy", "at": 0.6}},
+    {"type": "chase", "car": 1, "dist": 18, "dist2": 15, "h": 8, "h2": 7, "side": 5, "side2": 4, "autoSide": True, "look": 12, "drop": 2, "act": {"type": "pit", "car": 1, "box": 0.5, "stop": 2.4, "band": "#ef3b3b"}},
+    {"type": "chase", "car": 4, "dist": 30, "dist2": 24, "h": 12, "h2": 9, "side": -4, "side2": 3, "look": 70, "drop": 4, "act": {"type": "restart", "release": 0.38}},
+    {"type": "fly", "from": 0.7, "to": 0.78, "h": 120, "h2": 200, "side": -60, "ahead": 300},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 26, "h": 10, "side": -4, "look": 60, "drop": 4, "fov": 46, "act": {"type": "restart", "release": 0.95}}},
+    {"name": "restart", "w": 1200, "h": 800, "t": 2.6, "u": 0.5, "shot": {"type": "chase", "car": 3, "dist": 32, "h": 14, "side": 5, "look": 60, "drop": 4, "fov": 46, "act": {"type": "restart", "release": 0.4}}},
+    {"name": "pit", "w": 1200, "h": 800, "t": 2.2, "u": 0.5, "shot": {"type": "chase", "car": 1, "dist": 14, "h": 7, "side": 5, "autoSide": True, "look": 12, "drop": 2, "fov": 46, "act": {"type": "pit", "car": 1, "box": 0.4, "stop": 2.4, "band": "#ef3b3b"}}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "СЕЙФТИ-КАР", "sub": "кому он помогает, а кому мешает", "say": "Одна авария, и лидер теряет всё, что копил полгонки. Как так?"},
+      {"kind": "list", "head": "Сейфти-кар", "items": ["Все едут колонной", "Отрывы исчезают", "Обгонять нельзя"], "say": "Машина безопасности собирает всех в колонну. Обгонять нельзя, а отрывы просто исчезают."},
+      {"kind": "list", "head": "Виртуальный", "items": ["Машины на трассе нет", "Едут по дельте", "Отрывы почти те же"], "say": "При виртуальном сейфти-каре машины на трассе нет. Пилоты едут по заданному времени, и отрывы почти не меняются."},
+      {"kind": "big", "big": "20+ с", "sub": "обычная цена пит-стопа", "say": "Обычный пит-стоп стоит больше двадцати секунд. Когда соперники едут медленно, остановка обходится дешевле."},
+      {"kind": "list", "head": "Рестарт", "items": ["Темп задаёт лидер", "Шины остыли", "Обгон после линии"], "say": "На рестарте лидер сам выбирает момент разгона, а шины за медленные круги успевают остыть."},
+      {"kind": "end", "tag": "Пит-стопы и интервалы вживую", "say": "Кто успел в боксы под сейфти-каром, видно вживую на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "SAFETY CAR", "sub": "who wins and who loses", "say": "One crash, and the leader loses everything he built over half a race. How?"},
+      {"kind": "list", "head": "Safety car", "items": ["Cars in a queue", "Gaps disappear", "No overtaking"], "say": "The safety car gathers everyone into a queue. No overtaking, and the gaps simply vanish."},
+      {"kind": "list", "head": "Virtual", "items": ["No car on track", "Drivers follow a delta", "Gaps stay put"], "say": "Under a virtual safety car there is no car on track. Drivers follow a set time, and the gaps barely change."},
+      {"kind": "big", "big": "20+ s", "sub": "a normal pit stop", "say": "A normal pit stop costs more than twenty seconds. When everyone else is slow, it costs a lot less."},
+      {"kind": "list", "head": "The restart", "items": ["Leader sets the pace", "Cold tyres", "Pass after the line"], "say": "At the restart the leader picks the moment to go, and the tyres have cooled down on the slow laps."},
+      {"kind": "end", "tag": "Pit stops and gaps, live", "say": "See who pitted under the safety car, live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "SAFETY CAR", "sub": "a quién ayuda y a quién no", "say": "Un accidente y el líder pierde todo lo que ganó en media carrera. ¿Cómo puede ser?"},
+      {"kind": "list", "head": "Safety car", "items": ["Todos en fila", "Las ventajas desaparecen", "Prohibido adelantar"], "say": "El coche de seguridad agrupa a todos en fila. No se puede adelantar y las ventajas desaparecen."},
+      {"kind": "list", "head": "Virtual", "items": ["No hay coche en pista", "Se corre con delta", "Las distancias se mantienen"], "say": "Con el coche de seguridad virtual no sale ningún coche. Los pilotos siguen un tiempo fijado y las distancias casi no cambian."},
+      {"kind": "big", "big": "20+ s", "sub": "lo que cuesta una parada", "say": "Una parada normal cuesta más de veinte segundos. Si los rivales van lentos, sale mucho más barata."},
+      {"kind": "list", "head": "La relanzada", "items": ["El líder marca el ritmo", "Neumáticos fríos", "Adelantar tras la línea"], "say": "En la relanzada el líder elige cuándo acelerar, y los neumáticos ya se han enfriado en las vueltas lentas."},
+      {"kind": "end", "tag": "Paradas e intervalos en directo", "say": "Mira en directo en LapRadar quién paró con el coche de seguridad."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "SAFETY CAR", "sub": "quem ganha e quem perde", "say": "Um acidente e o líder perde tudo o que construiu em meia corrida. Como assim?"},
+      {"kind": "list", "head": "Safety car", "items": ["Todos em fila", "As vantagens somem", "Proibido ultrapassar"], "say": "O safety car junta todo mundo em fila. Não pode ultrapassar, e as vantagens simplesmente somem."},
+      {"kind": "list", "head": "Virtual", "items": ["Nenhum carro na pista", "Pilotos seguem o delta", "Diferenças mantidas"], "say": "No safety car virtual não há carro na pista. Os pilotos seguem um tempo definido e as diferenças quase não mudam."},
+      {"kind": "big", "big": "20+ s", "sub": "o custo de um pit stop", "say": "Um pit stop normal custa mais de vinte segundos. Com os rivais andando devagar, ele sai bem mais barato."},
+      {"kind": "list", "head": "A relargada", "items": ["O líder dita o ritmo", "Pneus frios", "Ultrapassa após a linha"], "say": "Na relargada o líder escolhe a hora de acelerar, e os pneus já esfriaram nas voltas lentas."},
+      {"kind": "end", "tag": "Paradas e intervalos ao vivo", "say": "Veja ao vivo no LapRadar quem parou durante o safety car."},
+    ],
+    "de": [
+      {"kind": "title", "head": "SAFETY-CAR", "sub": "wem es hilft und wem es schadet", "say": "Ein Unfall, und der Führende verliert alles, was er in einem halben Rennen herausgefahren hat. Wie geht das?"},
+      {"kind": "list", "head": "Safety-Car", "items": ["Alle in einer Reihe", "Abstände sind weg", "Überholverbot"], "say": "Das Safety-Car sammelt alle in einer Reihe. Überholen ist verboten, und die Abstände sind einfach weg."},
+      {"kind": "list", "head": "Virtuell", "items": ["Kein Auto auf der Strecke", "Fahren nach Delta", "Abstände bleiben"], "say": "Beim virtuellen Safety-Car fährt kein Auto raus. Die Fahrer halten eine Vorgabezeit, und die Abstände bleiben fast gleich."},
+      {"kind": "big", "big": "20+ s", "sub": "kostet ein normaler Stopp", "say": "Ein normaler Boxenstopp kostet mehr als zwanzig Sekunden. Wenn alle anderen langsam fahren, wird er viel billiger."},
+      {"kind": "list", "head": "Der Restart", "items": ["Der Führende gibt das Tempo vor", "Kalte Reifen", "Überholen nach der Linie"], "say": "Beim Restart wählt der Führende den Moment, und die Reifen sind in den langsamen Runden abgekühlt."},
+      {"kind": "end", "tag": "Stopps und Abstände live", "say": "Wer unter Safety-Car an die Box kam, siehst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "安全车", "sub": "谁占便宜，谁吃亏", "say": "一次事故，领跑者半场比赛攒下的优势就没了。为什么？"},
+      {"kind": "list", "head": "安全车", "items": ["全场排成一列", "差距清零", "禁止超车"], "say": "安全车出动后，所有赛车排成一列。不能超车，之前拉开的差距全部消失。"},
+      {"kind": "list", "head": "虚拟安全车", "items": ["赛道上没有安全车", "按差值行驶", "差距基本不变"], "say": "虚拟安全车期间赛道上没有安全车。车手按规定时间行驶，彼此差距几乎不变。"},
+      {"kind": "big", "big": "20+秒", "sub": "一次正常进站的代价", "say": "正常进站要损失二十多秒。对手都慢下来时，进站就划算多了。"},
+      {"kind": "list", "head": "重新起跑", "items": ["领跑者掌握节奏", "轮胎变凉", "过线后才能超车"], "say": "重新起跑时由领跑者决定何时加速，而轮胎在慢速圈里已经凉了。"},
+      {"kind": "end", "tag": "进站与差距实时看", "say": "谁在安全车期间进站，在LapRadar上实时可见。"},
+    ],
+  },
+}

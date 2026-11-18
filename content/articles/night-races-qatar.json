@@ -1,0 +1,136 @@
+{
+ "slug": "night-races-qatar",
+ "date": "2026-11-14",
+ "tags": [
+  "f1",
+  "qatar",
+  "tyres",
+  "night"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/night-races-qatar-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Катар: ночная гонка, которая съедает шины",
+   "lead": "В Лусаиле гоняются ночью под прожекторами, но легче от этого не становится. Для шин и пилотов Катар остаётся одним из самых тяжёлых этапов сезона.",
+   "body": [
+    "## Гонка после заката",
+    "Гран-при Катара начинается после заката, потому что днём в пустыне слишком жарко. Ночью воздух прохладнее, а освещённая прожекторами трасса отлично смотрится по телевизору. Но и ночью здесь тепло и влажно, а асфальт остывает медленно.",
+    "![Лусаил ночью: прожекторы стоят вдоль всего круга](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## Трасса, построенная для MotoGP",
+    "Лусаил строили под мотоциклы: около 5,4 км и почти ни одной медленной шпильки. Зато быстрых и средних поворотов много, и идут они один за другим. Машина почти всё время в повороте, шины работают на пределе. Больше всех достаётся левой передней и боковинам.",
+    "![Схема Лусаила: 16 поворотов, почти все быстрые](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## Лимит в 18 кругов",
+    "Нагрузка здесь такая, что ограничения уже вводили. В 2023 году после проблем с боковинами FIA по рекомендации Pirelli ограничила отрезок на одном комплекте 18 кругами, и каждой команде пришлось делать минимум три пит-стопа. Так что в Катаре стратегию часто диктует не столько темп, сколько правила по износу.",
+    "## Пилоты на пределе",
+    "Постоянные перегрузки в быстрых поворотах плюс влажная жара: к финишу это настоящая проверка на выносливость. В 2023-м несколько пилотов доехали до конца на грани обезвоживания. После этого в Формуле 1 всерьёз занялись тем, как охлаждать пилотов в жарких гонках.",
+    "## Почему дневным тренировкам здесь не верят",
+    "После заката трасса остывает, и в конце гонки шины ведут себя не так, как на дневной тренировке. Команды это знают. Данные дневных сессий для вечерней гонки подходят не всегда, поэтому главной считают ту, что проходит в то же время суток, что и гонка.",
+    "## Кто растягивает отрезок",
+    "В Live-центре LapRadar видно, сколько кругов проехал каждый комплект и когда пилоты заезжают в боксы. По этим цифрам легко понять, кто тянет отрезок до последнего, а кто идёт на лишнюю остановку."
+   ]
+  },
+  "en": {
+   "title": "Qatar: the night race that eats tyres",
+   "lead": "Lusail races at night under floodlights, and it's still brutal. For tyres and drivers alike, Qatar is one of the hardest weekends of the season.",
+   "body": [
+    "## Racing after sunset",
+    "The Qatar Grand Prix starts after sunset because the desert is simply too hot during the day. The air is cooler at night and the floodlit track looks fantastic on TV. It's still warm and humid, though, and the tarmac is slow to cool.",
+    "![Lusail at night: floodlights line the whole lap](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## A circuit built for MotoGP",
+    "Lusail was built for bikes: about 5.4 km with barely a slow hairpin. What it does have is a string of fast and medium-speed corners, one after another. The car is cornering nearly all the time, so the tyres are always at the limit, the front-left and the sidewalls most of all.",
+    "![Lusail layout: 16 corners, almost all of them fast](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## The 18-lap cap",
+    "The loads here are high enough that limits have been imposed before. In 2023, after sidewall concerns, the FIA followed Pirelli's advice and capped stints at 18 laps per set, which forced every team into at least three stops. In Qatar, wear rules can shape the strategy as much as outright pace does.",
+    "## Brutal for drivers too",
+    "Constant g-forces through fast corners on top of humid heat turn the race into an endurance test. In 2023 several drivers finished close to dehydration, and F1 has been working on ways to keep drivers cool in hot races ever since.",
+    "## Why daytime practice can mislead",
+    "Once the sun goes down the track cools, and late in the race the tyres behave differently from daytime practice. Teams know daytime data doesn't always carry over to an evening race, so the session held at the same time of day as the race is the one they trust most.",
+    "## Who's stretching a stint",
+    "LapRadar's Live centre shows how many laps each set has done and when drivers pit, which makes it easy to see who is stretching a stint and who is heading for an extra stop."
+   ]
+  },
+  "es": {
+   "title": "Catar: la carrera nocturna que se come los neumáticos",
+   "lead": "En Lusail se corre de noche y con focos, pero no por eso es más fácil. Para neumáticos y pilotos, Catar es una de las citas más duras del año.",
+   "body": [
+    "## Carrera tras la puesta de sol",
+    "El GP de Catar arranca después de la puesta de sol porque de día en el desierto hace demasiado calor. De noche el aire está más fresco y la pista iluminada queda espectacular en televisión. Aun así hace calor y humedad, y el asfalto tarda en enfriarse.",
+    "![Lusail de noche: focos a lo largo de toda la vuelta](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## Un circuito hecho para MotoGP",
+    "Lusail se construyó para las motos: unos 5,4 km y casi ninguna horquilla lenta. Lo que sobran son curvas rápidas y medias, una detrás de otra. El coche va casi siempre en apoyo y los neumáticos trabajan al límite, sobre todo el delantero izquierdo y los flancos.",
+    "![Trazado de Lusail: 16 curvas, casi todas rápidas](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## El límite de 18 vueltas",
+    "La carga es tan alta que ya ha habido límites. En 2023, por problemas en los flancos, la FIA siguió la recomendación de Pirelli y limitó cada juego a 18 vueltas, así que todos los equipos tuvieron que hacer al menos tres paradas. En Catar la estrategia depende tanto del ritmo como de las normas de desgaste.",
+    "## También duro para los pilotos",
+    "Fuerzas G constantes en curvas rápidas y calor húmedo: la carrera se convierte en una prueba de resistencia. En 2023 varios pilotos acabaron al borde de la deshidratación.",
+    "## Por qué los libres de día engañan",
+    "Cuando se pone el sol la pista se enfría, y al final de la carrera los neumáticos no se comportan como en los libres de día. Por eso los equipos se fían más de la sesión que se disputa a la misma hora que la carrera.",
+    "## Quién estira la tanda",
+    "El centro Live de LapRadar muestra cuántas vueltas lleva cada juego de neumáticos y cuándo para cada piloto."
+   ]
+  },
+  "pt": {
+   "title": "Catar: a corrida noturna que devora pneus",
+   "lead": "Em Lusail a corrida é à noite, sob holofotes, e nem por isso fica mais fácil. Para pneus e pilotos, o Catar é uma das etapas mais duras do ano.",
+   "body": [
+    "## Corrida depois do pôr do sol",
+    "O GP do Catar começa depois do pôr do sol porque de dia o deserto é quente demais. À noite o ar fica mais fresco e a pista iluminada fica linda na TV. Mesmo assim faz calor, há umidade, e o asfalto demora a esfriar.",
+    "![Lusail à noite: holofotes ao longo de toda a volta](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## Uma pista feita para a MotoGP",
+    "Lusail foi construída para as motos: cerca de 5,4 km e quase nenhum grampo lento. O que não falta são curvas rápidas e médias, uma atrás da outra. O carro passa quase o tempo todo em curva e os pneus trabalham no limite, principalmente o dianteiro esquerdo e as laterais.",
+    "![Traçado de Lusail: 16 curvas, quase todas rápidas](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## O limite de 18 voltas",
+    "A carga é tão alta que já houve limites. Em 2023, por problemas nas laterais, a FIA seguiu a recomendação da Pirelli e limitou cada jogo a 18 voltas, o que obrigou todas as equipes a fazer pelo menos três paradas. No Catar, a estratégia depende tanto do ritmo quanto das regras de desgaste.",
+    "## Pesado para os pilotos",
+    "Forças G constantes nas curvas rápidas e calor úmido: a corrida vira um teste de resistência. Em 2023 vários pilotos terminaram perto da desidratação.",
+    "## Por que os treinos de dia enganam",
+    "Depois do pôr do sol a pista esfria e, no fim da corrida, os pneus não se comportam como nos treinos de dia. Por isso as equipes confiam mais na sessão disputada no mesmo horário da corrida.",
+    "## Quem estica o stint",
+    "O centro Live do LapRadar mostra quantas voltas cada jogo de pneus já fez e quando cada piloto para."
+   ]
+  },
+  "de": {
+   "title": "Katar: Das Nachtrennen, das Reifen frisst",
+   "lead": "In Lusail wird nachts unter Flutlicht gefahren, und brutal ist es trotzdem. Für Reifen wie für Fahrer ist Katar eines der härtesten Wochenenden der Saison.",
+   "body": [
+    "## Rennen nach Sonnenuntergang",
+    "Der Große Preis von Katar startet nach Sonnenuntergang, weil es in der Wüste tagsüber schlicht zu heiß ist. Nachts ist die Luft kühler, und die beleuchtete Strecke sieht im Fernsehen großartig aus. Warm und feucht bleibt es trotzdem, und der Asphalt kühlt nur langsam ab.",
+    "![Lusail bei Nacht: Flutlicht säumt die ganze Runde](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## Eine Strecke für die MotoGP",
+    "Lusail wurde für Motorräder gebaut: rund 5,4 km und kaum eine langsame Haarnadel. Dafür reiht sich eine schnelle und mittelschnelle Kurve an die nächste. Das Auto ist fast ständig in Kurvenfahrt, die Reifen sind also dauernd am Limit, allen voran der linke Vorderreifen und die Flanken.",
+    "![Das Layout von Lusail: 16 Kurven, fast alle schnell](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## Die Grenze von 18 Runden",
+    "Die Belastung ist hier so hoch, dass es schon Grenzen gab. 2023 folgte die FIA nach Bedenken wegen der Reifenflanken dem Rat von Pirelli und begrenzte die Stints auf 18 Runden pro Satz. Damit musste jedes Team mindestens dreimal stoppen. In Katar können Verschleißregeln die Strategie genauso prägen wie die reine Geschwindigkeit.",
+    "## Brutal auch für die Fahrer",
+    "Dauerhafte Fliehkräfte in schnellen Kurven und dazu schwüle Hitze machen das Rennen zur Ausdauerprüfung. 2023 kamen mehrere Fahrer nahe an der Dehydrierung ins Ziel, und seitdem arbeitet die F1 daran, die Fahrer bei heißen Rennen besser zu kühlen.",
+    "## Warum das Training bei Tag täuschen kann",
+    "Sobald die Sonne untergeht, kühlt die Strecke ab, und spät im Rennen verhalten sich die Reifen anders als im Training bei Tageslicht. Die Teams wissen, dass sich Tagesdaten nicht immer auf ein Abendrennen übertragen lassen. Am meisten vertrauen sie deshalb der Session, die zur selben Tageszeit wie das Rennen stattfindet.",
+    "## Wer seinen Stint streckt",
+    "Das Live-Center von LapRadar zeigt, wie viele Runden jeder Satz schon hinter sich hat und wann die Fahrer an die Box kommen. So sieht man leicht, wer seinen Stint in die Länge zieht und wer auf einen zusätzlichen Stopp zusteuert."
+   ]
+  },
+  "zh": {
+   "title": "卡塔尔：吞噬轮胎的夜赛",
+   "lead": "卢赛尔的比赛在夜间的泛光灯下进行，却依然残酷。无论对轮胎还是对车手来说，卡塔尔都是本赛季最艰难的周末之一。",
+   "body": [
+    "## 日落之后开赛",
+    "卡塔尔大奖赛在日落后开赛，因为白天的沙漠实在太热。夜里空气凉快一些，灯光下的赛道在电视上也格外好看。不过空气依然温暖潮湿，路面降温也很慢。",
+    "![夜晚的卢赛尔：泛光灯照亮整圈赛道](/img/articles/3d/night-races-qatar-night.jpg)",
+    "## 为MotoGP而建的赛道",
+    "卢赛尔是为摩托车修建的：全长约5.4公里，几乎没有低速发夹弯。取而代之的是一连串高速和中速弯，一个接着一个。赛车几乎一直在过弯，轮胎始终处于极限，尤其是左前胎和胎壁。",
+    "![卢赛尔赛道布局：16个弯，几乎全是高速弯](/img/articles/3d/night-races-qatar-map.jpg)",
+    "## 18圈上限",
+    "这里的负荷之高，以前就曾招来限制。2023年，出于对胎壁的担忧，国际汽联采纳倍耐力的建议，把每套轮胎的使用上限定为18圈，迫使每支车队至少进站三次。在卡塔尔，磨损方面的规定对策略的影响可能不亚于纯粹的速度。",
+    "## 对车手同样残酷",
+    "高速弯中持续不断的G力，再加上湿热的天气，让比赛变成了一场耐力考验。2023年，好几位车手冲线时已接近脱水，此后F1一直在研究如何在炎热的比赛中为车手降温。",
+    "## 为什么白天的练习赛可能误导人",
+    "太阳一落山，赛道就会降温，比赛后段轮胎的表现与白天练习赛时不同。车队知道白天的数据未必适用于傍晚的比赛，所以他们最信任的是与正赛同一时段进行的那一节。",
+    "## 谁在拉长轮胎周期",
+    "LapRadar的Live中心会显示每套轮胎已经跑了多少圈、车手何时进站，谁在拉长这一段、谁正准备多停一次，一目了然。"
+   ]
+  }
+ }
+}

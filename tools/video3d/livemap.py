@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Как смотреть гонку на 3D-карте LapRadar». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "live-map-howto",
+  "track": "suzuka", "theme": "day",
+  "shots": [
+    {"type": "orbit", "r": 2300, "r2": 1300, "h": 1500, "h2": 560, "a0": 0.8, "a1": 1.6},
+    {"type": "top", "reveal": True, "badges": True, "k": 1.1, "tilt": 0.2, "rot0": 0, "rot1": 0.2, "hud": {"type": "phone", "mode": "map"}},
+    {"type": "orbit", "r": 1400, "r2": 1200, "h": 700, "h2": 600, "a0": 1.0, "a1": 1.4, "hud": {"type": "phone", "mode": "table"}},
+    {"type": "orbit", "r": 1500, "r2": 1300, "h": 800, "h2": 650, "a0": 2.0, "a1": 2.4, "hud": {"type": "phone", "mode": "replay"}},
+    {"type": "orbit", "r": 1400, "r2": 1200, "h": 700, "h2": 600, "a0": 3.0, "a1": 3.4, "hud": {"type": "phone", "mode": "champ"}},
+    {"type": "chase", "car": 0, "dist": 9, "dist2": 16, "h": 2.4, "h2": 9, "side": 3, "side2": 0, "look": 30, "drop": 2, "t0": 50},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 3, "dist": 11, "h": 3.6, "side": -4.5, "look": 44, "drop": 2.4, "t0": 6, "fov": 46}},
+    {"name": "pack", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 3, "dist": 30, "h": 14, "side": -7, "look": 40, "drop": 6, "t0": 24, "fov": 46}},
+    {"name": "map", "w": 1200, "h": 800, "t": 3, "u": 1, "shot": {"type": "top", "reveal": True, "badges": True, "k": 1.2, "tilt": 0.2}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "ГОНКА В 3D", "sub": "второй экран к трансляции", "say": "Где сейчас каждый пилот на трассе? Это видно на живой трёхмерной карте."},
+      {"kind": "list", "head": "Карта", "items": ["Вращайте и приближайте", "Вид сверху", "Подписи поворотов"], "say": "Карту можно вращать и приближать, переключить на вид сверху и включить подписи поворотов."},
+      {"kind": "list", "head": "Под картой", "items": ["Интервалы", "Шины и их возраст", "Очки за позицию"], "say": "Под картой таблица: интервалы, состав шин и сколько им кругов. Нажмите на пилота, и он подсветится на карте."},
+      {"kind": "big", "big": "2023", "sub": "повторы гонок с этого года", "say": "Пропустили гонку? Повторы доступны с двадцать третьего года, с теми же данными, что шли в эфире."},
+      {"kind": "list", "head": "А ещё", "items": ["Чемпионат вживую", "Прогноз на победу", "F2, MotoGP, NASCAR"], "say": "А ещё таблица чемпионата пересчитывается по ходу гонки, и есть прогноз шансов на победу и подиум."},
+      {"kind": "end", "tag": "Откройте в следующую гонку", "say": "Откройте ЛапРадар в следующую гонку."},
+    ],
+    "en": [
+      {"kind": "title", "head": "RACE IN 3D", "sub": "a second screen for race day", "say": "Where is every driver on track right now? The live 3D map shows you."},
+      {"kind": "list", "head": "The map", "items": ["Rotate and zoom", "Top view", "Corner labels"], "say": "Rotate and zoom the map, switch to a top view and turn on corner labels."},
+      {"kind": "list", "head": "Under the map", "items": ["Gaps", "Tyres and tyre age", "Points per position"], "say": "Under the map there's a table with gaps, tyre compounds and tyre age. Tap a driver and the car lights up on the map."},
+      {"kind": "big", "big": "2023", "sub": "replays from this year on", "say": "Missed a race? Replays go back to twenty twenty-three, on the same data you'd have seen live."},
+      {"kind": "list", "head": "Also", "items": ["Live championship", "Win predictions", "F2, MotoGP, NASCAR"], "say": "The championship table also updates during the race, and there are odds for the win and the podium."},
+      {"kind": "end", "tag": "Open it for the next race", "say": "Open LapRadar for the next race."},
+    ],
+    "es": [
+      {"kind": "title", "head": "MAPA 3D", "sub": "la segunda pantalla de la carrera", "say": "¿Dónde está ahora cada piloto en la pista? Lo ves en el mapa tridimensional en directo."},
+      {"kind": "list", "head": "El mapa", "items": ["Gira y haz zoom", "Vista cenital", "Nombres de curvas"], "say": "Puedes girar el mapa, acercarlo, pasar a la vista desde arriba y activar los nombres de las curvas."},
+      {"kind": "list", "head": "Bajo el mapa", "items": ["Intervalos", "Neumáticos y su edad", "Puntos por posición"], "say": "Debajo hay una tabla con intervalos, compuestos y vueltas de cada juego. Toca un piloto y se ilumina en el mapa."},
+      {"kind": "big", "big": "2023", "sub": "repeticiones desde ese año", "say": "¿Te perdiste la carrera? Hay repeticiones desde dos mil veintitrés, con los mismos datos que en directo."},
+      {"kind": "list", "head": "Y además", "items": ["Campeonato en directo", "Pronóstico de victoria", "F2, MotoGP, NASCAR"], "say": "Además, la clasificación del campeonato se recalcula durante la carrera y hay pronóstico de victoria y podio."},
+      {"kind": "end", "tag": "Ábrelo en la próxima carrera", "say": "Abre LapRadar en la próxima carrera."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "MAPA 3D", "sub": "a segunda tela da corrida", "say": "Onde está cada piloto na pista agora? Dá para ver no mapa tridimensional ao vivo."},
+      {"kind": "list", "head": "O mapa", "items": ["Gire e aproxime", "Visão de cima", "Nomes das curvas"], "say": "Dá para girar o mapa, aproximar, mudar para a visão de cima e ligar os nomes das curvas."},
+      {"kind": "list", "head": "Embaixo do mapa", "items": ["Intervalos", "Pneus e idade", "Pontos por posição"], "say": "Embaixo fica a tabela com intervalos, compostos e voltas de cada jogo. Toque num piloto e ele acende no mapa."},
+      {"kind": "big", "big": "2023", "sub": "replays desde esse ano", "say": "Perdeu a corrida? Há replays desde dois mil e vinte e três, com os mesmos dados do ao vivo."},
+      {"kind": "list", "head": "E mais", "items": ["Campeonato ao vivo", "Previsão de vitória", "F2, MotoGP, NASCAR"], "say": "E a classificação do campeonato é recalculada durante a corrida, com previsão de vitória e pódio."},
+      {"kind": "end", "tag": "Abra na próxima corrida", "say": "Abra o LapRadar na próxima corrida."},
+    ],
+    "de": [
+      {"kind": "title", "head": "LIVE IN 3D", "sub": "der zweite Bildschirm am Renntag", "say": "Wo ist gerade jeder Fahrer auf der Strecke? Die dreidimensionale Live-Karte zeigt es dir."},
+      {"kind": "list", "head": "Die Karte", "items": ["Drehen und zoomen", "Draufsicht", "Kurvennamen"], "say": "Dreh und zoom die Karte, wechsle in die Draufsicht und blende die Kurvenbeschriftung ein."},
+      {"kind": "list", "head": "Unter der Karte", "items": ["Abstände", "Reifen und Reifenalter", "Punkte pro Platz"], "say": "Unter der Karte steht eine Tabelle mit Abständen, Reifenmischungen und Reifenalter. Tippst du auf einen Fahrer, leuchtet sein Auto auf der Karte auf."},
+      {"kind": "big", "big": "2023", "sub": "Wiederholungen ab diesem Jahr", "say": "Rennen verpasst? Die Wiederholungen reichen bis zweitausenddreiundzwanzig zurück, mit denselben Daten wie live."},
+      {"kind": "list", "head": "Außerdem", "items": ["Live-WM", "Siegprognosen", "F2, MotoGP, NASCAR"], "say": "Auch die WM-Tabelle wird während des Rennens aktualisiert, und es gibt Chancen auf Sieg und Podium."},
+      {"kind": "end", "tag": "Zum nächsten Rennen öffnen", "say": "Öffne LapRadar zum nächsten Rennen."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "3D看比赛", "sub": "比赛日的第二块屏幕", "say": "此刻每位车手在赛道的什么位置？实时三维地图告诉你。"},
+      {"kind": "list", "head": "地图", "items": ["旋转与缩放", "俯视视角", "弯道标注"], "say": "地图可以旋转、缩放，切换到俯视视角，还能打开弯道标注。"},
+      {"kind": "list", "head": "地图下方", "items": ["差距", "轮胎与胎龄", "各名次积分"], "say": "地图下方是一张表格，显示差距、轮胎配方和胎龄。点一下车手，他的赛车就会在地图上高亮。"},
+      {"kind": "big", "big": "2023年", "sub": "起的比赛均可回放", "say": "错过了比赛？回放最早可追溯到二零二三年，用的是和直播时一样的数据。"},
+      {"kind": "list", "head": "此外", "items": ["实时积分榜", "胜率预测", "F2、MotoGP、NASCAR"], "say": "比赛中积分榜也会实时更新，还能看到赢得比赛和登上领奖台的概率。"},
+      {"kind": "end", "tag": "下场比赛就用它", "say": "下一场比赛，打开LapRadar。"},
+    ],
+  },
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "undercut-overcut",
+ "date": "2026-11-14",
+ "tags": [
+  "f1",
+  "strategy",
+  "pitstops"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/undercut-overcut-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Андеркат и оверкат: как пройти соперника, не обгоняя его на трассе",
+   "lead": "В современной Формуле 1 позиции часто меняются на пит-лейне, а не на трассе. Два главных стратегических приёма называются андеркат и оверкат, и срабатывают они в совсем разных условиях.",
+   "body": [
+    "## Андеркат: в боксы на круг раньше",
+    "Вы едете вторым, в секунде-двух от лидера, и пройти его на трассе никак не получается. Тогда команда зовёт вас в боксы на круг раньше соперника. На первом круге свежая резина быстрее изношенной на секунду-две. Пока лидер проезжает свой «лишний» круг на старых шинах, вы отыгрываете это время, и когда он выезжает с пит-лейна, вы уже впереди. Обгон «снизу», за счёт более раннего пит-стопа: отсюда и название.",
+    "![Стартовая прямая и трибуны Хунгароринга, трассы, где обгонять очень трудно](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## Что нужно, чтобы андеркат сработал",
+    "Новая резина должна заметно выигрывать у старой и быстро прогреваться. А после выезда нужна свободная трасса: вернётесь в трафик, упрётесь в медленную машину, и весь выигрыш пропадёт. Поэтому инженеры заранее считают «окно», то есть место, куда пилот вернётся после остановки.",
+    "## Оверкат: остаться на трассе подольше",
+    "Здесь всё наоборот: вы остаётесь на трассе дольше соперника. Приём срабатывает, когда новые шины трудно прогреть (холод, жёсткий состав) или когда старые ещё держат темп. Соперник после пит-стопа мучается с холодной резиной, а вы проезжаете пару быстрых кругов по свободной трассе, заезжаете сами и выходите уже впереди.",
+    "## Ответный пит-стоп",
+    "Лидер, который видит угрозу андерката, часто заезжает в боксы на следующем же круге. Это называется «прикрыть». Но поторопишься, и шин может не хватить до финиша. Так что пит-стопы превращаются в игру нервов: кто моргнёт первым.",
+    "![Плотная группа: кто первым свернёт в боксы?](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## Как заметить андеркат по ходу гонки",
+    "Типичная картина: сразу после пит-стопа пилот выдаёт серию очень быстрых кругов, и отставание тает. В Live-центре LapRadar видны интервалы, возраст шин и пит-стопы каждого пилота, а по графику отрыва от лидера легко понять, сработал ли приём."
+   ]
+  },
+  "en": {
+   "title": "Undercut and overcut: getting past a rival without passing him on track",
+   "lead": "In modern Formula 1 a lot of places change hands in the pit lane rather than on track. The two key strategy moves are the undercut and the overcut, and they work in very different conditions.",
+   "body": [
+    "## The undercut: pit one lap early",
+    "You're running second, a second or two behind the leader, and there's no way past on track. So your team brings you in one lap before him. On their first lap, fresh tyres are a second or two quicker than worn ones. While your rival spends his extra lap on old rubber, you make up the time, and by the time he rejoins you're already ahead. You've gone 'under' him with an earlier stop, hence the name.",
+    "![The Hungaroring main straight, on a track where passing is very hard](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## What makes it work",
+    "The new tyres need a big advantage over the old ones, and they have to warm up quickly. You also need clear track when you rejoin. Come out in traffic behind a slower car and the gain is gone. That's why engineers work out the 'window' in advance: exactly where the driver will slot back in after the stop.",
+    "## The overcut: stay out longer",
+    "The overcut flips it around: you stay out longer than your rival. It works when new tyres are hard to warm up (a cold track, the hard compound) or when your old set still has pace. While he struggles on cold rubber, you string together a couple of quick laps in clean air, then pit and come out in front.",
+    "## Covering the stop",
+    "A leader who sees the undercut coming will often pit on the very next lap. That's called covering. Stop too early, though, and the tyres may not last to the flag. Strategy turns into a game of nerves: who blinks first.",
+    "![A tight pack: who will pit first?](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## How to spot one live",
+    "The giveaway is a run of very fast laps straight after a stop and a gap that keeps shrinking. LapRadar's Live centre shows intervals, tyre age and pit stops for every driver, and the gap-to-leader chart tells you whether the move came off."
+   ]
+  },
+  "es": {
+   "title": "Undercut y overcut: cómo superar a un rival sin adelantarlo en pista",
+   "lead": "En la Fórmula 1 actual muchas posiciones cambian en el pit lane y no en la pista. Los dos grandes recursos de estrategia son el undercut y el overcut, y cada uno funciona en condiciones distintas.",
+   "body": [
+    "## Undercut: parar una vuelta antes",
+    "Vas segundo, a uno o dos segundos del líder, y no hay manera de pasarlo en pista. Entonces el equipo te llama a boxes una vuelta antes que a él. En su primera vuelta, los neumáticos nuevos son uno o dos segundos más rápidos que los gastados. Mientras tu rival da esa vuelta de más con la goma vieja, tú recuperas el tiempo, y cuando él sale de boxes ya vas por delante.",
+    "![La recta principal del Hungaroring, un circuito donde cuesta mucho adelantar](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## Qué hace falta para que salga bien",
+    "La goma nueva tiene que ser bastante más rápida que la vieja y calentarse enseguida. Además necesitas pista libre al salir: si caes en medio del tráfico detrás de un coche lento, la ganancia se esfuma. Por eso los ingenieros calculan antes la «ventana», es decir, dónde volverá a pista el piloto tras la parada.",
+    "## Overcut: alargar la tanda",
+    "El overcut es justo lo contrario: te quedas en pista más vueltas que tu rival. Funciona cuando cuesta calentar los neumáticos nuevos (pista fría, compuesto duro) o cuando los viejos todavía van bien. Mientras el otro pelea con la goma fría, tú haces un par de vueltas rápidas en aire limpio, paras y sales delante.",
+    "## Cubrir la parada",
+    "Si el líder ve venir el undercut, suele parar en la vuelta siguiente. Es lo que se llama «cubrir». Pero si para demasiado pronto, puede que los neumáticos no le lleguen al final. La estrategia acaba siendo un juego de nervios.",
+    "![Un grupo compacto: ¿quién parará primero?](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## Cómo detectarlo en directo",
+    "La señal típica es una serie de vueltas muy rápidas justo después de la parada y una diferencia que se va reduciendo. El centro Live de LapRadar muestra intervalos, edad de los neumáticos y paradas de cada piloto."
+   ]
+  },
+  "pt": {
+   "title": "Undercut e overcut: como passar um rival sem ultrapassá-lo na pista",
+   "lead": "Na Fórmula 1 de hoje muitas posições mudam no pit lane, e não na pista. As duas grandes jogadas de estratégia são o undercut e o overcut, e cada uma funciona em condições diferentes.",
+   "body": [
+    "## Undercut: parar uma volta antes",
+    "Você está em segundo, a um ou dois segundos do líder, e não tem como passar na pista. Aí a equipe chama você para os boxes uma volta antes dele. Na primeira volta, pneus novos são um ou dois segundos mais rápidos que os gastos. Enquanto o rival faz a volta a mais com borracha velha, você tira a diferença, e quando ele sai dos boxes você já está na frente.",
+    "![A reta principal de Hungaroring, uma pista onde é muito difícil ultrapassar](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## O que precisa dar certo",
+    "O pneu novo tem que ser bem mais rápido que o velho e esquentar logo. E a pista precisa estar livre na saída: se você voltar no meio do tráfego, atrás de um carro lento, o ganho vai embora. Por isso os engenheiros calculam antes a “janela”, ou seja, onde o piloto vai voltar depois da parada.",
+    "## Overcut: esticar o stint",
+    "O overcut é o contrário: você fica na pista mais tempo que o rival. Funciona quando os pneus novos são difíceis de aquecer (pista fria, composto duro) ou quando os velhos ainda têm ritmo. Enquanto o outro sofre com a borracha fria, você faz umas voltas rápidas em ar limpo, para e sai na frente.",
+    "## Cobrir a parada",
+    "Quando o líder vê o undercut chegando, costuma parar na volta seguinte. Isso se chama “cobrir”. Só que, se parar cedo demais, os pneus podem não aguentar até a bandeirada. Estratégia vira um jogo de nervos.",
+    "![Um pelotão compacto: quem para primeiro?](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## Como perceber ao vivo",
+    "O sinal típico é uma série de voltas muito rápidas logo depois da parada e uma diferença que vai encolhendo. O centro Live do LapRadar mostra intervalos, idade dos pneus e paradas de cada piloto."
+   ]
+  },
+  "de": {
+   "title": "Undercut und Overcut: Am Gegner vorbei, ohne ihn auf der Strecke zu überholen",
+   "lead": "In der modernen Formel 1 wechseln viele Positionen nicht auf der Strecke, sondern in der Boxengasse den Besitzer. Die beiden wichtigsten Strategiezüge sind der Undercut und der Overcut, und sie funktionieren unter ganz unterschiedlichen Bedingungen.",
+   "body": [
+    "## Der Undercut: eine Runde früher an die Box",
+    "Du liegst auf Platz zwei, ein bis zwei Sekunden hinter dem Führenden, und auf der Strecke kommst du nicht vorbei. Also holt dich dein Team eine Runde vor ihm an die Box. Frische Reifen sind in ihrer ersten Runde ein bis zwei Sekunden schneller als abgefahrene. Während dein Rivale seine zusätzliche Runde auf alten Reifen dreht, holst du die Zeit auf, und wenn er wieder auf die Strecke kommt, liegst du schon vorn. Mit dem früheren Stopp bist du gewissermaßen „unter“ ihm hindurchgeschlüpft, daher der Name.",
+    "![Die Start-Ziel-Gerade des Hungarorings, einer Strecke, auf der Überholen sehr schwer ist](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## Was es dafür braucht",
+    "Die neuen Reifen müssen den alten deutlich überlegen sein und schnell auf Temperatur kommen. Außerdem brauchst du nach dem Stopp freie Fahrt. Kommst du im Verkehr hinter einem langsameren Auto heraus, ist der Gewinn dahin. Deshalb berechnen die Ingenieure das „Fenster“ im Voraus: wo genau sich der Fahrer nach dem Stopp wieder einreiht.",
+    "## Der Overcut: länger draußen bleiben",
+    "Beim Overcut ist es umgekehrt: Du bleibst länger draußen als dein Rivale. Das klappt, wenn neue Reifen schwer auf Temperatur kommen (kalte Strecke, harte Mischung) oder wenn dein alter Satz noch Tempo hat. Während er mit kalten Reifen kämpft, fährst du in freier Luft ein paar schnelle Runden, kommst dann an die Box und gehst vor ihm wieder auf die Strecke.",
+    "## Den Stopp abdecken",
+    "Ein Führender, der den Undercut kommen sieht, fährt oft gleich in der nächsten Runde an die Box. Das nennt man Covern. Wer zu früh stoppt, riskiert allerdings, dass die Reifen nicht bis ins Ziel halten. So wird die Strategie zum Nervenspiel: Wer zuckt zuerst?",
+    "![Ein enges Feld: Wer kommt zuerst an die Box?](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## So erkennst du ihn live",
+    "Verräterisch sind eine Reihe sehr schneller Runden direkt nach einem Stopp und ein Abstand, der immer weiter schrumpft. Das Live-Center von LapRadar zeigt für jeden Fahrer Intervalle, Reifenalter und Boxenstopps, und am Diagramm des Abstands zum Führenden siehst du, ob der Zug aufgegangen ist."
+   ]
+  },
+  "zh": {
+   "title": "Undercut与Overcut：不超车也能跑到对手前面",
+   "lead": "在现代F1里，很多名次的变化不是发生在赛道上，而是发生在维修区。最关键的两种策略是undercut（提前进站）和overcut（推迟进站），它们适用的条件截然不同。",
+   "body": [
+    "## Undercut：早一圈进站",
+    "你排在第二，落后领跑者一到两秒，在赛道上怎么也超不过去。于是车队让你比他早一圈进站。新胎在第一圈要比旧胎快一到两秒。对手在旧胎上多跑一圈的时候，你把时间追了回来，等他出站，你已经在他前面了。你凭借更早的进站从他「下方」钻了过去，名字就是这么来的。",
+    "![匈牙利赛道的主直道，这条赛道上超车非常困难](/img/articles/3d/undercut-overcut-start.jpg)",
+    "## 成功需要什么条件",
+    "新胎必须比旧胎有明显优势，而且要能迅速升温。出站后前方还得是空旷的赛道。如果出站后卡在一辆较慢的赛车后面，优势就没了。所以工程师会提前算好「窗口」：车手进站后究竟会回到哪个位置。",
+    "## Overcut：在赛道上多留几圈",
+    "Overcut正好相反：你比对手在赛道上多跑几圈。当新胎难以升温（赛道偏冷、使用硬胎），或者你的旧胎还有速度时，这一招就管用。对手在冷胎上挣扎时，你在干净空气中连续跑出几个快圈，然后进站，出站时已经在他前面。",
+    "## 跟进进站",
+    "领跑者如果看出对手要undercut，往往会在下一圈立刻进站，这叫作跟进（cover）。但进站太早，轮胎可能撑不到终点。策略于是变成了一场心理战：看谁先沉不住气。",
+    "![车阵紧咬：谁会先进站？](/img/articles/3d/undercut-overcut-duel.jpg)",
+    "## 比赛中怎么看出来",
+    "最明显的信号是进站后紧接着的一连串极快圈速，以及不断缩小的差距。LapRadar的Live中心会显示每位车手的间隔、胎龄和进站记录，与领跑者的差距图则能告诉你这一招有没有成功。"
+   ]
+  }
+ }
+}

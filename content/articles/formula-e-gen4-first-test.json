@@ -1,0 +1,124 @@
+{
+ "slug": "formula-e-gen4-first-test",
+ "date": "2026-11-18",
+ "tags": [
+  "formula-e",
+  "gen4",
+  "technique",
+  "testing"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/formula-e-gen4-first-test-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Формула E Gen4 вышла на тесты: 600 кВт и полный привод",
+   "lead": "В Хараме под Мадридом идут официальные предсезонные тесты новой машины Формулы E. Gen4 мощнее прежней машины, стоит на более широких шинах и впервые получила постоянный полный привод.",
+   "body": [
+    "## Неделя в Хараме",
+    "Тесты проходят на трассе Харама с 16 по 20 ноября: три дня по две сессии, плюс две симуляции гонки, в среду и в пятницу. Это первый раз, когда все команды выводят Gen4 на трассу вместе. До этого производители катали прототипы поодиночке с конца 2025 года.",
+    "![Две машины нового поколения в студии](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## Мощность: 450 в гонке, 600 в атаке",
+    "В гонке пиковая мощность 450 кВт. В квалификации и в режиме атаки, который пилоты включают для обгонов, 600 кВт, это больше 800 лошадиных сил. По данным FIA, с места до 200 км/ч Gen4 разгоняется за 4,4 секунды.",
+    "## Тормоза как электростанция",
+    "Рекуперация выросла до 700 кВт. Машина тормозит в том числе электромоторами и отправляет энергию обратно в батарею, поэтому стратегия Формулы E по-прежнему строится вокруг экономии и правильной отдачи заряда.",
+    "## Полный привод на всю гонку",
+    "Главная новинка в управлении: постоянный активный полный привод с активным дифференциалом. Раньше все четыре колеса вели машину только в отдельных режимах, теперь всю гонку. Шины Bridgestone стали шире, а аэродинамика бывает в двух настройках: с высокой прижимной силой для квалификации и с низкой для гонки.",
+    "![Колесо в колесо: в режиме атаки Gen4 выдаёт 600 кВт](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## Когда первая гонка",
+    "Сезон должен был открыться в Джидде 18–19 декабря, но этап перенесли на апрель из-за конфликта на Ближнем Востоке. Первой гонкой Gen4 станет Мехико 16 января 2027 года. В календаре 21 гонка, на старте 12 команд, среди новичков Opel, Fortescue Zero и Fusion. Действующий чемпион Паскаль Верляйн из Porsche. Календарь Формулы E есть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Formula E Gen4 hits the track: 600 kW and all-wheel drive",
+   "lead": "Official pre-season testing for the new Formula E car is under way at Jarama near Madrid. Gen4 is more powerful, rides on bigger tyres and has permanent all-wheel drive for the first time.",
+   "body": [
+    "## A week at Jarama",
+    "Testing runs at Jarama from 16 to 20 November: three days with two sessions each, including race simulations on Wednesday and Friday. It's the first time every team has Gen4 on track together; manufacturers had been running prototypes on their own since late 2025.",
+    "![Two new-generation cars in the studio](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## 450 in the race, 600 in attack",
+    "Peak race power is 450 kW. In qualifying and in Attack Mode, which drivers use for overtaking, it's 600 kW, over 800 horsepower. According to the FIA, Gen4 goes from zero to 200 km/h in 4.4 seconds.",
+    "## Brakes as a power station",
+    "Regeneration goes up to 700 kW. The car slows down partly through its electric motors and sends that energy back to the battery, so Formula E strategy is still about saving and spending charge at the right moment.",
+    "## All-wheel drive all race long",
+    "The big change for drivers is permanent active all-wheel drive with an active differential. Before, all four wheels drove the car only in certain modes; now they do for the whole race. The Bridgestone tyres are wider, and there are two aero set-ups: high downforce for qualifying and low downforce for the race.",
+    "![Wheel to wheel: in Attack Mode Gen4 has 600 kW](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## When it races",
+    "The season was due to open in Jeddah on 18–19 December, but that event moved to April because of the conflict in the Middle East. Gen4's first race will be Mexico City on 16 January 2027. There are 21 races and 12 teams, with Opel, Fortescue Zero and Fusion among the newcomers. Porsche's Pascal Wehrlein is the reigning champion. The Formula E calendar is on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "La Fórmula E Gen4 sale a pista: 600 kW y tracción total",
+   "lead": "En el Jarama, cerca de Madrid, se disputan los test oficiales de pretemporada del nuevo coche de la Fórmula E. El Gen4 es más potente, monta neumáticos más grandes y estrena tracción total permanente.",
+   "body": [
+    "## Una semana en el Jarama",
+    "Los test se celebran en el Jarama del 16 al 20 de noviembre: tres días con dos sesiones cada uno, con simulaciones de carrera el miércoles y el viernes. Es la primera vez que todos los equipos ruedan juntos con el Gen4; los fabricantes probaban prototipos por su cuenta desde finales de 2025.",
+    "![Dos coches de nueva generación en el estudio](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## 450 en carrera, 600 en ataque",
+    "La potencia máxima en carrera es de 450 kW. En clasificación y en el Attack Mode, que los pilotos usan para adelantar, llega a 600 kW, más de 800 caballos. Según la FIA, el Gen4 pasa de cero a 200 km/h en 4,4 segundos.",
+    "## Los frenos como central eléctrica",
+    "La regeneración sube hasta 700 kW. El coche frena en parte con los motores eléctricos y devuelve esa energía a la batería, así que la estrategia sigue girando en torno a ahorrar y gastar carga en el momento justo.",
+    "## Tracción total toda la carrera",
+    "El gran cambio para los pilotos es la tracción total activa y permanente, con diferencial activo. Antes las cuatro ruedas solo empujaban en ciertos modos; ahora lo hacen toda la carrera. Los Bridgestone son más anchos y hay dos configuraciones aerodinámicas: mucha carga para clasificar y poca para la carrera.",
+    "![Rueda con rueda: en Attack Mode el Gen4 tiene 600 kW](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## Cuándo corre",
+    "La temporada iba a arrancar en Yeda el 18 y 19 de diciembre, pero la cita pasó a abril por el conflicto en Oriente Medio. La primera carrera del Gen4 será en Ciudad de México el 16 de enero de 2027. Habrá 21 carreras y 12 equipos, con Opel, Fortescue Zero y Fusion entre los nuevos. Pascal Wehrlein, de Porsche, es el campeón vigente. El calendario de la Fórmula E está en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Fórmula E Gen4 vai à pista: 600 kW e tração integral",
+   "lead": "Em Jarama, perto de Madri, acontecem os testes oficiais de pré-temporada do novo carro da Fórmula E. O Gen4 é mais potente, usa pneus maiores e estreia tração integral permanente.",
+   "body": [
+    "## Uma semana em Jarama",
+    "Os testes vão de 16 a 20 de novembro em Jarama: três dias com duas sessões cada, incluindo simulações de corrida na quarta e na sexta. É a primeira vez que todas as equipes andam juntas com o Gen4; as fabricantes testavam protótipos por conta própria desde o fim de 2025.",
+    "![Dois carros da nova geração no estúdio](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## 450 na corrida, 600 no ataque",
+    "A potência máxima de corrida é de 450 kW. Na classificação e no Attack Mode, que os pilotos usam para ultrapassar, chega a 600 kW, mais de 800 cavalos. Segundo a FIA, o Gen4 vai de zero a 200 km/h em 4,4 segundos.",
+    "## Freios como usina",
+    "A regeneração sobe para até 700 kW. O carro freia em parte com os motores elétricos e devolve essa energia à bateria, então a estratégia continua sendo economizar e gastar carga na hora certa.",
+    "## Tração integral a corrida toda",
+    "A grande mudança para os pilotos é a tração integral ativa e permanente, com diferencial ativo. Antes as quatro rodas só tracionavam em alguns modos; agora é a corrida inteira. Os Bridgestone ficaram mais largos e há duas configurações aerodinâmicas: muita pressão para a classificação e pouca para a corrida.",
+    "![Roda a roda: no Attack Mode o Gen4 tem 600 kW](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## Quando corre",
+    "A temporada abriria em Jeddah em 18 e 19 de dezembro, mas a etapa foi para abril por causa do conflito no Oriente Médio. A primeira corrida do Gen4 será na Cidade do México em 16 de janeiro de 2027. São 21 corridas e 12 equipes, com Opel, Fortescue Zero e Fusion entre as novatas. Pascal Wehrlein, da Porsche, é o atual campeão. O calendário da Fórmula E está no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Formel E Gen4 auf der Strecke: 600 kW und Allradantrieb",
+   "lead": "In Jarama bei Madrid laufen die offiziellen Testfahrten für das neue Formel-E-Auto. Gen4 ist stärker, fährt auf größeren Reifen und hat erstmals permanenten Allradantrieb.",
+   "body": [
+    "## Eine Woche in Jarama",
+    "Getestet wird vom 16. bis 20. November in Jarama: drei Tage mit je zwei Sessions, dazu Rennsimulationen am Mittwoch und am Freitag. Zum ersten Mal sind alle Teams gemeinsam mit Gen4 unterwegs, bisher fuhren die Hersteller seit Ende 2025 jeweils für sich mit Prototypen.",
+    "![Zwei Autos der neuen Generation im Studio](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## 450 im Rennen, 600 im Angriff",
+    "Im Rennen liegt die Spitzenleistung bei 450 kW. Im Qualifying und im Attack Mode, den die Fahrer zum Überholen nutzen, sind es 600 kW, mehr als 800 PS. Laut FIA beschleunigt Gen4 in 4,4 Sekunden von null auf 200 km/h.",
+    "## Bremsen als Kraftwerk",
+    "Die Rekuperation steigt auf bis zu 700 kW. Das Auto bremst zum Teil über die Elektromotoren und schickt die Energie zurück in die Batterie, deshalb dreht sich die Strategie weiter ums Sparen und den richtigen Moment zum Einsatz.",
+    "## Allrad über die ganze Distanz",
+    "Die große Neuerung für die Fahrer ist der permanente aktive Allradantrieb mit aktivem Differenzial. Früher trieben alle vier Räder nur in bestimmten Modi an, jetzt im ganzen Rennen. Die Bridgestone-Reifen sind breiter, und es gibt zwei Aero-Varianten: viel Abtrieb fürs Qualifying, wenig fürs Rennen.",
+    "![Rad an Rad: Im Attack Mode hat Gen4 600 kW](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## Wann es losgeht",
+    "Die Saison sollte am 18. und 19. Dezember in Dschidda beginnen, das Rennen wurde wegen des Konflikts im Nahen Osten aber in den April verlegt. Das erste Rennen für Gen4 ist damit Mexiko-Stadt am 16. Januar 2027. Es gibt 21 Rennen und 12 Teams, neu dabei sind unter anderem Opel, Fortescue Zero und Fusion. Titelverteidiger ist Pascal Wehrlein von Porsche. Den Formel-E-Kalender gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "电动方程式Gen4赛车上路测试：600千瓦和全轮驱动",
+   "lead": "电动方程式新车的官方季前测试正在马德里附近的哈拉马赛道进行。Gen4功率更大、轮胎更宽，并首次采用常时全轮驱动。",
+   "body": [
+    "## 哈拉马的一周",
+    "测试于11月16日至20日在哈拉马赛道进行：共三天，每天两节，周三和周五安排了正赛模拟。这是所有车队第一次同时驾驶Gen4上路；此前从2025年底开始，各厂商只是各自测试原型车。",
+    "![演播室里的两辆新一代赛车](/img/articles/3d/formula-e-gen4-first-test-studio.jpg)",
+    "## 正赛450，进攻600",
+    "正赛峰值功率为450千瓦。排位赛以及车手用来超车的进攻模式下可达600千瓦，超过800马力。据国际汽联介绍，Gen4从静止加速到200公里/小时只需4.4秒。",
+    "## 刹车就是发电站",
+    "能量回收提高到最高700千瓦。赛车部分依靠电机减速，并把能量送回电池，所以电动方程式的策略依然围绕着省电和在正确时机用电。",
+    "## 全程全轮驱动",
+    "对车手来说最大的变化是常时主动全轮驱动，并配备主动差速器。过去只有在特定模式下四轮才会同时驱动，现在整场比赛都是如此。普利司通轮胎变得更宽，空气动力学有两种设定：排位赛用高下压力，正赛用低下压力。",
+    "![轮对轮：进攻模式下Gen4拥有600千瓦](/img/articles/3d/formula-e-gen4-first-test-duel.jpg)",
+    "## 何时开赛",
+    "新赛季原定12月18日至19日在吉达揭幕，但因中东冲突，这站比赛改到了4月。Gen4的首场比赛将于2027年1月16日在墨西哥城进行。新赛季共21场比赛、12支车队，新车队包括欧宝、Fortescue Zero和Fusion。卫冕冠军是保时捷的韦尔莱因。电动方程式赛历可在LapRadar上查看。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,78 @@
+name: 3D videos
+# Renders new/changed 3D videos (tools/video3d) in parallel and publishes them to the `renders` branch.
+# lapradar.com pulls that branch, adds the voice-over and publishes the videos.
+# Public repository: GitHub Actions minutes are free.
+on:
+  push:
+    branches: [main]
+    paths: ['tools/video3d/**', 'content/articles/**']
+  workflow_dispatch:
+    inputs:
+      only: { description: 'Comma-separated topics (file names in tools/video3d without .py)', required: false, default: '' }
+      langs: { description: 'Comma-separated languages', required: false, default: 'ru,en' }
+concurrency: { group: render, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { pairs: '${{ steps.p.outputs.pairs }}' }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - id: p
+        run: |
+          pip install -q pillow
+          git fetch -q origin renders || true
+          mkdir -p out && (git archive origin/renders 2>/dev/null | tar -x -C out || true)
+          ONLY='${{ github.event.inputs.only }}'
+          P=$(python3 tools/render_all.py out --plan ${ONLY:+--only "$ONLY"})
+          LANGS='${{ github.event.inputs.langs || 'ru,en' }}'
+          P=$(python3 -c "import json,sys; L=sys.argv[2].split(','); print(json.dumps([x for x in json.loads(sys.argv[1]) if x.get('lang') in L]))" "$P" "$LANGS")
+          echo "pairs=$P" >> "$GITHUB_OUTPUT"; echo "$P"
+  render:
+    needs: plan
+    if: needs.plan.outputs.pairs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy: { fail-fast: false, max-parallel: 20, matrix: { include: '${{ fromJson(needs.plan.outputs.pairs) }}' } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk >/dev/null
+          pip install -q playwright pillow
+      - name: Render ${{ matrix.topic }} / ${{ matrix.lang }}
+        run: |
+          git fetch -q origin renders || true
+          mkdir -p out && (git archive origin/renders 2>/dev/null | tar -x -C out || true)
+          python3 tools/render_all.py out --jobs 2 --only "${{ matrix.topic }}.py" --lang ${{ matrix.lang }}
+          mkdir -p part && python3 - <<'PY'
+          import glob, shutil, sys
+          sys.path.insert(0, 'tools'); import render as R
+          vid = R.load('tools/video3d/${{ matrix.topic }}.py')['videoId']
+          for f in glob.glob('out/' + vid + '-${{ matrix.lang }}.*') + glob.glob('out/' + vid + '-${{ matrix.lang }}-wide.*'): shutil.copy(f, 'part/')
+          PY
+      - uses: actions/upload-artifact@v4
+        with: { name: 'r-${{ matrix.topic }}-${{ matrix.lang }}', path: part/, retention-days: 3 }
+  publish:
+    needs: [plan, render]
+    if: always() && needs.plan.outputs.pairs != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git fetch -q origin renders || true
+          mkdir -p out && (git archive origin/renders 2>/dev/null | tar -x -C out || true)
+      - uses: actions/download-artifact@v4
+        with: { path: parts }
+      - name: Publish to the renders branch
+        run: |
+          # the site keeps every video it has already pulled (it checks this branch every minute),
+          # so the branch keeps all .json render digests but only the .mp4 from this run
+          find out -name '*.mp4' -delete || true
+          find parts -type f -exec cp {} out/ \;
+          cd out && git init -q && git checkout -q -b renders
+          git config user.name DavidOlegovich; git config user.email DavidOlegovich@users.noreply.github.com
+          git add -A && git commit -qm "3D videos $(date -u +%F' '%H:%M)" && git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" renders

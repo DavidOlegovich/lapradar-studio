@@ -1,0 +1,125 @@
+{
+ "slug": "las-vegas-2026-strip-energy",
+ "date": "2026-11-18",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "2026",
+  "energy",
+  "technique"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-2026-strip-energy-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Вегас-2026: почему батарее не хватает Стрипа",
+   "lead": "Новые машины Формулы 1 впервые едут в Лас-Вегас. Длинные прямые и мало торможений превращают гонку в задачу по распределению энергии.",
+   "body": [
+    "## Половина мощности из батареи",
+    "С 2026 года силовая установка устроена иначе. Генератор на турбине MGU-H убрали, электромотор MGU-K выдаёт до 350 кВт, а двигатель внутреннего сгорания около 400 кВт. Мощность делится примерно поровну, и если батарея пуста, машина теряет почти половину тяги.",
+    "## Где Вегас берёт энергию",
+    "Батарея заряжается в основном на торможении. Трасса в Лас-Вегасе длиной 6,2 км, 50 кругов, а прямая по Стрипу тянется почти на два километра. Есть ещё две длинные прямые. Медленных поворотов, где можно хорошо зарядиться, на круге немного. Резервный пилот Mercedes Фредерик Вести в превью команды сказал, что из-за длинной прямой пилоты большую часть круга сидят без энергии.",
+    "![На торможении батарея заряжается, на разгоне отдаёт](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## Суперклиппинг на полном газу",
+    "Когда энергии не хватает, машина начинает подзаряжаться прямо на полном газу, обычно в конце прямой. Это называют суперклиппингом: часть мощности мотора уходит не на колёса, а в батарею, и скорость падает. Перед Майами FIA подняла предел такой зарядки с 250 до 350 кВт. В Вегасе суперклиппинга на прямых будет много, и болельщики увидят, как машины «сдуваются» перед торможением.",
+    "## Холод и самые мягкие шины",
+    "Вторая проблема старая. Гонка ночью, воздух и асфальт держатся в районе 15 градусов, это, скорее всего, самый холодный этап сезона. Pirelli везёт три самых мягких состава, C3, C4 и C5, как и в 2025 году, чтобы шины быстрее выходили в рабочее окно.",
+    "![Режим обгона: дополнительная мощность на прямой](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## Обгоны решит энергия",
+    "DRS больше нет, на прямых помогает режим обгона с дополнительной электрической мощностью. Кто сохранит заряд к главной прямой, тот и атакует. Разницу в скорости на Стрипе по ходу гонки видно на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Vegas 2026: why the Strip is too long for the battery",
+   "lead": "The new-generation F1 cars race in Las Vegas for the first time. Long straights and few braking zones turn the race into an energy puzzle.",
+   "body": [
+    "## Half the power comes from the battery",
+    "The 2026 power unit is a different animal. The MGU-H is gone, the MGU-K delivers up to 350 kW and the combustion engine around 400 kW. That's roughly a 50/50 split, so with a flat battery a car loses close to half its drive.",
+    "## Where Vegas finds energy",
+    "The battery charges mostly under braking. The Las Vegas lap is 6.2 km, the race is 50 laps, and the run down the Strip lasts almost two kilometres, with two more long straights elsewhere. There aren't many slow corners for a big recharge. Mercedes reserve Frederik Vesti said in the team's preview that the long straight leaves drivers energy-starved for much of the lap.",
+    "![Braking fills the battery, acceleration drains it](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## Super clipping at full throttle",
+    "When energy runs short, the car starts recharging while still flat out, usually at the end of a straight. That's super clipping: part of the engine's output goes into the battery instead of the wheels, and speed drops. Before Miami the FIA raised the limit for this from 250 to 350 kW. Expect plenty of it in Vegas, with cars visibly running out of puff before the braking zones.",
+    "## Cold nights and the softest tyres",
+    "The second problem is a familiar one. It's a night race with air and track around 15 °C, probably the coldest weekend of the year. Pirelli brings its three softest compounds, C3, C4 and C5, as in 2025, so the tyres reach their window quickly.",
+    "![Overtake mode: extra power on the straight](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## Energy will decide the passes",
+    "DRS is gone. On the straights, overtake mode with extra electric power does the job. Whoever arrives at the main straight with charge in hand gets to attack. You can see the speed differences on the Strip during the race on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Las Vegas 2026: por qué al Strip le sobra recta para la batería",
+   "lead": "Los nuevos F1 corren en Las Vegas por primera vez. Rectas largas y pocas frenadas convierten la carrera en un problema de gestión de energía.",
+   "body": [
+    "## La mitad de la potencia sale de la batería",
+    "La unidad de potencia de 2026 es otra cosa. Desapareció el MGU-H, el MGU-K da hasta 350 kW y el motor de combustión unos 400 kW. Es un reparto casi al 50 %, así que con la batería vacía el coche pierde cerca de la mitad del empuje.",
+    "## De dónde saca energía Las Vegas",
+    "La batería se carga sobre todo al frenar. La vuelta mide 6,2 km, la carrera tiene 50 vueltas y la recta del Strip dura casi dos kilómetros, con otras dos rectas largas en el trazado. Hay pocas curvas lentas para recargar bien. Frederik Vesti, reserva de Mercedes, dijo en la previa del equipo que la recta larga deja a los pilotos sin energía durante buena parte de la vuelta.",
+    "![La frenada llena la batería y la aceleración la vacía](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## Super clipping a fondo",
+    "Cuando falta energía, el coche empieza a recargar con el acelerador a fondo, normalmente al final de la recta. Es el super clipping: parte de la potencia del motor va a la batería y no a las ruedas, y la velocidad cae. Antes de Miami la FIA subió ese límite de 250 a 350 kW. En Las Vegas habrá mucho, y se verá a los coches perder fuelle antes de frenar.",
+    "## Frío y los neumáticos más blandos",
+    "El segundo problema ya es conocido. Se corre de noche, con aire y asfalto en torno a 15 °C, probablemente el fin de semana más frío del año. Pirelli lleva sus tres compuestos más blandos, C3, C4 y C5, igual que en 2025, para que entren rápido en ventana.",
+    "![Modo adelantamiento: potencia extra en la recta](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## La energía decidirá los adelantamientos",
+    "Ya no hay DRS. En las rectas ayuda el modo adelantamiento con potencia eléctrica extra. Quien llegue a la recta principal con carga podrá atacar. Las diferencias de velocidad en el Strip se ven durante la carrera en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Las Vegas 2026: por que a Strip é longa demais para a bateria",
+   "lead": "A nova geração da F1 corre em Las Vegas pela primeira vez. Retas longas e poucas frenagens transformam a corrida num quebra-cabeça de energia.",
+   "body": [
+    "## Metade da potência vem da bateria",
+    "A unidade de potência de 2026 é outra. O MGU-H saiu, o MGU-K entrega até 350 kW e o motor a combustão cerca de 400 kW. A divisão é quase meio a meio, então com a bateria vazia o carro perde perto de metade da tração.",
+    "## De onde Vegas tira energia",
+    "A bateria carrega principalmente nas frenagens. A volta tem 6,2 km, a corrida tem 50 voltas e a reta da Strip vai por quase dois quilômetros, com mais duas retas longas no traçado. Há poucas curvas lentas para recarregar bem. Frederik Vesti, reserva da Mercedes, disse na prévia da equipe que a reta longa deixa os pilotos sem energia em boa parte da volta.",
+    "![A frenagem enche a bateria, a aceleração esvazia](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## Super clipping de pé embaixo",
+    "Quando falta energia, o carro começa a recarregar com o acelerador no fundo, normalmente no fim da reta. É o super clipping: parte da potência do motor vai para a bateria e não para as rodas, e a velocidade cai. Antes de Miami a FIA subiu esse limite de 250 para 350 kW. Em Vegas vai ter muito disso, com os carros perdendo fôlego antes da frenagem.",
+    "## Frio e os pneus mais macios",
+    "O segundo problema é conhecido. A corrida é à noite, com ar e asfalto perto de 15 °C, provavelmente o fim de semana mais frio do ano. A Pirelli leva os três compostos mais macios, C3, C4 e C5, como em 2025, para os pneus entrarem logo na janela.",
+    "![Modo de ultrapassagem: potência extra na reta](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## A energia vai decidir as ultrapassagens",
+    "Não existe mais DRS. Nas retas quem ajuda é o modo de ultrapassagem, com potência elétrica extra. Quem chegar à reta principal com carga vai poder atacar. As diferenças de velocidade na Strip aparecem durante a corrida no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Vegas 2026: Warum der Strip für die Batterie zu lang ist",
+   "lead": "Die neue Formel-1-Generation fährt zum ersten Mal in Las Vegas. Lange Geraden und wenige Bremszonen machen das Rennen zum Energie-Puzzle.",
+   "body": [
+    "## Die Hälfte der Leistung kommt aus der Batterie",
+    "Die Antriebseinheit 2026 ist eine andere. Die MGU-H fällt weg, die MGU-K liefert bis zu 350 kW, der Verbrenner rund 400 kW. Das ist etwa halbe-halbe, mit leerer Batterie fehlt also fast die Hälfte des Vortriebs.",
+    "## Woher Vegas Energie bekommt",
+    "Geladen wird vor allem beim Bremsen. Die Runde misst 6,2 km, das Rennen geht über 50 Runden, und der Abschnitt auf dem Strip ist fast zwei Kilometer lang, dazu kommen zwei weitere lange Geraden. Langsame Kurven zum kräftigen Nachladen gibt es wenige. Mercedes-Ersatzfahrer Frederik Vesti sagte in der Team-Vorschau, die lange Gerade lasse die Fahrer über weite Teile der Runde ohne Energie.",
+    "![Bremsen füllt die Batterie, Beschleunigen leert sie](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## Super-Clipping bei Vollgas",
+    "Wird die Energie knapp, lädt das Auto bei Vollgas nach, meist am Ende einer Geraden. Das nennt man Super-Clipping: Ein Teil der Motorleistung geht in die Batterie statt an die Räder, und das Tempo sinkt. Vor Miami hob die FIA die Grenze dafür von 250 auf 350 kW an. In Vegas wird man das oft sehen, die Autos gehen vor dem Bremspunkt sichtbar die Puste aus.",
+    "## Kälte und die weichsten Reifen",
+    "Das zweite Problem ist bekannt. Es ist ein Nachtrennen, Luft und Asphalt liegen um 15 °C, wohl das kälteste Wochenende des Jahres. Pirelli bringt wie 2025 die drei weichsten Mischungen C3, C4 und C5, damit die Reifen schnell ins Arbeitsfenster kommen.",
+    "![Überholmodus: Extraleistung auf der Geraden](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## Die Energie entscheidet die Überholmanöver",
+    "DRS gibt es nicht mehr. Auf den Geraden hilft der Überholmodus mit zusätzlicher elektrischer Leistung. Wer mit Ladung auf die Hauptgerade kommt, kann angreifen. Die Tempounterschiede auf dem Strip sieht man während des Rennens auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "2026拉斯维加斯：为什么大道直道对电池来说太长",
+   "lead": "新一代F1赛车首次来到拉斯维加斯。长直道多、重刹车点少，让这场比赛变成一道能量分配题。",
+   "body": [
+    "## 一半动力来自电池",
+    "2026年的动力单元完全不同。MGU-H被取消，MGU-K最高输出350千瓦，内燃机约400千瓦。两者大约各占一半，电池一旦没电，赛车就会损失将近一半的驱动力。",
+    "## 拉斯维加斯从哪里补能",
+    "电池主要靠刹车回收充电。拉斯维加斯一圈6.2公里，正赛50圈，大道上的直道接近两公里，赛道上还有另外两条长直道，能大量充电的低速弯却不多。梅赛德斯储备车手维斯蒂在车队前瞻中表示，长直道让车手在一圈的大部分时间里都处于缺电状态。",
+    "![刹车时给电池充电，加速时释放](/img/articles/3d/las-vegas-2026-strip-energy-energy.jpg)",
+    "## 全油门下的“超级削峰”",
+    "能量不够时，赛车会在全油门状态下继续充电，通常是在直道末端。这就是超级削峰：发动机的一部分功率不再送到车轮，而是充进电池，速度随之下降。迈阿密站之前，国际汽联把这一充电上限从250千瓦提高到350千瓦。拉斯维加斯的直道上会经常看到这种情况，赛车在刹车点前明显“没劲”。",
+    "## 寒冷与最软的轮胎",
+    "第二个问题由来已久。这是一场夜赛，气温和路面温度都在15°C左右，很可能是全年最冷的周末。倍耐力和2025年一样带来最软的三种配方C3、C4和C5，让轮胎尽快进入工作温度。",
+    "![超车模式：直道上的额外功率](/img/articles/3d/las-vegas-2026-strip-energy-boost.jpg)",
+    "## 超车看能量",
+    "DRS已经取消，直道上靠的是带额外电力的超车模式。谁能带着电量冲上主直道，谁就能发起进攻。比赛中大道上的速度差可以在LapRadar上实时查看。"
+   ]
+  }
+ }
+}

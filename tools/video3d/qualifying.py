@@ -1,0 +1,68 @@
+# 3D-ролик к разбору «Квалификация Q1, Q2, Q3: как из 22 машин выбирают поул». Камера (shots) общая для всех языков.
+VIDEO = {
+  "slug": "qualifying-q1-q2-q3",
+  "track": "monza", "theme": "day",
+  "shots": [
+    {"type": "chase", "car": 0, "dist": 11, "dist2": 9, "h": 3.6, "h2": 3, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "t0": 10},
+    {"type": "chase", "car": 0, "dist": 30, "dist2": 22, "h": 14, "h2": 10, "side": 4, "side2": -2, "look": 50, "drop": 4, "act": {"type": "convoy", "at": 0.2}},
+    {"type": "chase", "car": 1, "dist": 20, "dist2": 15, "h": 8, "h2": 6, "side": -2, "side2": 2, "look": 45, "drop": 2, "act": {"type": "follow"}},
+    {"type": "chase", "car": 0, "dist": 12, "dist2": 10, "h": 4, "h2": 3.4, "side": -3, "side2": 2, "look": 30, "drop": 2.5, "act": {"type": "speed"}},
+    {"type": "top", "reveal": True, "badges": True, "k": 1.3, "tilt": 0.18, "rot0": 0, "rot1": 0.1, "act": {"type": "trace", "at": 0.02}},
+    {"type": "orbit", "at": 0.015, "r": 420, "r2": 330, "h": 180, "h2": 130, "a0": 2.0, "a1": 2.6},
+  ],
+  "images": [
+    {"name": "cover", "w": 1200, "h": 630, "t": 3, "u": 0.5, "shot": {"type": "chase", "car": 1, "dist": 11, "h": 3.4, "side": -5.5, "look": 40, "drop": 2.4, "t0": 14, "fov": 46}},
+    {"name": "pack", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 26, "h": 10, "side": -4, "look": 50, "drop": 4, "fov": 46, "act": {"type": "convoy", "at": 0.2}}},
+    {"name": "speed", "w": 1200, "h": 800, "t": 2, "u": 0.5, "shot": {"type": "chase", "car": 0, "dist": 12, "h": 4, "side": -3, "look": 30, "drop": 2.5, "fov": 46, "act": {"type": "speed"}}},
+  ],
+  "scenes": {
+    "ru": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "как из 22 машин выбирают поул", "say": "Двадцать две машины, три сессии и всего десять мест в финале. Как устроена квалификация?"},
+      {"kind": "big", "big": "18 мин", "sub": "Q1: шестеро вылетают", "say": "Первая часть длится восемнадцать минут. Шесть самых медленных встают на старт с семнадцатого места и ниже."},
+      {"kind": "big", "big": "15 мин", "sub": "Q2: время обнуляется", "say": "Во второй части все результаты обнуляются, и за пятнадцать минут отсеиваются ещё шестеро."},
+      {"kind": "big", "big": "12 мин", "sub": "Q3: десятка бьётся за поул", "say": "В финальной части десять лучших за двенадцать минут разыгрывают поул."},
+      {"kind": "list", "head": "Тонкости", "items": ["Трасса ускоряется", "Пробки на круге", "Правило 107%"], "say": "Трасса с каждой минутой становится быстрее, поэтому все тянут до конца. А кто совсем медленный, рискует не попасть на старт."},
+      {"kind": "end", "tag": "Квалификация вживую", "say": "Квалификацию круг за кругом смотрите вживую на ЛапРадар."},
+    ],
+    "en": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "how 22 cars become one pole", "say": "Twenty-two cars, three sessions and only ten spots in the final. How does qualifying work?"},
+      {"kind": "big", "big": "18 min", "sub": "Q1: six are out", "say": "The first part lasts eighteen minutes. The six slowest drivers start seventeenth or lower."},
+      {"kind": "big", "big": "15 min", "sub": "Q2: times reset", "say": "In the second part all times are wiped, and another six drop out in fifteen minutes."},
+      {"kind": "big", "big": "12 min", "sub": "Q3: top ten fight for pole", "say": "In the final part the top ten have twelve minutes to fight for pole."},
+      {"kind": "list", "head": "The details", "items": ["The track gets faster", "Traffic on the lap", "The 107% rule"], "say": "The track gets quicker every minute, so everyone waits until the end. And anyone far too slow risks missing the race."},
+      {"kind": "end", "tag": "Qualifying, live", "say": "Follow qualifying lap by lap, live on LapRadar."},
+    ],
+    "es": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "cómo 22 coches se quedan en una pole", "say": "Veintidós coches, tres sesiones y solo diez plazas en la final. ¿Cómo funciona la clasificación?"},
+      {"kind": "big", "big": "18 min", "sub": "Q1: seis eliminados", "say": "La primera parte dura dieciocho minutos. Los seis más lentos salen del puesto diecisiete hacia atrás."},
+      {"kind": "big", "big": "15 min", "sub": "Q2: los tiempos se borran", "say": "En la segunda parte los tiempos se ponen a cero y en quince minutos caen otros seis."},
+      {"kind": "big", "big": "12 min", "sub": "Q3: diez a por la pole", "say": "En la parte final los diez mejores tienen doce minutos para pelear por la pole."},
+      {"kind": "list", "head": "Los detalles", "items": ["La pista mejora", "Tráfico en la vuelta", "La regla del 107%"], "say": "La pista va más rápida cada minuto, así que todos esperan al final. Y quien sea demasiado lento puede quedarse sin carrera."},
+      {"kind": "end", "tag": "La clasificación en directo", "say": "Sigue la clasificación vuelta a vuelta en directo en LapRadar."},
+    ],
+    "pt": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "como 22 carros viram uma pole", "say": "Vinte e dois carros, três sessões e só dez vagas na final. Como funciona a classificação?"},
+      {"kind": "big", "big": "18 min", "sub": "Q1: seis eliminados", "say": "A primeira parte dura dezoito minutos. Os seis mais lentos largam do décimo sétimo lugar para trás."},
+      {"kind": "big", "big": "15 min", "sub": "Q2: tempos zerados", "say": "Na segunda parte os tempos são zerados, e em quinze minutos caem mais seis."},
+      {"kind": "big", "big": "12 min", "sub": "Q3: dez brigam pela pole", "say": "Na parte final os dez melhores têm doze minutos para brigar pela pole."},
+      {"kind": "list", "head": "Os detalhes", "items": ["A pista melhora", "Tráfego na volta", "A regra dos 107%"], "say": "A pista fica mais rápida a cada minuto, então todo mundo deixa para o fim. E quem for lento demais pode ficar fora da corrida."},
+      {"kind": "end", "tag": "Classificação ao vivo", "say": "Acompanhe a classificação volta a volta, ao vivo no LapRadar."},
+    ],
+    "de": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "wie aus 22 Autos die Pole wird", "say": "Zweiundzwanzig Autos, drei Sessions und nur zehn Plätze im Finale. Wie funktioniert das Qualifying?"},
+      {"kind": "big", "big": "18 min", "sub": "Q1: sechs fliegen raus", "say": "Der erste Teil dauert achtzehn Minuten. Die sechs Langsamsten starten von Platz siebzehn oder weiter hinten."},
+      {"kind": "big", "big": "15 min", "sub": "Q2: Zeiten auf null", "say": "Im zweiten Teil werden alle Zeiten gelöscht, und in fünfzehn Minuten scheiden sechs weitere aus."},
+      {"kind": "big", "big": "12 min", "sub": "Q3: zehn kämpfen um die Pole", "say": "Im Finale haben die besten zehn zwölf Minuten, um die Pole auszufahren."},
+      {"kind": "list", "head": "Die Details", "items": ["Die Strecke wird schneller", "Verkehr auf der Runde", "Die 107-Prozent-Regel"], "say": "Die Strecke wird mit jeder Minute schneller, also warten alle bis zum Schluss. Und wer viel zu langsam ist, riskiert, gar nicht starten zu dürfen."},
+      {"kind": "end", "tag": "Qualifying live", "say": "Das Qualifying Runde für Runde verfolgst du live auf LapRadar."},
+    ],
+    "zh": [
+      {"kind": "title", "head": "Q1 Q2 Q3", "sub": "22辆车怎样决出杆位", "say": "二十二辆车，三节比赛，决赛只有十个名额。排位赛是怎么进行的？"},
+      {"kind": "big", "big": "18分钟", "sub": "Q1：淘汰六人", "say": "第一节十八分钟，最慢的六位车手从第十七位及以后发车。"},
+      {"kind": "big", "big": "15分钟", "sub": "Q2：成绩清零", "say": "第二节所有成绩清零，十五分钟内再淘汰六人。"},
+      {"kind": "big", "big": "12分钟", "sub": "Q3：前十争杆位", "say": "最后一节，前十名有十二分钟争夺杆位。"},
+      {"kind": "list", "head": "细节", "items": ["赛道越跑越快", "圈中遇到车流", "107%规则"], "say": "赛道每分钟都在变快，所以大家都拖到最后。太慢的车手甚至可能无缘正赛。"},
+      {"kind": "end", "tag": "排位赛实时看", "say": "在LapRadar上逐圈实时观看排位赛。"},
+    ],
+  },
+}

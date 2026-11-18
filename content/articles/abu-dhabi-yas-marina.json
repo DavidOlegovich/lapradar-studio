@@ -1,0 +1,124 @@
+{
+ "slug": "abu-dhabi-yas-marina",
+ "date": "2026-11-15",
+ "tags": [
+  "f1",
+  "abu-dhabi",
+  "tracks",
+  "finale"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/abu-dhabi-yas-marina-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Абу-Даби: финал на закате и пит-лейн, который ныряет под трассу",
+   "lead": "Последний этап сезона стартует при дневном свете, а заканчивается под прожекторами. Трасса на острове Яс вообще полна необычных решений.",
+   "body": [
+    "## Первая гонка из дня в ночь",
+    "Первый Гран-при Абу-Даби прошёл 1 ноября 2009 года и сразу вошёл в историю: это была первая гонка Формулы 1, которая стартовала днём, а финишировала в темноте. Старт дали в 17:00 по местному времени, и прожекторы включились прямо по ходу гонки. С тех пор этап проводится каждый год, а в последние сезоны именно он закрывает чемпионат.",
+    "![Пелотон на прямой Яс-Марины в вечернем свете](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## Выезд из боксов под землёй",
+    "У первого поворота места мало, поэтому выезд с пит-лейна здесь уходит в тоннель и проходит под трассой. Для зрителя это выглядит странно: машина после пит-стопа на несколько секунд исчезает из кадра и появляется уже с другой стороны асфальта. Ещё одна местная примета: часть круга проходит прямо под зданием отеля.",
+    "## Перестройка 2021 года",
+    "Долгое время Яс-Марину ругали за скучные гонки с редкими обгонами. Перед сезоном 2021 года трассу переделали в трёх местах. Медленную шикану в пятом повороте заменили шпилькой, связку медленных поворотов в девятом сделали длинным быстрым разворотом, а секцию у отеля расширили. Поворотов стало 16 вместо 21, круг укоротился на 273 метра, а гонку удлинили на три круга, до 58.",
+    "![Схема Яс-Марины после перестройки: 16 поворотов](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## Закат меняет машину",
+    "Гонка начинается, когда трасса ещё нагрета солнцем, а к финишу асфальт заметно остывает. Баланс машины и поведение шин за это время меняются. Поэтому данным тренировок, которые идут в разгар дня, команды доверяют меньше, чем сессиям в то же время суток, что и гонка.",
+    "## 58 кругов до отпуска",
+    "Круг в Абу-Даби длиной 5,281 км, вся гонка чуть больше 306 км. Для многих в пелотоне это последний шанс заработать очки и место в зачёте конструкторов, а значит, и призовые. Интервалы и пит-стопы финала по ходу гонки удобно смотреть на 3D-карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Abu Dhabi: a sunset finale and a pit lane that dives under the track",
+   "lead": "The final round of the season starts in daylight and ends under floodlights. And Yas Marina has a few other quirks too.",
+   "body": [
+    "## The first day-to-night race",
+    "The first Abu Dhabi Grand Prix ran on 1 November 2009 and made history straight away: it was the first Formula 1 race to start in daylight and finish in the dark. Lights out was at 17:00 local time, and the floodlights came on during the race. It has been held every year since, and in recent seasons it has been the championship finale.",
+    "![The pack on a Yas Marina straight in the evening light](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## A pit exit underground",
+    "There's no room by Turn 1, so the pit lane exit drops into a tunnel and runs under the track. On TV it looks odd: a car leaves its pit box, vanishes for a few seconds and pops up on the other side of the tarmac. Another local landmark: part of the lap runs right underneath the hotel building.",
+    "## The 2021 rebuild",
+    "For years Yas Marina was criticised for processional races with few overtakes. Before the 2021 season it was changed in three places. The slow chicane at Turn 5 became a hairpin, the slow sequence at Turn 9 turned into a long, fast sweeping hairpin, and the hotel section was opened up. The corner count dropped from 21 to 16, the lap got 273 metres shorter, and the race grew by three laps to 58.",
+    "![Yas Marina after the rebuild: 16 corners](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## Sunset changes the car",
+    "The race starts with the track still warm from the sun, and by the flag the tarmac has cooled noticeably. Balance and tyre behaviour shift along the way, so teams trust the sessions held at the same time of day as the race more than those run in the afternoon heat.",
+    "## 58 laps to the holidays",
+    "A lap of Abu Dhabi is 5.281 km and the race is just over 306 km. For plenty of the grid it's the last chance to score points and climb the constructors' table, which means prize money. The LapRadar 3D map is a handy way to follow the gaps and pit stops of the finale as they happen."
+   ]
+  },
+  "es": {
+   "title": "Abu Dabi: una final al atardecer y un pit lane que pasa bajo la pista",
+   "lead": "La última cita del año arranca con luz natural y termina con focos. Y Yas Marina guarda alguna rareza más.",
+   "body": [
+    "## La primera carrera del día a la noche",
+    "El primer GP de Abu Dabi se disputó el 1 de noviembre de 2009 y entró en la historia de inmediato: fue la primera carrera de Fórmula 1 que empezó de día y terminó de noche. La salida fue a las 17:00 hora local y los focos se encendieron con la carrera en marcha. Desde entonces se corre cada año, y en las últimas temporadas es la que cierra el campeonato.",
+    "![El pelotón en una recta de Yas Marina con la luz de la tarde](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## Una salida de boxes subterránea",
+    "Junto a la curva 1 no hay sitio, así que la salida del pit lane se mete en un túnel y pasa por debajo de la pista. En la tele resulta curioso: el coche sale de su box, desaparece unos segundos y reaparece al otro lado del asfalto. Otra seña de identidad: parte de la vuelta pasa justo por debajo del edificio del hotel.",
+    "## La reforma de 2021",
+    "Durante años Yas Marina tuvo fama de carreras aburridas y con pocos adelantamientos. Antes de 2021 se cambió en tres zonas. La chicane lenta de la curva 5 se convirtió en una horquilla, el grupo de curvas lentas de la 9 pasó a ser un giro largo y rápido, y la zona del hotel se abrió. Las curvas bajaron de 21 a 16, la vuelta se acortó 273 metros y la carrera ganó tres giros, hasta 58.",
+    "![Yas Marina tras la reforma: 16 curvas](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## El atardecer cambia el coche",
+    "La carrera empieza con el asfalto todavía caliente por el sol y, al final, la pista se ha enfriado bastante. El equilibrio del coche y el comportamiento de los neumáticos cambian por el camino, por eso los equipos se fían más de las sesiones a la misma hora que la carrera que de las que se corren con el calor de la tarde.",
+    "## 58 vueltas hasta las vacaciones",
+    "La vuelta en Abu Dabi mide 5,281 km y la carrera algo más de 306 km. Para muchos en la parrilla es la última ocasión de sumar puntos y escalar en el mundial de constructores, y eso significa dinero. En el mapa 3D de LapRadar se pueden seguir los intervalos y las paradas de la final en directo."
+   ]
+  },
+  "pt": {
+   "title": "Abu Dhabi: uma final no pôr do sol e um pit lane que passa debaixo da pista",
+   "lead": "A última etapa do ano larga com luz do dia e termina sob holofotes. E Yas Marina ainda tem outras esquisitices.",
+   "body": [
+    "## A primeira corrida do dia para a noite",
+    "O primeiro GP de Abu Dhabi foi disputado em 1º de novembro de 2009 e já entrou para a história: foi a primeira corrida de Fórmula 1 a largar de dia e terminar no escuro. A largada foi às 17:00 no horário local, e os holofotes acenderam com a prova em andamento. Desde então a corrida acontece todo ano, e nas últimas temporadas é ela que fecha o campeonato.",
+    "![O pelotão numa reta de Yas Marina com a luz do fim de tarde](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## Uma saída dos boxes subterrânea",
+    "Não há espaço perto da curva 1, então a saída do pit lane entra num túnel e passa por baixo da pista. Na TV fica curioso: o carro sai do box, some por alguns segundos e reaparece do outro lado do asfalto. Outra marca registrada: parte da volta passa bem embaixo do prédio do hotel.",
+    "## A reforma de 2021",
+    "Por anos Yas Marina foi criticada por corridas monótonas e com poucas ultrapassagens. Antes de 2021 a pista mudou em três pontos. A chicane lenta da curva 5 virou um grampo, a sequência lenta da curva 9 virou uma curva longa e rápida, e o trecho do hotel foi aberto. As curvas caíram de 21 para 16, a volta ficou 273 metros mais curta e a corrida ganhou três voltas, chegando a 58.",
+    "![Yas Marina depois da reforma: 16 curvas](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## O pôr do sol muda o carro",
+    "A corrida começa com o asfalto ainda quente do sol e, no fim, a pista já esfriou bastante. O equilíbrio do carro e o comportamento dos pneus mudam no caminho, por isso as equipes confiam mais nas sessões disputadas no mesmo horário da corrida do que naquelas feitas no calor da tarde.",
+    "## 58 voltas até as férias",
+    "A volta em Abu Dhabi tem 5,281 km e a corrida pouco mais de 306 km. Para muita gente no grid é a última chance de marcar pontos e subir no campeonato de construtores, o que vale dinheiro. No mapa 3D do LapRadar dá para acompanhar os intervalos e as paradas da final ao vivo."
+   ]
+  },
+  "de": {
+   "title": "Abu Dhabi: ein Finale im Sonnenuntergang und eine Boxenausfahrt unter der Strecke",
+   "lead": "Das letzte Rennen der Saison startet bei Tageslicht und endet unter Flutlicht. Und Yas Marina hat noch ein paar weitere Eigenheiten.",
+   "body": [
+    "## Das erste Rennen vom Tag in die Nacht",
+    "Der erste Große Preis von Abu Dhabi fand am 1. November 2009 statt und schrieb sofort Geschichte: Es war das erste Formel-1-Rennen, das bei Tag startete und im Dunkeln endete. Gestartet wurde um 17:00 Uhr Ortszeit, das Flutlicht ging während des Rennens an. Seitdem wird hier jedes Jahr gefahren, und in den letzten Saisons war es stets das Finale.",
+    "![Das Feld auf einer Geraden in Yas Marina im Abendlicht](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## Die Boxenausfahrt im Untergrund",
+    "An Kurve 1 ist kein Platz, deshalb führt die Boxenausfahrt in einen Tunnel unter der Strecke hindurch. Im Fernsehen wirkt das seltsam: Ein Auto verlässt die Box, verschwindet für ein paar Sekunden und taucht auf der anderen Seite des Asphalts wieder auf. Noch eine Besonderheit: Ein Teil der Runde führt direkt unter dem Hotelgebäude hindurch.",
+    "## Der Umbau von 2021",
+    "Lange galt Yas Marina als Strecke für zähe Rennen mit wenigen Überholmanövern. Vor der Saison 2021 wurde sie an drei Stellen umgebaut. Aus der langsamen Schikane in Kurve 5 wurde eine Haarnadel, die langsame Passage um Kurve 9 wich einer langen, schnellen Kehre, und der Hotelabschnitt wurde geöffnet. Statt 21 gibt es nun 16 Kurven, die Runde ist 273 Meter kürzer, und das Rennen wurde um drei Runden auf 58 verlängert.",
+    "![Yas Marina nach dem Umbau: 16 Kurven](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## Der Sonnenuntergang verändert das Auto",
+    "Beim Start ist der Asphalt noch von der Sonne aufgeheizt, bis zur Zielflagge kühlt er deutlich ab. Balance und Reifenverhalten verschieben sich dabei. Die Teams verlassen sich deshalb eher auf die Sessions zur gleichen Tageszeit wie das Rennen als auf die in der Nachmittagshitze.",
+    "## 58 Runden bis zum Urlaub",
+    "Eine Runde in Abu Dhabi misst 5,281 km, das Rennen gut 306 km. Für viele im Feld ist es die letzte Chance auf Punkte und einen besseren Platz in der Konstrukteurswertung, und da geht es um Preisgeld. Abstände und Boxenstopps des Finales lassen sich bequem live auf der 3D-Karte von LapRadar verfolgen."
+   ]
+  },
+  "zh": {
+   "title": "阿布扎比：日落时分的收官战，和钻到赛道下面的维修区出口",
+   "lead": "赛季最后一站在白天起步，在泛光灯下结束。亚斯码头赛道还有不少与众不同的地方。",
+   "body": [
+    "## 第一场从白天跑进黑夜的比赛",
+    "首届阿布扎比大奖赛于2009年11月1日举行，一亮相就写进了历史：这是第一场白天开赛、在黑暗中结束的一级方程式比赛。比赛在当地时间17:00发车，泛光灯在比赛进行中亮起。此后这里每年都有比赛，近几个赛季它一直是收官站。",
+    "![傍晚光线下，车队驶过亚斯码头的直道](/img/articles/3d/abu-dhabi-yas-marina-pack.jpg)",
+    "## 地下的维修区出口",
+    "一号弯附近没有空间，所以维修区出口钻进隧道，从赛道下方穿过。电视上看起来很奇特：赛车驶离维修位，消失几秒钟，再从赛道另一侧冒出来。另一个标志性的地方是：有一段赛道正好从酒店建筑下方穿过。",
+    "## 2021年的改造",
+    "很长一段时间里，亚斯码头被批评比赛沉闷、超车太少。2021赛季前，赛道有三处被改造：5号弯的慢速减速弯改成了发夹弯，9号弯附近的慢速弯组改成了一个又长又快的大回头弯，酒店路段也被拓宽。弯道从21个减少到16个，单圈缩短273米，比赛则增加三圈，变为58圈。",
+    "![改造后的亚斯码头赛道：16个弯](/img/articles/3d/abu-dhabi-yas-marina-map.jpg)",
+    "## 日落改变赛车",
+    "发车时路面还带着阳光的热度，到冲线时已经明显降温。赛车平衡和轮胎表现会随之变化。因此，车队更相信与正赛同一时段的练习，而不是下午高温下跑出的数据。",
+    "## 放假前的58圈",
+    "阿布扎比单圈5.281公里，全程略超306公里。对围场里的很多人来说，这是拿积分、提升车队积分榜排名的最后机会，而排名直接关系到奖金。收官战的差距和进站情况，可以在LapRadar的3D地图上实时查看。"
+   ]
+  }
+ }
+}

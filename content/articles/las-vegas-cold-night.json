@@ -1,0 +1,135 @@
+{
+ "slug": "las-vegas-cold-night",
+ "date": "2026-11-14",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "tyres"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-cold-night-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Лас-Вегас: самая яркая гонка сезона и самая скользкая",
+   "lead": "Ночь, холод пустыни и гладкий городской асфальт. В Вегасе шины никак не хотят выходить на рабочую температуру, и стратегия может перевернуться за один круг.",
+   "body": [
+    "## Стрип, прямые и повороты под прямым углом",
+    "Гран-при Лас-Вегаса проходит по улицам города, в том числе по знаменитому бульвару Стрип. Круг около 6,2 км, и состоит он в основном из длинных прямых и медленных поворотов на 90 градусов. Машины выезжают с минимальной прижимной силой, чтобы разгоняться на прямых, поэтому в поворотах держатся хуже обычного.",
+    "![Схема Лас-Вегаса: длинные прямые и повороты под прямым углом](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## Ноябрьская ночь в пустыне",
+    "Старт ночью, а ноябрьские ночи в пустыне прохладные: воздух около 10–15 °C, асфальт тоже холодный. Шины Формулы 1 рассчитаны на куда более высокие температуры, и прогреть их здесь трудно. Холодная резина держит хуже, машину сносит, а пилоты жалуются, что едут как по льду.",
+    "![Старт в Лас-Вегасе: прожекторы, трибуны и холодная ночь](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## Грейнинг: резина скатывается в катышки",
+    "Когда холодная шина проскальзывает, её поверхность рвётся на мелкие катышки. Такой износ называют грейнингом. Катышки оказываются между шиной и асфальтом, работают как подшипники, и темп падает. Иногда грейнинг проходит сам через несколько кругов, иногда из-за него приходится ехать в боксы раньше плана.",
+    "## Мягкие, которые держат дистанцию",
+    "Обычно мягкий состав означает быстрый, но короткий отрезок. В Вегасе выходит наоборот. На холоде мягкую резину просто проще прогреть, и часто она оказывается лучше жёсткой и на одном круге, и на длинной дистанции. Жёсткая может так и не выйти на рабочую температуру.",
+    "## Рестарт после сейфти-кара",
+    "Пары медленных кругов за машиной безопасности хватает, чтобы шины остыли. Поэтому рестарт в Вегасе всегда нервный момент: кто быстрее прогреет резину, тот может отыграть несколько позиций, а кто не успел, рискует ошибиться уже в первом повороте.",
+    "## Обгоны на Стрипе",
+    "В Live-центре LapRadar видно, на каких шинах едет каждый пилот, сколько им кругов и как меняются интервалы. На 3D-карте понятно, в каком именно месте Стрипа случаются обгоны."
+   ]
+  },
+  "en": {
+   "title": "Las Vegas: the brightest race of the season, and the slipperiest",
+   "lead": "Night, desert cold and smooth street tarmac. In Vegas the tyres simply refuse to switch on, and the strategy can flip in a single lap.",
+   "body": [
+    "## The Strip and its 90-degree corners",
+    "The Las Vegas Grand Prix runs on city streets, including the famous Strip. The lap is roughly 6.2 km, mostly long straights broken up by slow 90-degree corners. Teams run very little downforce to be quick on the straights, which leaves the cars short of grip in the turns.",
+    "![The Las Vegas layout: long straights and right-angle corners](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## A November night in the desert",
+    "The race starts at night, and November nights in the desert are chilly: air around 10–15 °C and cold tarmac. F1 tyres are built for much higher temperatures, so getting heat into them is hard work. Cold rubber grips less, the cars slide around, and drivers compare it to driving on ice.",
+    "![The start in Las Vegas: floodlights, grandstands and a cold night](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## Graining",
+    "When a cold tyre slides, the surface tears into small rolls of rubber. That's graining. The rolls sit between tyre and tarmac like ball bearings, and the pace falls away. Sometimes it clears up after a few laps. Sometimes it forces an early stop.",
+    "## Softs that go the distance",
+    "Normally a soft means a quick but short stint. Vegas turns that around. In the cold the soft is simply easier to switch on, and it's often better than the hard over a single lap and over a long run too. The hard may never reach its working temperature.",
+    "## Restarts",
+    "A couple of slow laps behind the safety car and the tyres have gone cold again. That makes every restart in Vegas a gamble. Get your tyres working first and you can pick up several places; get it wrong and you can make a mistake at the very first corner.",
+    "## Overtakes on the Strip",
+    "LapRadar's Live centre shows every driver's tyres, how old they are and how the gaps are moving, and the 3D map shows exactly where on the Strip the passes happen."
+   ]
+  },
+  "es": {
+   "title": "Las Vegas: la carrera más brillante del año es también la más resbaladiza",
+   "lead": "Noche, frío del desierto y asfalto urbano liso. En Las Vegas no hay manera de que los neumáticos entren en temperatura, y la estrategia puede cambiar por completo en una vuelta.",
+   "body": [
+    "## El Strip y sus curvas de 90 grados",
+    "El Gran Premio de Las Vegas se corre por las calles de la ciudad, incluido el famoso Strip. La vuelta mide unos 6,2 km y son sobre todo rectas largas y curvas lentas de 90 grados. Los coches van con muy poca carga aerodinámica para correr en recta, así que en curva agarran menos de lo normal.",
+    "![El trazado de Las Vegas: rectas largas y curvas en ángulo recto](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## Una noche de noviembre en el desierto",
+    "Se corre de noche, y en noviembre las noches del desierto son frías: el aire ronda los 10–15 °C y el asfalto también está frío. Los neumáticos de F1 están pensados para temperaturas mucho más altas y aquí cuesta muchísimo calentarlos. La goma fría agarra menos, el coche desliza y los pilotos lo comparan con conducir sobre hielo.",
+    "![La salida en Las Vegas: focos, gradas y una noche fría](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## El graining",
+    "Cuando un neumático frío desliza, la superficie se rompe en pequeñas bolitas de goma. Eso es el graining. Las bolitas quedan entre el neumático y el asfalto como si fueran rodamientos, y el ritmo cae. A veces desaparece tras unas vueltas; otras obliga a parar antes de lo previsto.",
+    "## Blandos que aguantan",
+    "Lo normal es que el blando dé una tanda rápida pero corta. En Las Vegas pasa lo contrario: con frío es más fácil ponerlo en temperatura y muchas veces rinde mejor que el duro también en tanda larga. El duro puede no llegar nunca a su temperatura de trabajo.",
+    "## Relanzadas tras el safety car",
+    "Un par de vueltas lentas detrás del coche de seguridad bastan para que los neumáticos se enfríen. Cada relanzada en Las Vegas es arriesgada: quien calienta antes la goma puede ganar varias posiciones, y quien no lo consigue puede equivocarse en la primera curva.",
+    "## Adelantamientos en el Strip",
+    "El centro Live de LapRadar muestra los neumáticos de cada piloto, su edad y cómo se mueven las diferencias. En el mapa 3D se ve en qué punto del Strip se producen los adelantamientos."
+   ]
+  },
+  "pt": {
+   "title": "Las Vegas: a corrida mais brilhante do ano também é a mais escorregadia",
+   "lead": "Noite, frio do deserto e asfalto urbano liso. Em Las Vegas os pneus custam a funcionar, e a estratégia pode virar em uma única volta.",
+   "body": [
+    "## A Strip e as curvas de 90 graus",
+    "O GP de Las Vegas é disputado nas ruas da cidade, incluindo a famosa Strip. A volta tem cerca de 6,2 km, quase toda de retas longas e curvas lentas de 90 graus. Os carros andam com pouquíssima pressão aerodinâmica para render nas retas e, por isso, têm menos aderência nas curvas.",
+    "![O traçado de Las Vegas: retas longas e curvas em ângulo reto](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## Uma noite de novembro no deserto",
+    "A largada é à noite, e em novembro as noites no deserto são frias: o ar fica em torno de 10–15 °C e o asfalto também está frio. Os pneus da F1 foram feitos para temperaturas bem mais altas, e aqui é difícil esquentá-los. Borracha fria agarra menos, o carro escorrega e os pilotos comparam com andar no gelo.",
+    "![A largada em Las Vegas: holofotes, arquibancadas e uma noite fria](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## Granulação",
+    "Quando um pneu frio desliza, a superfície se rasga em pequenas bolinhas de borracha. É a granulação, o tal graining. Essas bolinhas ficam entre o pneu e o asfalto como rolamentos, e o ritmo cai. Às vezes o problema some depois de algumas voltas; às vezes obriga a parar mais cedo.",
+    "## Macios que aguentam",
+    "Normalmente o macio rende um stint rápido e curto. Em Las Vegas é o contrário: no frio ele esquenta com mais facilidade e muitas vezes é melhor que o duro também em ritmo de corrida. O duro pode nunca chegar à temperatura ideal.",
+    "## Relargadas depois do safety car",
+    "Bastam poucas voltas lentas atrás do safety car para os pneus esfriarem. Cada relargada em Las Vegas é arriscada: quem esquenta a borracha primeiro pode ganhar várias posições, e quem não consegue pode errar logo na primeira curva.",
+    "## Ultrapassagens na Strip",
+    "O centro Live do LapRadar mostra os pneus de cada piloto, a idade deles e como as diferenças mudam. No mapa 3D dá para ver em que ponto da Strip acontecem as ultrapassagens."
+   ]
+  },
+  "de": {
+   "title": "Las Vegas: Das hellste Rennen der Saison und das rutschigste",
+   "lead": "Nacht, Wüstenkälte und glatter Stadtasphalt. In Vegas wollen die Reifen einfach nicht anspringen, und die Strategie kann sich innerhalb einer Runde drehen.",
+   "body": [
+    "## Der Strip und seine 90-Grad-Kurven",
+    "Der Große Preis von Las Vegas wird auf Stadtstraßen ausgetragen, unter anderem auf dem berühmten Strip. Eine Runde ist rund 6,2 km lang und besteht überwiegend aus langen Geraden, unterbrochen von langsamen 90-Grad-Kurven. Die Teams fahren mit sehr wenig Abtrieb, um auf den Geraden schnell zu sein, und dadurch fehlt den Autos in den Kurven Grip.",
+    "![Das Layout von Las Vegas: lange Geraden und rechtwinklige Kurven](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## Eine Novembernacht in der Wüste",
+    "Das Rennen startet nachts, und Novembernächte in der Wüste sind kühl: Die Luft hat etwa 10–15 °C, der Asphalt ist kalt. F1-Reifen sind für deutlich höhere Temperaturen gebaut, Wärme in sie hineinzubekommen ist deshalb harte Arbeit. Kaltes Gummi greift schlechter, die Autos rutschen herum, und die Fahrer vergleichen es mit Fahren auf Eis.",
+    "![Der Start in Las Vegas: Flutlicht, Tribünen und eine kalte Nacht](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## Graining",
+    "Rutscht ein kalter Reifen, reißt seine Oberfläche zu kleinen Gummiröllchen auf. Das nennt man Graining. Die Röllchen liegen zwischen Reifen und Asphalt wie Kugellager, und das Tempo bricht ein. Manchmal legt sich das nach ein paar Runden. Manchmal erzwingt es einen frühen Stopp.",
+    "## Softs, die durchhalten",
+    "Normalerweise bedeutet der Soft einen schnellen, aber kurzen Stint. In Vegas ist es umgekehrt. In der Kälte lässt sich der Soft schlicht leichter zum Arbeiten bringen, und oft ist er dem harten Reifen auf eine Runde wie auch auf lange Distanz überlegen. Der Hard erreicht womöglich nie seine Arbeitstemperatur.",
+    "## Restarts",
+    "Ein paar langsame Runden hinter dem Safety-Car, und die Reifen sind wieder kalt. Deshalb ist in Vegas jeder Restart ein Glücksspiel. Wer seine Reifen zuerst zum Arbeiten bringt, kann mehrere Plätze gutmachen; wer sich verschätzt, kann schon in der ersten Kurve einen Fehler machen.",
+    "## Überholmanöver auf dem Strip",
+    "Das Live-Center von LapRadar zeigt die Reifen jedes Fahrers, ihr Alter und wie sich die Abstände entwickeln, und auf der 3D-Karte siehst du genau, wo auf dem Strip überholt wird."
+   ]
+  },
+  "zh": {
+   "title": "拉斯维加斯：本赛季最耀眼也最滑的一场比赛",
+   "lead": "夜晚、沙漠的寒意和平滑的街道路面。在维加斯，轮胎就是热不起来，策略可能在一圈之内彻底翻转。",
+   "body": [
+    "## 拉斯维加斯大道与90度弯",
+    "拉斯维加斯大奖赛在城市街道上举行，其中包括著名的拉斯维加斯大道（the Strip）。一圈约6.2公里，大部分是长直道，中间穿插着低速的90度弯。车队为了在直道上跑得快，下压力设置得非常低，结果赛车在弯道里抓地力不足。",
+    "![拉斯维加斯赛道布局：长直道加直角弯](/img/articles/3d/las-vegas-cold-night-map.jpg)",
+    "## 沙漠里的十一月之夜",
+    "比赛在夜间开始，而沙漠里十一月的夜晚相当凉：气温约10–15 °C，路面也是冷的。F1轮胎是为高得多的温度设计的，要让它们热起来非常困难。冷轮胎抓地力差，赛车四处打滑，车手们把这比作在冰面上开车。",
+    "![拉斯维加斯的发车：灯光、看台和寒冷的夜晚](/img/articles/3d/las-vegas-cold-night-night.jpg)",
+    "## 颗粒化",
+    "冷轮胎一打滑，胎面就会撕起一个个细小的橡胶卷，这就是颗粒化（graining）。这些橡胶卷夹在轮胎和路面之间，像滚珠一样，圈速随之下滑。有时跑上几圈就会好转，有时则会逼着车队提前进站。",
+    "## 能跑长距离的软胎",
+    "通常软胎意味着一段速度快但寿命短的轮胎周期。维加斯却恰恰相反。天冷时，软胎更容易进入工作状态，无论单圈还是长距离，往往都比硬胎好。硬胎则可能始终达不到工作温度。",
+    "## 重新起跑",
+    "在安全车后面慢跑几圈，轮胎就又冷了。所以在维加斯，每一次重新起跑都是一场赌博。谁先让轮胎进入状态，谁就能连超好几个位置；判断失误，则可能在第一个弯就犯错。",
+    "## 大道上的超车",
+    "LapRadar的Live中心会显示每位车手的轮胎、胎龄和差距变化，3D地图则让你看清超车究竟发生在大道的哪个位置。"
+   ]
+  }
+ }
+}

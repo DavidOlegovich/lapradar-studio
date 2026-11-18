@@ -1,0 +1,123 @@
+{
+ "slug": "track-limits",
+ "date": "2026-11-15",
+ "tags": [
+  "f1",
+  "rules",
+  "penalties"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/track-limits-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Лимиты трассы: как ловят и за что наказывают",
+   "lead": "Пилот проехал идеальный круг, а на экране его время перечёркнуто. Где кончается трасса и что бывает за выезд за её пределы, без юридического языка.",
+   "body": [
+    "## Где кончается трасса",
+    "В спортивном регламенте FIA формулировка короткая: пилот покинул трассу, если ни одна часть машины больше её не касается. Белая линия по краю считается частью трассы, поребрик нет. На практике это значит, что судьи смотрят на колёса. Пока хотя бы одно колесо на линии, всё в порядке. Все четыре за ней, и это нарушение.",
+    "![Машину выносит на поребрик в повороте](/img/articles/3d/track-limits-wide.jpg)",
+    "## Квалификация: круг просто стирают",
+    "На тренировках и в квалификации время такого круга удаляют. В квалификации это может стоить выхода в следующий сегмент или нескольких мест на стартовой решётке. Есть и коварный нюанс: если пилот вылетел за линию в последнем повороте перед стартовой прямой, могут удалить ещё и следующий круг. Иначе он выиграл бы скорость на выходе на прямую.",
+    "## Гонка: три предупреждения, потом штраф",
+    "В гонке время круга не удаляют, зато ведут счёт. Первые два нарушения проходят без последствий. За третье пилоту показывают чёрно-белый флаг, это последнее предупреждение. Четвёртое стоит 5 секунд штрафа, пятое 10 секунд. Дальше счётчик идёт по новому кругу. С 2026 года судьи могут не засчитывать выезд, если пилот пытался обогнать, у него не получилось и выгоды он не получил.",
+    "![Схема Ред Булл Ринга: короткий круг из десяти поворотов](/img/articles/3d/track-limits-map.jpg)",
+    "## Австрия-2023: пять часов после финиша",
+    "Самая громкая история случилась на Гран-при Австрии 2023 года. Больше всего выездов было на входе и особенно на выходе из последнего поворота. Судьям пришлось проверить больше 1200 возможных нарушений, за гонку удалили больше ста кругов. После финиша последовал пересчёт: ещё 12 штрафов на восемь пилотов, а окончательный результат объявили примерно через пять часов после клетчатого флага.",
+    "## Как ловят нарушителей",
+    "За краями трассы следят датчики в асфальте и камеры с приближением. Сигналы стекаются в дирекцию гонки и в удалённый центр FIA в Женеве, где их проверяют люди. Если по ходу гонки у пилота внезапно выросло отставание на пять секунд, на LapRadar это видно в таблице интервалов, а причину обычно объясняет сообщение дирекции."
+   ]
+  },
+  "en": {
+   "title": "Track limits: how they're policed and what they cost",
+   "lead": "A driver nails the perfect lap, and then his time appears crossed out on the screen. Here's where the track ends and what happens when you go beyond it, minus the legal jargon.",
+   "body": [
+    "## Where the track ends",
+    "The FIA Sporting Regulations keep it short: a driver has left the track if no part of the car remains in contact with it. The white line at the edge counts as track, the kerb doesn't. In practice the stewards look at the wheels. As long as one wheel is still on the line, you're fine. All four beyond it, and that's an offence.",
+    "![A car running wide onto the kerb](/img/articles/3d/track-limits-wide.jpg)",
+    "## Qualifying: the lap is just wiped",
+    "In practice and qualifying the time of that lap is deleted. In qualifying that can cost a place in the next segment or a few grid slots. There's a sneaky extra too: if a driver goes wide at the last corner before the pit straight, the following lap can be deleted as well, because he'd otherwise carry extra speed onto the straight.",
+    "## The race: three warnings, then a penalty",
+    "In the race lap times aren't deleted, but the stewards keep count. The first two offences go unpunished. The third brings the black and white flag, the final warning. The fourth costs a 5 second penalty, the fifth 10 seconds, and then the count starts over. From 2026 the stewards can also ignore an offence if a driver went wide in a failed overtaking attempt and gained nothing from it.",
+    "![The Red Bull Ring: a short lap with ten corners](/img/articles/3d/track-limits-map.jpg)",
+    "## Austria 2023: five hours after the flag",
+    "The most notorious case came at the 2023 Austrian Grand Prix. Most offences happened on the way into, and especially out of, the final corners. Officials had to check more than 1,200 possible breaches, and over a hundred laps were deleted during the race. A recount followed: 12 more penalties for eight drivers, with the final result announced about five hours after the chequered flag.",
+    "## How offenders get caught",
+    "Sensor loops in the track and zoomed cameras watch the edges. The signals go to race control and to the FIA's remote operations centre in Geneva, where people review them. If a driver suddenly drops five seconds mid-race, LapRadar's interval table shows it straight away, and a race control message usually explains why."
+   ]
+  },
+  "es": {
+   "title": "Límites de pista: cómo se vigilan y qué cuestan",
+   "lead": "El piloto clava la vuelta perfecta y luego ve su tiempo tachado en pantalla. Dónde acaba la pista y qué pasa si te sales de ella, sin lenguaje de abogados.",
+   "body": [
+    "## Dónde acaba la pista",
+    "El reglamento deportivo de la FIA lo dice en una línea: un piloto ha salido de la pista si ninguna parte del coche sigue en contacto con ella. La línea blanca del borde cuenta como pista, el piano no. En la práctica los comisarios miran las ruedas. Mientras una rueda siga sobre la línea, no pasa nada. Con las cuatro fuera, es infracción.",
+    "![Un coche se abre hasta el piano en la curva](/img/articles/3d/track-limits-wide.jpg)",
+    "## Clasificación: la vuelta se borra",
+    "En los libres y en la clasificación ese tiempo se elimina. En clasificación puede costar el paso a la siguiente fase o varias posiciones en la parrilla. Y hay un detalle traicionero: si el piloto se sale en la última curva antes de la recta de meta, también le pueden borrar la vuelta siguiente, porque saldría lanzado a la recta.",
+    "## Carrera: tres avisos y luego sanción",
+    "En carrera no se borran tiempos, pero se lleva la cuenta. Las dos primeras infracciones no tienen consecuencias. Con la tercera llega la bandera blanca y negra, el último aviso. La cuarta cuesta 5 segundos de sanción, la quinta 10, y después la cuenta vuelve a empezar. Desde 2026 los comisarios pueden no contar una salida si el piloto intentaba adelantar, no lo consiguió y no sacó ventaja.",
+    "![El Red Bull Ring: una vuelta corta de diez curvas](/img/articles/3d/track-limits-map.jpg)",
+    "## Austria 2023: cinco horas después de la bandera",
+    "El caso más sonado llegó en el GP de Austria de 2023. La mayoría de salidas se dieron en la entrada y sobre todo en la salida de las últimas curvas. Los comisarios tuvieron que revisar más de 1.200 posibles infracciones y se borraron más de cien vueltas durante la carrera. Luego hubo recuento: 12 sanciones más para ocho pilotos y el resultado final se anunció unas cinco horas después de la bandera a cuadros.",
+    "## Cómo se pilla a los infractores",
+    "Sensores en el asfalto y cámaras con zoom vigilan los bordes. Las señales llegan a dirección de carrera y al centro remoto de la FIA en Ginebra, donde las revisan personas. Si un piloto pierde de golpe cinco segundos en plena carrera, la tabla de intervalos de LapRadar lo muestra al momento, y un mensaje de dirección de carrera suele explicar el motivo."
+   ]
+  },
+  "pt": {
+   "title": "Limites de pista: como são fiscalizados e quanto custam",
+   "lead": "O piloto crava a volta perfeita e depois vê o tempo riscado na tela. Onde termina a pista e o que acontece quando você passa dela, sem juridiquês.",
+   "body": [
+    "## Onde termina a pista",
+    "O regulamento esportivo da FIA resolve em uma frase: o piloto saiu da pista se nenhuma parte do carro continua em contato com ela. A linha branca da borda conta como pista, a zebra não. Na prática os comissários olham as rodas. Enquanto uma roda estiver sobre a linha, tudo certo. Com as quatro além dela, é infração.",
+    "![Um carro abre demais e sobe na zebra](/img/articles/3d/track-limits-wide.jpg)",
+    "## Classificação: a volta é apagada",
+    "Nos treinos e na classificação o tempo dessa volta é eliminado. Na classificação isso pode custar a passagem para a fase seguinte ou algumas posições no grid. E tem um detalhe traiçoeiro: se o piloto passa do limite na última curva antes da reta dos boxes, a volta seguinte também pode ser apagada, porque ele ganharia velocidade na reta.",
+    "## Corrida: três avisos, depois punição",
+    "Na corrida os tempos não são apagados, mas a contagem continua. As duas primeiras infrações passam sem nada. Na terceira vem a bandeira preta e branca, o último aviso. A quarta custa 5 segundos de punição, a quinta 10, e depois a contagem recomeça. Desde 2026 os comissários podem desconsiderar uma saída se o piloto tentou ultrapassar, não conseguiu e não levou vantagem.",
+    "![O Red Bull Ring: uma volta curta de dez curvas](/img/articles/3d/track-limits-map.jpg)",
+    "## Áustria 2023: cinco horas depois da bandeirada",
+    "O caso mais famoso foi o GP da Áustria de 2023. A maioria das saídas aconteceu na entrada e principalmente na saída das últimas curvas. Os comissários tiveram que checar mais de 1.200 possíveis infrações, e mais de cem voltas foram apagadas durante a corrida. Depois veio a recontagem: mais 12 punições para oito pilotos, e o resultado final só saiu umas cinco horas depois da bandeirada.",
+    "## Como os infratores são pegos",
+    "Sensores no asfalto e câmeras com zoom vigiam as bordas. Os sinais vão para a direção de prova e para o centro remoto da FIA em Genebra, onde pessoas fazem a revisão. Se um piloto perde cinco segundos de repente no meio da corrida, a tabela de intervalos do LapRadar mostra na hora, e uma mensagem da direção de prova costuma explicar o motivo."
+   ]
+  },
+  "de": {
+   "title": "Track Limits: wie sie überwacht werden und was sie kosten",
+   "lead": "Ein Fahrer erwischt die perfekte Runde, und dann steht seine Zeit durchgestrichen auf dem Bildschirm. Wo die Strecke endet und was passiert, wenn man darüber hinausfährt, ohne Paragrafendeutsch.",
+   "body": [
+    "## Wo die Strecke endet",
+    "Das Sportliche Reglement der FIA fasst es in einem Satz: Ein Fahrer hat die Strecke verlassen, wenn kein Teil des Autos mehr Kontakt zu ihr hat. Die weiße Linie am Rand gehört zur Strecke, der Randstein nicht. In der Praxis schauen die Kommissare auf die Räder. Solange ein Rad noch auf der Linie ist, ist alles in Ordnung. Sind alle vier darüber, ist es ein Verstoß.",
+    "![Ein Auto kommt in der Kurve weit auf den Randstein](/img/articles/3d/track-limits-wide.jpg)",
+    "## Qualifying: Die Runde wird gestrichen",
+    "Im Training und im Qualifying wird die Rundenzeit gelöscht. Im Qualifying kann das den Einzug in den nächsten Abschnitt oder ein paar Startplätze kosten. Dazu kommt eine gemeine Feinheit: Wer in der letzten Kurve vor der Start-Ziel-Geraden zu weit kommt, kann auch die folgende Runde verlieren, weil er sonst mit mehr Schwung auf die Gerade gehen würde.",
+    "## Das Rennen: drei Warnungen, dann Strafe",
+    "Im Rennen werden keine Zeiten gestrichen, aber es wird mitgezählt. Die ersten beiden Verstöße bleiben folgenlos. Beim dritten kommt die schwarz-weiße Flagge, die letzte Warnung. Der vierte kostet 5 Sekunden Strafe, der fünfte 10, danach beginnt die Zählung von vorn. Seit 2026 können die Kommissare einen Verstoß außerdem ignorieren, wenn ein Fahrer bei einem gescheiterten Überholversuch neben die Strecke kam und keinen Vorteil hatte.",
+    "![Der Red Bull Ring: eine kurze Runde mit zehn Kurven](/img/articles/3d/track-limits-map.jpg)",
+    "## Österreich 2023: fünf Stunden nach der Zielflagge",
+    "Der berüchtigtste Fall war der Große Preis von Österreich 2023. Die meisten Verstöße gab es beim Einlenken und vor allem beim Herausbeschleunigen aus den letzten Kurven. Die Offiziellen mussten mehr als 1200 mögliche Verstöße prüfen, im Rennen wurden über hundert Runden gestrichen. Danach wurde nachgezählt: zwölf weitere Strafen für acht Fahrer, das Endergebnis kam etwa fünf Stunden nach der Zielflagge.",
+    "## Wie Sünder erwischt werden",
+    "Sensorschleifen im Asphalt und Kameras mit Zoom überwachen die Ränder. Die Signale landen bei der Rennleitung und im Remote-Center der FIA in Genf, wo Menschen sie prüfen. Verliert ein Fahrer mitten im Rennen plötzlich fünf Sekunden, zeigt das die Abstandstabelle von LapRadar sofort, und meist erklärt eine Nachricht der Rennleitung den Grund."
+   ]
+  },
+  "zh": {
+   "title": "赛道界限：怎么判，罚多重",
+   "lead": "车手跑出完美一圈，屏幕上的成绩却被划掉了。不讲法条，说清楚赛道到哪里为止，出界又会怎样。",
+   "body": [
+    "## 赛道到哪里为止",
+    "国际汽联体育规则只用一句话：如果赛车没有任何部分与赛道接触，就算驶离赛道。边缘的白线属于赛道，路肩不算。实际执行时，干事看的是车轮。只要还有一个轮子压在白线上就没事，四个轮子全部越线就是违规。",
+    "![赛车在弯道中冲上路肩](/img/articles/3d/track-limits-wide.jpg)",
+    "## 排位赛：这一圈直接作废",
+    "练习赛和排位赛中，这一圈的成绩会被删除。在排位赛里，这可能让车手无缘下一节，或者在发车格上丢掉几个位置。还有个容易吃亏的细节：如果是在进入大直道前的最后一个弯出界，下一圈也可能被删，否则他会带着更高的速度冲上直道。",
+    "## 正赛：三次警告，然后罚时",
+    "正赛不删圈速，但会计数。前两次违规没有后果。第三次出示黑白旗，这是最后警告。第四次罚时5秒，第五次罚时10秒，然后重新计数。从2026年起，如果车手是在超车未果时出界、并没有因此获益，干事可以不计入这次违规。",
+    "![红牛环赛道：只有十个弯的短圈](/img/articles/3d/track-limits-map.jpg)",
+    "## 2023年奥地利站：冲线五小时后才出结果",
+    "最出名的例子是2023年奥地利大奖赛。大部分出界发生在最后几个弯的入弯处，尤其是出弯处。干事们要核查一千二百多起可能的违规，比赛中有一百多个圈速被删除。赛后又重新核对，八位车手再吃12次罚时，最终成绩在方格旗挥动约五小时后才公布。",
+    "## 怎么抓违规",
+    "埋在路面里的感应线圈和带变焦的摄像头盯着赛道边缘。信号汇总到赛事指挥中心和国际汽联位于日内瓦的远程中心，由人工复核。如果某位车手在比赛中突然多落后五秒，LapRadar的差距表会马上显示出来，赛事指挥的消息通常会说明原因。"
+   ]
+  }
+ }
+}
