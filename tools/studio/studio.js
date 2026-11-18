@@ -727,9 +727,10 @@ const toks = text => CJK.test(text) ? String(text).replace(/\s+/g, '').match(/[\
 const sepOf = text => CJK.test(text) ? '' : ' ';
 function wrap(g, text, maxW) { const words = toks(text), sp = sepOf(text), lines = []; let cur = ''; for (const w of words) { const t = cur ? cur + sp + w : w; if (g.measureText(t).width > maxW && cur) { lines.push(cur); cur = w; } else cur = t; } if (cur) lines.push(cur); return lines; }
 function rrect(g, x, y, w, h, r) { g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath(); }
-function logo(g, x, y, s) { // свой логотип: синий скруглённый квадрат с дугой
-  g.save(); g.translate(x, y); g.scale(s, s); rrect(g, 0, 0, 64, 64, 16); g.fillStyle = '#3b82f6'; g.fill();
-  g.strokeStyle = '#fff'; g.lineWidth = 7; g.lineCap = 'round'; g.beginPath(); g.arc(46, 48, 26, Math.PI * 1.05, Math.PI * 1.55); g.stroke(); g.beginPath(); g.arc(22, 44, 4.5, 0, 7); g.fillStyle = '#fff'; g.fill(); g.restore();
+const LOGO_ARC = new Path2D('M7 25C7 15 13 9 25 7');
+function logo(g, x, y, s) { // логотип точно как на сайте (public/js/icons.js LOGO): квадрат 32×32, дуга и точка
+  g.save(); g.translate(x, y); g.scale(s * 2, s * 2); rrect(g, 0, 0, 32, 32, 7); g.fillStyle = '#3478f6'; g.fill();
+  g.strokeStyle = '#fff'; g.lineWidth = 3.4; g.lineCap = 'round'; g.stroke(LOGO_ARC); g.beginPath(); g.arc(15.6, 16.6, 2.5, 0, 7); g.fillStyle = '#fff'; g.fill(); g.restore();
 }
 function brand(g) { logo(g, 60, 70, 1.05); g.font = font(900, 46); g.fillStyle = '#fff'; g.textBaseline = 'middle'; g.fillText('LAPRADAR', 142, 105); }
 function shade(g, top = true, bottom = true) {
