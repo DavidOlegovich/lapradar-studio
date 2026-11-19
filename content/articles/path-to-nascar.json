@@ -1,0 +1,125 @@
+{
+ "slug": "path-to-nascar",
+ "date": "2026-11-19",
+ "tags": [
+  "nascar",
+  "arca",
+  "truck-series",
+  "oreilly-series",
+  "juniors"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/path-to-nascar-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Путь в NASCAR: от грунтовых овалов до Кубка",
+   "lead": "Суперлицензии в NASCAR нет, но лестница там своя и тоже длинная: картинг и грунт, лейт-модели, ARCA, грузовики, серия O'Reilly и только потом Кубок. На каждой ступени свой минимальный возраст.",
+   "body": [
+    "## С чего начинают",
+    "Американские гонщики стартуют на картах, квартер-миджетах и маленьких машинах Bandolero и Legends, часто ещё младшеклассниками. Вторая дорога ведёт через грунт: миджеты и спринт-кары на дёртовых овалах. По ней пришли Кайл Ларсон и Кристофер Белл. Бывают и исключения. Уильям Байрон до 15 лет гонялся только в симуляторе iRacing, а потом сел в настоящую машину, выиграл Daytona 500 в 2024 году и стал одним из лидеров Hendrick.",
+    "## Лейт-модели и шорт-треки",
+    "Следующая ступень называется Late Models. Это гонки на местных коротких овалах, серии вроде CARS Tour или NASCAR Weekly Series. Здесь учатся бороться в плотном трафике, и многие так и остаются в этих сериях на всю карьеру.",
+    "![Пелетон сток-каров в драфте](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA: первый суперспидвей",
+    "ARCA Menards Series пускает с 15 лет на трассах до 1,25 мили и дорожных трассах. Для многих это первая встреча с большими овалами и суперспидвеями. Чемпионами ARCA в своё время были Крис Бюшер и Чейз Бриско, оба потом дошли до Кубка.",
+    "## Грузовики и серия O'Reilly",
+    "Craftsman Truck Series открыта с 16 лет, но до 18 только на коротких овалах и дорожных трассах. Вторая по уровню серия с 2026 года называется NASCAR O'Reilly Auto Parts Series, раньше её знали как Xfinity. С этого сезона там тоже снизили возраст: 17 лет на трассах до 1,25 мили и дорожных, 18 на остальных. Байрон выиграл её титул в 2017 году, в первый же сезон, и сразу перешёл в Кубок.",
+    "![Кубок NASCAR: последняя ступень](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## Кубок: только с 18",
+    "В NASCAR Cup Series возраст один для всех трасс, 18 лет. Строгого порядка ступеней нет: Карсон Хосевар, например, перешёл из грузовиков в Кубок почти без стартов в O'Reilly. Календарь и таблицу NASCAR можно смотреть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "The road to NASCAR: from dirt ovals to the Cup",
+   "lead": "NASCAR has no super licence, but its ladder is long too: karts and dirt, Late Models, ARCA, the Trucks, the O'Reilly series and only then the Cup. Each rung has its own minimum age.",
+   "body": [
+    "## Where it starts",
+    "American racers begin in karts, quarter midgets and small Bandolero and Legends cars, often in grade school. The other route runs through dirt: midgets and sprint cars on dirt ovals. That's how Kyle Larson and Christopher Bell arrived. There are exceptions. William Byron raced only on iRacing until he was 15, then got into a real car, won the 2024 Daytona 500 and became one of Hendrick's leaders.",
+    "## Late Models and short tracks",
+    "The next rung is Late Models: racing at local short ovals in series such as the CARS Tour or the NASCAR Weekly Series. This is where drivers learn to fight in tight traffic, and plenty stay there their whole career.",
+    "![A pack of stock cars in the draft](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA: the first superspeedway",
+    "The ARCA Menards Series lets drivers in from 15 at tracks up to 1.25 miles and on road courses. For many it's the first taste of big ovals and superspeedways. Chris Buescher and Chase Briscoe were both ARCA champions before reaching the Cup.",
+    "## Trucks and the O'Reilly series",
+    "The Craftsman Truck Series is open from 16, but until 18 only at short ovals and road courses. Since 2026 the second tier has been the NASCAR O'Reilly Auto Parts Series, formerly known as Xfinity. Its age limit also came down this year: 17 at tracks up to 1.25 miles and road courses, 18 elsewhere. Byron won that title as a rookie in 2017 and moved straight up to the Cup.",
+    "![The NASCAR Cup: the last rung](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## The Cup: 18 and over",
+    "The NASCAR Cup Series has one age for every track: 18. The order of the rungs isn't fixed. Carson Hocevar, for one, went from the Trucks to the Cup with hardly any O'Reilly starts. The NASCAR calendar and standings are on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "El camino a la NASCAR: de los óvalos de tierra a la Cup",
+   "lead": "La NASCAR no tiene superlicencia, pero su escalera también es larga: karts y tierra, Late Models, ARCA, las Trucks, la serie O'Reilly y, por fin, la Cup. Cada peldaño tiene su edad mínima.",
+   "body": [
+    "## Por dónde se empieza",
+    "Los pilotos estadounidenses arrancan en karts, cuarto de midget y pequeños coches Bandolero y Legends, muchas veces en primaria. El otro camino pasa por la tierra: midgets y sprint cars en óvalos de tierra. Así llegaron Kyle Larson y Christopher Bell. Hay excepciones. William Byron solo corrió en el simulador iRacing hasta los 15 años; luego se subió a un coche de verdad, ganó las 500 Millas de Daytona de 2024 y se convirtió en uno de los líderes de Hendrick.",
+    "## Late Models y óvalos cortos",
+    "El siguiente peldaño son los Late Models: carreras en óvalos cortos locales, en series como el CARS Tour o la NASCAR Weekly Series. Ahí se aprende a pelear en tráfico denso, y muchos se quedan toda su carrera.",
+    "![Un pelotón de stock cars en rebufo](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA: el primer superspeedway",
+    "La ARCA Menards Series admite pilotos desde los 15 años en circuitos de hasta 1,25 millas y en trazados mixtos. Para muchos es el primer contacto con los óvalos grandes y los superspeedways. Chris Buescher y Chase Briscoe fueron campeones de ARCA antes de llegar a la Cup.",
+    "## Las Trucks y la serie O'Reilly",
+    "La Craftsman Truck Series está abierta desde los 16 años, pero hasta los 18 solo en óvalos cortos y circuitos mixtos. Desde 2026 la segunda categoría se llama NASCAR O'Reilly Auto Parts Series, antes Xfinity. Este año también bajó su edad mínima: 17 años en pistas de hasta 1,25 millas y en mixtos, 18 en el resto. Byron ganó ese título como novato en 2017 y saltó directamente a la Cup.",
+    "![La NASCAR Cup: el último peldaño](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## La Cup: desde los 18",
+    "En la NASCAR Cup Series la edad es la misma para todas las pistas: 18 años. El orden de los peldaños no es fijo. Carson Hocevar, por ejemplo, pasó de las Trucks a la Cup casi sin salidas en la O'Reilly. El calendario y la clasificación de la NASCAR están en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "O caminho até a NASCAR: dos ovais de terra à Cup",
+   "lead": "A NASCAR não tem superlicença, mas a escada também é longa: kart e terra, Late Models, ARCA, Trucks, a série O'Reilly e só então a Cup. Cada degrau tem sua idade mínima.",
+   "body": [
+    "## Por onde se começa",
+    "Os pilotos americanos começam no kart, em quarter midgets e nos pequenos carros Bandolero e Legends, muitas vezes ainda no ensino fundamental. O outro caminho passa pela terra: midgets e sprint cars em ovais de terra. Foi assim que chegaram Kyle Larson e Christopher Bell. Há exceções. William Byron só correu no simulador iRacing até os 15 anos; depois entrou num carro de verdade, venceu a Daytona 500 de 2024 e virou um dos líderes da Hendrick.",
+    "## Late Models e ovais curtos",
+    "O degrau seguinte são os Late Models: corridas em ovais curtos locais, em séries como a CARS Tour ou a NASCAR Weekly Series. Ali se aprende a brigar no tráfego apertado, e muita gente fica a carreira inteira.",
+    "![Um pelotão de stock cars no vácuo](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA: o primeiro superspeedway",
+    "A ARCA Menards Series aceita pilotos a partir dos 15 anos em pistas de até 1,25 milha e em mistos. Para muitos é o primeiro contato com os ovais grandes e os superspeedways. Chris Buescher e Chase Briscoe foram campeões da ARCA antes de chegar à Cup.",
+    "## Trucks e a série O'Reilly",
+    "A Craftsman Truck Series é aberta a partir dos 16 anos, mas até os 18 só em ovais curtos e mistos. Desde 2026 a segunda divisão se chama NASCAR O'Reilly Auto Parts Series, antiga Xfinity. Neste ano a idade mínima também caiu: 17 anos em pistas de até 1,25 milha e em mistos, 18 nas demais. Byron foi campeão dela como estreante em 2017 e subiu direto para a Cup.",
+    "![A NASCAR Cup: o último degrau](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## A Cup: só a partir dos 18",
+    "Na NASCAR Cup Series a idade é a mesma em todas as pistas: 18 anos. A ordem dos degraus não é rígida. Carson Hocevar, por exemplo, foi das Trucks para a Cup quase sem largadas na O'Reilly. O calendário e a classificação da NASCAR estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Der Weg in die NASCAR: von Dirt-Ovalen bis zum Cup",
+   "lead": "Eine Superlizenz gibt es in der NASCAR nicht, aber die Leiter ist ebenfalls lang: Kart und Dirt, Late Models, ARCA, Trucks, die O'Reilly-Serie und erst dann der Cup. Jede Stufe hat ihr eigenes Mindestalter.",
+   "body": [
+    "## Wo es anfängt",
+    "Amerikanische Rennfahrer beginnen in Karts, Quarter Midgets und kleinen Bandolero- und Legends-Autos, oft schon im Grundschulalter. Der andere Weg führt über Dirt: Midgets und Sprint Cars auf Erdovalen. So kamen Kyle Larson und Christopher Bell nach oben. Es gibt Ausnahmen. William Byron fuhr bis 15 nur im Simulator iRacing, stieg dann in ein echtes Auto, gewann 2024 das Daytona 500 und wurde zu einem der Anführer bei Hendrick.",
+    "## Late Models und Short Tracks",
+    "Die nächste Stufe heißt Late Models: Rennen auf lokalen kurzen Ovalen, in Serien wie der CARS Tour oder der NASCAR Weekly Series. Hier lernt man, im dichten Verkehr zu kämpfen, und viele bleiben ihr ganzes Fahrerleben lang dort.",
+    "![Ein Feld von Stockcars im Windschatten](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA: der erste Superspeedway",
+    "Die ARCA Menards Series lässt Fahrer ab 15 auf Strecken bis 1,25 Meilen und auf Rundkursen starten. Für viele ist das der erste Kontakt mit großen Ovalen und Superspeedways. Chris Buescher und Chase Briscoe waren ARCA-Meister, bevor sie den Cup erreichten.",
+    "## Trucks und die O'Reilly-Serie",
+    "Die Craftsman Truck Series ist ab 16 offen, bis 18 aber nur auf kurzen Ovalen und Rundkursen. Seit 2026 heißt die zweite Liga NASCAR O'Reilly Auto Parts Series, früher Xfinity. Auch dort sank in diesem Jahr das Mindestalter: 17 auf Strecken bis 1,25 Meilen und Rundkursen, sonst 18. Byron gewann den Titel 2017 als Rookie und stieg direkt in den Cup auf.",
+    "![Der NASCAR Cup: die letzte Stufe](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## Der Cup: ab 18",
+    "In der NASCAR Cup Series gilt auf allen Strecken dasselbe Alter: 18. Eine feste Reihenfolge der Stufen gibt es nicht. Carson Hocevar etwa ging aus den Trucks in den Cup, fast ohne O'Reilly-Starts. Kalender und Tabelle der NASCAR gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "通往NASCAR之路：从泥地椭圆赛道到杯赛",
+   "lead": "NASCAR没有超级驾照，但晋升阶梯同样漫长：卡丁车和泥地赛、Late Models、ARCA、卡车赛、O'Reilly系列赛，最后才是杯赛。每一级都有自己的最低年龄。",
+   "body": [
+    "## 从哪里起步",
+    "美国车手通常从卡丁车、四分之一迷你方程式以及小型Bandolero和Legends赛车起步，很多人还在上小学。另一条路是泥地赛：在泥地椭圆赛道上开迷你车和冲刺车。拉森和贝尔就是这样走上来的。也有例外：拜伦15岁之前只在iRacing模拟器上比赛，之后才坐进真正的赛车，后来赢得2024年代托纳500，成为亨德里克车队的核心车手。",
+    "## Late Models和短道",
+    "下一级是Late Models，在当地短椭圆赛道比赛，比如CARS Tour或NASCAR Weekly Series。车手在这里学习在密集车流中缠斗，很多人一辈子都留在这个级别。",
+    "![尾流中的房车车群](/img/articles/3d/path-to-nascar-pack.jpg)",
+    "## ARCA：第一次跑超级赛道",
+    "ARCA Menards系列允许15岁车手在1.25英里以内的赛道和公路赛道参赛。对很多人来说，这是第一次接触大型椭圆赛道和超级赛道。比彻和布里斯科都曾是ARCA冠军，后来进入杯赛。",
+    "## 卡车赛和O'Reilly系列赛",
+    "Craftsman卡车系列赛16岁即可参加，但18岁之前只能跑短椭圆赛道和公路赛道。从2026年起，第二级别更名为NASCAR O'Reilly Auto Parts系列赛，原名Xfinity。今年该系列也降低了年龄：1.25英里以内赛道和公路赛道17岁，其余赛道18岁。拜伦在2017年新秀赛季就拿下这项冠军，随即升入杯赛。",
+    "![NASCAR杯赛：最后一级](/img/articles/3d/path-to-nascar-car.jpg)",
+    "## 杯赛：18岁起",
+    "NASCAR杯赛所有赛道的年龄要求都是18岁。各级顺序并不固定，比如霍塞瓦几乎没跑过O'Reilly系列，就从卡车赛直接进入杯赛。NASCAR赛历和积分榜可在LapRadar上查看。"
+   ]
+  }
+ }
+}

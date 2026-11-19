@@ -1,0 +1,126 @@
+{
+ "slug": "formula-e-origins",
+ "date": "2026-11-19",
+ "tags": [
+  "formula-e",
+  "history",
+  "gen1",
+  "gen2",
+  "gen3",
+  "gen4"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/formula-e-origins-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Как создавалась Формула E: салфетка, Пекин и пересадка в другую машину",
+   "lead": "Электрическая серия придумана за ужином в Париже в 2011 году. Первые четыре сезона пилоты посреди гонки меняли машину, а сейчас на тестах в Хараме катается уже четвёртое поколение.",
+   "body": [
+    "## Ужин в Париже",
+    "3 марта 2011 года президент FIA Жан Тодт и Алехандро Агаг, тогда владелец команды GP2, встретились в парижском ресторане. Идею чемпионата электромобилей они набросали прямо на салфетке. Среди гостей был и Антонио Таяни, позже председатель Европарламента. Промоутером серии стал Агаг, и первые месяцы дались ему тяжело: по воспоминаниям, он оплачивал перевозку грузов с личной кредитки.",
+    "## 13 сентября 2014 года, Пекин",
+    "Первая гонка прошла вокруг Олимпийского парка в Пекине. Поул взял Николя Прост. На последнем круге Ник Хайдфельд атаковал его в последнем повороте, машины столкнулись, Venturi Хайдфельда взлетела и несколько раз перевернулась. Хайдфельд вышел сам. Первым победителем Формулы E стал Лукас ди Грасси, а первым чемпионом в том сезоне Нельсон Пике-младший.",
+    "![Колесо в колесо до последнего поворота: так закончилась первая гонка в Пекине](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## Gen1: две машины на одну гонку",
+    "Батареи первого поколения не хватало на всю дистанцию. В середине гонки пилот заезжал в боксы, выпрыгивал из машины и пересаживался во вторую, полностью заряженную. Болельщикам это не нравилось, но так прошли первые четыре сезона.",
+    "## Gen2 и Gen3",
+    "Gen2 появилась в сезоне 2018/19. Батарея стала больше, и одна машина проезжала всю гонку, 45 минут плюс круг. Мощность выросла до 250 кВт, максималка до 280 км/ч, а ещё появился режим атаки. В декабре 2019 года серия получила статус чемпионата мира. Gen3 вышла в сезоне 2022/23: задний мотор на 350 кВт, передний для рекуперации, до 600 кВт отдачи в батарею. Это первая формульная машина без задних гидравлических тормозов.",
+    "![Поколения Формулы E](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## Gen4 уже на трассе",
+    "16 ноября в Хараме под Мадридом начались официальные тесты Gen4. В режиме атаки у неё до 600 кВт и постоянный полный привод. В первый день Эдоардо Мортара показал 1:24.344, примерно на 5 секунд быстрее лучшего круга тренировок на этапе в Мадриде в марте, хотя тогда было холодно и мокро. Сезон должен был открыться двумя гонками в Джидде 18 и 19 декабря, но 12 ноября их перенесли на апрель из-за конфликта на Ближнем Востоке. Поэтому первая гонка Gen4 пройдёт 16 января 2027 года в Мехико. Календарь Формулы E есть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "How Formula E was born: a napkin, Beijing and the mid-race car swap",
+   "lead": "The electric series was dreamt up over dinner in Paris in 2011. For its first four seasons drivers changed cars mid-race, and now the fourth-generation car is testing at Jarama.",
+   "body": [
+    "## Dinner in Paris",
+    "On 3 March 2011, FIA president Jean Todt and Alejandro Agag, then a GP2 team owner, met at a Paris restaurant and sketched the idea of an electric championship on a napkin. Antonio Tajani, later president of the European Parliament, was at the table too. Agag became the promoter, and the early months were hard: he reportedly paid for freight with his personal credit card.",
+    "## 13 September 2014, Beijing",
+    "The first race ran around the Olympic Park in Beijing. Nicolas Prost took pole. On the last lap Nick Heidfeld attacked him at the final corner, they touched, and Heidfeld's Venturi was launched and rolled several times. He climbed out unhurt. Lucas di Grassi became the first Formula E winner, and Nelson Piquet Jr. the first champion that season.",
+    "![Wheel to wheel to the final corner: how the first race in Beijing ended](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## Gen1: two cars for one race",
+    "A first-generation battery couldn't last the full distance. Halfway through, drivers pitted, jumped out and climbed into a second, fully charged car. Fans didn't love it, but that's how the first four seasons went.",
+    "## Gen2 and Gen3",
+    "Gen2 arrived for 2018/19. With a bigger battery, one car could go the full 45 minutes plus a lap. Power rose to 250 kW, top speed to 280 km/h, and Attack Mode appeared. In December 2019 the series became a world championship. Gen3 followed in 2022/23: a 350 kW rear motor, a front unit for regeneration and up to 600 kW going back into the battery. It was the first formula car without rear hydraulic brakes.",
+    "![Formula E generations](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## Gen4 is on track",
+    "Official Gen4 testing began at Jarama near Madrid on 16 November. The car has up to 600 kW in Attack Mode and permanent all-wheel drive. On day one Edoardo Mortara set a 1:24.344, about 5 seconds quicker than the best practice lap at the Madrid E-Prix in March, though that weekend was cold and wet. The season was due to open with two races in Jeddah on 18 and 19 December, but on 12 November they were moved to April because of the conflict in the Middle East. So Gen4's first race is Mexico City on 16 January 2027. The Formula E calendar is on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Así nació la Fórmula E: una servilleta, Pekín y el cambio de coche",
+   "lead": "La serie eléctrica se ideó en una cena en París en 2011. Durante sus cuatro primeras temporadas los pilotos cambiaban de coche a mitad de carrera, y ahora la cuarta generación rueda en los test del Jarama.",
+   "body": [
+    "## Una cena en París",
+    "El 3 de marzo de 2011, el presidente de la FIA, Jean Todt, y Alejandro Agag, entonces dueño de un equipo de GP2, se reunieron en un restaurante de París y dibujaron la idea de un campeonato eléctrico en una servilleta. En la mesa también estaba Antonio Tajani, luego presidente del Parlamento Europeo. Agag se convirtió en el promotor, y los primeros meses fueron duros: según se cuenta, pagaba los fletes con su tarjeta personal.",
+    "## 13 de septiembre de 2014, Pekín",
+    "La primera carrera se corrió alrededor del Parque Olímpico de Pekín. Nicolas Prost hizo la pole. En la última vuelta Nick Heidfeld le atacó en la última curva, se tocaron y el Venturi de Heidfeld salió despedido y dio varias vueltas de campana. Salió por su propio pie. Lucas di Grassi fue el primer ganador de la Fórmula E y Nelson Piquet Jr., el primer campeón esa temporada.",
+    "![Rueda con rueda hasta la última curva: así acabó la primera carrera en Pekín](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## Gen1: dos coches por carrera",
+    "La batería de primera generación no aguantaba toda la carrera. A mitad, el piloto entraba en boxes, saltaba del coche y se subía a otro con la batería llena. A la afición no le gustaba, pero así fueron las cuatro primeras temporadas.",
+    "## Gen2 y Gen3",
+    "La Gen2 llegó en la temporada 2018/19. Con una batería mayor, un solo coche completaba los 45 minutos más una vuelta. La potencia subió a 250 kW, la punta a 280 km/h y apareció el Attack Mode. En diciembre de 2019 la serie pasó a ser campeonato del mundo. La Gen3 debutó en 2022/23: motor trasero de 350 kW, otro delantero para regenerar y hasta 600 kW de vuelta a la batería. Fue el primer monoplaza sin frenos hidráulicos traseros.",
+    "![Las generaciones de la Fórmula E](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## La Gen4 ya rueda",
+    "Los test oficiales de la Gen4 empezaron el 16 de noviembre en el Jarama, cerca de Madrid. Tiene hasta 600 kW en Attack Mode y tracción total permanente. El primer día Edoardo Mortara marcó 1:24.344, unos 5 segundos más rápido que la mejor vuelta de entrenamientos del E-Prix de Madrid en marzo, aunque aquel fin de semana hizo frío y llovió. La temporada iba a abrir con dos carreras en Yeda el 18 y 19 de diciembre, pero el 12 de noviembre pasaron a abril por el conflicto en Oriente Medio. Así que la primera carrera de la Gen4 será en Ciudad de México el 16 de enero de 2027. El calendario de la Fórmula E está en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Como nasceu a Fórmula E: um guardanapo, Pequim e a troca de carro",
+   "lead": "A série elétrica foi pensada num jantar em Paris em 2011. Nas quatro primeiras temporadas os pilotos trocavam de carro no meio da corrida, e agora a quarta geração já anda nos testes em Jarama.",
+   "body": [
+    "## Um jantar em Paris",
+    "Em 3 de março de 2011, o presidente da FIA, Jean Todt, e Alejandro Agag, então dono de uma equipe da GP2, se encontraram num restaurante de Paris e rabiscaram a ideia de um campeonato elétrico num guardanapo. Antonio Tajani, depois presidente do Parlamento Europeu, também estava à mesa. Agag virou o promotor, e os primeiros meses foram difíceis: dizem que ele pagava o frete com o cartão de crédito pessoal.",
+    "## 13 de setembro de 2014, Pequim",
+    "A primeira corrida foi em volta do Parque Olímpico de Pequim. Nicolas Prost fez a pole. Na última volta Nick Heidfeld o atacou na curva final, os dois se tocaram e o Venturi de Heidfeld decolou e capotou várias vezes. Ele saiu sozinho. Lucas di Grassi foi o primeiro vencedor da Fórmula E, e Nelson Piquet Jr., o primeiro campeão daquela temporada.",
+    "![Roda a roda até a última curva: assim terminou a primeira corrida em Pequim](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## Gen1: dois carros por corrida",
+    "A bateria da primeira geração não durava a prova inteira. No meio da corrida, o piloto entrava nos boxes, saltava do carro e pegava um segundo, com carga total. A torcida não gostava, mas foi assim nas quatro primeiras temporadas.",
+    "## Gen2 e Gen3",
+    "O Gen2 chegou em 2018/19. Com bateria maior, um único carro fazia os 45 minutos mais uma volta. A potência subiu para 250 kW, a máxima para 280 km/h, e surgiu o Attack Mode. Em dezembro de 2019 a série virou campeonato mundial. O Gen3 veio em 2022/23: motor traseiro de 350 kW, um dianteiro para regenerar e até 600 kW de volta para a bateria. Foi o primeiro carro de fórmula sem freios hidráulicos traseiros.",
+    "![As gerações da Fórmula E](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## O Gen4 já está na pista",
+    "Os testes oficiais do Gen4 começaram em 16 de novembro em Jarama, perto de Madri. O carro tem até 600 kW no Attack Mode e tração integral permanente. No primeiro dia Edoardo Mortara marcou 1:24.344, cerca de 5 segundos mais rápido que a melhor volta de treino do E-Prix de Madri em março, embora aquele fim de semana tenha sido frio e molhado. A temporada abriria com duas corridas em Jeddah em 18 e 19 de dezembro, mas em 12 de novembro elas foram para abril por causa do conflito no Oriente Médio. Por isso a primeira corrida do Gen4 será na Cidade do México em 16 de janeiro de 2027. O calendário da Fórmula E está no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Wie die Formel E entstand: eine Serviette, Peking und der Autowechsel",
+   "lead": "Die Elektroserie entstand 2011 bei einem Abendessen in Paris. In den ersten vier Saisons wechselten die Fahrer mitten im Rennen das Auto, jetzt testet in Jarama bereits die vierte Generation.",
+   "body": [
+    "## Ein Abendessen in Paris",
+    "Am 3. März 2011 trafen sich FIA-Präsident Jean Todt und Alejandro Agag, damals Besitzer eines GP2-Teams, in einem Pariser Restaurant und skizzierten die Idee einer Elektromeisterschaft auf einer Serviette. Mit am Tisch saß Antonio Tajani, später Präsident des Europaparlaments. Agag wurde Promoter, und die ersten Monate waren hart: Angeblich bezahlte er die Fracht mit seiner privaten Kreditkarte.",
+    "## 13. September 2014, Peking",
+    "Das erste Rennen fand rund um den Olympiapark in Peking statt. Nicolas Prost holte die Pole. In der letzten Runde griff ihn Nick Heidfeld in der letzten Kurve an, die Autos berührten sich, Heidfelds Venturi hob ab und überschlug sich mehrfach. Er stieg selbst aus. Lucas di Grassi wurde erster Sieger der Formel E, Nelson Piquet jr. erster Meister in dieser Saison.",
+    "![Rad an Rad bis zur letzten Kurve: So endete das erste Rennen in Peking](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## Gen1: zwei Autos pro Rennen",
+    "Die Batterie der ersten Generation hielt nicht die ganze Distanz. Zur Rennmitte kam der Fahrer an die Box, sprang heraus und stieg in ein zweites, voll geladenes Auto. Die Fans mochten das nicht, aber so liefen die ersten vier Saisons.",
+    "## Gen2 und Gen3",
+    "Gen2 kam zur Saison 2018/19. Mit größerer Batterie schaffte ein Auto die vollen 45 Minuten plus eine Runde. Die Leistung stieg auf 250 kW, die Spitze auf 280 km/h, dazu kam der Attack Mode. Im Dezember 2019 wurde die Serie zur Weltmeisterschaft. Gen3 folgte 2022/23: ein 350-kW-Heckmotor, vorn eine Einheit zur Rekuperation und bis zu 600 kW zurück in die Batterie. Es war das erste Formelauto ohne hydraulische Hinterradbremsen.",
+    "![Die Generationen der Formel E](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## Gen4 fährt schon",
+    "Am 16. November begannen in Jarama bei Madrid die offiziellen Tests mit Gen4. Das Auto hat bis zu 600 kW im Attack Mode und permanenten Allradantrieb. Am ersten Tag fuhr Edoardo Mortara 1:24,344, rund 5 Sekunden schneller als die beste Trainingsrunde beim Madrid E-Prix im März, allerdings war es damals kalt und nass. Die Saison sollte mit zwei Rennen in Dschidda am 18. und 19. Dezember beginnen, am 12. November wurden sie wegen des Konflikts im Nahen Osten aber in den April verlegt. Das erste Gen4-Rennen steigt deshalb am 16. Januar 2027 in Mexiko-Stadt. Den Formel-E-Kalender gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "电动方程式是怎样诞生的：一张餐巾纸、北京和比赛中换车",
+   "lead": "这项电动赛事诞生于2011年巴黎的一顿晚餐。前四个赛季车手要在比赛中途换车，如今第四代赛车已经在哈拉马测试。",
+   "body": [
+    "## 巴黎的晚餐",
+    "2011年3月3日，国际汽联主席让·托德和当时的GP2车队老板阿加格在巴黎一家餐厅见面，把电动锦标赛的设想直接画在了餐巾纸上。后来担任欧洲议会议长的塔亚尼也在座。阿加格成为赛事推广方，起初非常艰难：据说他曾用个人信用卡支付货运费用。",
+    "## 2014年9月13日，北京",
+    "首场比赛在北京奥林匹克公园周边举行。普罗斯特拿下杆位。最后一圈的最后一个弯，海德菲尔德发起进攻，两车相碰，海德菲尔德的Venturi赛车腾空并翻滚数圈，他自己爬出了赛车。迪格拉西成为电动方程式首位分站冠军，小皮奎特成为首个赛季的总冠军。",
+    "![轮对轮直到最后一个弯：北京首战就是这样结束的](/img/articles/3d/formula-e-origins-duel.jpg)",
+    "## 第一代：一场比赛两辆车",
+    "第一代电池撑不完全程。比赛进行到一半，车手进站，跳出赛车，换上第二辆满电的车。车迷并不喜欢这种方式，但前四个赛季都是这样。",
+    "## 第二代和第三代",
+    "第二代赛车在2018/19赛季登场。电池更大，一辆车就能跑完45分钟加一圈。功率提高到250千瓦，极速280公里/小时，还引入了进攻模式。2019年12月，该系列获得世界锦标赛地位。第三代在2022/23赛季亮相：后电机350千瓦，前部增加用于能量回收的电机，回收功率最高600千瓦。这是第一款没有后轮液压刹车的方程式赛车。",
+    "![电动方程式的几代赛车](/img/articles/3d/formula-e-origins-gens.jpg)",
+    "## 第四代已经上路",
+    "11月16日，第四代赛车的官方测试在马德里附近的哈拉马赛道开始。进攻模式下功率最高600千瓦，并采用常时全轮驱动。首日莫塔拉跑出1:24.344，比三月马德里站练习赛最快圈快约5秒，不过那个周末天气又冷又湿。新赛季原定12月18日和19日在吉达以两场比赛揭幕，但11月12日因中东冲突改到了4月。因此第四代赛车的首场比赛将于2027年1月16日在墨西哥城举行。电动方程式赛历可在LapRadar上查看。"
+   ]
+  }
+ }
+}

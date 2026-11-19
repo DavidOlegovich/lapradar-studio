@@ -1,0 +1,125 @@
+{
+ "slug": "path-to-motogp",
+ "date": "2026-11-19",
+ "tags": [
+  "motogp",
+  "moto2",
+  "moto3",
+  "rookies-cup",
+  "juniors"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/path-to-motogp-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Путь в MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+   "lead": "Педро Акоста стал чемпионом Moto3 в 17 лет, в первом же сезоне, а через три года уже ехал в MotoGP. По той же лестнице поднимаются все мотогонщики, а с 2023 года возрастных ограничений на ней стало больше.",
+   "body": [
+    "## Минибайки и Talent Cup",
+    "Будущие гонщики MotoGP начинают на минибайках и в детских национальных сериях. Первая серьёзная ступень называется Talent Cup: European, Northern, British, Asia и другие. С 2023 года гоняться на трассах уровня Гран-при можно с 14 лет.",
+    "## Rookies Cup и JuniorGP",
+    "Дальше два главных пути. Red Bull MotoGP Rookies Cup пускает с 15 лет, FIM JuniorGP, юниорский чемпионат мира в классе Moto3, с 16. Акоста прошёл через Rookies Cup: в 2019 году был вторым, в 2020-м выиграл титул с шестью победами подряд.",
+    "![Плотная группа: так выглядит гонка в младших классах](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3: восемнадцать, но есть исключение",
+    "После гибели нескольких молодых гонщиков в 2021 году Dorna и FIM подняли минимальный возраст для Moto3 и Moto2 с 16 до 18 лет, как в MotoGP. Исключение одно: тройка лучших в Rookies Cup и JuniorGP может прийти в Moto3 в 17. Максимальный возраст в Moto3 28 лет. Мотоцикл одноцилиндровый, 250 кубов, около 60 л.с. Акоста выиграл Moto3 в 2021 году в 17 лет и 166 дней. Он стал первым новичком с титулом в лёгком классе со времён Лориса Капиросси в 1990-м.",
+    "## Moto2: трёхцилиндровый Triumph",
+    "В Moto2 у всех одинаковый трёхцилиндровый мотор Triumph на 765 кубов и около 138 л.с. Возраст тоже 18 лет, но победителю европейского чемпионата Moto2 разрешают прийти в 17. Акоста провёл в Moto2 два сезона и в 2023 году стал чемпионом.",
+    "![Мотоциклы двух классов в студии](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP: больше 250 сил",
+    "В MotoGP литровые четырёхцилиндровые моторы и больше 250 л.с., максимальная скорость на прямых превышает 360 км/ч. В 2024 году Акоста дебютировал здесь за Tech3, с 2025-го едет за заводскую команду KTM. Таблицы всех трёх классов можно смотреть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "The road to MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+   "lead": "Pedro Acosta won the Moto3 title at 17 in his first season, and three years later he was in MotoGP. Here's the ladder riders climb, and why it has had stricter age limits since 2023.",
+   "body": [
+    "## Minibikes and the Talent Cups",
+    "Future MotoGP riders start on minibikes and in national kids' series. The first serious rung is a Talent Cup: European, Northern, British, Asia and others. Since 2023, racing on Grand Prix-type circuits has been allowed from age 14.",
+    "## Rookies Cup and JuniorGP",
+    "Then there are two main routes. The Red Bull MotoGP Rookies Cup takes riders from 15, the FIM JuniorGP, the junior Moto3 world championship, from 16. Acosta came through the Rookies Cup: runner-up in 2019, champion in 2020 with six wins in a row.",
+    "![A tight pack: racing in the junior classes](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3: eighteen, with one exception",
+    "After several young riders were killed in 2021, Dorna and the FIM raised the minimum age for Moto3 and Moto2 from 16 to 18, in line with MotoGP. There's one exception: the top three in the Rookies Cup and JuniorGP can join Moto3 at 17. The maximum age in Moto3 is 28. The bike is a 250cc single with about 60 hp. Acosta won Moto3 in 2021 aged 17 years and 166 days, the first rookie to take the lightweight title since Loris Capirossi in 1990.",
+    "## Moto2: the Triumph triple",
+    "Everyone in Moto2 uses the same 765cc three-cylinder Triumph engine with about 138 hp. The age limit is 18 here too, but the European Moto2 champion may step up at 17. Acosta spent two seasons in Moto2 and won the title in 2023.",
+    "![Bikes from two classes in the studio](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP: over 250 hp",
+    "MotoGP bikes have one-litre four-cylinder engines making more than 250 hp, and top speeds go beyond 360 km/h. Acosta made his debut with Tech3 in 2024 and has ridden for the KTM factory team since 2025. Standings for all three classes are on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "El camino a MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+   "lead": "Pedro Acosta fue campeón de Moto3 con 17 años en su primera temporada y tres años después ya estaba en MotoGP. Repasamos la escalera que suben los pilotos y por qué desde 2023 tiene límites de edad más estrictos.",
+   "body": [
+    "## Minimotos y Talent Cup",
+    "Los futuros pilotos de MotoGP empiezan en minimotos y en campeonatos nacionales infantiles. El primer peldaño serio es una Talent Cup: European, Northern, British, Asia y otras. Desde 2023 se puede correr en circuitos de tipo Gran Premio a partir de los 14 años.",
+    "## Rookies Cup y JuniorGP",
+    "Después hay dos caminos principales. La Red Bull MotoGP Rookies Cup admite pilotos desde los 15 años y el FIM JuniorGP, el mundial júnior de Moto3, desde los 16. Acosta salió de la Rookies Cup: subcampeón en 2019 y campeón en 2020 con seis victorias seguidas.",
+    "![Un grupo compacto: así son las carreras en las categorías de formación](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3: dieciocho, con una excepción",
+    "Tras la muerte de varios pilotos jóvenes en 2021, Dorna y la FIM subieron la edad mínima de Moto3 y Moto2 de 16 a 18 años, igual que en MotoGP. Hay una excepción: los tres primeros de la Rookies Cup y del JuniorGP pueden llegar a Moto3 con 17. La edad máxima en Moto3 es de 28 años. La moto es una monocilíndrica de 250 cc con unos 60 CV. Acosta ganó Moto3 en 2021 con 17 años y 166 días, el primer novato campeón de la categoría pequeña desde Loris Capirossi en 1990.",
+    "## Moto2: el tricilíndrico Triumph",
+    "En Moto2 todos usan el mismo motor Triumph de tres cilindros y 765 cc, con unos 138 CV. La edad mínima también es 18, aunque el campeón de Europa de Moto2 puede subir con 17. Acosta pasó dos temporadas en Moto2 y fue campeón en 2023.",
+    "![Motos de dos categorías en el estudio](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP: más de 250 CV",
+    "Las MotoGP llevan motores de cuatro cilindros y un litro con más de 250 CV, y en recta superan los 360 km/h. Acosta debutó con Tech3 en 2024 y desde 2025 corre en el equipo oficial de KTM. Las clasificaciones de las tres categorías están en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "O caminho até a MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+   "lead": "Pedro Acosta foi campeão da Moto3 aos 17 anos, na primeira temporada, e três anos depois já estava na MotoGP. Veja a escada que os pilotos sobem e por que, desde 2023, ela tem limites de idade mais rígidos.",
+   "body": [
+    "## Minimotos e Talent Cup",
+    "Os futuros pilotos da MotoGP começam em minimotos e em campeonatos nacionais infantis. O primeiro degrau sério é uma Talent Cup: European, Northern, British, Asia e outras. Desde 2023 é possível correr em circuitos de nível Grande Prêmio a partir dos 14 anos.",
+    "## Rookies Cup e JuniorGP",
+    "Depois há dois caminhos principais. A Red Bull MotoGP Rookies Cup aceita pilotos a partir dos 15 anos, e o FIM JuniorGP, o mundial júnior de Moto3, a partir dos 16. Acosta veio da Rookies Cup: vice em 2019 e campeão em 2020, com seis vitórias seguidas.",
+    "![Pelotão apertado: assim são as corridas nas categorias de base](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3: dezoito, com uma exceção",
+    "Depois da morte de vários pilotos jovens em 2021, a Dorna e a FIM subiram a idade mínima da Moto3 e da Moto2 de 16 para 18 anos, como na MotoGP. Há uma exceção: os três primeiros da Rookies Cup e do JuniorGP podem entrar na Moto3 aos 17. A idade máxima na Moto3 é de 28 anos. A moto é uma monocilíndrica de 250 cc com cerca de 60 cv. Acosta venceu a Moto3 em 2021 com 17 anos e 166 dias, o primeiro estreante campeão da categoria menor desde Loris Capirossi, em 1990.",
+    "## Moto2: o tricilíndrico Triumph",
+    "Na Moto2 todos usam o mesmo motor Triumph de três cilindros e 765 cc, com cerca de 138 cv. A idade mínima também é 18, mas o campeão europeu de Moto2 pode subir aos 17. Acosta fez duas temporadas na Moto2 e foi campeão em 2023.",
+    "![Motos de duas categorias no estúdio](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP: mais de 250 cv",
+    "As motos da MotoGP têm motores de quatro cilindros e um litro, com mais de 250 cv, e passam de 360 km/h nas retas. Acosta estreou pela Tech3 em 2024 e desde 2025 corre pela equipe de fábrica da KTM. As classificações das três categorias estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Der Weg in die MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+   "lead": "Pedro Acosta wurde mit 17 in seiner ersten Saison Moto3-Weltmeister und saß drei Jahre später auf einer MotoGP-Maschine. So sieht die Leiter aus, und darum gelten seit 2023 strengere Altersgrenzen.",
+   "body": [
+    "## Minibikes und Talent Cups",
+    "Künftige MotoGP-Fahrer beginnen auf Minibikes und in nationalen Kinderserien. Die erste ernsthafte Stufe ist ein Talent Cup: European, Northern, British, Asia und weitere. Seit 2023 darf man ab 14 Jahren auf Strecken mit Grand-Prix-Format fahren.",
+    "## Rookies Cup und JuniorGP",
+    "Danach gibt es zwei Hauptwege. Der Red Bull MotoGP Rookies Cup nimmt Fahrer ab 15, die FIM JuniorGP, die Junioren-WM der Moto3, ab 16. Acosta kam über den Rookies Cup: 2019 Zweiter, 2020 Meister mit sechs Siegen in Folge.",
+    "![Dichtes Feld: So sehen Rennen in den Nachwuchsklassen aus](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3: achtzehn, mit einer Ausnahme",
+    "Nachdem 2021 mehrere junge Fahrer tödlich verunglückt waren, hoben Dorna und FIM das Mindestalter für Moto3 und Moto2 von 16 auf 18 an, wie in der MotoGP. Eine Ausnahme gibt es: Die ersten drei im Rookies Cup und in der JuniorGP dürfen mit 17 in die Moto3. Das Höchstalter in der Moto3 liegt bei 28. Gefahren wird ein 250-cm³-Einzylinder mit rund 60 PS. Acosta gewann die Moto3 2021 mit 17 Jahren und 166 Tagen, als erster Rookie in der kleinen Klasse seit Loris Capirossi 1990.",
+    "## Moto2: der Triumph-Dreizylinder",
+    "In der Moto2 fahren alle denselben Triumph-Dreizylinder mit 765 cm³ und rund 138 PS. Auch hier gilt 18, der Europameister der Moto2 darf aber schon mit 17 aufsteigen. Acosta fuhr zwei Saisons Moto2 und wurde 2023 Weltmeister.",
+    "![Maschinen zweier Klassen im Studio](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP: über 250 PS",
+    "In der MotoGP stecken Ein-Liter-Vierzylinder mit mehr als 250 PS, auf den Geraden geht es über 360 km/h. Acosta debütierte 2024 bei Tech3 und fährt seit 2025 für das KTM-Werksteam. Die Tabellen aller drei Klassen gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "通往MotoGP之路：Talent Cup、新秀杯、Moto3、Moto2",
+   "lead": "佩德罗·阿科斯塔17岁就在首个赛季夺得Moto3冠军，三年后已经站上MotoGP。来看看摩托车手的晋升阶梯，以及为什么从2023年起年龄限制更严格。",
+   "body": [
+    "## 迷你摩托和Talent Cup",
+    "未来的MotoGP车手从迷你摩托和各国少儿赛起步。第一个正式台阶是Talent Cup：欧洲、北欧、英国、亚洲等。从2023年起，14岁即可在大奖赛级别的赛道上比赛。",
+    "## 新秀杯和JuniorGP",
+    "接下来有两条主要道路。红牛MotoGP新秀杯15岁起参赛，FIM JuniorGP（Moto3青年世锦赛）16岁起。阿科斯塔走的是新秀杯：2019年获得亚军，2020年以六连胜夺冠。",
+    "![紧凑的车群：青训级别的比赛就是这样](/img/articles/3d/path-to-motogp-pack.jpg)",
+    "## Moto3：18岁，但有例外",
+    "2021年多名年轻车手不幸身亡后，Dorna和国际摩联把Moto3和Moto2的最低年龄从16岁提高到18岁，与MotoGP一致。唯一的例外是：新秀杯和JuniorGP的前三名可以17岁进入Moto3。Moto3的最高年龄为28岁。赛车是250cc单缸，约60马力。阿科斯塔2021年以17岁166天的年龄夺得Moto3冠军，是自1990年卡皮罗西之后首位在轻量级别夺冠的新秀。",
+    "## Moto2：凯旋三缸发动机",
+    "Moto2全部使用同一款凯旋765cc三缸发动机，约138马力。年龄要求同样是18岁，但欧洲Moto2冠军可以17岁升级。阿科斯塔在Moto2跑了两个赛季，并在2023年夺冠。",
+    "![演播室里两个级别的赛车](/img/articles/3d/path-to-motogp-bikes.jpg)",
+    "## MotoGP：超过250马力",
+    "MotoGP赛车使用1000cc四缸发动机，功率超过250马力，直道极速超过360公里/小时。阿科斯塔2024年随Tech3车队首秀，2025年起效力KTM厂队。三个级别的积分榜都可在LapRadar上查看。"
+   ]
+  }
+ }
+}

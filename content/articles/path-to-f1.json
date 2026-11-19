@@ -1,0 +1,125 @@
+{
+ "slug": "path-to-f1",
+ "date": "2026-11-19",
+ "tags": [
+  "f1",
+  "f2",
+  "f3",
+  "super-licence",
+  "juniors"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/path-to-f1-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Путь в Формулу 1: картинг, F4, F3, F2 и 40 очков суперлицензии",
+   "lead": "Чтобы выйти на старт Гран-при, мало быть быстрым. Нужны годы в младших сериях, 40 очков суперлицензии, 18 лет и бюджет, который Дэвид Култхард оценивает примерно в 8 миллионов фунтов.",
+   "body": [
+    "## Картинг с восьми лет",
+    "Почти все пилоты Формулы 1 начинали с картинга. Первые гонки обычно лет в восемь, и к пятнадцати годам семья успевает потратить на картинг сотни тысяч. Так говорит Дэвид Култхард, чей сын сейчас как раз проходит эту лестницу. За картинг тоже дают очки суперлицензии, но немного: чемпион мира среди взрослых получает 4.",
+    "## Формула 4: первая настоящая машина",
+    "Минимальный возраст для Формулы 4 по правилам FIA 15 лет. Машины простые: во французской F4, например, стоит 1,3-литровый турбомотор на 170 л.с., а сезон обходится примерно в 145 500 евро без НДС, и это одна из самых дешёвых серий. Чемпион национальной F4 получает 12 очков суперлицензии.",
+    "![Колесо в колесо: в младших сериях очки дают только за высокие места](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## Формула 3 и Формула 2",
+    "Следом идут региональные серии и FIA Формула 3, куда пускают с 16 лет. Сезон в F3, по словам Култхарда, стоит около 1,5 млн фунтов, в Формуле 2 больше двух миллионов. Зато очки здесь крупные. Чемпион F3 получает 30, а в Формуле 2 первые три места дают по 40, то есть сразу всю норму.",
+    "## Суперлицензия: 40 очков за три года",
+    "Без суперлицензии FIA в Формулу 1 не попасть. Нужно набрать 40 очков за три последних сезона, закончить не меньше 80% гонок в двух сезонах младших серий и сдать тест по спортивным правилам. Минимальный возраст 18 лет. Это правило появилось с 2016 года, после того как Макс Ферстаппен дебютировал в 17 лет, проведя за плечами один сезон в машинах. В 2024 году FIA разрешила исключение для 17-летнего пилота с выдающимися результатами. Поправку тогда связывали с Кими Антонелли, но первым ею воспользовался Арвид Линдблад: он получил суперлицензию в 17 лет.",
+    "![Суперлицензия открывает дорогу в Формулу 1](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## Сколько стоит вся дорога",
+    "Култхард называет около 8 млн фунтов от картинга до готовности к Формуле 1, «если повезёт». Ещё в 2015 году Тото Вольф считал похожую сумму, 7–8 млн евро. Поэтому почти все, кто доходит до F1, едут при поддержке спонсоров или юниорских программ команд. Таблицы Формулы 2 и Формулы 3 можно смотреть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "The road to F1: karting, F4, F3, F2 and 40 super licence points",
+   "lead": "Being fast isn't enough to start a Grand Prix. It takes years in junior series, 40 super licence points, an 18th birthday and a budget David Coulthard puts at around £8 million.",
+   "body": [
+    "## Karting from age eight",
+    "Nearly every F1 driver started in karts. The first races usually come at around eight, and by fifteen a family has spent hundreds of thousands, says David Coulthard, whose son is on that ladder right now. Karting does earn super licence points, though not many: the senior world champion gets 4.",
+    "## Formula 4: the first real car",
+    "The FIA minimum age for Formula 4 is 15. The cars are simple. French F4, for example, uses a 1.3-litre turbo with 170 hp, and a season costs about €145,500 before VAT, which makes it one of the cheapest series around. A national F4 champion earns 12 super licence points.",
+    "![Wheel to wheel: junior series only reward the top places](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## Formula 3 and Formula 2",
+    "Next come the regional series and FIA Formula 3, open from age 16. Coulthard puts an F3 season at about £1.5 million and Formula 2 at over two million. The points are big, though. The F3 champion gets 30, and the top three in Formula 2 get 40 each, the full amount in one go.",
+    "## The super licence: 40 points in three years",
+    "There's no F1 without an FIA super licence. You need 40 points over the last three seasons, at least 80% of two junior seasons completed and a test on the sporting rules. The minimum age is 18. That rule arrived in 2016, after Max Verstappen made his debut at 17 with one season of car racing behind him. In 2024 the FIA allowed an exception for an outstanding 17-year-old. The change was widely linked to Kimi Antonelli, but Arvid Lindblad became the first to use it, getting his super licence at 17.",
+    "![The super licence opens the door to Formula 1](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## What the whole road costs",
+    "Coulthard says about £8 million from karting to F1 readiness, \"if you're lucky\". Back in 2015 Toto Wolff came up with a similar figure, €7–8 million. That's why almost everyone who makes it relies on sponsors or a team junior programme. Formula 2 and Formula 3 standings are on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "El camino a la F1: karting, F4, F3, F2 y 40 puntos de superlicencia",
+   "lead": "Para salir en un Gran Premio no basta con ser rápido. Hacen falta años en categorías de formación, 40 puntos de superlicencia, 18 años cumplidos y un presupuesto que David Coulthard calcula en unos 8 millones de libras.",
+   "body": [
+    "## Karting desde los ocho años",
+    "Casi todos los pilotos de F1 empezaron en el karting. Las primeras carreras llegan hacia los ocho años y, a los quince, una familia ya ha gastado cientos de miles, según David Coulthard, cuyo hijo está subiendo esa escalera ahora mismo. El karting da puntos de superlicencia, pero pocos: el campeón del mundo sénior recibe 4.",
+    "## Fórmula 4: el primer coche de verdad",
+    "La edad mínima de la FIA para la Fórmula 4 es de 15 años. Los coches son sencillos. La F4 francesa, por ejemplo, lleva un turbo de 1,3 litros y 170 CV, y una temporada cuesta unos 145.500 euros sin IVA, de las más baratas. El campeón de una F4 nacional suma 12 puntos de superlicencia.",
+    "![Rueda con rueda: en las categorías de formación solo puntúan los primeros puestos](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## Fórmula 3 y Fórmula 2",
+    "Después llegan las regionales y la Fórmula 3 de la FIA, abierta desde los 16 años. Coulthard calcula una temporada de F3 en 1,5 millones de libras y la de Fórmula 2 en más de dos. Eso sí, los puntos pesan. El campeón de F3 recibe 30 y los tres primeros de la F2 se llevan 40 cada uno, todo lo necesario de golpe.",
+    "## La superlicencia: 40 puntos en tres años",
+    "Sin superlicencia de la FIA no hay F1. Hay que sumar 40 puntos en las tres últimas temporadas, completar al menos el 80% de dos temporadas de monoplazas y aprobar un examen de reglamento. La edad mínima es de 18 años. La norma llegó en 2016, después de que Max Verstappen debutara con 17 y una sola temporada en coches. En 2024 la FIA aprobó una excepción para pilotos de 17 años excepcionales. El cambio se relacionó con Kimi Antonelli, pero el primero en aprovecharlo fue Arvid Lindblad, que obtuvo la superlicencia con 17.",
+    "![La superlicencia abre la puerta de la Fórmula 1](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## Cuánto cuesta todo el camino",
+    "Coulthard habla de unos 8 millones de libras desde el karting hasta estar listo para la F1, «con suerte». En 2015 Toto Wolff dio una cifra parecida, 7–8 millones de euros. Por eso casi todos los que llegan lo hacen con patrocinadores o dentro de un programa de jóvenes de un equipo. Las clasificaciones de F2 y F3 están en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "O caminho até a F1: kart, F4, F3, F2 e 40 pontos de superlicença",
+   "lead": "Ser rápido não basta para largar num Grande Prêmio. São anos nas categorias de base, 40 pontos de superlicença, 18 anos completos e um orçamento que David Coulthard estima em cerca de 8 milhões de libras.",
+   "body": [
+    "## Kart a partir dos oito anos",
+    "Quase todo piloto de F1 começou no kart. As primeiras corridas costumam vir por volta dos oito anos, e até os quinze a família já gastou centenas de milhares, diz David Coulthard, cujo filho está subindo essa escada agora. O kart também dá pontos de superlicença, mas poucos: o campeão mundial sênior recebe 4.",
+    "## Fórmula 4: o primeiro carro de verdade",
+    "A idade mínima da FIA para a Fórmula 4 é 15 anos. Os carros são simples. A F4 francesa, por exemplo, usa um motor turbo de 1,3 litro com 170 cv, e uma temporada custa cerca de 145.500 euros sem impostos, uma das mais baratas. O campeão de uma F4 nacional ganha 12 pontos de superlicença.",
+    "![Roda a roda: nas categorias de base só as primeiras posições pontuam](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## Fórmula 3 e Fórmula 2",
+    "Depois vêm as regionais e a Fórmula 3 da FIA, aberta a partir dos 16 anos. Coulthard calcula uma temporada de F3 em 1,5 milhão de libras e a de F2 em mais de dois milhões. Em compensação, os pontos são altos. O campeão da F3 recebe 30, e os três primeiros da F2 levam 40 cada, a conta inteira de uma vez.",
+    "## A superlicença: 40 pontos em três anos",
+    "Sem a superlicença da FIA não existe F1. É preciso somar 40 pontos nas últimas três temporadas, completar pelo menos 80% de duas temporadas de monopostos e passar numa prova sobre o regulamento. A idade mínima é 18 anos. A regra veio em 2016, depois que Max Verstappen estreou aos 17, com uma única temporada em carros. Em 2024 a FIA criou uma exceção para pilotos de 17 anos excepcionais. A mudança foi associada a Kimi Antonelli, mas o primeiro a usá-la foi Arvid Lindblad, que tirou a superlicença aos 17.",
+    "![A superlicença abre a porta da Fórmula 1](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## Quanto custa o caminho todo",
+    "Coulthard fala em cerca de 8 milhões de libras do kart até estar pronto para a F1, “se tiver sorte”. Em 2015 Toto Wolff chegou a um número parecido, 7–8 milhões de euros. Por isso quase todos que chegam lá contam com patrocinadores ou com o programa de jovens de uma equipe. As classificações da F2 e da F3 estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Der Weg in die Formel 1: Kart, F4, F3, F2 und 40 Superlizenz-Punkte",
+   "lead": "Schnell sein reicht nicht für einen Grand-Prix-Start. Dazu gehören Jahre in Nachwuchsserien, 40 Superlizenz-Punkte, der 18. Geburtstag und ein Budget, das David Coulthard auf rund 8 Millionen Pfund schätzt.",
+   "body": [
+    "## Kartfahren ab acht",
+    "Fast jeder Formel-1-Fahrer hat im Kart angefangen. Die ersten Rennen kommen meist mit etwa acht Jahren, und bis 15 hat eine Familie Hunderttausende ausgegeben, sagt David Coulthard, dessen Sohn gerade selbst diese Leiter hinaufsteigt. Auch Kartrennen bringen Superlizenz-Punkte, aber wenige: Der Weltmeister bei den Senioren bekommt 4.",
+    "## Formel 4: das erste richtige Auto",
+    "Das FIA-Mindestalter für die Formel 4 liegt bei 15 Jahren. Die Autos sind einfach. In der französischen F4 steckt zum Beispiel ein 1,3-Liter-Turbo mit 170 PS, eine Saison kostet etwa 145.500 Euro netto und gehört damit zu den günstigsten. Ein nationaler F4-Meister bekommt 12 Superlizenz-Punkte.",
+    "![Rad an Rad: In den Nachwuchsserien zählen nur die vorderen Plätze](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## Formel 3 und Formel 2",
+    "Danach folgen die Regionalserien und die FIA-Formel-3, ab 16 Jahren erlaubt. Coulthard schätzt eine F3-Saison auf etwa 1,5 Millionen Pfund, die Formel 2 auf mehr als zwei Millionen. Dafür gibt es dort viele Punkte. Der F3-Meister bekommt 30, die ersten drei der Formel 2 je 40, also alles auf einmal.",
+    "## Die Superlizenz: 40 Punkte in drei Jahren",
+    "Ohne FIA-Superlizenz keine Formel 1. Nötig sind 40 Punkte aus den letzten drei Saisons, mindestens 80 Prozent von zwei Formelsport-Saisons und ein Test zum Reglement. Das Mindestalter beträgt 18 Jahre. Die Regel kam 2016, nachdem Max Verstappen mit 17 und nur einer Saison im Formelauto debütiert hatte. 2024 schuf die FIA eine Ausnahme für herausragende 17-Jährige. Die Änderung wurde mit Kimi Antonelli in Verbindung gebracht, als Erster nutzte sie aber Arvid Lindblad, der die Superlizenz mit 17 bekam.",
+    "![Die Superlizenz öffnet die Tür zur Formel 1](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## Was der ganze Weg kostet",
+    "Coulthard nennt rund 8 Millionen Pfund vom Kart bis zur F1-Reife, „wenn man Glück hat“. Schon 2015 kam Toto Wolff auf eine ähnliche Summe, 7–8 Millionen Euro. Deshalb schaffen es fast alle nur mit Sponsoren oder über das Juniorprogramm eines Teams. Die Tabellen der Formel 2 und Formel 3 gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "通往F1之路：卡丁车、F4、F3、F2和40分超级驾照",
+   "lead": "光有速度还不够站上大奖赛发车格。还需要在青训系列里打拼多年、拿到40分超级驾照积分、年满18岁，以及一笔库特哈德估计约800万英镑的预算。",
+   "body": [
+    "## 八岁开始卡丁车",
+    "几乎所有F1车手都是从卡丁车起步的。通常八岁左右开始比赛，到十五岁时一个家庭已经花掉几十万。这是大卫·库特哈德的说法，他的儿子正在走这条路。卡丁车也能拿超级驾照积分，但不多：成人组世界冠军只有4分。",
+    "## F4：第一辆真正的赛车",
+    "国际汽联规定F4最低年龄为15岁。赛车结构简单，比如法国F4使用1.3升涡轮发动机，170马力，一个赛季约14.55万欧元（不含税），属于最便宜的系列之一。国家级F4冠军可获得12分超级驾照积分。",
+    "![轮对轮：青训系列只有名列前茅才有积分](/img/articles/3d/path-to-f1-duel.jpg)",
+    "## F3和F2",
+    "接下来是地区级方程式和国际汽联F3，16岁起即可参赛。库特哈德估计F3一个赛季约150万英镑，F2超过200万。不过这里积分很高：F3冠军得30分，F2前三名各得40分，一次就够了。",
+    "## 超级驾照：三年40分",
+    "没有国际汽联超级驾照就进不了F1。需要在最近三个赛季累计40分，在两个方程式赛季中完成至少80%的比赛，并通过规则考试。最低年龄18岁。这条规定从2016年开始，起因是维斯塔潘17岁就上演F1首秀，而他当时只跑过一个赛季的方程式。2024年，国际汽联允许为表现突出的17岁车手破例。这项修改当时被认为是为安东内利准备的，但第一个用上它的是林德布拉德，他17岁就拿到了超级驾照。",
+    "![超级驾照打开F1的大门](/img/articles/3d/path-to-f1-licence.jpg)",
+    "## 整条路要花多少钱",
+    "库特哈德说，从卡丁车到具备F1水平，“运气好的话”大约要800万英镑。早在2015年，沃尔夫给出的数字也差不多，700万至800万欧元。所以几乎所有进入F1的车手都依靠赞助商或车队青训计划。F2和F3积分榜可在LapRadar上查看。"
+   ]
+  }
+ }
+}
