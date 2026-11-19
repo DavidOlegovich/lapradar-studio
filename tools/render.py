@@ -53,7 +53,7 @@ def plan(art, lang):
         scenes.append({**sc, 'cap': cap, 'dur': dur, 'url': f"lapradar.com/a/{art['slug']}" if art.get('i18n') else 'lapradar.com'})
     # кадры сцен общие для всех языков: камера из shots
     for sc, shot in zip(scenes, v['shots']): sc['shot'] = shot
-    return {'track': v['track'], 'theme': v.get('theme', 'night'), 'city': v.get('city', False), 'style': v.get('style', 'tt'), 'fps': 30, 'scenes': scenes}
+    return {'track': v['track'], 'theme': v.get('theme', 'night'), 'city': v.get('city', False), 'style': v.get('style', 'tt'), 'brand3d': v.get('brand3d', True), 'fps': 30, 'scenes': scenes}
 
 
 def serve():

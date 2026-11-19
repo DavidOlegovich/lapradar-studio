@@ -90,6 +90,19 @@ async function buildWorld(trackName, themeName) {
     const t = new THREE.CanvasTexture(c); t.magFilter = THREE.NearestFilter; const m = new THREE.Mesh(new THREE.PlaneGeometry(14, 1.8), new THREE.MeshBasicMaterial({ map: t }));
     m.rotation.x = -Math.PI / 2; m.rotation.z = Math.atan2(TG[0].x, TG[0].z) + Math.PI / 2; m.position.copy(P[0]).setY(P[0].y + 0.07); scene.add(m); }
 
+  // нативный брендинг на трассе: арка LapRadar над стартовой прямой и щиты вдоль трассы (как реклама спонсора)
+  if (spec?.brand3d !== false) {
+    const k0 = Math.round(18 / (L / N)) % N, p0 = P[k0], ang = Math.atan2(TG[k0].x, TG[k0].z), dark = new THREE.MeshLambertMaterial({ color: '#1b2030' });
+    const arch = new THREE.Group(); arch.position.copy(p0); arch.rotation.y = ang;
+    for (const sx of [-1, 1]) { const post = new THREE.Mesh(new THREE.BoxGeometry(0.7, 7.5, 0.7), dark); post.position.set(sx * 10.5, 3.75, 0); arch.add(post); }
+    const beam = new THREE.Mesh(new THREE.BoxGeometry(21.7, 1.9, 0.8), dark); beam.position.set(0, 7.2, 0); arch.add(beam);
+    for (const sz of [-1, 1]) { const b = new THREE.Mesh(new THREE.PlaneGeometry(8.4, 2.1), new THREE.MeshBasicMaterial({ map: brandTex('board') })); b.position.set(0, 7.2, sz * 0.41); if (sz < 0) b.rotation.y = Math.PI; arch.add(b); }
+    scene.add(arch);
+    const boardM = new THREE.MeshBasicMaterial({ map: brandTex('board') }), step = Math.max(40, Math.floor(N / 9));
+    for (let i = step >> 1, n = 0; n < 9; i = (i + step) % N, n++) { const p = P[i], nr = NR[i], side = n % 2 ? 1 : -1;
+      const b = new THREE.Mesh(new THREE.PlaneGeometry(6, 1.5), boardM); b.position.set(p.x + nr.x * side * 10.2, p.y + 0.9, p.z + nr.z * side * 10.2);
+      b.lookAt(p.x, p.y + 0.9, p.z); scene.add(b); }
+  }
   const R0 = rng(7);
   const distToTrack = (x, z) => { let bd = 1e9; for (let i = 0; i < N; i += 3) { const d = Math.hypot(P[i].x - x, P[i].z - z); if (d < bd) bd = d; } return bd; };
   // здания из OSM — мультяшные коробки
@@ -193,6 +206,20 @@ function badgeTex(text) {
 
 // ---------- машинка (своя, без ливрей): обтекаемый корпус из капсул и профилей ----------
 const ACCENT = { '#3b82f6': '#f8fafc', '#f97316': '#1f2937', '#f3f4f6': '#ef4444', '#22c55e': '#0f172a', '#a855f7': '#facc15', '#facc15': '#111827', '#ef4444': '#f8fafc', '#06b6d4': '#1e293b', '#ec4899': '#f8fafc', '#84cc16': '#1f2937' };
+/* нативный брендинг LapRadar в 3D: логотип + надпись, как наклейка спонсора (на машинах, мотоциклах, щитах, арке) */
+const _brandTex = {};
+function brandTex(kind = 'light') {
+  if (_brandTex[kind]) return _brandTex[kind];
+  const c = document.createElement('canvas'); c.width = 512; c.height = 128; const g = c.getContext('2d');
+  if (kind === 'board') { g.fillStyle = '#0b1020'; g.fillRect(0, 0, 512, 128); g.fillStyle = '#3478f6'; g.fillRect(0, 118, 512, 10); }
+  g.save(); g.translate(18, 16); g.scale(3, 3); const R = new Path2D(); R.roundRect(0, 0, 32, 32, 7); g.fillStyle = '#3478f6'; g.fill(R);
+  g.strokeStyle = '#fff'; g.lineWidth = 3.4; g.lineCap = 'round'; g.stroke(new Path2D('M7 25C7 15 13 9 25 7')); g.beginPath(); g.arc(15.6, 16.6, 2.5, 0, 7); g.fillStyle = '#fff'; g.fill(); g.restore();
+  g.textBaseline = 'middle'; g.fillStyle = kind === 'dark' ? '#0b1020' : '#ffffff';
+  let fs = 80; do { g.font = `italic 900 ${fs}px "Barlow Condensed", Inter, sans-serif`; fs -= 2; } while (g.measureText('LAPRADAR').width > 360 && fs > 30);
+  g.fillText('LAPRADAR', 136, 68);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; return (_brandTex[kind] = t);
+}
+const brandMat = kind => new THREE.MeshBasicMaterial({ map: brandTex(kind), transparent: true, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -2 });
 function makeCar(color, tyreColor) {
   const g = new THREE.Group();
   const paint = new THREE.MeshStandardMaterial({ color, roughness: 0.35, metalness: 0.15 });
@@ -236,6 +263,14 @@ function makeCar(color, tyreColor) {
     wg.position.set(x, r, z); g.add(wg); wheels.push(wg);
     // подвеска
     add(new THREE.CylinderGeometry(0.025, 0.025, Math.abs(x) - 0.35, 5), carbon, x / 2, r + 0.05, z, 0, 0, Math.PI / 2);
+  }
+  // наклейки LapRadar: бока понтонов и внешние стороны щитков заднего крыла
+  { const m = brandMat(['#f8fafc', '#ffffff', '#fde047', '#facc15'].includes(String(color).toLowerCase()) ? 'dark' : 'light');
+    for (const sx of [-1, 1]) {
+      const d = add(new THREE.PlaneGeometry(1.15, 0.29), m, sx * 1.04, 0.45, -0.35, 0, sx * Math.PI / 2); d.renderOrder = 2;
+      const e = add(new THREE.PlaneGeometry(0.72, 0.18), m, sx * 0.80, 1.05, -2.3, 0, sx * Math.PI / 2); e.renderOrder = 2;
+    }
+    const rw = add(new THREE.PlaneGeometry(1.3, 0.32), brandMat('light'), 0, 1.0, -2.71, 0, Math.PI); rw.renderOrder = 2; /* сзади на заднем крыле: видно в камере «за машиной» */
   }
   g.scale.setScalar(1.15);
   return { group: g, wheels, rubber, band, frontFlap, rearFlap };
@@ -375,6 +410,7 @@ function makeBike(color) {
   add(new THREE.CapsuleGeometry(0.22, 1.1, 6, 10), paint, 0, 0.7, 0.05, Math.PI / 2 - 0.15);
   add(new THREE.CapsuleGeometry(0.2, 0.5, 6, 10), paint, 0, 1.12, -0.1, 0.9);
   add(new THREE.SphereGeometry(0.2, 12, 10), new THREE.MeshStandardMaterial({ color: '#f8fafc', roughness: 0.3 }), 0, 1.42, 0.25);
+  for (const sx of [-1, 1]) { const d = new THREE.Mesh(new THREE.PlaneGeometry(0.9, 0.22), brandMat('light')); d.position.set(sx * 0.235, 0.74, 0.1); d.rotation.set(0, sx * Math.PI / 2, -0.15 * sx); g.add(d); }
   const lean = new THREE.Group(); lean.add(g); g.scale.setScalar(1.3); const root = new THREE.Group(); root.add(lean); root.visible = false;
   return { group: root, lean, wheels };
 }
