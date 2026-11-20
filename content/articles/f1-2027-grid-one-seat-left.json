@@ -1,0 +1,171 @@
+{
+ "slug": "f1-2027-grid-one-seat-left",
+ "date": "2026-11-21",
+ "tags": [
+  "f1",
+  "2027",
+  "haas"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f1-2027-grid-one-seat-left-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Сетка F1 2027: занято 21 место из 22, свободно одно кресло в Haas",
+   "lead": "18 ноября Cadillac оставила Валттери Боттаса, и без пилота на 2027 год осталось одно место. Оно в Haas, рядом с Рафаэлом Камарой. Фаворит, по данным прессы, Оливер Берман.",
+   "body": [
+    "## Рынок, который почти не двигался",
+    "Межсезонье перед 2027 годом вышло на редкость спокойным. Если Haas оставит Бермана, на стартовой решётке будет ровно один новый пилот: бразилец Рафаэл Камара, чемпион Формулы 3 2025 года, займёт место Эстебана Окона. Остальные двадцать гонщиков остаются в своих командах.",
+    "## Топ-команды",
+    "**McLaren:** Ландо Норрис (контракт как минимум до 2030 года) и Оскар Пиастри (до 2028-го).",
+    "**Mercedes:** Джордж Расселл и Кими Антонелли. Отдельного объявления не было, но команда подтвердила PlanetF1, что состав не меняется.",
+    "**Red Bull:** Макс Ферстаппен с контрактом до конца 2030 года и Изак Аджар, которого подтвердили на 2027-й ещё перед Гран-при Азербайджана.",
+    "**Ferrari:** Шарль Леклер и Льюис Хэмилтон, для Хэмилтона это будет третий сезон в команде.",
+    "![Двадцать два места и почти все уже заняты](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## Середина пелетона",
+    "**Aston Martin:** Фернандо Алонсо решил провести ещё один сезон, рядом остаётся Лэнс Стролл.",
+    "**Williams:** Карлос Сайнс (до 2028 года) и Алекс Албон, для которого 2027-й станет шестым сезоном в команде.",
+    "**Alpine:** Пьер Гасли (до 2028 года) и Франко Колапинто, получивший новый контракт на 2027-й.",
+    "**Audi:** Нико Хюлькенберг и Габриэл Бортолето, оба по многолетним контрактам.",
+    "**Racing Bulls:** 12 ноября команда оставила Лиама Лоусона и Арвида Линдблада.",
+    "## Cadillac и Haas",
+    "**Cadillac:** Серхио Перес (до 2029 года) и Валттери Боттас, которого команда подтвердила 18 ноября. Американцу Колтону Херте, главному претенденту на это место, придётся подождать.",
+    "**Haas:** Рафаэл Камара по многолетнему контракту и пока неизвестный второй пилот.",
+    "![Единственное свободное место на 2027 год](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## Чьё последнее кресло",
+    "F1.com и GPfans ждут, что Haas оставит Оливера Бермана, который выступает за команду с 2025 года. По данным PlanetF1, руководитель команды Аяо Комацу называл контракт британца схемой «2+1», то есть у Haas есть опция ещё на год. Официально Бермана на 2027 год пока не объявили. Как только подпишут, сетка будет собрана целиком. Таблицы пилотов и команд текущего сезона есть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "F1 2027 grid: 21 of 22 seats filled, one left at Haas",
+   "lead": "Cadillac kept Valtteri Bottas on 18 November, which leaves one seat without a name for 2027. It's at Haas, alongside Rafael Camara. Reports point to Oliver Bearman as the favourite.",
+   "body": [
+    "## A market that barely moved",
+    "The build-up to 2027 has been unusually quiet. If Haas keeps Bearman, the grid will have exactly one new driver: Brazil's Rafael Camara, the 2025 Formula 3 champion, who takes Esteban Ocon's seat. The other twenty drivers all stay where they are.",
+    "## The top teams",
+    "**McLaren:** Lando Norris (contracted to at least 2030) and Oscar Piastri (to 2028).",
+    "**Mercedes:** George Russell and Kimi Antonelli. There has been no formal announcement, but the team confirmed to PlanetF1 that the line-up stays.",
+    "**Red Bull:** Max Verstappen, under contract to the end of 2030, and Isack Hadjar, confirmed for 2027 before the Azerbaijan Grand Prix.",
+    "**Ferrari:** Charles Leclerc and Lewis Hamilton, who will start his third season with the team.",
+    "![Twenty-two seats, nearly all taken](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## The midfield",
+    "**Aston Martin:** Fernando Alonso has decided to race one more season, with Lance Stroll alongside.",
+    "**Williams:** Carlos Sainz (to 2028) and Alex Albon, who heads into his sixth season with the team.",
+    "**Alpine:** Pierre Gasly (to 2028) and Franco Colapinto, who earned a new deal for 2027.",
+    "**Audi:** Nico Hulkenberg and Gabriel Bortoleto, both on multi-year contracts.",
+    "**Racing Bulls:** on 12 November the team kept Liam Lawson and Arvid Lindblad.",
+    "## Cadillac and Haas",
+    "**Cadillac:** Sergio Perez (to 2029) and Valtteri Bottas, confirmed on 18 November. American Colton Herta, the main contender for that seat, has to wait.",
+    "**Haas:** Rafael Camara on a multi-year deal, and a team-mate still to be named.",
+    "![The only open seat for 2027](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## Whose seat is it",
+    "F1.com and GPfans both expect Haas to keep Oliver Bearman, who has raced for the team since 2025. According to PlanetF1, team principal Ayao Komatsu has described the Briton's contract as a \"2+1\", which gives Haas an option for another year. Bearman has not been officially announced for 2027 yet. Once he is, the grid is complete. The current drivers' and teams' standings are on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Parrilla de F1 2027: 21 de 22 asientos ocupados, queda uno en Haas",
+   "lead": "Cadillac retuvo a Valtteri Bottas el 18 de noviembre y solo queda un asiento sin nombre para 2027. Está en Haas, junto a Rafael Câmara. Según la prensa, el favorito es Oliver Bearman.",
+   "body": [
+    "## Un mercado casi inmóvil",
+    "El camino hacia 2027 ha sido inusualmente tranquilo. Si Haas mantiene a Bearman, la parrilla tendrá un solo piloto nuevo: el brasileño Rafael Câmara, campeón de la Fórmula 3 en 2025, que ocupa el asiento de Esteban Ocon. Los otros veinte pilotos siguen en sus equipos.",
+    "## Los equipos grandes",
+    "**McLaren:** Lando Norris (contrato al menos hasta 2030) y Oscar Piastri (hasta 2028).",
+    "**Mercedes:** George Russell y Kimi Antonelli. No hubo anuncio oficial, pero el equipo confirmó a PlanetF1 que la pareja se mantiene.",
+    "**Red Bull:** Max Verstappen, con contrato hasta finales de 2030, e Isack Hadjar, confirmado para 2027 antes del Gran Premio de Azerbaiyán.",
+    "**Ferrari:** Charles Leclerc y Lewis Hamilton, que afronta su tercera temporada en el equipo.",
+    "![Veintidós asientos y casi todos ocupados](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## La zona media",
+    "**Aston Martin:** Fernando Alonso ha decidido correr una temporada más, con Lance Stroll a su lado.",
+    "**Williams:** Carlos Sainz (hasta 2028) y Alex Albon, que encara su sexta temporada en el equipo.",
+    "**Alpine:** Pierre Gasly (hasta 2028) y Franco Colapinto, que se ganó un nuevo contrato para 2027.",
+    "**Audi:** Nico Hülkenberg y Gabriel Bortoleto, ambos con contratos plurianuales.",
+    "**Racing Bulls:** el 12 de noviembre el equipo mantuvo a Liam Lawson y Arvid Lindblad.",
+    "## Cadillac y Haas",
+    "**Cadillac:** Sergio Pérez (hasta 2029) y Valtteri Bottas, confirmado el 18 de noviembre. El estadounidense Colton Herta, principal aspirante a ese asiento, tendrá que esperar.",
+    "**Haas:** Rafael Câmara, con contrato plurianual, y un compañero aún por anunciar.",
+    "![El único asiento libre para 2027](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## De quién es el último asiento",
+    "F1.com y GPfans dan por hecho que Haas mantendrá a Oliver Bearman, piloto del equipo desde 2025. Según PlanetF1, el jefe del equipo, Ayao Komatsu, describió el contrato del británico como un «2+1», lo que da a Haas una opción por otro año. Bearman aún no ha sido anunciado oficialmente para 2027. Cuando lo sea, la parrilla quedará completa. Las clasificaciones de pilotos y equipos de esta temporada están en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Grid da F1 2027: 21 de 22 vagas preenchidas, sobra uma na Haas",
+   "lead": "A Cadillac manteve Valtteri Bottas em 18 de novembro, e só resta uma vaga sem nome para 2027. Ela é da Haas, ao lado de Rafael Câmara. Segundo a imprensa, o favorito é Oliver Bearman.",
+   "body": [
+    "## Um mercado quase parado",
+    "A preparação para 2027 foi incomumente tranquila. Se a Haas mantiver Bearman, o grid terá exatamente um piloto novo: o brasileiro Rafael Câmara, campeão da Fórmula 3 em 2025, que fica com a vaga de Esteban Ocon. Os outros vinte pilotos continuam nas suas equipes.",
+    "## As equipes de ponta",
+    "**McLaren:** Lando Norris (contrato até pelo menos 2030) e Oscar Piastri (até 2028).",
+    "**Mercedes:** George Russell e Kimi Antonelli. Não houve anúncio oficial, mas a equipe confirmou ao PlanetF1 que a dupla continua.",
+    "**Red Bull:** Max Verstappen, com contrato até o fim de 2030, e Isack Hadjar, confirmado para 2027 antes do GP do Azerbaijão.",
+    "**Ferrari:** Charles Leclerc e Lewis Hamilton, que vai para a terceira temporada na equipe.",
+    "![Vinte e duas vagas, quase todas ocupadas](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## O pelotão do meio",
+    "**Aston Martin:** Fernando Alonso decidiu correr mais uma temporada, com Lance Stroll ao lado.",
+    "**Williams:** Carlos Sainz (até 2028) e Alex Albon, que vai para a sexta temporada na equipe.",
+    "**Alpine:** Pierre Gasly (até 2028) e Franco Colapinto, que ganhou um novo contrato para 2027.",
+    "**Audi:** Nico Hülkenberg e Gabriel Bortoleto, ambos com contratos de vários anos.",
+    "**Racing Bulls:** em 12 de novembro a equipe manteve Liam Lawson e Arvid Lindblad.",
+    "## Cadillac e Haas",
+    "**Cadillac:** Sergio Pérez (até 2029) e Valtteri Bottas, confirmado em 18 de novembro. O americano Colton Herta, principal candidato à vaga, vai ter de esperar.",
+    "**Haas:** Rafael Câmara, com contrato de vários anos, e um companheiro ainda não anunciado.",
+    "![A única vaga livre para 2027](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## De quem é a última vaga",
+    "F1.com e GPfans esperam que a Haas mantenha Oliver Bearman, piloto da equipe desde 2025. Segundo o PlanetF1, o chefe da equipe, Ayao Komatsu, descreveu o contrato do britânico como um “2+1”, o que dá à Haas uma opção por mais um ano. Bearman ainda não foi anunciado oficialmente para 2027. Quando for, o grid estará completo. As classificações de pilotos e equipes desta temporada estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "F1-Startfeld 2027: 21 von 22 Cockpits vergeben, eines bei Haas ist frei",
+   "lead": "Cadillac hat am 18. November Valtteri Bottas behalten, damit ist für 2027 nur noch ein Cockpit ohne Namen. Es steht bei Haas, neben Rafael Câmara. Laut Medienberichten ist Oliver Bearman der Favorit.",
+   "body": [
+    "## Ein Fahrermarkt fast ohne Bewegung",
+    "Der Weg nach 2027 war ungewöhnlich ruhig. Behält Haas Bearman, steht genau ein neuer Fahrer im Feld: der Brasilianer Rafael Câmara, Formel-3-Meister 2025, der das Cockpit von Esteban Ocon übernimmt. Die übrigen zwanzig Fahrer bleiben in ihren Teams.",
+    "## Die Topteams",
+    "**McLaren:** Lando Norris (Vertrag mindestens bis 2030) und Oscar Piastri (bis 2028).",
+    "**Mercedes:** George Russell und Kimi Antonelli. Eine offizielle Mitteilung gab es nicht, aber das Team hat PlanetF1 bestätigt, dass die Paarung bleibt.",
+    "**Red Bull:** Max Verstappen mit Vertrag bis Ende 2030 und Isack Hadjar, der schon vor dem Großen Preis von Aserbaidschan für 2027 bestätigt wurde.",
+    "**Ferrari:** Charles Leclerc und Lewis Hamilton, der in seine dritte Saison mit dem Team geht.",
+    "![Zweiundzwanzig Cockpits, fast alle vergeben](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## Das Mittelfeld",
+    "**Aston Martin:** Fernando Alonso hat sich für eine weitere Saison entschieden, an seiner Seite bleibt Lance Stroll.",
+    "**Williams:** Carlos Sainz (bis 2028) und Alex Albon, der seine sechste Saison im Team fährt.",
+    "**Alpine:** Pierre Gasly (bis 2028) und Franco Colapinto, der einen neuen Vertrag für 2027 bekommen hat.",
+    "**Audi:** Nico Hülkenberg und Gabriel Bortoleto, beide mit Mehrjahresverträgen.",
+    "**Racing Bulls:** Am 12. November hat das Team Liam Lawson und Arvid Lindblad behalten.",
+    "## Cadillac und Haas",
+    "**Cadillac:** Sergio Pérez (bis 2029) und Valtteri Bottas, bestätigt am 18. November. Der Amerikaner Colton Herta, Hauptkandidat für dieses Cockpit, muss warten.",
+    "**Haas:** Rafael Câmara mit Mehrjahresvertrag und ein Teamkollege, der noch nicht feststeht.",
+    "![Das einzige freie Cockpit für 2027](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## Wem gehört das letzte Cockpit",
+    "F1.com und GPfans erwarten, dass Haas Oliver Bearman behält, der seit 2025 für das Team fährt. Laut PlanetF1 beschrieb Teamchef Ayao Komatsu den Vertrag des Briten als „2+1“, Haas hat also eine Option auf ein weiteres Jahr. Offiziell ist Bearman für 2027 noch nicht bestätigt. Sobald das passiert, ist das Feld komplett. Die aktuellen Fahrer- und Teamwertungen gibt es auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "2027年F1发车格：22个席位已定21个，哈斯还剩一个",
+   "lead": "11月18日凯迪拉克留下了瓦尔特利·博塔斯，2027赛季只剩一个席位尚未确定。它属于哈斯车队，队友是拉斐尔·卡马拉。据媒体报道，奥利弗·贝尔曼是热门人选。",
+   "body": [
+    "## 几乎没有变化的车手市场",
+    "通往2027赛季的转会窗口异常平静。如果哈斯留下贝尔曼，发车格上只会有一位新面孔：2025年F3冠军、巴西车手拉斐尔·卡马拉，他将接替埃斯特班·奥康的席位。其余二十位车手都留在原车队。",
+    "## 顶级车队",
+    "**迈凯伦：** 兰多·诺里斯（合同至少到2030年）和奥斯卡·皮亚斯特里（到2028年）。",
+    "**梅赛德斯：** 乔治·拉塞尔和基米·安东内利。车队没有正式公告，但向PlanetF1确认阵容不变。",
+    "**红牛：** 马克斯·维斯塔潘，合同到2030赛季结束；以及伊萨克·哈贾尔，他在阿塞拜疆大奖赛前就已确认2027年席位。",
+    "**法拉利：** 夏尔·勒克莱尔和刘易斯·汉密尔顿，2027年将是汉密尔顿在车队的第三个赛季。",
+    "![22个席位，几乎全部有主](/img/articles/3d/f1-2027-grid-one-seat-left-pack.jpg)",
+    "## 中游车队",
+    "**阿斯顿·马丁：** 费尔南多·阿隆索决定再跑一个赛季，队友仍是兰斯·斯特罗尔。",
+    "**威廉姆斯：** 卡洛斯·塞恩斯（到2028年）和亚历克斯·阿尔本，2027年将是阿尔本在车队的第六个赛季。",
+    "**Alpine：** 皮埃尔·加斯利（到2028年）和弗朗哥·科拉平托，后者拿到了2027年的新合同。",
+    "**奥迪：** 尼科·霍肯伯格和加布里埃尔·博托莱托，两人都签有多年合同。",
+    "**Racing Bulls：** 11月12日，车队留下了利亚姆·劳森和阿维德·林德布拉德。",
+    "## 凯迪拉克和哈斯",
+    "**凯迪拉克：** 塞尔吉奥·佩雷兹（到2029年）和瓦尔特利·博塔斯，后者于11月18日获得确认。这个席位的头号竞争者、美国车手科尔顿·赫塔只能继续等待。",
+    "**哈斯：** 签有多年合同的拉斐尔·卡马拉，另一位车手尚未公布。",
+    "![2027年唯一空缺的席位](/img/articles/3d/f1-2027-grid-one-seat-left-haas.jpg)",
+    "## 最后一个席位属于谁",
+    "F1官网和GPfans都预计，哈斯会留下自2025年起为车队出战的奥利弗·贝尔曼。据PlanetF1报道，车队领队小松礼雄曾表示，这位英国车手的合同是“2+1”模式，也就是说哈斯握有再续一年的选项。贝尔曼目前还没有被正式确认参加2027赛季。一旦签约，发车格就全部确定。本赛季的车手和车队积分榜可以在LapRadar上查看。"
+   ]
+  }
+ }
+}

@@ -356,6 +356,19 @@ function makeBrickCar(kind = 'f1', color = '#3b82f6') {
   g.scale.setScalar(classic ? 1.0 : 1.15);
   return { group: g, wheels, kind };
 }
+/* своя окраска машин сцены (по умолчанию выключено): shot.paint = { 0: '#16181d' } или { 0: { c: '#16181d', a: '#c0c6cf', p: 'stripe' } }
+   (p: stripe | fade | split | band). Только цвета и простой узор: без логотипов и настоящих ливрей. Машина-двойник создаётся один раз и кешируется. */
+const paintOf = (shot, k) => { const v = shot?.paint?.[k]; if (!v) return null; const o = typeof v === 'string' ? { c: v } : v; return { ...o, id: [o.c, o.a, o.p].join('|') }; };
+const CAR_KEYS = ['group', 'wheels', 'rubber', 'band', 'frontFlap', 'rearFlap', 'helmet', 'rain', 'hq'];
+function applyPaint(w, shot, c, k) {
+  const pt = paintOf(shot, k), id = pt ? pt.id : '';
+  if ((c.paintId || '') === id) return;
+  if (!c.base) { c.base = {}; CAR_KEYS.forEach(f => { c.base[f] = c[f]; }); }
+  c.alts = c.alts || {};
+  let src = c.base;
+  if (pt) { src = c.alts[id]; if (!src) { const m = (HQ ? makeCarHQ : makeCar)(pt.c, '#' + c.base.band.color.getHexString(), k, pt); w.scene.add(m.group); src = c.alts[id] = {}; CAR_KEYS.forEach(f => { src[f] = m[f]; }); } }
+  c.group.visible = false; CAR_KEYS.forEach(f => { c[f] = src[f]; }); c.paintId = id;
+}
 const brickOf = (shot, k) => { const b = shot?.brick; if (!b) return null; return { kind: (b.classic || []).includes(k) ? 'classic' : 'f1', c: b.c?.[k] }; };
 
 /* ================= НОЧНОЙ ВЕГАС: светящаяся Sphere и огни на фасадах (shot.sphere, shot.neon; по умолчанию выключено) ================= */
@@ -541,7 +554,7 @@ function makePodium() {
   return g;
 }
 function stageItem(it) {
-  if (it.o === 'f1') { const c = (HQ ? makeCarHQ : makeCar)(it.c || '#3b82f6'); return c.group; }
+  if (it.o === 'f1') { const c = HQ ? makeCarHQ(it.c || '#3b82f6', TYRE.soft, 0, { a: it.a, p: it.p }) : makeCar(it.c || '#3b82f6'); return c.group; }
   if (it.o === 'stock') { const c = makeStock(it.c || '#facc15', it.n); c.group.visible = true; return c.group; }
   if (it.o === 'bike') { const c = makeBike(it.c || '#ef4444'); c.group.visible = true; c.lean.rotation.z = it.lean ?? 0; return c.group; }
   if (it.o === 'brick') return makeBrickCar(it.kind || 'f1', it.c || '#3b82f6').group;
@@ -852,7 +865,7 @@ const UP = new THREE.Vector3(0, 1, 0);
 function pose3(o, st, lift = 0) { const hd = st.dir.clone().addScaledVector(st.n || new THREE.Vector3(-st.dir.z, 0, st.dir.x), st.yaw || 0).normalize(); o.position.copy(st.pos).setY(st.pos.y + lift); o.lookAt(st.pos.x + hd.x, st.pos.y + lift, st.pos.z + hd.z); return hd; }
 function applyActs(shot, lt, T, dur) {
   const w = world, { cars, ex } = actStates(shot, lt, T, dur); fxReset();
-  w.cars.forEach((c, k) => { const st = cars[k]; c.st = st; c.group.visible = st.vis;
+  w.cars.forEach((c, k) => { applyPaint(w, shot, c, k); const st = cars[k]; c.st = st; c.group.visible = st.vis;
     const bk = brickOf(shot, k); if (c.bk) for (const o of Object.values(c.bk)) o.group.visible = false;   /* кирпичный стиль: обычная машина прячется, вместо неё — из блоков */
     if (bk) { c.bk = c.bk || {}; const id = bk.kind + (bk.c || ''), o = c.bk[id] || (c.bk[id] = makeBrickCar(bk.kind, bk.c || CAR_COLORS[k % CAR_COLORS.length])); if (!o.group.parent) w.scene.add(o.group);
       c.group.visible = false; o.group.visible = st.vis; if (st.vis) { pose3(o.group, st); o.wheels.forEach(wh => { wh.rotation.x = st.roll / 0.4; }); } }
@@ -1528,8 +1541,8 @@ function hqRimTex() { return _hqT.rim || (_hqT.rim = hqTex(256, 256, (g, w, h) =
   g.fillStyle = '#9ea4ae'; g.beginPath(); g.arc(0, 0, 124, 0, 7); g.arc(0, 0, 108, 0, 7, true); g.fill();
   for (let i = 0; i < 10; i++) { g.save(); g.rotate(i / 10 * Math.PI * 2); g.fillStyle = '#b5bbc4'; g.beginPath(); g.moveTo(-9, -30); g.lineTo(9, -30); g.lineTo(5, -110); g.lineTo(-5, -110); g.fill(); g.restore(); }
   g.fillStyle = '#c9ced6'; g.beginPath(); g.arc(0, 0, 32, 0, 7); g.fill(); }, { rep: false })); }
-function makeCarHQ(color, tyreColor = TYRE.soft, k = 0) {
-  const g = new THREE.Group(), acc = ACCENT[color] || '#f8fafc', pat = HQ_PAT[Math.abs(CAR_COLORS.indexOf(color)) % HQ_PAT.length];
+function makeCarHQ(color, tyreColor = TYRE.soft, k = 0, opt = {}) {
+  const g = new THREE.Group(), acc = opt.a || ACCENT[color] || '#f8fafc', pat = opt.p || HQ_PAT[Math.abs(CAR_COLORS.indexOf(color)) % HQ_PAT.length];
   const live = new THREE.MeshPhysicalMaterial({ map: hqLivery(color, acc, pat), roughness: 0.28, metalness: 0.25, clearcoat: 1, clearcoatRoughness: 0.06, envMapIntensity: 1.15 });
   const paint = new THREE.MeshPhysicalMaterial({ color, roughness: 0.28, metalness: 0.25, clearcoat: 1, clearcoatRoughness: 0.06, envMapIntensity: 1.15 });
   const accent = new THREE.MeshPhysicalMaterial({ color: acc, roughness: 0.3, metalness: 0.2, clearcoat: 1, clearcoatRoughness: 0.08, envMapIntensity: 1.1 });
