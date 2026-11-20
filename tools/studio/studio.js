@@ -180,7 +180,8 @@ async function buildWorld(trackName, themeName) {
   // машины
   const cars = [];
   const nCars = tr.cars ?? 8;
-  for (let k = 0; k < nCars; k++) { const m = (HQ ? makeCarHQ : makeCar)(CAR_COLORS[k % CAR_COLORS.length], k === 0 ? TYRE.soft : k % 3 === 1 ? TYRE.medium : TYRE.hard); scene.add(m.group); cars.push({ ...m, s0: L - k * 22 - (k > 3 ? 40 : 0), v: 72 - k * 0.7, lane: ((k % 3) - 1) * 2.2 }); }
+  for (let k = 0; k < nCars; k++) { const tc = k === 0 ? TYRE.soft : k % 3 === 1 ? TYRE.medium : TYRE.hard, oc = HQ && HQO.cars?.[k];   /* VIDEO.hq.cars: свои цвета машин [цвет, акцент, узор stripe|fade|split|band] по номерам (только HQ, по умолчанию как раньше) */
+    const m = oc ? makeCarHQ([].concat(oc)[0], tc, k, { a: [].concat(oc)[1], p: [].concat(oc)[2] }) : (HQ ? makeCarHQ : makeCar)(CAR_COLORS[k % CAR_COLORS.length], tc); scene.add(m.group); cars.push({ ...m, s0: L - k * 22 - (k > 3 ? 40 : 0), v: 72 - k * 0.7, lane: ((k % 3) - 1) * 2.2 }); }
 
   const at = s => { s = ((s % L) + L) % L; const f = s / L * N, i = Math.floor(f) % N, j = (i + 1) % N, u = f - Math.floor(f); return { p: P[i].clone().lerp(P[j], u), t: TG[i].clone().lerp(TG[j], u).normalize(), n: NR[i].clone().lerp(NR[j], u).normalize(), i }; };
   const box = new THREE.Box3().setFromPoints(P); const size = box.getSize(new THREE.Vector3());
@@ -1706,7 +1707,8 @@ function hqFrame(shot, lt, cam) {
   else if (w.lastEx?.sc?.vis) f = w.lastEx.sc.pos.clone();
   else { const fw = new THREE.Vector3(); cam.getWorldDirection(fw); const t = fw.y < -0.05 ? Math.min(60, (cam.position.y - 0) / -fw.y) : 40; f = cam.position.clone().addScaledVector(fw, t); f.y = 0; }
   const k = w.hq.key; k.target.position.copy(f); k.position.copy(f).add(new THREE.Vector3(-14, 42, 10)); k.target.updateMatrixWorld();
-  const lamps = w.hq.lamps; if (lamps.length) { const near = lamps.map(p => [p.distanceToSquared(f), p]).sort((a, b) => a[0] - b[0]); w.hq.pl.forEach((l, i) => { const p = near[i]?.[1]; if (p) l.position.copy(p); }); }
+  const lamps = w.hq.lamps; if (lamps.length) { const near = lamps.map(p => [p.distanceToSquared(f), p]).sort((a, b) => a[0] - b[0]); w.hq.pl.forEach((l, i) => { const p = near[i]?.[1]; if (p) l.position.copy(p);
+    if (p && HQO.lampFade) { const d = Math.sqrt(near[i][0]), d5 = Math.sqrt(near[4]?.[0] ?? 1e12); l.userData.i0 ??= l.intensity; l.intensity = l.userData.i0 * clamp((d5 - d) / Math.max(6, 0.35 * d5)); } }); }   /* VIDEO.hq.lampFade: свет фонаря гаснет плавно, когда он выпадает из четырёх ближайших (без вспышек земли) */
   w.cars.forEach(c => { if (c.helmet) c.helmet.visible = !(shot.type === 'onboard' && c === car); });
   if (w.sc?.wheels && w.lastEx?.sc?.vis) w.sc.wheels.forEach(wh => { wh.rotation.x = w.lastEx.sc.s / 0.374; });
   if (w.sc?.bar) w.sc.bar.forEach((b, i) => { b.visible = !!w.lastEx?.sc?.lights ? (Math.sin(lt * 14 + (i % 2) * Math.PI) > 0) : true; });
