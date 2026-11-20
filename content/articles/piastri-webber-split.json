@@ -1,0 +1,135 @@
+{
+ "slug": "piastri-webber-split",
+ "date": "2026-11-20",
+ "tags": [
+  "f1",
+  "piastri",
+  "mclaren"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/piastri-webber-split-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Пиастри и Уэббер расстались: семь лет, два титула и спор о контракте",
+   "lead": "В понедельник 9 ноября, на следующий день после Гран-при Сан-Паулу, Оскар Пиастри и Марк Уэббер объявили, что заканчивают сотрудничество. Бывший пилот Red Bull и его жена Энн были менеджерами австралийца с 2019 года.",
+   "body": [
+    "## Совместное заявление",
+    "Обе стороны говорят, что решение обоюдное. Пиастри поблагодарил Марка и Энн за поддержку и советы и отдельно отметил, как они помогли ему в начале карьеры в Формуле 1. Уэббер написал, что гордится своей ролью в первые годы карьеры Оскара. В этом сезоне команда Уэббера реже бывала на трассе, и, по его словам, пришло время закрыть договор: Пиастри продолжит с новой структурой менеджмента, а сами Уэбберы займутся новыми проектами. Кто станет новым менеджером, не объявлено.",
+    "## Путь наверх",
+    "Уэббер взялся за Пиастри в 2019-м, в год, когда тот выиграл Еврокубок Формулы Renault. В январе 2020-го Оскар попал в академию Renault и сел в Prema в Формуле 3. Дальше два титула подряд: Формула 3 в 2020-м и Формула 2 в 2021-м.",
+    "![Подиум и кубок: два юниорских титула подряд](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## Контракт, который решала FIA",
+    "В 2022 году Пиастри был резервистом Alpine, и после Гран-при Венгрии команда объявила его сменщиком Фернандо Алонсо. Пилот сразу ответил, что за Alpine в 2023-м выступать не будет. Спор разбирал Совет FIA по признанию контрактов, и 2 сентября 2022 года он единогласно решил, что действует только контракт с McLaren, подписанный 4 июля. Так Пиастри занял место Даниэля Риккардо, а этот переход приписывают Уэбберу.",
+    "## Что делает менеджер пилота",
+    "Менеджер ведёт переговоры с командами и следит за сроками и пунктами контракта. Он ищет личных спонсоров, отвечает за рекламные договоры и имидж, планирует, где и как пилот появляется вне трассы. Хороший менеджер думает на несколько лет вперёд: какая команда даст быструю машину и когда выгодно продлевать договор.",
+    "![Дуэль на трассе](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## Сезон за кулисами",
+    "Ещё на предсезонных тестах Пиастри рассказал, что Уэббер с женой перешли на работу за кулисами, и Марк перестал регулярно ездить на гонки. Autosport и The Race пишут, что Уэбберу не всегда нравилось, как McLaren вела себя в некоторых ситуациях в 2025-м. По данным Autosport, сама команда официально не просила Пиастри сменить менеджера. В 2025-м Оскар долго лидировал в чемпионате, но титул взял Ландо Норрис, а Пиастри стал третьим. Чемпион 2026 года уже известен, это Кими Антонелли. Пиастри перед Лас-Вегасом седьмой со 152 очками, Норрис шестой с 246.",
+    "## Что дальше",
+    "За Пиастри девять побед в Гран-при, и его контракт с McLaren продлён ещё в 2025-м. Как изменится его команда вокруг, станет понятно, когда он назовёт нового менеджера. Положение Пиастри и Норриса в чемпионате можно смотреть в таблице пилотов на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Piastri and Webber split: seven years, two titles and a contract fight",
+   "lead": "On Monday 9 November, the day after the São Paulo Grand Prix, Oscar Piastri and Mark Webber announced they are ending their partnership. The former Red Bull driver and his wife Ann had managed the Australian since 2019.",
+   "body": [
+    "## A joint statement",
+    "Both sides call it a mutual decision. Piastri thanked Mark and Ann for their support and advice, and singled out their help at the start of his Formula 1 career. Webber said he was proud of the part they played in Oscar's formative years. With the Webbers spending less time at the track this season, he said it was the right moment to close the agreement: Piastri moves on under a new management structure and the Webbers turn to \"new ventures\". No new manager has been named.",
+    "## The climb",
+    "Webber started working with Piastri in 2019, the year he won the Formula Renault Eurocup. In January 2020 Oscar joined the Renault academy and a Prema seat in Formula 3. Then came two titles in a row: F3 in 2020 and F2 in 2021.",
+    "![Podium and trophy: two junior titles in a row](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## The contract the FIA had to settle",
+    "In 2022 Piastri was Alpine's reserve driver, and after the Hungarian Grand Prix the team announced him as Fernando Alonso's replacement. He replied straight away that he would not race for Alpine in 2023. The FIA Contract Recognition Board took the case and on 2 September 2022 ruled unanimously that the only valid contract was the one with McLaren, signed on 4 July. Piastri took Daniel Ricciardo's seat, a move credited to Webber.",
+    "## What a driver manager does",
+    "A manager negotiates with teams and keeps track of the terms and dates in a contract. They find personal sponsors, handle commercial deals and image, and plan where and how the driver appears away from the track. A good one thinks several years ahead: which team will have a fast car, and when it pays to extend.",
+    "![A wheel-to-wheel fight](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## A season behind the scenes",
+    "At pre-season testing Piastri explained that Webber and his wife had moved to a behind-the-scenes role, and Mark stopped coming to races regularly. Autosport and The Race report that Webber was not always happy with how McLaren handled some moments in 2025. According to Autosport, the team never formally asked Piastri to change management. In 2025 Oscar led the championship for a long time, but Lando Norris took the title and Piastri finished third. The 2026 champion is already decided, Kimi Antonelli. Before Las Vegas, Piastri is seventh on 152 points, with Norris sixth on 246.",
+    "## What's next",
+    "Piastri has nine Grand Prix wins, and McLaren extended his contract back in 2025. How his team around him changes will become clear once he names a new manager. You can follow Piastri and Norris in the drivers' standings on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Piastri y Webber se separan: siete años, dos títulos y una pelea por un contrato",
+   "lead": "El lunes 9 de noviembre, un día después del Gran Premio de São Paulo, Oscar Piastri y Mark Webber anunciaron el final de su relación. El expiloto de Red Bull y su esposa Ann representaban al australiano desde 2019.",
+   "body": [
+    "## Un comunicado conjunto",
+    "Las dos partes hablan de una decisión de mutuo acuerdo. Piastri agradeció a Mark y Ann su apoyo y sus consejos, sobre todo en el inicio de su carrera en la Fórmula 1. Webber dijo estar orgulloso del papel que tuvieron en los primeros años de Oscar. Como este año estuvieron menos en los circuitos, consideró que era el momento de cerrar el acuerdo: Piastri seguirá con una nueva estructura de representación y los Webber se dedicarán a nuevos proyectos. No se ha anunciado quién será el nuevo mánager.",
+    "## La escalada",
+    "Webber empezó a trabajar con Piastri en 2019, el año en que ganó la Fórmula Renault Eurocup. En enero de 2020 Oscar entró en la academia de Renault y en Prema para correr la Fórmula 3. Después llegaron dos títulos seguidos: F3 en 2020 y F2 en 2021.",
+    "![Podio y trofeo: dos títulos júnior seguidos](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## El contrato que tuvo que resolver la FIA",
+    "En 2022 Piastri era piloto reserva de Alpine, y tras el Gran Premio de Hungría el equipo lo anunció como sustituto de Fernando Alonso. Él respondió enseguida que no correría para Alpine en 2023. El caso llegó a la Oficina de Reconocimiento de Contratos de la FIA, que el 2 de septiembre de 2022 decidió por unanimidad que el único contrato válido era el de McLaren, firmado el 4 de julio. Piastri ocupó el asiento de Daniel Ricciardo, un movimiento que se atribuye a Webber.",
+    "## Qué hace el mánager de un piloto",
+    "El mánager negocia con los equipos y controla plazos y cláusulas del contrato. Busca patrocinadores personales, gestiona acuerdos comerciales y la imagen, y decide dónde y cómo aparece el piloto fuera de la pista. Uno bueno piensa con varios años de margen: qué equipo tendrá un coche rápido y cuándo conviene renovar.",
+    "![Duelo en pista](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## Una temporada entre bastidores",
+    "En los test de pretemporada Piastri contó que Webber y su esposa pasaban a trabajar entre bastidores, y Mark dejó de ir a las carreras con regularidad. Autosport y The Race informan de que a Webber no siempre le gustó cómo gestionó McLaren algunos momentos de 2025. Según Autosport, el equipo nunca pidió formalmente a Piastri que cambiara de representación. En 2025 Oscar lideró el campeonato mucho tiempo, pero el título fue para Lando Norris y Piastri acabó tercero. El campeón de 2026 ya está decidido: Kimi Antonelli. Antes de Las Vegas, Piastri es séptimo con 152 puntos y Norris sexto con 246.",
+    "## Lo que viene",
+    "Piastri suma nueve victorias en Grandes Premios y McLaren ya le renovó en 2025. Cómo cambia su entorno se sabrá cuando nombre a su nuevo mánager. La posición de Piastri y Norris se puede seguir en la clasificación de pilotos de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Piastri e Webber se separam: sete anos, dois títulos e uma briga por contrato",
+   "lead": "Na segunda-feira, 9 de novembro, um dia depois do GP de São Paulo, Oscar Piastri e Mark Webber anunciaram o fim da parceria. O ex-piloto da Red Bull e sua esposa Ann empresariavam o australiano desde 2019.",
+   "body": [
+    "## Um comunicado conjunto",
+    "Os dois lados dizem que a decisão foi de comum acordo. Piastri agradeceu a Mark e Ann pelo apoio e pelos conselhos, principalmente no começo da carreira na Fórmula 1. Webber disse ter orgulho do papel que tiveram nos primeiros anos de Oscar. Como neste ano estiveram menos nas pistas, ele achou que era hora de encerrar o acordo: Piastri segue com uma nova estrutura de gestão e os Webber partem para “novos projetos”. O novo empresário não foi anunciado.",
+    "## A subida",
+    "Webber começou a trabalhar com Piastri em 2019, ano em que ele venceu a Fórmula Renault Eurocup. Em janeiro de 2020 Oscar entrou na academia da Renault e na Prema para correr a Fórmula 3. Depois vieram dois títulos seguidos: F3 em 2020 e F2 em 2021.",
+    "![Pódio e troféu: dois títulos de base seguidos](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## O contrato que a FIA teve de decidir",
+    "Em 2022 Piastri era reserva da Alpine, e depois do GP da Hungria a equipe o anunciou como substituto de Fernando Alonso. Ele respondeu na hora que não correria pela Alpine em 2023. O caso foi para o Conselho de Reconhecimento de Contratos da FIA, que em 2 de setembro de 2022 decidiu por unanimidade que o único contrato válido era o da McLaren, assinado em 4 de julho. Piastri ficou com a vaga de Daniel Ricciardo, uma jogada atribuída a Webber.",
+    "## O que faz o empresário de um piloto",
+    "O empresário negocia com as equipes e acompanha prazos e cláusulas do contrato. Ele busca patrocinadores pessoais, cuida de acordos comerciais e da imagem e planeja onde e como o piloto aparece fora da pista. Um bom empresário pensa com anos de antecedência: qual equipe vai ter carro rápido e quando vale a pena renovar.",
+    "![Disputa roda a roda](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## Uma temporada nos bastidores",
+    "Nos testes de pré-temporada Piastri contou que Webber e a esposa passaram a trabalhar nos bastidores, e Mark deixou de ir às corridas com frequência. Autosport e The Race relatam que Webber nem sempre gostou de como a McLaren lidou com alguns momentos de 2025. Segundo o Autosport, a equipe nunca pediu formalmente que Piastri trocasse de empresário. Em 2025 Oscar liderou o campeonato por muito tempo, mas o título ficou com Lando Norris e Piastri terminou em terceiro. O campeão de 2026 já está definido: Kimi Antonelli. Antes de Las Vegas, Piastri é o sétimo com 152 pontos, e Norris o sexto com 246.",
+    "## O que vem agora",
+    "Piastri tem nove vitórias em Grandes Prêmios, e a McLaren renovou seu contrato ainda em 2025. Como muda a equipe ao redor dele só vai ficar claro quando ele anunciar o novo empresário. A posição de Piastri e Norris pode ser acompanhada na classificação de pilotos do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Piastri und Webber trennen sich: sieben Jahre, zwei Titel und ein Vertragsstreit",
+   "lead": "Am Montag, dem 9. November, einen Tag nach dem Großen Preis von São Paulo, haben Oscar Piastri und Mark Webber das Ende ihrer Zusammenarbeit verkündet. Der frühere Red-Bull-Fahrer und seine Frau Ann managten den Australier seit 2019.",
+   "body": [
+    "## Eine gemeinsame Erklärung",
+    "Beide Seiten sprechen von einer einvernehmlichen Entscheidung. Piastri dankte Mark und Ann für Unterstützung und Rat und hob ihre Hilfe zu Beginn seiner Formel-1-Karriere hervor. Webber sagte, er sei stolz auf ihre Rolle in Oscars ersten Jahren. Weil sie in dieser Saison seltener an der Strecke waren, sei jetzt der richtige Zeitpunkt, den Vertrag zu beenden: Piastri macht mit einer neuen Management-Struktur weiter, die Webbers widmen sich „neuen Projekten“. Ein neuer Manager wurde nicht genannt.",
+    "## Der Aufstieg",
+    "Webber begann 2019 mit Piastri zu arbeiten, in dem Jahr gewann er den Formel-Renault-Eurocup. Im Januar 2020 kam Oscar in die Renault-Akademie und zu Prema in die Formel 3. Dann folgten zwei Titel in Serie: F3 2020 und F2 2021.",
+    "![Podium und Pokal: zwei Nachwuchstitel in Serie](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## Der Vertrag, über den die FIA entschied",
+    "2022 war Piastri Ersatzfahrer bei Alpine, nach dem Großen Preis von Ungarn verkündete das Team ihn als Nachfolger von Fernando Alonso. Er antwortete sofort, dass er 2023 nicht für Alpine fahren werde. Der Fall ging an das Contract Recognition Board der FIA, das am 2. September 2022 einstimmig entschied: Gültig ist nur der Vertrag mit McLaren, unterschrieben am 4. Juli. Piastri übernahm das Cockpit von Daniel Ricciardo, ein Wechsel, der Webber zugeschrieben wird.",
+    "## Was ein Fahrermanager macht",
+    "Ein Manager verhandelt mit den Teams und behält Fristen und Klauseln im Vertrag im Blick. Er sucht persönliche Sponsoren, kümmert sich um Werbeverträge und das Image und plant, wo und wie der Fahrer abseits der Strecke auftritt. Ein guter Manager denkt Jahre voraus: Welches Team wird ein schnelles Auto haben, und wann lohnt sich eine Verlängerung?",
+    "![Zweikampf auf der Strecke](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## Eine Saison hinter den Kulissen",
+    "Schon bei den Testfahrten vor der Saison erklärte Piastri, dass Webber und seine Frau nun hinter den Kulissen arbeiten, und Mark kam nicht mehr regelmäßig zu den Rennen. Autosport und The Race berichten, Webber sei mit McLarens Umgang mit einigen Situationen 2025 nicht immer einverstanden gewesen. Laut Autosport hat das Team Piastri nie offiziell gebeten, das Management zu wechseln. 2025 führte Oscar lange die WM an, doch den Titel holte Lando Norris, Piastri wurde Dritter. Der Weltmeister 2026 steht schon fest: Kimi Antonelli. Vor Las Vegas ist Piastri Siebter mit 152 Punkten, Norris Sechster mit 246.",
+    "## Wie es weitergeht",
+    "Piastri hat neun Grand-Prix-Siege, McLaren hat seinen Vertrag schon 2025 verlängert. Wie sich sein Umfeld verändert, zeigt sich, sobald er einen neuen Manager nennt. Wo Piastri und Norris stehen, sieht man in der Fahrerwertung auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "皮亚斯特里与韦伯分道扬镳：七年合作、两个冠军和一场合同之争",
+   "lead": "11月9日星期一，圣保罗大奖赛结束后的第二天，奥斯卡·皮亚斯特里和马克·韦伯宣布结束合作。这位前红牛车手和妻子安从2019年起担任这位澳大利亚车手的经纪人。",
+   "body": [
+    "## 联合声明",
+    "双方都表示这是共同决定。皮亚斯特里感谢马克和安的支持与建议，尤其是在他F1生涯起步阶段的帮助。韦伯说，他为自己在奥斯卡早期职业生涯中发挥的作用感到自豪。由于本赛季他们到现场的次数减少，现在是结束合约的合适时机：皮亚斯特里将由新的经纪团队负责，韦伯夫妇则会投入“新的事业”。新经纪人是谁尚未公布。",
+    "## 一路向上",
+    "韦伯从2019年开始和皮亚斯特里合作，那一年他拿下了雷诺方程式欧洲杯冠军。2020年1月，奥斯卡加入雷诺青训，并为Prema出战F3。随后他连续拿下两个冠军：2020年F3和2021年F2。",
+    "![领奖台和奖杯：连续两个青训系列冠军](/img/articles/3d/piastri-webber-split-podium.jpg)",
+    "## 由FIA裁定的合同",
+    "2022年，皮亚斯特里是Alpine的储备车手。匈牙利大奖赛后，车队宣布他将接替阿隆索。他立即回应说，2023年不会为Alpine出战。此案交由FIA合同认定委员会处理，2022年9月2日委员会一致裁定，唯一有效的是7月4日与迈凯伦签下的合同。皮亚斯特里由此接替了里卡多的席位，外界普遍认为这次转会出自韦伯之手。",
+    "## 车手经纪人做什么",
+    "经纪人代表车手和车队谈判，盯紧合同里的期限和条款。他还要寻找个人赞助商，负责商业合作和形象，安排车手在赛道外的露面。好的经纪人会提前几年打算：哪支车队会有快车，什么时候续约最划算。",
+    "![赛道上的缠斗](/img/articles/3d/piastri-webber-split-duel.jpg)",
+    "## 退到幕后的一季",
+    "早在季前测试时，皮亚斯特里就说韦伯夫妇转到幕后工作，马克也不再经常到场观赛。Autosport和The Race报道称，韦伯对迈凯伦在2025年处理某些情况的方式并不总是满意。据Autosport报道，车队从未正式要求皮亚斯特里更换经纪人。2025年奥斯卡曾长时间领跑积分榜，但最终诺里斯夺冠，皮亚斯特里排名第三。2026年的车手冠军已经产生，是安东内利。拉斯维加斯站之前，皮亚斯特里以152分排名第七，诺里斯以246分排名第六。",
+    "## 接下来",
+    "皮亚斯特里已有九场大奖赛胜利，迈凯伦早在2025年就和他续约。他身边的团队会如何变化，要等他公布新经纪人才能知道。皮亚斯特里和诺里斯的排名可以在LapRadar车手积分榜上查看。"
+   ]
+  }
+ }
+}
