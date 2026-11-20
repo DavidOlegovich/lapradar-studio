@@ -1783,6 +1783,66 @@ function overlay(sc, lt, i) {
   }
   overlayBody(g, sc, lt, i, true);
 }
+/* ---------- викторина (kind: 'quiz' и 'quizend'; все тексты — из сцены, свои для каждого языка) ----------
+   quiz: { tag: 'Вопрос 1 из 6', q: 'текст вопроса', opts: ['…', '…', '…'], ans: 1, abc: ['А','Б','В'], reveal: false, cd: 3, sub: 'пояснение' }
+   reveal: false — вопрос и варианты выезжают, в последние cd секунд сцены идёт обратный отсчёт (озвучка в это время молчит);
+   reveal: true  — та же карточка уже на экране, верный вариант зелёный, остальные гаснут; пояснение — в субтитрах (say).
+   quizend: { head: 'Считай очки', rows: ['6/6 · …', '4–5 · …', '0–3 · …'] } — итоговая карточка. Без этих полей студия рисует всё как раньше. */
+function quizPanel(g, x, y, w, h, r, fill = 'rgba(8,12,22,0.82)', stroke = 'rgba(91,155,255,0.5)') { rrect(g, x, y, w, h, r); g.fillStyle = fill; g.fill(); g.lineWidth = 3; g.strokeStyle = stroke; g.stroke(); }
+function fitFont(g, text, wgt, px, min, maxW, maxLines) { let lines; for (;;) { g.font = font(wgt, px); lines = wrap(g, text, maxW); if ((lines.length <= maxLines && lines.every(l => g.measureText(l).width <= maxW)) || px <= min) return { px, lines }; px -= 2; } }
+function quizCard(g, sc, lt) {
+  const z = sc.quiz || {}, rev = !!z.reveal, t = rev ? lt + 5 : lt, opts = z.opts || [], abc = z.abc || ['A', 'B', 'C', 'D'], x0 = 70, w = W - 140;
+  g.save(); g.textBaseline = 'middle';
+  /* плашка «Вопрос 1 из 6» */
+  if (z.tag) { const a = back((t - 0.05) / 0.4); if (a > 0) { g.save(); g.font = font(900, 40); const tw = g.measureText(z.tag).width; g.translate(W / 2, 168); g.scale(a, a);
+    rrect(g, -tw / 2 - 30, -32, tw + 60, 64, 32); g.fillStyle = '#3b82f6'; g.fill(); g.fillStyle = '#fff'; g.textAlign = 'center'; g.fillText(z.tag, 0, 3); g.restore(); } }
+  /* вопрос */
+  const qa = easeOut((t - 0.15) / 0.45);
+  if (qa > 0) { const f = fitFont(g, z.q || '', 900, 66, 44, w - 90, 4), lh = f.px * 1.14, ph = f.lines.length * lh + 70;
+    g.save(); g.globalAlpha = clamp(qa * 1.4); g.translate(0, (1 - qa) * -40); quizPanel(g, x0, 228, w, ph, 40);
+    g.font = font(900, f.px); g.fillStyle = '#fff'; g.textAlign = 'center'; f.lines.forEach((l, k) => g.fillText(l, W / 2, 228 + 35 + lh * (k + 0.5)));
+    g.restore(); z._qb = 228 + ph; }
+  const qb = z._qb || 520, rh = Math.min(128, 470 / Math.max(3, opts.length)), gap = 22;
+  /* варианты ответа */
+  opts.forEach((o, k) => {
+    const a = easeOut((t - 0.75 - k * 0.35) / 0.4); if (a <= 0) return;
+    const y = qb + 34 + k * (rh + gap), x = lerp(-w, x0, a), ok = k === z.ans, ra = rev ? easeOut((lt - 0.15) / 0.35) : 0, pulse = rev && ok ? 1 + 0.035 * Math.sin(clamp((lt - 0.15) / 0.5) * Math.PI) : 1;
+    g.save(); g.globalAlpha = clamp(a * 1.5) * (rev && !ok ? 1 - 0.45 * ra : 1);
+    g.translate(x + w / 2, y + rh / 2); g.scale(pulse, pulse); g.translate(-(x + w / 2), -(y + rh / 2));
+    quizPanel(g, x, y, w, rh, rh / 2, rev && ok ? `rgba(22,163,74,${0.82 + 0.1 * ra})` : 'rgba(10,14,24,0.84)', rev && ok ? '#86efac' : 'rgba(255,255,255,0.22)');
+    const cx = x + rh / 2 + 6, cy = y + rh / 2, cr = rh * 0.34; g.beginPath(); g.arc(cx, cy, cr, 0, 7); g.fillStyle = rev && ok ? '#fff' : '#ffd23f'; g.fill();
+    if (rev && ok && ra > 0.5) { g.strokeStyle = '#16a34a'; g.lineWidth = 9; g.lineCap = 'round'; g.lineJoin = 'round'; g.beginPath(); g.moveTo(cx - cr * 0.45, cy + 2); g.lineTo(cx - cr * 0.1, cy + cr * 0.38); g.lineTo(cx + cr * 0.5, cy - cr * 0.35); g.stroke(); }
+    else { g.font = font(900, cr * 1.15); g.fillStyle = '#0b1020'; g.textAlign = 'center'; g.fillText(abc[k] || '', cx, cy + 3); }
+    const tx = cx + cr + 30, f = fitFont(g, o, 800, 54, 34, x + w - 40 - tx, 2); g.font = font(800, f.px); g.fillStyle = '#fff'; g.textAlign = 'left';
+    f.lines.forEach((l, li) => g.fillText(l, tx, cy + 3 + (li - (f.lines.length - 1) / 2) * f.px * 1.1));
+    g.restore();
+  });
+  /* обратный отсчёт: последние cd секунд сцены вопроса */
+  const cd = z.cd ?? 3, left = sc.dur - lt;
+  if (!rev && cd > 0 && left <= cd + 0.15 && left > 0) {
+    const n = Math.max(1, Math.ceil(left - 0.15)), fr = clamp((left - 0.15) - (n - 1)), a = back((cd + 0.15 - left) / 0.35), cy = Math.max(qb + 34 + opts.length * (rh + gap) + 170, 1190);
+    g.save(); g.translate(W / 2, cy); g.scale(a, a);
+    g.beginPath(); g.arc(0, 0, 118, 0, 7); g.fillStyle = 'rgba(8,12,22,0.86)'; g.fill();
+    g.lineWidth = 16; g.strokeStyle = 'rgba(255,255,255,0.15)'; g.beginPath(); g.arc(0, 0, 100, 0, 7); g.stroke();
+    g.strokeStyle = n === 1 ? '#ef4444' : '#ffd23f'; g.lineCap = 'round'; g.beginPath(); g.arc(0, 0, 100, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * clamp((left - 0.15) / cd)); g.stroke();
+    const s2 = 1 + 0.25 * Math.pow(fr, 6); g.scale(s2, s2); g.font = font(900, 120); g.fillStyle = '#fff'; g.textAlign = 'center'; g.fillText(String(n), 0, 6); g.restore();
+  }
+  g.restore(); g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+}
+function quizEnd(g, sc, lt) {
+  const rows = sc.rows || [], x0 = 70, w = W - 140, medal = ['#ffd23f', '#cbd5e1', '#d97706', '#64748b'];
+  g.save(); g.textBaseline = 'middle';
+  if (sc.head) { const a = back((lt - 0.05) / 0.45); if (a > 0) { const f = fitFont(g, sc.head, 900, 96, 56, w, 2); g.save(); g.translate(W / 2, 300); g.scale(a, a); g.font = font(900, f.px); g.textAlign = 'center';
+    f.lines.forEach((l, k) => { const y = (k - (f.lines.length - 1) / 2) * f.px * 1.08; g.lineWidth = f.px * 0.12; g.strokeStyle = 'rgba(0,0,0,0.6)'; g.lineJoin = 'round'; g.strokeText(l, 0, y); g.fillStyle = '#fff'; g.fillText(l, 0, y); }); g.restore(); } }
+  rows.forEach((r, k) => {
+    const a = easeOut((lt - 0.5 - k * 0.45) / 0.45); if (a <= 0) return; const y = 450 + k * 150, x = lerp(W, x0, a);
+    g.save(); g.globalAlpha = clamp(a * 1.5); quizPanel(g, x, y, w, 124, 40, 'rgba(8,12,22,0.84)', k === 0 ? '#ffd23f' : 'rgba(91,155,255,0.5)');
+    g.beginPath(); g.arc(x + 66, y + 62, 34, 0, 7); g.fillStyle = medal[k] || medal[3]; g.fill();
+    const f = fitFont(g, r, 800, 52, 32, w - 150, 2); g.font = font(800, f.px); g.fillStyle = '#fff'; g.textAlign = 'left';
+    f.lines.forEach((l, li) => g.fillText(l, x + 124, y + 64 + (li - (f.lines.length - 1) / 2) * f.px * 1.1)); g.restore();
+  });
+  g.restore(); g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+}
 function overlayBody(g, sc, lt, i, portrait) {
   const kind = sc.kind; if (portrait) shade(g, true, true);
   if (kind !== 'end' && !spec.cover) (TT() ? brandTT(g) : brand(g)); else if (spec.cover) brand(g);
@@ -1800,11 +1860,14 @@ function overlayBody(g, sc, lt, i, portrait) {
   if (sc.shot?.card) drawCard(g, sc.shot.card, lt, sc.dur); else if (sc.shot?.helmet) drawHelmet(g, sc.shot.helmet, lt);
   const chip = sc.chip || (TT() && kind === 'big' && sc.big) || (TT() && kind === 'title' && sc.head) || '';
   if (chip && kind !== 'end') drawChip(g, chip, lt, sc.shot?.hud ? 640 : (TT() ? 300 : 330));
+  if (kind === 'quiz') quizCard(g, sc, lt); else if (kind === 'quizend') quizEnd(g, sc, lt);
   if (kind === 'end' && TT()) endTT(g, sc, lt);
   else if (kind === 'end') { g.fillStyle = 'rgba(5,8,16,0.55)'; g.fillRect(0, 0, W, H); const s = back(lt / 0.5); g.save(); g.translate(W / 2, 640); g.scale(s, s); logo(g, -110, -110, 3.45); g.restore();
     g.textAlign = 'center'; g.globalAlpha = clamp((lt - 0.35) * 3); g.font = font(900, 110); g.fillStyle = '#fff'; g.fillText('LAPRADAR', W / 2, 900); g.font = font(800, 72); g.fillStyle = '#5b9bff'; g.fillText('lapradar.com', W / 2, 1000);
     if (sc.tag) { g.font = font(700, 44); g.fillStyle = '#cfd8ff'; g.fillText(sc.tag, W / 2, 1080); } g.globalAlpha = 1; g.textAlign = 'left'; }
-  if (TT()) captionsTT(g, sc.cap || sc.say, lt, sc.dur, sc.hl, kind === 'end' ? 1560 : 1330); else captions(g, sc.cap || sc.say, lt, sc.dur);
+  if (kind === 'quiz' && !sc.quiz?.reveal) { /* вопрос и варианты уже на экране, субтитры не нужны */ }
+  else if (kind === 'quiz' || kind === 'quizend') captionsTT(g, sc.cap || sc.say, lt, sc.dur, sc.hl, 1560);
+  else if (TT()) captionsTT(g, sc.cap || sc.say, lt, sc.dur, sc.hl, kind === 'end' ? 1560 : 1330); else captions(g, sc.cap || sc.say, lt, sc.dur);
   if (!portrait) return;
   // прогресс ролика сверху
   const total = spec.scenes.reduce((a, s) => a + s.dur, 0); g.fillStyle = 'rgba(255,255,255,0.18)'; g.fillRect(0, 0, W, 8); g.fillStyle = '#3b82f6'; g.fillRect(0, 0, W * (i / fps) / total, 8);
