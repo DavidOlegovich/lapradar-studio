@@ -1,0 +1,123 @@
+{
+ "slug": "sphere-and-f1",
+ "date": "2026-11-20",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "sphere"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/sphere-and-f1-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Сфера и Формула 1: шар высотой 112 метров у трассы в Лас-Вегасе",
+   "lead": "Трасса Гран-при Лас-Вегаса проходит у самой Сферы, самого большого светодиодного экрана в мире. Её открыли за семь недель до первой гонки в 2023 году, а в эту субботу внутри пройдёт первое официальное афтерпати F1.",
+   "body": [
+    "## 112 метров и 1,2 миллиона шайб",
+    "Сферу открыли 29 сентября 2023 года концертом U2. Высота шара 112 метров, ширина 157. Стройка обошлась в 2,3 миллиарда долларов. Внешняя оболочка называется Exosphere: на ней около 1,2 миллиона светодиодных шайб, в каждой по 48 диодов. Это примерно 54 000 квадратных метров экрана, самый большой светодиодный экран в мире.",
+    "## Где проходит трасса",
+    "Городская трасса длиной 6,201 км огибает Сферу во втором секторе, на участке с седьмого по девятый поворот. После девятого поворота машины идут прямо вдоль шара. Рядом стоит фан-зона с трибунами, откуда видно и болиды, и экран.",
+    "![Трасса огибает Сферу во втором секторе](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## Три запрещённых цвета",
+    "Первый Гран-при Лас-Вегаса прошёл 18 ноября 2023 года. F1 арендовала Сферу вместе с территорией вокруг, и U2 прервали серию концертов до 1 декабря. Шар отлично виден из кокпита, поэтому F1 и FIA запретили на нём красный, жёлтый и синий во время тренировок, квалификации и гонки. Именно эти цвета пилоты ищут на световых панелях вдоль трассы. FIA проверяла цвета ночью, а картинкой на экране управлял отдельный режиссёр шоу.",
+    "![Сфера из кокпита: на время заездов без красного, жёлтого и синего](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## Что показывал шар",
+    "Зато в 2023-м на Сфере появлялись поул в реальном времени, карточки всех двадцати пилотов с машинами, шлемы и праздник подиума. Когда гоночная дирекция показывала жёлтый флаг, машину безопасности или красный флаг, шар показывал их вместе с ней. Тогда Сфера впервые стала частью прямой трансляции.",
+    "## Вегас-2026",
+    "В июле Сфера и Гран-при продлили партнёрство на пять лет, до 2030 года. Гоночный уикенд идёт 19–21 ноября, гонка в субботу. После финиша внутри Сферы сыграют Backstreet Boys: это F1 Afterparty, первое официальное афтерпати Формулы 1. Как машины проходят мимо шара круг за кругом, можно смотреть на живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "The Sphere and F1: a 112-metre ball of light beside the Las Vegas track",
+   "lead": "The Las Vegas Grand Prix runs right past the Sphere, the largest LED screen in the world. It opened seven weeks before the first race in 2023, and this Saturday it hosts the first official F1 afterparty.",
+   "body": [
+    "## 112 metres and 1.2 million pucks",
+    "The Sphere opened on 29 September 2023 with a U2 concert. It stands 112 metres tall and 157 metres wide, and it cost $2.3 billion to build. Its outer skin, the Exosphere, carries about 1.2 million LED pucks with 48 diodes each. That adds up to roughly 54,000 square metres of screen, the biggest LED display on the planet.",
+    "## Where the track goes",
+    "The 6.201 km street circuit wraps around the Sphere in sector two, through Turns 7 to 9. Out of Turn 9 the cars run right alongside the ball. Next to it sits a fan zone with grandstands that face both the cars and the screen.",
+    "![The track wraps around the Sphere in sector two](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## Three banned colours",
+    "The first Las Vegas Grand Prix ran on 18 November 2023. F1 rented the Sphere and the land around it, and U2 paused their residency until 1 December. The ball is easy to see from the cockpit, so F1 and the FIA banned red, yellow and blue on it during practice, qualifying and the race. Those are the colours drivers watch for on the light panels around the track. The FIA tested colours at night, and a dedicated show runner controlled what went on screen.",
+    "![The Sphere from the cockpit: no red, yellow or blue during sessions](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## What it showed instead",
+    "In 2023 the Sphere showed pole position in real time, cards of all 20 drivers and their cars, helmets and a podium celebration. When race control called a yellow flag, a safety car or a red flag, the ball showed it too. It was the first time the venue became part of a live broadcast.",
+    "## Vegas 2026",
+    "In July the Sphere and the Grand Prix extended their deal by five years, to 2030. This year's weekend runs 19 to 21 November, with the race on Saturday. After the flag the Backstreet Boys play the F1 Afterparty inside the Sphere, the first official afterparty of its kind in F1. You can follow the cars past the ball lap by lap on the LapRadar live map."
+   ]
+  },
+  "es": {
+   "title": "La Sphere y la F1: una bola de luz de 112 metros junto al circuito de Las Vegas",
+   "lead": "El Gran Premio de Las Vegas pasa junto a la Sphere, la pantalla LED más grande del mundo. Abrió siete semanas antes de la primera carrera, en 2023, y este sábado acoge la primera fiesta oficial de la F1 tras la carrera.",
+   "body": [
+    "## 112 metros y 1,2 millones de discos LED",
+    "La Sphere abrió el 29 de septiembre de 2023 con un concierto de U2. Mide 112 metros de alto y 157 de ancho, y costó 2.300 millones de dólares. Su piel exterior, la Exosphere, lleva unos 1,2 millones de discos LED con 48 diodos cada uno. En total son unos 54.000 metros cuadrados de pantalla, la mayor pantalla LED del planeta.",
+    "## Por dónde pasa el circuito",
+    "El trazado urbano de 6,201 km rodea la Sphere en el segundo sector, entre las curvas 7 y 9. A la salida de la curva 9, los coches pasan pegados a la bola. Al lado hay una zona de aficionados con gradas que miran a la vez a los coches y a la pantalla.",
+    "![El circuito rodea la Sphere en el segundo sector](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## Tres colores prohibidos",
+    "El primer Gran Premio de Las Vegas se corrió el 18 de noviembre de 2023. La F1 alquiló la Sphere y el terreno de alrededor, y U2 pausó su residencia hasta el 1 de diciembre. Como la bola se ve de maravilla desde el cockpit, la F1 y la FIA prohibieron en ella el rojo, el amarillo y el azul durante los libres, la clasificación y la carrera. Son los colores que los pilotos buscan en los paneles luminosos de la pista. La FIA probó los colores de noche, y un responsable del espectáculo controlaba lo que salía en pantalla.",
+    "![La Sphere desde el cockpit: sin rojo, amarillo ni azul en pista](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## Lo que mostró en su lugar",
+    "En 2023 la Sphere enseñó la pole en tiempo real, fichas de los 20 pilotos con sus coches, cascos y una celebración del podio. Cuando dirección de carrera sacaba bandera amarilla, coche de seguridad o bandera roja, la bola lo mostraba a la vez. Fue la primera vez que el recinto formó parte de una retransmisión en directo.",
+    "## Las Vegas 2026",
+    "En julio, la Sphere y el Gran Premio ampliaron su acuerdo cinco años, hasta 2030. Este año el fin de semana va del 19 al 21 de noviembre, con la carrera el sábado. Tras la bandera a cuadros, los Backstreet Boys tocan en la F1 Afterparty dentro de la Sphere, la primera fiesta oficial de este tipo en la F1. Las vueltas junto a la bola se pueden seguir en el mapa en directo de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "A Sphere e a F1: uma bola de luz de 112 metros ao lado da pista de Las Vegas",
+   "lead": "O GP de Las Vegas passa ao lado da Sphere, a maior tela de LED do mundo. Ela foi inaugurada sete semanas antes da primeira corrida, em 2023, e neste sábado recebe a primeira festa oficial da F1 depois da prova.",
+   "body": [
+    "## 112 metros e 1,2 milhão de discos de LED",
+    "A Sphere foi inaugurada em 29 de setembro de 2023 com um show do U2. Tem 112 metros de altura e 157 de largura e custou 2,3 bilhões de dólares. A casca externa, chamada Exosphere, tem cerca de 1,2 milhão de discos de LED, cada um com 48 diodos. São uns 54 mil metros quadrados de tela, a maior tela de LED do planeta.",
+    "## Por onde passa a pista",
+    "O circuito de rua de 6,201 km contorna a Sphere no setor 2, entre as curvas 7 e 9. Na saída da curva 9, os carros passam colados na bola. Ao lado fica uma área de fãs com arquibancadas que olham ao mesmo tempo para os carros e para a tela.",
+    "![A pista contorna a Sphere no setor 2](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## Três cores proibidas",
+    "O primeiro GP de Las Vegas foi disputado em 18 de novembro de 2023. A F1 alugou a Sphere e o terreno em volta, e o U2 pausou sua residência até 1º de dezembro. Como a bola aparece muito bem do cockpit, a F1 e a FIA proibiram nela o vermelho, o amarelo e o azul durante os treinos, a classificação e a corrida. São as cores que os pilotos procuram nos painéis luminosos da pista. A FIA testou as cores à noite, e um diretor de show controlava o que ia para a tela.",
+    "![A Sphere vista do cockpit: sem vermelho, amarelo e azul durante as sessões](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## O que ela mostrou no lugar",
+    "Em 2023 a Sphere mostrou a pole em tempo real, cartões dos 20 pilotos com seus carros, capacetes e uma festa do pódio. Quando a direção de prova mostrava bandeira amarela, safety car ou bandeira vermelha, a bola mostrava junto. Foi a primeira vez que o local fez parte de uma transmissão ao vivo.",
+    "## Las Vegas 2026",
+    "Em julho, a Sphere e o GP estenderam a parceria por cinco anos, até 2030. Neste ano o fim de semana vai de 19 a 21 de novembro, com a corrida no sábado. Depois da bandeirada, os Backstreet Boys tocam na F1 Afterparty dentro da Sphere, a primeira festa oficial desse tipo na F1. Dá para acompanhar as voltas ao lado da bola no mapa ao vivo do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Die Sphere und die Formel 1: eine 112 Meter hohe Lichtkugel an der Strecke in Las Vegas",
+   "lead": "Der Grand Prix von Las Vegas führt direkt an der Sphere vorbei, dem größten LED-Bildschirm der Welt. Sie öffnete sieben Wochen vor dem ersten Rennen 2023, und an diesem Samstag steigt dort die erste offizielle Aftershow-Party der Formel 1.",
+   "body": [
+    "## 112 Meter und 1,2 Millionen LED-Puks",
+    "Die Sphere öffnete am 29. September 2023 mit einem Konzert von U2. Sie ist 112 Meter hoch und 157 Meter breit und kostete 2,3 Milliarden Dollar. Die Außenhaut heißt Exosphere und trägt rund 1,2 Millionen LED-Puks mit je 48 Dioden. Das ergibt etwa 54.000 Quadratmeter Bildfläche, den größten LED-Bildschirm der Welt.",
+    "## Wo die Strecke verläuft",
+    "Der 6,201 km lange Stadtkurs führt im zweiten Sektor um die Sphere herum, zwischen Kurve 7 und 9. Nach Kurve 9 fahren die Autos direkt an der Kugel entlang. Daneben liegt eine Fanzone mit Tribünen, von denen man Autos und Bildschirm zugleich sieht.",
+    "![Die Strecke führt im zweiten Sektor um die Sphere](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## Drei verbotene Farben",
+    "Der erste Grand Prix von Las Vegas fand am 18. November 2023 statt. Die Formel 1 mietete die Sphere samt Gelände, und U2 unterbrach die Konzertreihe bis zum 1. Dezember. Weil die Kugel aus dem Cockpit gut zu sehen ist, verboten Formel 1 und FIA darauf Rot, Gelb und Blau in Training, Qualifying und Rennen. Nach genau diesen Farben suchen die Fahrer auf den Lichtsignalen an der Strecke. Die FIA testete die Farben nachts, und ein eigener Showleiter steuerte das Programm.",
+    "![Die Sphere aus dem Cockpit: kein Rot, Gelb oder Blau während der Sessions](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## Was stattdessen lief",
+    "2023 zeigte die Sphere die Pole in Echtzeit, Karten aller 20 Fahrer mit ihren Autos, Helme und eine Podiumsfeier. Zeigte die Rennleitung Gelb, das Safety Car oder Rot, zog die Kugel gleichzeitig mit. Zum ersten Mal wurde die Arena damit Teil einer Live-Übertragung.",
+    "## Las Vegas 2026",
+    "Im Juli verlängerten die Sphere und der Grand Prix ihre Partnerschaft um fünf Jahre bis 2030. Das Rennwochenende läuft vom 19. bis 21. November, das Rennen ist am Samstag. Nach der Zielflagge spielen die Backstreet Boys bei der F1 Afterparty in der Sphere, der ersten offiziellen Party dieser Art in der Formel 1. Die Runden an der Kugel vorbei lassen sich auf der Live-Karte von LapRadar verfolgen."
+   ]
+  },
+  "zh": {
+   "title": "Sphere与F1：拉斯维加斯赛道旁112米高的发光球体",
+   "lead": "拉斯维加斯大奖赛的赛道紧挨着Sphere，它是世界上最大的LED屏幕。它在2023年首届比赛前七周开幕，本周六还将在场馆内举办F1首场官方赛后派对。",
+   "body": [
+    "## 112米高，120万个LED灯盘",
+    "Sphere于2023年9月29日开幕，首场演出是U2的演唱会。球体高112米、宽157米，造价23亿美元。外壳名为Exosphere，装有约120万个LED灯盘，每个灯盘有48颗二极管，屏幕总面积约5.4万平方米，是全球最大的LED屏幕。",
+    "## 赛道从哪里经过",
+    "这条6.201公里的街道赛道在第二赛段绕过Sphere，大约在7号弯到9号弯之间。驶出9号弯后，赛车紧贴着球体前进。旁边还有带看台的观众区，可以同时看到赛车和大屏幕。",
+    "![赛道在第二赛段绕过Sphere](/img/articles/3d/sphere-and-f1-track.jpg)",
+    "## 三种被禁用的颜色",
+    "首届拉斯维加斯大奖赛于2023年11月18日举行。F1租下了Sphere及周边场地，U2的驻场演出也因此暂停到12月1日。车手在座舱里就能清楚看到这个球体，所以F1和国际汽联规定，在练习赛、排位赛和正赛期间，球体上不得出现红色、黄色和蓝色。这些正是车手在赛道旁灯光信号板上留意的颜色。国际汽联在夜间测试了显示颜色，播放内容由专门的节目负责人控制。",
+    "![从座舱看Sphere：比赛期间不出现红、黄、蓝三色](/img/articles/3d/sphere-and-f1-onboard.jpg)",
+    "## 球体上播放了什么",
+    "2023年，Sphere实时显示杆位、全部20位车手及其赛车的资料卡、头盔和领奖台庆祝画面。赛事总监出示黄旗、安全车或红旗时，球体也会同步显示。这也是这座场馆第一次成为直播的一部分。",
+    "## 2026年拉斯维加斯站",
+    "今年7月，Sphere与拉斯维加斯大奖赛把合作延长五年，至2030年。今年的比赛周末是11月19日至21日，正赛在周六进行。比赛结束后，后街男孩将在Sphere内举办F1 Afterparty，这是F1首场此类官方赛后派对。赛车每一圈经过球体的情况，可以在LapRadar实时地图上关注。"
+   ]
+  }
+ }
+}

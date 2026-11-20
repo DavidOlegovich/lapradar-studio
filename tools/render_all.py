@@ -17,8 +17,10 @@ STUDIO_VERSION = 2  # не повышать: иначе перерисуются
 def digest(path, art, lang, wide):
     """Хэш ролика на одном языке: его сцены, камера, картинки + студия и трасса. Новые языки не перерисовывают старые."""
     v = art['video3d']; h = hashlib.sha1()
-    h.update(json.dumps({'scenes': v['scenes'][lang], 'shots': v['shots'], 'track': v['track'], 'theme': v.get('theme'), 'wide': wide,
-                         'title': (art.get('i18n') or {}).get(lang, {}).get('title') or (art.get('titles') or {}).get(lang)}, ensure_ascii=False, sort_keys=True).encode())
+    key = {'scenes': v['scenes'][lang], 'shots': v['shots'], 'track': v['track'], 'theme': v.get('theme'), 'wide': wide,
+           'title': (art.get('i18n') or {}).get(lang, {}).get('title') or (art.get('titles') or {}).get(lang)}
+    if v.get('hq'): key['hq'] = v['hq']  # HQ-режим входит в хэш, только если задан: хэши старых роликов не меняются
+    h.update(json.dumps(key, ensure_ascii=False, sort_keys=True).encode())
     h.update(f'studio-v{STUDIO_VERSION}'.encode())
     for f in [os.path.join(ROOT, 'tools', 'studio', 'tracks', v['track'] + '.json')]:
         if os.path.exists(f): h.update(open(f, 'rb').read())

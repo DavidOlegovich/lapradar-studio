@@ -53,7 +53,9 @@ def plan(art, lang):
         scenes.append({**sc, 'cap': cap, 'dur': dur, 'url': f"lapradar.com/a/{art['slug']}" if art.get('i18n') else 'lapradar.com'})
     # кадры сцен общие для всех языков: камера из shots
     for sc, shot in zip(scenes, v['shots']): sc['shot'] = shot
-    return {'track': v['track'], 'theme': v.get('theme', 'night'), 'city': v.get('city', False), 'style': v.get('style', 'tt'), 'brand3d': v.get('brand3d', True), 'fps': 30, 'scenes': scenes}
+    out = {'track': v['track'], 'theme': v.get('theme', 'night'), 'city': v.get('city', False), 'style': v.get('style', 'tt'), 'brand3d': v.get('brand3d', True), 'fps': 30, 'scenes': scenes}
+    if v.get('hq'): out['hq'] = v['hq']  # HQ-режим студии (свет, тени, bloom, детальные машины): только у роликов, где он задан
+    return out
 
 
 def serve():
@@ -115,6 +117,7 @@ async def stills(art):
             w, h = im.get('w', 1200), im.get('h', 750); t = im.get('t', 1.0)
             spec = {'track': im.get('track', v['track']), 'theme': im.get('theme', v.get('theme', 'night')), 'fps': 30, 'w': w, 'h': h, 'plain': True,
                     'scenes': [{'kind': 'plain', 'dur': t / im.get('u', 0.5), 'shot': {**im['shot'], 't0': im['shot'].get('t0', 0)}}]}
+            if im.get('hq', v.get('hq')): spec['hq'] = im.get('hq', v.get('hq'))
             await pg.evaluate('s => window.setupVideo(s)', spec)
             data = await pg.evaluate('i => window.renderFrame(i, 0.88)', int(t * 30))
             f = os.path.join(outdir, f"{art['slug']}-{im['name']}.jpg"); open(f, 'wb').write(base64.b64decode(data.split(',', 1)[1])); print(f)
