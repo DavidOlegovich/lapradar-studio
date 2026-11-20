@@ -1,0 +1,123 @@
+{
+ "slug": "whoop-f1-heart-rate",
+ "date": "2026-11-20",
+ "tags": [
+  "f1",
+  "whoop",
+  "heart-rate"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/whoop-f1-heart-rate-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Пульс пилотов в эфире: F1 подписала WHOOP, а Ферстаппен отказался",
+   "lead": "18 ноября в Лас-Вегасе Формула 1 объявила четырёхлетний контракт с WHOOP. Браслет на плече пилота одобрен FIA для гонок, а с 2027 года данные о пульсе появятся в трансляциях. Участвовать будут не все.",
+   "body": [
+    "## Четыре года и датчик под рукавом",
+    "WHOOP стал официальным партнёром Формулы 1 и F1 Academy, контракт рассчитан на четыре года. Компания называет свой браслет первым потребительским носимым устройством, которое FIA одобрила для использования в гонке. Пилоты носят его на плече, в специальном огнеупорном рукаве. Надеть датчик в гонке впервые можно уже на этом Гран-при Лас-Вегаса, но в эфир данные пойдут только с сезона 2027.",
+    "## Что увидят зрители",
+    "Главное в трансляции будет пульс: текущие удары в минуту, время в зонах высокой нагрузки и оценка стресса. На презентации показали пример с данными Шарля Леклера с Гран-при Великобритании и Лиама Лоусона с Бразилии. Пакеты данных получат и команды. Сколько бьётся сердце в гонке, давно измеряли: по разным оценкам, в среднем больше 170 ударов в минуту.",
+    "![Болиды на Стрипе ночью](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## Ферстаппен против",
+    "Показывать будут только тех, кто согласится. Макс Ферстаппен сразу сказал, что участвовать не будет: он не пользуется трекерами даже на тренировках и считает, что людям не нужно знать его пульс. Другим пилотам он не мешает. Джордж Расселл не против, но предупредил, что сравнивать пилотов по пульсу опасно: у всех свой нормальный ритм, и картинка может ввести зрителей в заблуждение.",
+    "## Леклер, Лоусон и Ferrari",
+    "Леклер уже пользуется WHOOP, следит по нему за сном и восстановлением и говорит, что скрывать ему нечего. Хотя вопрос, что именно показывать всем, по его словам, ещё нужно обсудить. Лоусон был на презентации в Вегасе и видит в пульсе новый слой борьбы: по нему можно понять, давит ли соперник. Связь с паддоком у WHOOP и так была: с января 2026 года компания партнёр Ferrari.",
+    "![Болид в студии](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## Будет ли пульс на живой карте",
+    "Открытого источника этих данных нет: они пойдут в официальную трансляцию F1, а API самого WHOOP отдаёт человеку только его собственные показатели. Если Формула 1 добавит пульс в live-тайминг, мы выведем его на живую карту LapRadar рядом с позициями и шинами."
+   ]
+  },
+  "en": {
+   "title": "Driver heart rates on TV: F1 signs WHOOP, Verstappen opts out",
+   "lead": "On 18 November in Las Vegas, Formula 1 announced a four-year deal with WHOOP. The strap, worn on the driver's arm, is approved by the FIA for racing, and from 2027 heart-rate data will appear in broadcasts. Not every driver is signing up.",
+   "body": [
+    "## Four years and a sensor under the sleeve",
+    "WHOOP becomes an official partner of Formula 1 and F1 Academy in a four-year deal. The company calls its strap the first consumer wearable approved by the FIA for in-race use. Drivers wear it on the upper arm in a purpose-made fire-resistant sleeve. It can be worn in a race for the first time at this weekend's Las Vegas Grand Prix, but the data only goes on air from the 2027 season.",
+    "## What viewers will see",
+    "Heart rate is the headline: live beats per minute, time in high-effort zones and a stress reading. The launch showed examples using Charles Leclerc's data from the British Grand Prix and Liam Lawson's from Brazil. Teams will get data packages too. Drivers' heart rates in a race have been measured before, and most estimates put the average above 170 beats per minute.",
+    "![Cars on the Strip at night](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## Verstappen says no",
+    "Only drivers who agree will be shown. Max Verstappen made it clear he won't take part: he doesn't use trackers even in training and says people don't need to know his heart rate. He has no problem with others doing it. George Russell is fine with the idea but warned that comparing drivers by heart rate can mislead, because everyone's normal rhythm is different.",
+    "## Leclerc, Lawson and Ferrari",
+    "Leclerc already uses WHOOP to track sleep and recovery and says he has nothing in particular to hide, though what gets shown to everyone is still up for discussion. Lawson was at the Vegas launch and sees a new layer to wheel-to-wheel fights: you could tell whether a rival is feeling the pressure. WHOOP was already in the paddock, as a Ferrari partner since January 2026.",
+    "![An F1 car in the studio](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## Will heart rate reach the live map?",
+    "There is no open source for this data. It goes into F1's official broadcast, and WHOOP's own API only gives people their own numbers. If Formula 1 adds heart rate to live timing, we'll put it on the LapRadar live map next to positions and tyres."
+   ]
+  },
+  "es": {
+   "title": "El pulso de los pilotos en directo: la F1 firma con WHOOP y Verstappen se niega",
+   "lead": "El 18 de noviembre, en Las Vegas, la Fórmula 1 anunció un acuerdo de cuatro años con WHOOP. La pulsera que el piloto lleva en el brazo está aprobada por la FIA para competir y desde 2027 los datos de pulso llegarán a las retransmisiones. No todos participarán.",
+   "body": [
+    "## Cuatro años y un sensor bajo la manga",
+    "WHOOP pasa a ser socio oficial de la Fórmula 1 y de la F1 Academy con un contrato de cuatro años. La empresa presenta su pulsera como el primer dispositivo de consumo aprobado por la FIA para usarse en carrera. Los pilotos la llevan en la parte alta del brazo, dentro de una manga ignífuga especial. Se puede llevar en carrera por primera vez este fin de semana en Las Vegas, pero los datos no saldrán en televisión hasta la temporada 2027.",
+    "## Qué verá el aficionado",
+    "Lo principal será el pulso: pulsaciones por minuto en directo, tiempo en zonas de alta exigencia y un indicador de estrés. En la presentación se mostraron ejemplos con datos de Charles Leclerc en el Gran Premio de Gran Bretaña y de Liam Lawson en Brasil. Los equipos también recibirán paquetes de datos. El pulso en carrera ya se había medido antes y la mayoría de estimaciones sitúan la media por encima de 170 pulsaciones por minuto.",
+    "![Monoplazas en el Strip de noche](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## Verstappen dice que no",
+    "Solo se mostrará a quien acepte. Max Verstappen dejó claro que no participará: no usa pulseras ni para entrenar y cree que la gente no necesita conocer su pulso. No tiene nada en contra de que otros lo hagan. George Russell acepta la idea, pero avisa de que comparar pilotos por el pulso puede confundir, porque cada uno tiene su ritmo normal.",
+    "## Leclerc, Lawson y Ferrari",
+    "Leclerc ya usa WHOOP para controlar el sueño y la recuperación y dice que no tiene nada que esconder, aunque qué se enseña a todo el mundo aún está por hablar. Lawson estuvo en la presentación de Las Vegas y ve una nueva capa en las peleas rueda a rueda: se podría saber si el rival siente la presión. WHOOP ya estaba en el paddock como socio de Ferrari desde enero de 2026.",
+    "![Un F1 en el estudio](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## ¿Llegará el pulso al mapa en vivo?",
+    "No existe una fuente abierta de estos datos. Van a la retransmisión oficial de la F1, y la API de WHOOP solo da a cada persona sus propios valores. Si la Fórmula 1 añade el pulso al cronometraje en directo, lo pondremos en el mapa en vivo de LapRadar junto a las posiciones y los neumáticos."
+   ]
+  },
+  "pt": {
+   "title": "Batimentos dos pilotos ao vivo: F1 fecha com a WHOOP e Verstappen recusa",
+   "lead": "Em 18 de novembro, em Las Vegas, a Fórmula 1 anunciou um contrato de quatro anos com a WHOOP. A pulseira usada no braço do piloto é aprovada pela FIA para corrida, e a partir de 2027 os dados de frequência cardíaca vão aparecer nas transmissões. Nem todos vão participar.",
+   "body": [
+    "## Quatro anos e um sensor por baixo da manga",
+    "A WHOOP passa a ser parceira oficial da Fórmula 1 e da F1 Academy num contrato de quatro anos. A empresa chama sua pulseira de primeiro dispositivo vestível de consumo aprovado pela FIA para uso em corrida. Os pilotos usam o sensor no braço, dentro de uma manga antichamas especial. Ele pode ser usado em corrida pela primeira vez já neste GP de Las Vegas, mas os dados só vão ao ar a partir da temporada 2027.",
+    "## O que o público vai ver",
+    "O destaque será a frequência cardíaca: batimentos por minuto ao vivo, tempo nas zonas de alto esforço e um índice de estresse. Na apresentação foram mostrados exemplos com dados de Charles Leclerc no GP da Grã-Bretanha e de Liam Lawson no Brasil. As equipes também vão receber pacotes de dados. A frequência cardíaca em corrida já foi medida antes, e a maioria das estimativas coloca a média acima de 170 batimentos por minuto.",
+    "![Carros na Strip à noite](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## Verstappen diz não",
+    "Só vai aparecer quem concordar. Max Verstappen deixou claro que não vai participar: não usa rastreadores nem nos treinos e diz que as pessoas não precisam saber seus batimentos. Ele não se opõe a que outros participem. George Russell aceita a ideia, mas avisou que comparar pilotos pelos batimentos pode enganar, porque cada um tem seu ritmo normal.",
+    "## Leclerc, Lawson e a Ferrari",
+    "Leclerc já usa a WHOOP para acompanhar sono e recuperação e diz que não tem nada a esconder, embora o que será mostrado a todos ainda precise ser discutido. Lawson esteve na apresentação em Las Vegas e vê uma nova camada nas disputas roda a roda: daria para saber se o rival está sentindo a pressão. A WHOOP já estava no paddock como parceira da Ferrari desde janeiro de 2026.",
+    "![Um carro de F1 no estúdio](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## Os batimentos vão chegar ao mapa ao vivo?",
+    "Não existe fonte aberta desses dados. Eles vão para a transmissão oficial da F1, e a API da própria WHOOP só entrega a cada pessoa os seus próprios números. Se a Fórmula 1 colocar a frequência cardíaca na cronometragem ao vivo, vamos mostrá-la no mapa ao vivo do LapRadar ao lado das posições e dos pneus."
+   ]
+  },
+  "de": {
+   "title": "Herzfrequenz live im TV: F1 holt WHOOP, Verstappen sagt ab",
+   "lead": "Am 18. November hat die Formel 1 in Las Vegas einen Vierjahresvertrag mit WHOOP verkündet. Das Armband am Oberarm des Fahrers ist von der FIA für Rennen zugelassen, ab 2027 sollen Pulsdaten in den Übertragungen auftauchen. Mitmachen werden nicht alle.",
+   "body": [
+    "## Vier Jahre und ein Sensor unter dem Ärmel",
+    "WHOOP wird offizieller Partner der Formel 1 und der F1 Academy, der Vertrag läuft vier Jahre. Das Unternehmen nennt sein Armband das erste Consumer-Wearable, das die FIA für den Einsatz im Rennen zugelassen hat. Die Fahrer tragen es am Oberarm in einem eigens entwickelten feuerfesten Ärmel. Erstmals im Rennen getragen werden kann es schon an diesem Wochenende in Las Vegas, ins Fernsehen kommen die Daten aber erst ab der Saison 2027.",
+    "## Was die Zuschauer sehen",
+    "Im Mittelpunkt steht der Puls: Schläge pro Minute live, Zeit in Zonen hoher Belastung und ein Stresswert. Bei der Präsentation gab es Beispiele mit Daten von Charles Leclerc vom Großen Preis von Großbritannien und von Liam Lawson aus Brasilien. Auch die Teams bekommen Datenpakete. Gemessen wurde der Puls im Rennen schon früher, die meisten Schätzungen liegen im Schnitt über 170 Schlägen pro Minute.",
+    "![Autos auf dem Strip bei Nacht](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## Verstappen winkt ab",
+    "Gezeigt wird nur, wer zustimmt. Max Verstappen hat klargemacht, dass er nicht mitmacht: Er nutzt nicht einmal im Training Tracker und findet, dass die Leute seinen Puls nicht kennen müssen. Gegen andere Fahrer, die mitmachen, hat er nichts. George Russell trägt die Idee mit, warnt aber, dass Pulsvergleiche zwischen Fahrern in die Irre führen können, weil jeder einen anderen Normalwert hat.",
+    "## Leclerc, Lawson und Ferrari",
+    "Leclerc nutzt WHOOP bereits für Schlaf und Erholung und sagt, er habe nichts Besonderes zu verbergen. Was öffentlich gezeigt wird, müsse man aber noch besprechen. Lawson war bei der Präsentation in Las Vegas und sieht eine neue Ebene im Zweikampf: Man könnte erkennen, ob ein Gegner unter Druck steht. Im Fahrerlager war WHOOP ohnehin schon, als Partner von Ferrari seit Januar 2026.",
+    "![Ein F1-Auto im Studio](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## Kommt der Puls auf die Live-Karte?",
+    "Eine offene Quelle für diese Daten gibt es nicht. Sie fließen in die offizielle F1-Übertragung, und die API von WHOOP liefert jedem Nutzer nur seine eigenen Werte. Nimmt die Formel 1 den Puls ins Live-Timing auf, zeigen wir ihn auf der Live-Karte von LapRadar neben Positionen und Reifen."
+   ]
+  },
+  "zh": {
+   "title": "车手心率上直播：F1签约WHOOP，维斯塔潘拒绝参与",
+   "lead": "11月18日，F1在拉斯维加斯宣布与WHOOP签下四年合同。戴在车手上臂的手环已获FIA批准可在比赛中使用，从2027年起心率数据将出现在转播中。并非所有车手都会参加。",
+   "body": [
+    "## 四年合同，袖子里的传感器",
+    "WHOOP成为F1和F1 Academy的官方合作伙伴，合同为期四年。该公司称，这款手环是首个获FIA批准可在比赛中使用的消费级可穿戴设备。车手把它戴在上臂，装在一个特制的防火袖套里。本周末的拉斯维加斯大奖赛上，车手就可以首次在正赛中佩戴，但数据要到2027赛季才会在转播中出现。",
+    "## 观众会看到什么",
+    "重点是心率：实时每分钟心跳、处于高强度区间的时间以及压力指标。发布会上展示了勒克莱尔在英国大奖赛、劳森在巴西大奖赛的数据样例。车队也会拿到数据包。车手在比赛中的心率以前就有人测过，大多数估计认为平均超过每分钟170次。",
+    "![夜晚拉斯维加斯大道上的赛车](/img/articles/3d/whoop-f1-heart-rate-strip.jpg)",
+    "## 维斯塔潘说不",
+    "只有同意的车手才会被展示。维斯塔潘明确表示不会参加：他连训练都不用追踪设备，认为大家没必要知道他的心率。不过他不反对其他车手参与。拉塞尔接受这个计划，但提醒说用心率比较车手容易误导观众，因为每个人的正常心率都不一样。",
+    "## 勒克莱尔、劳森和法拉利",
+    "勒克莱尔已经在用WHOOP监测睡眠和恢复，他说自己“没什么特别要隐藏的”，不过向所有人展示哪些数据还需要讨论。劳森出席了拉斯维加斯的发布会，他认为这会给缠斗增加新看点：可以看出对手是否感到压力。WHOOP本来就在围场里，从2026年1月起就是法拉利的合作伙伴。",
+    "![演播室里的F1赛车](/img/articles/3d/whoop-f1-heart-rate-car.jpg)",
+    "## 心率会上实时地图吗",
+    "这些数据没有公开来源。它们进入F1官方转播，而WHOOP自己的API只向用户提供本人的数据。如果F1把心率加入实时计时，我们会把它放到LapRadar实时地图上，和位置、轮胎信息放在一起。"
+   ]
+  }
+ }
+}
