@@ -1,0 +1,123 @@
+{
+ "slug": "las-vegas-neon-trophy",
+ "date": "2026-11-20",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "trophy"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-neon-trophy-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Неоновая вывеска для победителя: новый кубок Гран-при Лас-Вегаса",
+   "lead": "Перед четвёртым Гран-при Лас-Вегаса организаторы показали новый кубок. Он сделан в форме буквы V и светится 122 лампами, как старые вывески города. Это всего вторая версия кубка с 2023 года.",
+   "body": [
+    "## Афиша с именем победителя",
+    "Идею взяли из неоновых вывесок Стрипа и старых афиш Фримонт-стрит. На таких афишах ряды лампочек вели взгляд к имени главной звезды вечера. Теперь звездой на вывеске будет победитель гонки. Новый кубок организаторы показали в соцсетях в середине ноября, за неделю до гонки.",
+    "## V значит Vegas",
+    "Силуэт у кубка в форме буквы V. По данным The Race, она отсылает сразу к Вегасу и к victory, то есть победе. В соцсетях тут же пошутили, что V значит Verstappen. Повод есть: Макс Ферстаппен выиграл две из трёх прошлых гонок в Вегасе, в 2023 и 2025 годах. В 2024-м победил Джордж Расселл.",
+    "![Кубок-«V» у трассы на Стрипе](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122 лампы и красный контур",
+    "На кубке 122 лампы. Верхнюю половину занимают красные диагональные полосы, ниже идут ряды тёплых белых ламп, и все они сходятся к острию буквы. Каждое плечо обведено светящимся красным контуром. Если свет выключить, остаётся простая рамка с серебристой кромкой. Высота кубка 56 см, вес 3,6 кг. Работа заняла около полугода: сначала 3D-модель и рендеры, потом изготовление. Кубок сделали Bowen Studios и Ore Designs, те же мастерские, что выпускали кубки Вегаса в 2023–2025 годах.",
+    "![Лампы и красные полосы на плечах кубка](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## Каким был первый кубок",
+    "Три года подряд победители Вегаса получали один и тот же кубок. Его придумал Кен Одзава, креативный директор организаторов, выросший в Лас-Вегасе. Он взял за основу геологию пустыни вокруг города и его ночную энергию. Основание отливали из бронзы по напечатанной на 3D-принтере модели и обрабатывали раствором нитрата железа, чтобы оно выглядело как песчаник. Верх печатали из смолы и хромировали, а внутри стояли яркие белые светодиоды, которые светили сквозь цветные «неоновые» линзы. Питание шло от аккумуляторов в основании.",
+    "## Правила для кубков",
+    "Эскиз утверждала глава Гран-при Лас-Вегаса Эмили Празер, а потом его сверяли с требованиями Формулы 1. У кубков есть допустимый диапазон размеров и предел веса, чтобы уставший пилот мог поднять награду. Кубки за второе и третье места должны быть меньше, чем у победителя, а некоторые логотипы обязательны. Гонка пройдёт в субботу, 21 ноября, в 20:00 по местному времени, и кто поднимет новую вывеску, можно следить на живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "A neon sign for the winner: the new Las Vegas Grand Prix trophy",
+   "lead": "Ahead of the fourth Las Vegas Grand Prix, the organisers have revealed a new trophy. It is shaped like a V and lit by 122 lights, like the city's old signs. It is only the second trophy design since 2023.",
+   "body": [
+    "## A marquee with the winner's name",
+    "The idea comes from the neon signs of the Strip and the old marquees of Fremont Street, where rows of bulbs drew the eye to the headliner's name. This time the headliner is whoever wins the race. The organisers showed the trophy on social media in mid-November, a week before the race.",
+    "## V for Vegas",
+    "The trophy has a V-shaped silhouette. According to The Race, it stands for both Vegas and victory. Fans immediately joked that V stands for Verstappen, and they had a point: Max Verstappen won two of the three previous Vegas races, in 2023 and 2025. George Russell won in 2024.",
+    "![The V trophy beside the Strip circuit](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122 lights and a red outline",
+    "The trophy carries 122 lights. Red diagonal stripes fill the top half, rows of warm white bulbs sit below, and everything runs towards the point of the V. Each arm has a glowing red outline. Switch the lights off and you are left with a plain frame with a silver edge. It stands 56 cm tall and weighs 3.6 kg. The work took about six months, starting with a 3D model and renders before the build. Bowen Studios and Ore Designs made it, the same studios behind the Vegas trophies from 2023 to 2025.",
+    "![Lights and red stripes on the trophy's arms](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## What the first trophy looked like",
+    "For three years in a row the Vegas winners lifted the same design. It came from Ken Ozawa, the organisers' creative director, who grew up in Las Vegas. He drew on the desert geology around the city and its energy at night. The base was cast in bronze from a 3D-printed pattern and treated with a ferric nitrate solution to look like sandstone. The top was 3D-printed resin with chrome plating, with bright white LEDs inside shining through neon-coloured lenses, powered by batteries in the base.",
+    "## The rules for trophies",
+    "Las Vegas Grand Prix CEO Emily Prazer signed off the design, and it was then checked against Formula 1's guidelines. Trophies must stay within a range of sizes and under a weight limit so that an exhausted driver can lift them. The second and third place trophies have to be smaller than the winner's, and certain logos are mandatory. The race starts at 8pm local time on Saturday 21 November, and you can follow who wins the new sign on the LapRadar live map."
+   ]
+  },
+  "es": {
+   "title": "Un letrero de neón para el ganador: el nuevo trofeo del Gran Premio de Las Vegas",
+   "lead": "Antes del cuarto Gran Premio de Las Vegas, los organizadores presentaron un trofeo nuevo. Tiene forma de V y lo iluminan 122 luces, como los viejos letreros de la ciudad. Es apenas el segundo diseño desde 2023.",
+   "body": [
+    "## Una marquesina con el nombre del ganador",
+    "La idea sale de los letreros de neón del Strip y de las antiguas marquesinas de Fremont Street, donde filas de bombillas llevaban la mirada hasta el nombre de la estrella de la noche. Ahora la estrella será quien gane la carrera. Los organizadores mostraron el trofeo en redes sociales a mediados de noviembre, una semana antes de la carrera.",
+    "## V de Vegas",
+    "La silueta tiene forma de V. Según The Race, remite tanto a Las Vegas como a victory, victoria. En redes enseguida bromearon con que la V es de Verstappen, y no sin motivo: Max Verstappen ganó dos de las tres carreras anteriores en Las Vegas, en 2023 y 2025. En 2024 ganó George Russell.",
+    "![El trofeo en V junto al circuito del Strip](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122 luces y un contorno rojo",
+    "El trofeo lleva 122 luces. Franjas rojas en diagonal ocupan la mitad superior, debajo hay filas de bombillas blancas cálidas, y todo converge hacia la punta de la V. Cada brazo tiene un contorno rojo luminoso. Con las luces apagadas queda un marco sencillo con borde plateado. Mide 56 cm y pesa 3,6 kg. El trabajo llevó unos seis meses, empezando por un modelo 3D y renders. Lo hicieron Bowen Studios y Ore Designs, los mismos talleres de los trofeos de Las Vegas de 2023 a 2025.",
+    "![Luces y franjas rojas en los brazos del trofeo](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## Cómo era el primer trofeo",
+    "Durante tres años seguidos, los ganadores en Las Vegas levantaron el mismo diseño. Lo creó Ken Ozawa, director creativo de los organizadores, que creció en Las Vegas. Se inspiró en la geología del desierto que rodea la ciudad y en su energía nocturna. La base se fundía en bronce a partir de un modelo impreso en 3D y se trataba con una solución de nitrato férrico para que pareciera arenisca. La parte superior era de resina impresa en 3D y cromada, con LED blancos dentro que brillaban a través de lentes de colores neón, alimentados por baterías en la base.",
+    "## Las reglas de los trofeos",
+    "Emily Prazer, consejera delegada del Gran Premio de Las Vegas, aprobó el diseño, que luego se revisó según las pautas de la Fórmula 1. Los trofeos deben estar dentro de un rango de tamaños y por debajo de un peso máximo para que un piloto agotado pueda levantarlos. Los del segundo y tercer puesto tienen que ser más pequeños que el del ganador, y algunos logotipos son obligatorios. La carrera es el sábado 21 de noviembre a las 20:00 hora local, y se puede seguir quién se lleva el nuevo letrero en el mapa en vivo de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Um letreiro de neon para o vencedor: o novo troféu do GP de Las Vegas",
+   "lead": "Antes do quarto GP de Las Vegas, os organizadores apresentaram um troféu novo. Ele tem forma de V e acende 122 luzes, como os antigos letreiros da cidade. É apenas o segundo design desde 2023.",
+   "body": [
+    "## Uma marquise com o nome do vencedor",
+    "A ideia vem dos letreiros de neon da Strip e das antigas marquises da Fremont Street, onde fileiras de lâmpadas levavam o olhar até o nome da atração principal. Agora a atração principal é quem vencer a corrida. Os organizadores mostraram o troféu nas redes sociais em meados de novembro, uma semana antes da prova.",
+    "## V de Vegas",
+    "A silhueta tem forma de V. Segundo o The Race, a letra remete tanto a Vegas quanto a victory, vitória. Nas redes logo surgiu a piada de que o V é de Verstappen, e não sem motivo: Max Verstappen venceu duas das três corridas anteriores em Las Vegas, em 2023 e 2025. Em 2024 o vencedor foi George Russell.",
+    "![O troféu em V ao lado do circuito da Strip](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122 luzes e um contorno vermelho",
+    "O troféu tem 122 luzes. Faixas vermelhas diagonais ocupam a metade de cima, embaixo vêm fileiras de lâmpadas brancas quentes, e tudo converge para a ponta do V. Cada braço tem um contorno vermelho iluminado. Com as luzes apagadas, sobra uma moldura simples com borda prateada. São 56 cm de altura e 3,6 kg. O trabalho levou cerca de seis meses, começando por um modelo 3D e renderizações. Quem fez foram a Bowen Studios e a Ore Designs, as mesmas oficinas dos troféus de Las Vegas de 2023 a 2025.",
+    "![Luzes e faixas vermelhas nos braços do troféu](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## Como era o primeiro troféu",
+    "Por três anos seguidos, os vencedores em Las Vegas ergueram o mesmo design. Ele foi criado por Ken Ozawa, diretor criativo dos organizadores, que cresceu em Las Vegas. A inspiração veio da geologia do deserto ao redor da cidade e da sua energia noturna. A base era fundida em bronze a partir de um modelo impresso em 3D e tratada com solução de nitrato férrico para parecer arenito. A parte de cima era de resina impressa em 3D e cromada, com LEDs brancos dentro brilhando através de lentes cor de neon, alimentados por baterias na base.",
+    "## As regras dos troféus",
+    "Emily Prazer, CEO do GP de Las Vegas, aprovou o design, que depois foi conferido com as diretrizes da Fórmula 1. Os troféus precisam ficar dentro de uma faixa de tamanhos e abaixo de um limite de peso, para que um piloto exausto consiga erguê-los. Os troféus de segundo e terceiro lugar têm de ser menores que o do vencedor, e alguns logotipos são obrigatórios. A corrida é no sábado, 21 de novembro, às 20h no horário local, e dá para acompanhar quem leva o novo letreiro no mapa ao vivo do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Eine Leuchtreklame für den Sieger: der neue Pokal des Grand Prix von Las Vegas",
+   "lead": "Vor dem vierten Grand Prix von Las Vegas haben die Veranstalter einen neuen Pokal vorgestellt. Er hat die Form eines V und leuchtet mit 122 Lichtern wie die alten Schilder der Stadt. Es ist erst das zweite Pokaldesign seit 2023.",
+   "body": [
+    "## Eine Leuchttafel mit dem Namen des Siegers",
+    "Die Idee stammt von den Neonschildern am Strip und den alten Leuchttafeln der Fremont Street, auf denen Glühbirnenreihen den Blick zum Namen des Stars des Abends führten. Diesmal steht dort der Sieger des Rennens. Die Veranstalter zeigten den Pokal Mitte November in den sozialen Netzwerken, eine Woche vor dem Rennen.",
+    "## V wie Vegas",
+    "Die Silhouette ist V-förmig. Laut The Race steht das V für Vegas und für victory, also Sieg. In den sozialen Netzwerken wurde sofort gewitzelt, V stehe für Verstappen. Ganz abwegig ist das nicht: Max Verstappen gewann zwei der drei bisherigen Rennen in Las Vegas, 2023 und 2025. 2024 siegte George Russell.",
+    "![Der V-Pokal neben der Strecke am Strip](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122 Lichter und eine rote Kontur",
+    "Der Pokal trägt 122 Lichter. Rote Diagonalstreifen füllen die obere Hälfte, darunter liegen Reihen warmweißer Birnen, und alles läuft zur Spitze des V zusammen. Jeder Arm hat eine leuchtend rote Kontur. Ohne Licht bleibt ein schlichter Rahmen mit silberner Kante. Der Pokal ist 56 cm hoch und wiegt 3,6 kg. Die Arbeit dauerte rund sechs Monate, angefangen mit einem 3D-Modell und Renderings. Gebaut haben ihn Bowen Studios und Ore Designs, dieselben Werkstätten wie bei den Vegas-Pokalen 2023 bis 2025.",
+    "![Lichter und rote Streifen an den Armen des Pokals](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## So sah der erste Pokal aus",
+    "Drei Jahre lang stemmten die Sieger in Las Vegas dasselbe Design. Es stammte von Ken Ozawa, dem Kreativdirektor der Veranstalter, der in Las Vegas aufgewachsen ist. Er griff die Wüstengeologie rund um die Stadt und ihre Energie bei Nacht auf. Der Sockel wurde nach einem 3D-gedruckten Modell in Bronze gegossen und mit Eisennitratlösung behandelt, damit er wie Sandstein aussieht. Das Oberteil war verchromtes 3D-gedrucktes Harz, innen leuchteten helle weiße LEDs durch neonfarbene Linsen, gespeist von Akkus im Sockel.",
+    "## Regeln für Pokale",
+    "Emily Prazer, Chefin des Grand Prix von Las Vegas, gab den Entwurf frei, danach wurde er mit den Vorgaben der Formel 1 abgeglichen. Pokale müssen in einem Größenbereich und unter einem Höchstgewicht bleiben, damit ein erschöpfter Fahrer sie hochheben kann. Die Pokale für Platz zwei und drei müssen kleiner sein als der des Siegers, und bestimmte Logos sind Pflicht. Das Rennen startet am Samstag, 21. November, um 20 Uhr Ortszeit, und wer die neue Leuchtreklame holt, lässt sich auf der Live-Karte von LapRadar verfolgen."
+   ]
+  },
+  "zh": {
+   "title": "给冠军的霓虹招牌：拉斯维加斯大奖赛的新奖杯",
+   "lead": "在第四届拉斯维加斯大奖赛开赛前，主办方公布了新奖杯。它是字母V的形状，用122盏灯点亮，就像这座城市的老招牌。这是自2023年以来的第二款奖杯设计。",
+   "body": [
+    "## 写着冠军名字的招牌",
+    "灵感来自拉斯维加斯大道的霓虹招牌和弗里蒙特街的老式灯箱，那些招牌上一排排灯泡把目光引向当晚主角的名字。这一次，主角就是正赛冠军。主办方在11月中旬、比赛前一周通过社交媒体公布了奖杯。",
+    "## V代表Vegas",
+    "奖杯的轮廓是字母V。据The Race报道，V同时代表Vegas和victory（胜利）。网友马上开玩笑说V代表Verstappen。这也不是没有理由：维斯塔潘赢下了此前三届拉斯维加斯比赛中的两届，分别在2023年和2025年。2024年的冠军是拉塞尔。",
+    "![大道赛道旁的V形奖杯](/img/articles/3d/las-vegas-neon-trophy-strip.jpg)",
+    "## 122盏灯和红色轮廓",
+    "奖杯上共有122盏灯。上半部分是红色斜条纹，下面是一排排暖白色灯泡，全部朝V字的尖端汇聚。每一侧都有发光的红色轮廓。关掉灯后，只剩一个带银色边框的简洁框架。奖杯高56厘米，重3.6公斤。制作花了大约六个月，从3D模型和渲染图开始。奖杯由Bowen Studios和Ore Designs制作，2023至2025年的拉斯维加斯奖杯也出自它们之手。",
+    "![奖杯两臂上的灯和红色条纹](/img/articles/3d/las-vegas-neon-trophy-lights.jpg)",
+    "## 第一款奖杯是什么样",
+    "连续三年，拉斯维加斯的冠军举起的都是同一款奖杯。它由主办方创意总监Ken Ozawa设计，他在拉斯维加斯长大。设计灵感来自城市周围的沙漠地貌和夜晚的活力。底座按3D打印模型用青铜铸造，再用硝酸铁溶液处理，看起来像砂岩。上部是镀铬的3D打印树脂，内部明亮的白色LED透过霓虹色透镜发光，电源是底座里的充电电池。",
+    "## 奖杯的规则",
+    "设计由拉斯维加斯大奖赛首席执行官Emily Prazer批准，之后再按F1的奖杯规范进行核对。奖杯的尺寸要在规定范围内，重量不能超过上限，这样疲惫的车手也能举起来。第二名和第三名的奖杯必须比冠军奖杯小，一些标志必须出现在奖杯上。正赛在11月21日周六当地时间20:00开始，谁能举起这块新招牌，可以在LapRadar实时地图上关注。"
+   ]
+  }
+ }
+}

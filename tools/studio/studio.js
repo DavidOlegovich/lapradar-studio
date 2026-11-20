@@ -386,6 +386,90 @@ function vegasExtras(w, shot, lt) {
   if (vx.neon) vx.neon.forEach(o => o.visible = !!shot.neon);
 }
 
+/* ================= НЕОНОВЫЙ КУБОК-«V» (stage: { o: 'vtrophy' }; трасса: shot.trophy; по умолчанию выключено) =================
+   Своя модель по описанию кубка Гран-при Лас-Вегаса 2026: V-силуэт, хромированная рамка, красные диагональные полосы сверху,
+   ряды тёплых ламп снизу и красный светящийся контур. Без логотипов и надписей настоящего кубка. */
+function makeNeonTrophy(o = {}) {
+  const root = new THREE.Group(), g = new THREE.Group(); root.add(g);
+  const chrome = new THREE.MeshStandardMaterial({ color: '#d7dce4', roughness: 0.12, metalness: 1.0, emissive: '#1a1d24' });
+  const dark = new THREE.MeshStandardMaterial({ color: '#0c0e14', roughness: 0.5, metalness: 0.4 });
+  const red = o.c || '#ff2a3d', warm = o.bulb || '#ffd9a0';
+  const tube = new THREE.MeshBasicMaterial({ color: red }), bulbM = new THREE.MeshBasicMaterial({ color: warm }), stripeM = new THREE.MeshBasicMaterial({ color: red, transparent: true, opacity: 0.92 });
+  const H = 3.2, ang = 0.36, aw = 0.62, ad = 0.34, glowS = [], bulbs = [];
+  /* основание: тёмный блок с хромированной кромкой */
+  const base = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.5, 1.0), dark); base.position.y = 0.25; g.add(base);
+  const lip = new THREE.Mesh(new THREE.BoxGeometry(1.56, 0.06, 1.06), chrome); lip.position.y = 0.5; g.add(lip);
+  const foot = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.3, 0.42), chrome); foot.position.y = 0.66; g.add(foot);
+  const gT = glowTex('rgba(255,60,80,0.9)', 'rgba(255,40,60,0)'), gW = glowTex('rgba(255,225,170,1)', 'rgba(255,200,120,0)');
+  for (const sd of [-1, 1]) {
+    const arm = new THREE.Group(); arm.position.set(0, 0.78, 0); arm.rotation.z = -sd * ang; g.add(arm);
+    /* рамка плеча: хромированные края, тёмная лицевая панель */
+    const panel = new THREE.Mesh(new THREE.BoxGeometry(aw, H, ad * 0.6), dark); panel.position.set(0, H / 2, 0); arm.add(panel);
+    for (const ex of [-1, 1]) { const rail = new THREE.Mesh(new THREE.BoxGeometry(0.06, H, ad), chrome); rail.position.set(ex * aw / 2, H / 2, 0); arm.add(rail); }
+    const cap = new THREE.Mesh(new THREE.BoxGeometry(aw + 0.06, 0.07, ad), chrome); cap.position.set(0, H, 0); arm.add(cap);
+    /* красный контур по периметру плеча (неоновая трубка) */
+    for (const zf of [1, -1]) {
+      for (const ex of [-1, 1]) { const t = new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.022, H, 6), tube); t.position.set(ex * (aw / 2 - 0.05), H / 2, zf * ad * 0.31); arm.add(t); }
+      const tt = new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.022, aw - 0.1, 6), tube); tt.rotation.z = Math.PI / 2; tt.position.set(0, H - 0.06, zf * ad * 0.31); arm.add(tt);
+      /* верхняя половина: диагональные красные полосы */
+      for (let k = 0; k < 6; k++) { const s = new THREE.Mesh(new THREE.PlaneGeometry(0.075, aw * 1.25), stripeM); s.rotation.z = 0.75 * sd; s.position.set(0, H * 0.56 + k * H * 0.072, zf * (ad * 0.31 + 0.004)); if (zf < 0) s.rotation.y = Math.PI;
+        s.scale.y = 0.62; arm.add(s); }
+      /* нижняя половина: ряды тёплых ламп, сходятся к острию V */
+      for (let r = 0; r < 6; r++) for (const bx of [-0.15, 0, 0.15]) { const b = new THREE.Mesh(new THREE.SphereGeometry(0.045, 8, 6), bulbM); b.position.set(bx, 0.22 + r * H * 0.075, zf * (ad * 0.31 + 0.02)); arm.add(b); bulbs.push(b); }
+    }
+    for (let k = 0; k < 7; k++) { const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: k < 4 ? gT : gW, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }));
+      sp.position.set(0, k < 4 ? H * (0.6 + k * 0.12) : 0.3 + (k - 4) * 0.38, ad * 0.4); sp.scale.setScalar(k < 4 ? 1.1 : 0.8); arm.add(sp); glowS.push(sp); }
+  }
+  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,70,110,0.55)', 'rgba(140,40,255,0)'), transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }));
+  halo.position.set(0, 2.4, -0.2); halo.scale.setScalar(6.5); g.add(halo); glowS.push(halo);
+  root.userData.vt = { glowS, bulbs, bulbM, halo };
+  return root;
+}
+/* мерцание ламп как у старой вывески: бегущая волна вверх по рядам */
+function animNeonTrophy(obj, lt) { const v = obj?.userData?.vt; if (!v) return;
+  v.bulbs.forEach((b, i) => { const r = Math.floor((i % 18) / 3), on = 0.55 + 0.45 * Math.max(0, Math.sin(lt * 5 - r * 0.9)); b.scale.setScalar(0.8 + 0.35 * on); });
+  v.glowS.forEach((s, k) => { s.material.opacity = 0.75 + 0.25 * Math.sin(lt * 3.1 + k); }); v.halo.material.opacity = 0.55 + 0.12 * Math.sin(lt * 1.7); }
+/* кубок на трассе: shot.trophy = { at (доля круга), side (м от оси трассы), s (масштаб), y, spin } */
+function trackTrophy(w, shot, lt) {
+  const o = shot.trophy; if (!o && !w.vtr) return;
+  if (o && !w.vtr) { w.vtr = makeNeonTrophy(o); w.scene.add(w.vtr); }
+  w.vtr.visible = !!o; if (!o) return;
+  const a = w.at((o.at ?? 0.38) * w.L); w.vtr.position.copy(a.p).addScaledVector(a.n, o.side ?? 34).setY(a.p.y + (o.y ?? 0));
+  w.vtr.scale.setScalar(o.s ?? 8); w.vtr.rotation.y = Math.atan2(a.n.x, a.n.z) + Math.PI + (o.ry ?? 0) + (o.spin ?? 0) * lt; animNeonTrophy(w.vtr, lt);
+}
+
+/* ================= ДОЖДЬ (shot.rain: true | { k: сила 0–1, spray: false }; по умолчанию выключено) =================
+   Струи дождя вокруг камеры, мокрый блеск асфальта, водяной шлейф за машинами, туман ближе. Всё — функция времени кадра. */
+function rainFx(w, shot, lt, cam) {
+  const on = !!shot.rain, o = typeof shot.rain === 'object' ? shot.rain : {}, k = o.k ?? 1;
+  if (on && !w.rain) {
+    const n = 2600, pos = new Float32Array(n * 6), g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    const lines = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: '#b9cdf5', transparent: true, opacity: 0.38, depthWrite: false, blending: THREE.AdditiveBlending, fog: false }));
+    lines.frustumCulled = false; w.scene.add(lines);
+    const sp = [], ix = []; for (let i = 0; i <= w.N; i++) { const q = w.P[i % w.N], nn = w.NR[i % w.N]; sp.push(q.x - nn.x * 6.6, q.y + 0.045, q.z - nn.z * 6.6, q.x + nn.x * 6.6, q.y + 0.045, q.z + nn.z * 6.6); }
+    for (let i = 0; i < w.N; i++) { const a = i * 2; ix.push(a, a + 1, a + 2, a + 1, a + 3, a + 2); }
+    const wg = new THREE.BufferGeometry(); wg.setAttribute('position', new THREE.Float32BufferAttribute(sp, 3)); wg.setIndex(ix);
+    const sheen = new THREE.Mesh(wg, new THREE.MeshBasicMaterial({ color: '#6f86c8', transparent: true, opacity: 0.16, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide }));
+    w.scene.add(sheen); w.rain = { lines, n, sheen };
+  }
+  const R = w.rain; if (!R) return; R.lines.visible = R.sheen.visible = on; if (!on) return;
+  /* капли: коробка 70×40×70 м вокруг камеры, каждая падает со своей фазой; координаты привязаны к сетке, чтобы при движении камеры не «плыли» */
+  const pa = R.lines.geometry.attributes.position.array, BX = 70, BY = 40, cx = cam.position.x, cy = cam.position.y, cz = cam.position.z, len = 1.6, vy = 22, slant = 0.18, m = Math.floor(R.n * k);
+  for (let i = 0; i < R.n; i++) { const j = i * 6; if (i >= m) { pa.fill(0, j, j + 6); continue; }
+    const hx = hashK(i), hz = hashK(i + 7001), hy = hashK(i + 3301);
+    const x = cx + (((hx * BX - cx) % BX) + BX) % BX - BX / 2, z = cz + (((hz * BX - cz) % BX) + BX) % BX - BX / 2;
+    const y = cy - BY / 2 + ((((hy * BY - lt * vy) % BY) + BY) % BY);
+    pa[j] = x; pa[j + 1] = y; pa[j + 2] = z; pa[j + 3] = x + slant * len; pa[j + 4] = y - len; pa[j + 5] = z; }
+  R.lines.geometry.attributes.position.needsUpdate = true;
+  R.sheen.material.opacity = 0.12 + 0.05 * Math.sin(lt * 0.7);
+}
+/* водяная пыль за машинами: до fxEnd, из того же пула, что дым */
+function rainSpray(w, shot, lt) {
+  const o = typeof shot.rain === 'object' ? shot.rain : {}, k = o.k ?? 1; if (!shot.rain || o.spray === false) return;
+  for (const c of w.cars) { const st = c.st; if (!st?.vis) continue; const hd = st.dir.clone().addScaledVector(st.n, st.yaw || 0).normalize(), right = new THREE.Vector3(-hd.z, 0, hd.x);
+    for (let q = 0; q < 9; q++) { const u = ((lt * 2.4 + q / 9) % 1); for (const sd of [0.85, -0.85]) puff(st.pos.clone().addScaledVector(hd, -2.2 - u * 11).addScaledVector(right, sd * (1 + u * 0.9)).setY(st.pos.y + 0.35 + u * 1.5), 0.9 + u * 3.2, 0.42 * (1 - u) * k); } }
+}
+
 // ---------- студия шин ----------
 function makeTyre(color, r = 1) {
   const g = new THREE.Group();
@@ -451,6 +535,7 @@ function stageItem(it) {
   if (it.o === 'bike') { const c = makeBike(it.c || '#ef4444'); c.group.visible = true; c.lean.rotation.z = it.lean ?? 0; return c.group; }
   if (it.o === 'brick') return makeBrickCar(it.kind || 'f1', it.c || '#3b82f6').group;
   if (it.o === 'trophy') return makeTrophy(it.c);
+  if (it.o === 'vtrophy') return makeNeonTrophy(it);
   if (it.o === 'podium') return makePodium();
   return new THREE.Group();
 }
@@ -460,6 +545,7 @@ function renderStage(shot, u, lt, T) {
   if (!s.cache[key]) { const g = new THREE.Group(); (shot.items || []).forEach(it => { const o = stageItem(it); o.position.set(it.x ?? 0, (it.y ?? 0) + 0.3, it.z ?? 0); o.rotation.y = it.ry ?? 0; o.scale.multiplyScalar(it.s ?? 1); o.userData.s0 = o.scale.x; g.add(o); }); s.cache[key] = g; }
   if (s.cur !== s.cache[key]) { if (s.cur) s.turn.remove(s.cur); s.cur = s.cache[key]; s.turn.add(s.cur); }
   const bgk = shot.bg || 'blue'; if (s.bg !== bgk) { s.scene.background = gradTex(STAGE_BG[bgk] || STAGE_BG.blue); s.bg = bgk; }
+  s.cur.children.forEach(o => animNeonTrophy(o, lt));
   s.cur.children.forEach((o, k) => { const p = back((lt - 0.15 - k * 0.22) / 0.55); o.scale.setScalar(Math.max(0.001, o.userData.s0 * p)); });
   s.turn.rotation.y = (shot.rot0 ?? 0) + (shot.spin ?? 0.25) * lt;
   s.beams.forEach((b, k) => { b.visible = shot.beams !== false; b.material.opacity = 0.05 + 0.03 * Math.sin(lt * 2 + k * 2); });
@@ -762,7 +848,7 @@ function applyActs(shot, lt, T, dur) {
     const hd = pose3(c.group, st); const right = new THREE.Vector3(-hd.z, 0, hd.x);
     c.wheels.forEach(wh => { wh.rotation.x = st.roll / 0.4; wh.scale.setScalar(st.wheelOff ? 0.001 : 1); });
     const hc = new THREE.Color(); if (st.heat) hc.setRGB(1, 0.32, 0.08).multiplyScalar(st.heat * 0.9); else if (st.cold) hc.setRGB(0.25, 0.6, 1).multiplyScalar(st.cold * 0.75); else hc.setRGB(0, 0, 0); c.rubber.emissive.copy(hc);
-    c.band.color.set(st.band || c.band0);
+    c.band.color.set(st.band || shot.band || c.band0);   /* shot.band: цвет полосы шин у всех машин сцены (например, зелёный — промежуточные) */
     c.rearFlap.rotation.x = lerp(-0.5, -0.04, st.flap || 0); c.frontFlap.rotation.x = lerp(0.35, 0.04, st.flap || 0);
     const P0 = st.pos, at = (fw, sd, y) => P0.clone().addScaledVector(hd, fw).addScaledVector(right, sd).setY(P0.y + y);
     if (st.heat > 0.3) for (const [f, sd] of [[2.1, 1.2], [2.1, -1.2], [-1.8, 1.2], [-1.8, -1.2]]) glow(at(f, sd, 0.45), 1.6 * st.heat, '#ff6a1a', 0.55 * st.heat);
@@ -835,8 +921,10 @@ function applyActs(shot, lt, T, dur) {
     for (const m of ex.markers) { const st = cars[m.k];
       for (let j = 22; j >= 1; j--) { const ps = actStates(shot, lt - j * 0.05, T - j * 0.05, dur).cars[m.k]; glow(ps.pos.clone().setY(ps.pos.y + 29), sz * (1.5 - j * 0.045), m.color, 0.85 * (1 - j / 23), true); }
       glow(st.pos.clone().setY(st.pos.y + 30), sz * (2.6 + 0.3 * Math.sin(lt * 6)), m.color, 0.9, true); disc(st.pos.clone().setY(st.pos.y + 32), sz * 0.85, m.color); } }
+  if (shot.rain) rainSpray(w, shot, lt);
   fxEnd();
   if (shot.sphere || shot.neon || w.vx) vegasExtras(w, shot, lt);
+  if (shot.trophy || w.vtr) trackTrophy(w, shot, lt);
   w.lastEx = ex;
   return { cars, ex };
 }
@@ -857,9 +945,10 @@ function placeCamera(cam, shot, u, T) {
     cam.position.copy(a.p).addScaledVector(a.n, shot.side ?? 0).setY(a.p.y + lerp(shot.h ?? 80, shot.h2 ?? shot.h ?? 80, ease(u)));
     cam.lookAt(ah.p.x, ah.p.y, ah.p.z); cam.fov = shot.fov ?? 55;
   } else if (shot.type === 'orbit') {
-    const tgt = shot.at != null ? w.at(shot.at * w.L).p : new THREE.Vector3(0, 0, 0);
+    let tgt = shot.at != null ? w.at(shot.at * w.L).p : new THREE.Vector3(0, 0, 0);
+    if (shot.at != null && shot.tside) { const q = w.at(shot.at * w.L); tgt = q.p.clone().addScaledVector(q.n, shot.tside); }   /* tside: центр облёта сбоку от трассы (м), ly: высота взгляда */
     const a = lerp(shot.a0 ?? 0, shot.a1 ?? 0.6, ease(u)), r = lerp(shot.r ?? 900, shot.r2 ?? shot.r ?? 900, ease(u)), h = lerp(shot.h ?? 500, shot.h2 ?? shot.h ?? 500, ease(u));
-    cam.position.set(tgt.x + Math.cos(a) * r, h, tgt.z + Math.sin(a) * r); cam.lookAt(tgt.x, 0, tgt.z); cam.fov = shot.fov ?? 50;
+    cam.position.set(tgt.x + Math.cos(a) * r, h, tgt.z + Math.sin(a) * r); cam.lookAt(tgt.x, shot.ly ?? 0, tgt.z); cam.fov = shot.fov ?? 50;
   } else if (shot.type === 'top') {
     // сверху, трасса целиком в вертикальном кадре; лёгкий наклон и поворот для «живости»
     const f = w.fit, vf = 40 * Math.PI / 180, hf = 2 * Math.atan(Math.tan(vf / 2) * W / H);
@@ -1156,6 +1245,21 @@ function hudPulse(g, lt, dur, h, unit) {
   g.restore(); g.textBaseline = 'alphabetic';
 }
 
+/* разрыв к эталонному кругу: два бара (эталон и круг сцены), время и разница; подписи — из сцены (sc.gl: [эталон, круг], sc.gd: текст разницы) */
+const lapFmt = d => `${Math.floor(d / 60)}:${(d % 60).toFixed(3).padStart(6, '0')}`;
+function hudGap(g, lt, dur, h, labels, delta) {
+  const a = back(lt / 0.5); if (a <= 0) return; const x0 = 90, y0 = 200, w = W - 180, hh = 380, ref = h.ref ?? 90, lap = h.lap ?? ref, mx = Math.max(ref, lap) * 1.02, mn = h.min ?? Math.min(ref, lap) * 0.8;
+  g.save(); g.translate(W / 2, y0 + hh / 2); g.scale(a, a); g.translate(-W / 2, -(y0 + hh / 2)); hudPanel(g, x0, y0, w, hh);
+  const rows = [[labels?.[0] || 'REF', ref, h.c0 || '#5b9bff'], [labels?.[1] || 'LAP', lap, h.c1 || '#22c55e']], bx = x0 + 40, bw = w - 80;
+  rows.forEach(([lb, v, c], k) => { const y = y0 + 50 + k * 120, p = easeOut((lt - 0.25 - k * 0.35) / 0.9), cur = lerp(mn, v, p);
+    g.font = font(800, 40); g.fillStyle = '#cfd8ff'; g.textBaseline = 'middle'; g.fillText(lb, bx, y + 8);
+    g.font = font(900, 48); g.fillStyle = '#fff'; g.textAlign = 'right'; g.fillText(lapFmt(cur), bx + bw, y + 8); g.textAlign = 'left';
+    rrect(g, bx, y + 42, bw, 30, 15); g.fillStyle = 'rgba(255,255,255,0.08)'; g.fill();
+    rrect(g, bx, y + 42, Math.max(30, bw * clamp((cur - mn) / (mx - mn))), 30, 15); g.fillStyle = c; g.shadowColor = c; g.shadowBlur = 18; g.fill(); g.shadowBlur = 0; });
+  const pd = easeOut((lt - 1.2) / 0.6); if (pd > 0) { g.globalAlpha = pd; g.font = font(900, 84); g.fillStyle = '#ffd23f'; g.textAlign = 'center'; g.fillText(delta || `+${(lap - ref).toFixed(3)}`, W / 2, y0 + hh - 62); g.textAlign = 'left'; g.globalAlpha = 1; }
+  g.restore(); g.textBaseline = 'alphabetic';
+}
+
 function hudFor(g, sc, lt) {
   const h = sc.shot?.hud; if (!h) return;
   if (h.type === 'stopwatch') hudStopwatch(g, lt, sc.dur, h.to);
@@ -1167,6 +1271,7 @@ function hudFor(g, sc, lt) {
   else if (h.type === 'clock') hudClock(g, lt, sc.dur, h.from, h.to);
   else if (h.type === 'bars') hudBars(g, lt, sc.dur, h, sc.barTexts);
   else if (h.type === 'pulse') hudPulse(g, lt, sc.dur, h, sc.unit);
+  else if (h.type === 'gap') hudGap(g, lt, sc.dur, h, sc.gl, sc.gd);
 }
 
 // ---------- кадр ----------
@@ -1201,6 +1306,7 @@ function render3D(sc, lt, T) {
   w.badges.forEach((b, k) => { b.s.visible = shot.type === 'top' && !!shot.badges && clamp(u * 1.4) * w.N > b.i; if (b.s.visible) { const sp = back(clamp((u * 1.4 * w.N - b.i) / 60)); b.s.scale.setScalar(Math.max(0.01, w.size.x * 0.06 * sp)); b.s.scale.z = 1; } });
   placeCamera(camera, shot, u, T);
   w.scene.fog.far = shot.type === 'top' || shot.type === 'orbit' ? 60000 : w.theme.fogF; w.scene.fog.near = shot.type === 'top' || shot.type === 'orbit' ? 40000 : w.theme.fogN;
+  if (shot.rain || w.rain) { rainFx(w, shot, lt, camera); if (shot.rain) { w.scene.fog.near = Math.min(w.scene.fog.near, 260); w.scene.fog.far = Math.min(w.scene.fog.far, 2600); } }
   R.render(w.scene, camera);
 }
 

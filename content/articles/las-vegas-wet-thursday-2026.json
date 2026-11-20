@@ -1,0 +1,135 @@
+{
+ "slug": "las-vegas-wet-thursday-2026",
+ "date": "2026-11-20",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "rain"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-wet-thursday-2026-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Мокрый четверг в Вегасе: две тренировки в цифрах LapRadar",
+   "lead": "В первой тренировке Гран-при Лас-Вегаса никто не показал время круга, вторая прошла по мокрому асфальту на промежуточных шинах. Мы разобрали официальный хронометраж обеих сессий: круги, шины, погоду и удалённые времена.",
+   "body": [
+    "## FP1: час без единого времени",
+    "Первая тренировка началась в 16:30 по местному времени под дождём. По данным хронометража, на трассу выезжали 17 пилотов, но ни один круг не закончился с временем. Все стинты прошли на полных дождевых шинах. Метеостанция отмечала дождь примерно в 36 замерах из 84, воздух держался на 11,6–13 °C, асфальт на 13–14,8 °C. Максимум в ловушке скорости составил всего 190 км/ч. Дирекция объявила мокрую трассу, низкое сцепление и отключила режим обгона.",
+    "## FP2: дождь кончился, лужи остались",
+    "К 20:00 дождь прекратился, во всей второй сессии метеостанция его не фиксировала. Воздух был 14,4–15,3 °C, трасса остыла с 13,9 до 12,3 °C, влажность упала с 64 до 49%. Все начали на дождевых шинах, первым на промежуточные перешёл Ландо Норрис на седьмом круге. В итоге промежуточные успели поставить все 22 пилота: за сессию было 47 стинтов на них и 25 на дождевых. Лучшее время за час улучшилось с 2:02.786 до 1:47.272.",
+    "![Водяной шлейф за машинами на Стрипе](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## Расселл, Гасли, Леклер",
+    "Лучший круг проехал Джордж Расселл: 1:47.272 в самом конце сессии. Пьер Гасли отстал на 0,071 с, Шарль Леклер на 0,333. Дальше Хаджар (+1,135), Пиастри (+1,181), Хэмилтон (+1,211), Норрис (+1,565), Антонелли (+1,771), Колапинто (+1,957) и Алонсо (+1,959). Макс Ферстаппен только 13-й, в 2,869 с от лидера. Лучшие сектора у Гасли (30,487), Хаджара (36,774) и Расселла (39,458), а быстрее всех в ловушке скорости были Расселл и Леклер, 283 км/ч. Всего засчитали 312 кругов со временем.",
+    "![Промежуточные шины с зелёной полосой](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## Почти 14 секунд к сухому кругу",
+    "Год назад вторую тренировку выиграл Норрис с 1:33.602 на мягких шинах по сухой трассе. Мокрый лучший круг 2026 года медленнее на 13,670 с. Сравнение грубое: с 2026-го в F1 другие машины, но порядок разницы понятен.",
+    "## 33 удалённых круга и красный флаг",
+    "Дирекция аннулировала 33 времени. Тридцать раз за лимиты трассы: 13 в восьмом повороте, 9 в двенадцатом, 6 в первом. Ещё три круга удалили за двойные жёлтые флаги, у Антонелли, Пиастри и Леклера. Больше всех потерял Габриэл Бортолето: пять кругов. В 20:49 сессию остановили красным флагом: по данным RacingNews365, Лэнс Стролл наехал на кусок пластика в последнем секторе. Через пять минут тренировку возобновили.",
+    "## Что дальше",
+    "В пятницу в 16:30 третья тренировка, в 20:00 квалификация. Все эти круги, шины и флаги есть на нашей живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Wet Thursday in Vegas: both practice sessions in LapRadar numbers",
+   "lead": "Nobody set a lap time in first practice at the Las Vegas Grand Prix, and second practice ran on a wet track on intermediates. We went through the official timing of both sessions: laps, tyres, weather and deleted times.",
+   "body": [
+    "## FP1: an hour without a single time",
+    "First practice started at 4:30pm local time in the rain. According to the timing data, 17 drivers went out, yet not one lap ended with a time. Every stint was on full wets. The weather station logged rain in roughly 36 of its 84 readings, with the air at 11.6–13 °C and the track at 13–14.8 °C. The best speed-trap figure was just 190 km/h. Race control declared a wet track and low grip conditions and switched off overtake mode.",
+    "## FP2: the rain stopped, the water didn't",
+    "By 8pm the rain had stopped, and the weather station didn't record any during the second session. The air was 14.4–15.3 °C, the track cooled from 13.9 to 12.3 °C and humidity fell from 64% to 49%. Everyone started on wets, and Lando Norris was the first to switch to intermediates, on lap seven. In the end all 22 drivers ran inters: 47 stints on them against 25 on wets. Over the hour the best time dropped from 2:02.786 to 1:47.272.",
+    "![Spray behind the cars on the Strip](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## Russell, Gasly, Leclerc",
+    "George Russell set the best lap, a 1:47.272 right at the end of the session. Pierre Gasly was 0.071s behind and Charles Leclerc 0.333s. Then came Hadjar (+1.135), Piastri (+1.181), Hamilton (+1.211), Norris (+1.565), Antonelli (+1.771), Colapinto (+1.957) and Alonso (+1.959). Max Verstappen was only 13th, 2.869s down. The best sectors went to Gasly (30.487), Hadjar (36.774) and Russell (39.458), and Russell and Leclerc were quickest through the speed trap at 283 km/h. In total 312 timed laps counted.",
+    "![Intermediates with the green band](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## Almost 14 seconds off a dry lap",
+    "A year ago Norris topped second practice with a 1:33.602 on softs on a dry track. The best wet lap of 2026 is 13.670s slower. It's a rough comparison, since F1 has different cars from 2026, but it shows the scale.",
+    "## 33 deleted laps and a red flag",
+    "Race control deleted 33 times. Thirty were for track limits: 13 at Turn 8, nine at Turn 12 and six at Turn 1. Three more went for double yellow flags, for Antonelli, Piastri and Leclerc. Gabriel Bortoleto lost the most, five laps. At 8:49pm the session was red-flagged: according to RacingNews365, Lance Stroll hit a piece of plastic in the final sector. Running resumed five minutes later.",
+    "## What's next",
+    "Friday brings third practice at 4:30pm and qualifying at 8pm. All of these laps, tyres and flags are on our LapRadar live map."
+   ]
+  },
+  "es": {
+   "title": "Jueves mojado en Las Vegas: los dos libres en cifras de LapRadar",
+   "lead": "En los primeros libres del Gran Premio de Las Vegas nadie marcó tiempo, y los segundos se corrieron sobre pista mojada con intermedios. Repasamos el cronometraje oficial de ambas sesiones: vueltas, neumáticos, clima y tiempos anulados.",
+   "body": [
+    "## FP1: una hora sin un solo tiempo",
+    "Los primeros libres empezaron a las 16:30 hora local bajo la lluvia. Según el cronometraje, salieron a pista 17 pilotos, pero ninguna vuelta terminó con tiempo. Todos los stints fueron con neumáticos de lluvia extrema. La estación meteorológica registró lluvia en unas 36 de sus 84 mediciones, con el aire a 11,6–13 °C y el asfalto a 13–14,8 °C. La velocidad máxima en el speed trap fue de solo 190 km/h. Dirección de carrera declaró pista mojada y poca adherencia, y desactivó el modo de adelantamiento.",
+    "## FP2: paró la lluvia, el agua no",
+    "A las 20:00 ya no llovía, y la estación no registró lluvia en toda la segunda sesión. El aire estaba a 14,4–15,3 °C, la pista se enfrió de 13,9 a 12,3 °C y la humedad bajó del 64% al 49%. Todos empezaron con lluvia extrema, y Lando Norris fue el primero en pasar a intermedios, en la vuelta siete. Al final los 22 pilotos usaron intermedios: 47 stints con ellos frente a 25 con lluvia extrema. En una hora el mejor tiempo bajó de 2:02.786 a 1:47.272.",
+    "![Agua levantada detrás de los coches en el Strip](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## Russell, Gasly, Leclerc",
+    "George Russell marcó la mejor vuelta, 1:47.272, al final de la sesión. Pierre Gasly quedó a 0,071 s y Charles Leclerc a 0,333. Detrás, Hadjar (+1,135), Piastri (+1,181), Hamilton (+1,211), Norris (+1,565), Antonelli (+1,771), Colapinto (+1,957) y Alonso (+1,959). Max Verstappen solo fue 13.º, a 2,869 s. Los mejores sectores fueron de Gasly (30,487), Hadjar (36,774) y Russell (39,458), y Russell y Leclerc fueron los más rápidos en el speed trap, con 283 km/h. En total contaron 312 vueltas con tiempo.",
+    "![Intermedios con la banda verde](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## Casi 14 segundos respecto a una vuelta en seco",
+    "Hace un año Norris lideró los segundos libres con 1:33.602 con blandos y pista seca. La mejor vuelta en mojado de 2026 es 13,670 s más lenta. La comparación es aproximada, porque desde 2026 la F1 tiene otros coches, pero da una idea de la diferencia.",
+    "## 33 vueltas anuladas y una bandera roja",
+    "Dirección de carrera anuló 33 tiempos. Treinta por límites de pista: 13 en la curva 8, nueve en la 12 y seis en la 1. Otros tres por doble bandera amarilla, a Antonelli, Piastri y Leclerc. Gabriel Bortoleto fue el más castigado, con cinco vueltas. A las 20:49 salió la bandera roja: según RacingNews365, Lance Stroll pisó un trozo de plástico en el último sector. La sesión se reanudó cinco minutos después.",
+    "## Lo que viene",
+    "El viernes hay libres 3 a las 16:30 y clasificación a las 20:00. Todas estas vueltas, neumáticos y banderas están en nuestro mapa en vivo de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Quinta-feira molhada em Las Vegas: os dois treinos nos números do LapRadar",
+   "lead": "No primeiro treino livre do GP de Las Vegas ninguém marcou tempo, e o segundo foi disputado em pista molhada com pneus intermediários. Passamos pela cronometragem oficial das duas sessões: voltas, pneus, clima e tempos apagados.",
+   "body": [
+    "## TL1: uma hora sem nenhum tempo",
+    "O primeiro treino começou às 16h30 no horário local, debaixo de chuva. Pelos dados da cronometragem, 17 pilotos foram à pista, mas nenhuma volta terminou com tempo. Todos os stints foram com pneus de chuva forte. A estação meteorológica registrou chuva em cerca de 36 das 84 leituras, com o ar entre 11,6 e 13 °C e o asfalto entre 13 e 14,8 °C. A maior velocidade no speed trap foi de apenas 190 km/h. A direção de prova declarou pista molhada e baixa aderência e desligou o modo de ultrapassagem.",
+    "## TL2: a chuva parou, a água ficou",
+    "Às 20h a chuva já tinha parado, e a estação não registrou chuva em toda a segunda sessão. O ar ficou entre 14,4 e 15,3 °C, a pista esfriou de 13,9 para 12,3 °C e a umidade caiu de 64% para 49%. Todos largaram com pneus de chuva, e Lando Norris foi o primeiro a trocar para intermediários, na sétima volta. No fim, os 22 pilotos usaram intermediários: 47 stints com eles contra 25 com pneus de chuva. Em uma hora o melhor tempo caiu de 2:02.786 para 1:47.272.",
+    "![Água levantada atrás dos carros na Strip](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## Russell, Gasly, Leclerc",
+    "George Russell fez a melhor volta, 1:47.272, no fim da sessão. Pierre Gasly ficou a 0,071 s e Charles Leclerc a 0,333. Depois vieram Hadjar (+1,135), Piastri (+1,181), Hamilton (+1,211), Norris (+1,565), Antonelli (+1,771), Colapinto (+1,957) e Alonso (+1,959). Max Verstappen foi só o 13º, a 2,869 s. Os melhores setores foram de Gasly (30,487), Hadjar (36,774) e Russell (39,458), e Russell e Leclerc foram os mais rápidos no speed trap, com 283 km/h. Ao todo valeram 312 voltas com tempo.",
+    "![Intermediários com a faixa verde](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## Quase 14 segundos de uma volta no seco",
+    "Há um ano, Norris liderou o segundo treino com 1:33.602 de pneus macios em pista seca. A melhor volta no molhado de 2026 é 13,670 s mais lenta. A comparação é grosseira, já que desde 2026 a F1 tem outros carros, mas mostra o tamanho da diferença.",
+    "## 33 voltas apagadas e uma bandeira vermelha",
+    "A direção de prova apagou 33 tempos. Trinta por limites de pista: 13 na curva 8, nove na 12 e seis na 1. Outros três por bandeira amarela dupla, de Antonelli, Piastri e Leclerc. Gabriel Bortoleto foi quem mais perdeu, cinco voltas. Às 20h49 veio a bandeira vermelha: segundo o RacingNews365, Lance Stroll passou por cima de um pedaço de plástico no último setor. O treino recomeçou cinco minutos depois.",
+    "## O que vem agora",
+    "Na sexta-feira tem o terceiro treino às 16h30 e a classificação às 20h. Todas essas voltas, pneus e bandeiras estão no nosso mapa ao vivo do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Nasser Donnerstag in Vegas: beide Trainings in LapRadar-Zahlen",
+   "lead": "Im ersten Training zum Grand Prix von Las Vegas setzte niemand eine Rundenzeit, das zweite lief auf nasser Strecke mit Intermediates. Wir haben die offizielle Zeitnahme beider Sessions ausgewertet: Runden, Reifen, Wetter und gestrichene Zeiten.",
+   "body": [
+    "## FP1: eine Stunde ohne eine einzige Zeit",
+    "Das erste Training begann um 16:30 Uhr Ortszeit im Regen. Laut Zeitnahme gingen 17 Fahrer auf die Strecke, doch keine Runde endete mit einer Zeit. Alle Stints liefen auf Regenreifen. Die Wetterstation meldete in etwa 36 von 84 Messungen Regen, die Luft hatte 11,6–13 °C, der Asphalt 13–14,8 °C. Der Bestwert in der Speedfalle lag bei nur 190 km/h. Die Rennleitung meldete nasse Strecke und wenig Grip und schaltete den Überholmodus ab.",
+    "## FP2: der Regen hörte auf, das Wasser blieb",
+    "Um 20 Uhr regnete es nicht mehr, und in der ganzen zweiten Session registrierte die Wetterstation keinen Regen. Die Luft lag bei 14,4–15,3 °C, die Strecke kühlte von 13,9 auf 12,3 °C ab, die Luftfeuchtigkeit fiel von 64 auf 49 Prozent. Alle starteten auf Regenreifen, als Erster wechselte Lando Norris in Runde sieben auf Intermediates. Am Ende fuhren alle 22 Fahrer Intermediates: 47 Stints darauf gegenüber 25 auf Regenreifen. Innerhalb der Stunde fiel die Bestzeit von 2:02.786 auf 1:47.272.",
+    "![Gischt hinter den Autos auf dem Strip](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## Russell, Gasly, Leclerc",
+    "George Russell fuhr die Bestzeit, eine 1:47.272 ganz am Ende der Session. Pierre Gasly lag 0,071 s zurück, Charles Leclerc 0,333 s. Dahinter folgten Hadjar (+1,135), Piastri (+1,181), Hamilton (+1,211), Norris (+1,565), Antonelli (+1,771), Colapinto (+1,957) und Alonso (+1,959). Max Verstappen war nur 13., 2,869 s zurück. Die besten Sektoren fuhren Gasly (30,487), Hadjar (36,774) und Russell (39,458), in der Speedfalle waren Russell und Leclerc mit 283 km/h am schnellsten. Insgesamt zählten 312 gezeitete Runden.",
+    "![Intermediates mit grünem Streifen](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## Fast 14 Sekunden auf eine trockene Runde",
+    "Vor einem Jahr fuhr Norris im zweiten Training auf Soft-Reifen und trockener Strecke eine 1:33.602. Die beste nasse Runde 2026 ist 13,670 s langsamer. Der Vergleich ist grob, denn seit 2026 fährt die Formel 1 mit anderen Autos, aber er zeigt die Größenordnung.",
+    "## 33 gestrichene Runden und eine rote Flagge",
+    "Die Rennleitung strich 33 Zeiten. Dreißig wegen Tracklimits: 13 in Kurve 8, neun in Kurve 12 und sechs in Kurve 1. Drei weitere wegen doppelt Gelb, bei Antonelli, Piastri und Leclerc. Am meisten verlor Gabriel Bortoleto, fünf Runden. Um 20:49 Uhr kam die rote Flagge: Laut RacingNews365 fuhr Lance Stroll im letzten Sektor über ein Stück Plastik. Fünf Minuten später ging es weiter.",
+    "## Wie es weitergeht",
+    "Am Freitag folgen um 16:30 Uhr das dritte Training und um 20 Uhr das Qualifying. Alle diese Runden, Reifen und Flaggen gibt es auf unserer LapRadar-Live-Karte."
+   ]
+  },
+  "zh": {
+   "title": "拉斯维加斯湿地周四：LapRadar数据看两节练习赛",
+   "lead": "拉斯维加斯大奖赛第一节练习赛没有任何人做出圈速，第二节则在湿滑赛道上用半雨胎完成。我们梳理了两节练习赛的官方计时数据：圈数、轮胎、天气和被删除的圈速。",
+   "body": [
+    "## FP1：一小时没有一个圈速",
+    "第一节练习赛在当地时间16:30冒雨开始。计时数据显示，共有17位车手上过赛道，但没有一圈完成计时。所有车手都使用全雨胎。气象站在84次记录中大约有36次记录到降雨，气温11.6–13 °C，赛道温度13–14.8 °C。测速点最高速度只有190公里/小时。赛事总监宣布赛道湿滑、抓地力低，并关闭了超车模式。",
+    "## FP2：雨停了，积水还在",
+    "到20:00雨已经停了，整节第二练习赛气象站都没有记录到降雨。气温14.4–15.3 °C，赛道温度从13.9 °C降到12.3 °C，湿度从64%降到49%。所有人都先用全雨胎出场，诺里斯在第7圈第一个换上半雨胎。最终22位车手都用过半雨胎：半雨胎共47个stint，全雨胎25个。一小时内最快圈速从2:02.786提升到1:47.272。",
+    "![大道上赛车后方的水雾](/img/articles/3d/las-vegas-wet-thursday-2026-spray.jpg)",
+    "## 拉塞尔、加斯利、勒克莱尔",
+    "拉塞尔在练习赛最后时刻跑出1:47.272，排名第一。加斯利慢0.071秒，勒克莱尔慢0.333秒。之后是哈贾尔（+1.135）、皮亚斯特里（+1.181）、汉密尔顿（+1.211）、诺里斯（+1.565）、安东内利（+1.771）、科拉平托（+1.957）和阿隆索（+1.959）。维斯塔潘只排第13，落后2.869秒。最快分段分别属于加斯利（30.487）、哈贾尔（36.774）和拉塞尔（39.458），测速点最快的是拉塞尔和勒克莱尔，283公里/小时。全场共有312个有效计时圈。",
+    "![带绿色标识的半雨胎](/img/articles/3d/las-vegas-wet-thursday-2026-inters.jpg)",
+    "## 比干地圈速慢近14秒",
+    "一年前，诺里斯在干地上用软胎以1:33.602拿下第二节练习赛第一。2026年最快的湿地圈速慢了13.670秒。这个比较比较粗略，因为从2026年起F1换了新赛车，但足以看出差距有多大。",
+    "## 33个被删圈速和一面红旗",
+    "赛事总监删除了33个圈速。其中30个因为超出赛道界限：8号弯13个，12号弯9个，1号弯6个。另外3个因为双黄旗被删，分别属于安东内利、皮亚斯特里和勒克莱尔。博尔托莱托损失最多，被删了5圈。20:49练习赛亮起红旗：据RacingNews365报道，斯特罗尔在最后一个赛段压到了一块塑料。五分钟后练习赛恢复。",
+    "## 接下来",
+    "周五16:30是第三节练习赛，20:00是排位赛。所有这些圈速、轮胎和旗帜信息都在我们的LapRadar实时地图上。"
+   ]
+  }
+ }
+}
