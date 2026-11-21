@@ -1,4 +1,4 @@
-# Итоги квалификации Гран-при Лас-Вегаса 2026 (20.11 по Вегасу, 21.11 утром по Тбилиси): Антонелли быстрее всех, но штраф 5 мест,
+# Итоги квалификации Гран-при Лас-Вегаса 2026 (квалификация 20.11 по местному времени): Антонелли быстрее всех, но штраф 5 мест,
 # с поула стартует Ферстаппен; Пиастри −10 (5-й ДВС), Сайнс, Стролл и Берман в хвосте; обе Ferrari вылетели в Q2 (не в Q1).
 # HQ-режим, ночной Вегас со Sphere и неоном. Таблицы позиций: hud "grid" (строки с условными цветами команд, без логотипов).
 # Машины (VIDEO.hq.cars, условные цвета, без ливрей): 0 серебро с бирюзой, 1 тёмно-синяя с красным, 2 оранжевая, 3 красная.
@@ -96,9 +96,9 @@ VIDEO = {
    {"kind": "big", "chip": "Старт: Леклер P10 · Хэмилтон P11",
     "say": "Леклер ошибся на лучшем круге и не успел на новую попытку. Хэмилтону не хватало сцепления.",
     "hl": ["ошибся", "сцепления"]},
-   {"kind": "big", "chip": "22.11 · 08:00 по Тбилиси",
-    "say": "Гонка в субботу в восемь вечера по Вегасу. В Тбилиси это воскресенье, восемь утра.",
-    "hl": ["восемь"]},
+   {"kind": "big", "chip": "Время гонки · lapradar.com",
+    "say": "Во сколько гонка по вашему времени, смотрите на ЛапРадар.",
+    "hl": ["вашему времени"]},
    {"kind": "end", "tag": "Гран-при Лас-Вегаса · решётка",
     "say": "Гонку смотрите на живой карте ЛапРадар."}
   ],
@@ -130,9 +130,9 @@ VIDEO = {
    {"kind": "big", "chip": "Grid: Leclerc P10 · Hamilton P11",
     "say": "Leclerc made a mistake on his best lap and ran out of time. Hamilton was short of grip.",
     "hl": ["mistake", "grip"]},
-   {"kind": "big", "chip": "Sat 8pm Vegas · Sun 04:00 UTC",
-    "say": "The race starts Saturday at eight pm in Vegas. That's four am Sunday UTC.",
-    "hl": ["eight"]},
+   {"kind": "big", "chip": "Race time · lapradar.com",
+    "say": "Check the race start in your own time zone on LapRadar.",
+    "hl": ["your own time zone"]},
    {"kind": "end", "tag": "Las Vegas GP · starting grid",
     "say": "Follow the race on the LapRadar live map."}
   ]
