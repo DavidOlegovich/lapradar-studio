@@ -1,0 +1,55 @@
+{
+ "slug": "las-vegas-gp-2026-qualifying",
+ "date": "2026-11-21",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "qualifying"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-gp-2026-qualifying-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Квалификация в Лас-Вегасе: Антонелли быстрее всех, но с поула стартует Ферстаппен",
+   "lead": "Кими Антонелли выиграл квалификацию Гран-при Лас-Вегаса, но из-за штрафа за мотор теряет пять мест. Первым на старт встанет Макс Ферстаппен. Обе Ferrari вылетели во втором сегменте. Ниже итог квалификации и предварительная стартовая решётка с учётом штрафов.",
+   "body": [
+    "## Итог квалификации",
+    "Антонелли показал 1:33.893 в финальном сегменте. Ферстаппен уступил 0,258 секунды, Джордж Расселл 0,331, Ландо Норрис 0,351. Дальше в первой десятке Исак Хаджар, Арвид Линдблад, Оскар Пиастри, Лиам Лоусон, Пьер Гасли и Франко Колапинто. Первый сегмент выиграл Расселл, второй Ферстаппен.",
+    "Места с 11-го по 16-е: Шарль Леклер, Льюис Хэмилтон, Нико Хюлькенберг, Карлос Сайнс, Габриэл Бортолето, Алекс Албон. В первом сегменте вылетели Рафаэл Камара, Серхио Перес, Фернандо Алонсо, Лэнс Стролл, Валттери Боттас и Оливер Берман.",
+    "![Sphere у трассы Лас-Вегаса](/img/articles/3d/las-vegas-gp-2026-qualifying-sphere.jpg)",
+    "## Почему поул у Ферстаппена",
+    "Mercedes поставила Антонелли шестой двигатель внутреннего сгорания за сезон. Лимит четыре, и это уже второе превышение, поэтому штраф пять мест, а не десять. Об этом было известно ещё на тренировках, до квалификации. Новый турбонаддув в счёт не пошёл: по турбонаддувам у Антонелли лимит не превышен. Он стартует шестым, а поул достаётся Ферстаппену.",
+    "## Пиастри и хвост решётки",
+    "Пиастри получил пятый двигатель после проблемы с надёжностью и в первый раз в сезоне превысил лимит: минус десять мест. С седьмого места квалификации он откатывается на семнадцатое. Сайнс поставил пятый турбонаддув, Стролл девятый накопитель энергии и восьмой блок электроники: у обоих по десять мест штрафа, этого хватает, чтобы уйти в конец. Берман сменил двигатель, турбонаддув, выхлоп и MGU-K и стартует последним.",
+    "## Что случилось с Ferrari",
+    "Леклер был третьим в первом сегменте, но во втором ошибся на лучшей попытке и уже не успел выйти на ещё один круг до клетчатого флага. Хэмилтону весь сегмент не хватало сцепления, и найти скорость он так и не смог. После штрафов соперников Леклер стартует десятым, Хэмилтон одиннадцатым.",
+    "![Красный болид под огнями Вегаса](/img/articles/3d/las-vegas-gp-2026-qualifying-red.jpg)",
+    "## Стартовая решётка (предварительно)",
+    "1. Ферстаппен, 2. Расселл, 3. Норрис, 4. Хаджар, 5. Линдблад, 6. Антонелли, 7. Лоусон, 8. Гасли, 9. Колапинто, 10. Леклер, 11. Хэмилтон, 12. Хюлькенберг, 13. Бортолето, 14. Албон, 15. Камара, 16. Перес, 17. Пиастри, 18. Алонсо, 19. Боттас, 20. Сайнс, 21. Стролл, 22. Берман.",
+    "Это наш расчёт по опубликованным штрафам. Официальную решётку выпускает FIA, порядок в хвосте у тех, кто уходит в конец, может отличаться. Гонка стартует в субботу в 20:00 по Лас-Вегасу, это 08:00 воскресенья, 22 ноября, по Тбилиси. Обгоны и пит-стопы можно смотреть на живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Las Vegas qualifying: Antonelli fastest, but Verstappen starts from pole",
+   "lead": "Kimi Antonelli topped qualifying for the Las Vegas Grand Prix, but an engine penalty costs him five places, so Max Verstappen starts first. Both Ferraris went out in Q2. Here is the qualifying result and the provisional starting grid with penalties applied.",
+   "body": [
+    "## The qualifying result",
+    "Antonelli set a 1:33.893 in Q3. Verstappen was 0.258s slower, George Russell 0.331s and Lando Norris 0.351s. Isack Hadjar, Arvid Lindblad, Oscar Piastri, Liam Lawson, Pierre Gasly and Franco Colapinto completed the top ten. Russell topped Q1 and Verstappen topped Q2.",
+    "Eleventh to sixteenth: Charles Leclerc, Lewis Hamilton, Nico Hulkenberg, Carlos Sainz, Gabriel Bortoleto and Alex Albon. Out in Q1 were Rafael Camara, Sergio Perez, Fernando Alonso, Lance Stroll, Valtteri Bottas and Oliver Bearman.",
+    "![The Sphere beside the Las Vegas circuit](/img/articles/3d/las-vegas-gp-2026-qualifying-sphere.jpg)",
+    "## Why Verstappen has pole",
+    "Mercedes fitted Antonelli with his sixth internal combustion engine of the season. The limit is four and this is his second breach, so the penalty is five places rather than ten. It was confirmed during practice, before qualifying. His new turbocharger carries no penalty because he is still within the turbo allowance. He starts sixth and Verstappen inherits pole.",
+    "## Piastri and the back of the grid",
+    "Piastri took a fifth engine after a reliability issue, his first breach of the season, which means a ten-place drop. From seventh in qualifying he falls to seventeenth. Sainz took a fifth turbocharger and Stroll a ninth energy store and eighth control electronics unit: ten places each, enough to send both to the back. Bearman changed his engine, turbo, exhaust and MGU-K and starts last.",
+    "## What went wrong for Ferrari",
+    "Leclerc was third in Q1, but in Q2 he made a mistake on his best attempt and ran out of time for another lap before the chequered flag. Hamilton was short of grip all session and never found the pace. After the penalties ahead of them, Leclerc starts tenth and Hamilton eleventh.",
+    "![A red car under the Vegas lights](/img/articles/3d/las-vegas-gp-2026-qualifying-red.jpg)",
+    "## Starting grid (provisional)",
+    "1. Verstappen, 2. Russell, 3. Norris, 4. Hadjar, 5. Lindblad, 6. Antonelli, 7. Lawson, 8. Gasly, 9. Colapinto, 10. Leclerc, 11. Hamilton, 12. Hulkenberg, 13. Bortoleto, 14. Albon, 15. Camara, 16. Perez, 17. Piastri, 18. Alonso, 19. Bottas, 20. Sainz, 21. Stroll, 22. Bearman.",
+    "This is our calculation from the published penalties. The FIA issues the official grid, and the order among the drivers sent to the back may differ. The race starts on Saturday at 8pm in Las Vegas, which is 04:00 UTC on Sunday 22 November. You can follow every pass and pit stop on the LapRadar live map."
+   ]
+  }
+ }
+}

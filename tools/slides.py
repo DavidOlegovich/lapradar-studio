@@ -146,8 +146,8 @@ def scene(sc, lang, slug):
         d.text((x0 + (x1 - x0) * 22 / 40, y0 + 330), t['cliff'] + ' ↘', font=F(40, 'ExtraBold'), fill=RED)
         d.text((x0, y1 + 60), t['illu'], font=F(28, 'Medium'), fill=(90, 100, 125))
     elif k == 'big':
-        f = F(220, 'Black'); tw = d.textlength(sc['big'], font=f)
-        d.text(((W - tw) / 2, 560), sc['big'], font=f, fill=WHITE)
+        f = F(220, 'Black'); tw = d.textlength(sc.get('big', ''), font=f)
+        d.text(((W - tw) / 2, 560), sc.get('big', ''), font=f, fill=WHITE)
         if sc.get('sub'): f2 = F(52, 'SemiBold'); tw = d.textlength(sc['sub'], font=f2); d.text(((W - tw) / 2, 830), sc['sub'], font=f2, fill=BLUE)
     elif k == 'list':
         y = draw_head(d, sc.get('head', ''), 330, 96) + 50

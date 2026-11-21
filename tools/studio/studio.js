@@ -1287,8 +1287,36 @@ function hudGap(g, lt, dur, h, labels, delta) {
   g.restore(); g.textBaseline = 'alphabetic';
 }
 
+/* таблица позиций (квалификация, стартовая решётка): строки {t: код пилота, c: цвет-полоска, v: время/текст справа, p: позиция в начале, to: позиция после перестановки, tag: плашка (штраф)}.
+   Номера позиций слева стоят на месте, строки едут с p на to в момент h.move (доля сцены). Видны позиции start..start+n-1, уехавшие за край гаснут.
+   h.hi: коды, которые выделить жёлтой рамкой; h.out: красный тон (выбывшие). Заголовок — из сцены (sc.gh), свой для языка. Цвета условные, без логотипов. */
+function hudGrid(g, lt, dur, h, head) {
+  const rows = h.rows || [], s0 = h.start || 1, n = h.n || rows.length, x0 = 80, w = W - 160, top = 176, hh = head ? 96 : 0, rh = Math.min(96, (1190 - top - hh - 30) / n);
+  const a = back(lt / 0.45); if (a <= 0) return; const mv = h.move != null ? easeOut((lt - dur * h.move) / 1.1) : 0, hi = new Set(h.hi || []);
+  g.save(); g.translate(W / 2, top); g.scale(a, a); g.translate(-W / 2, -top);
+  hudPanel(g, x0, top, w, hh + n * rh + 30);
+  if (head) { const f = fitFont(g, head, 900, 54, 32, w - 60, 1); g.font = font(900, f.px); g.fillStyle = h.out ? '#ff8a8a' : '#ffd23f'; g.textBaseline = 'middle'; g.fillText(f.lines[0], x0 + 34, top + 56); }
+  const y0 = top + hh + 15, px = Math.round(rh * 0.46);
+  for (let k = 0; k < n; k++) { const y = y0 + k * rh; g.font = font(900, px); g.fillStyle = '#7f8db0'; g.textBaseline = 'middle'; g.textAlign = 'right'; g.fillText(String(s0 + k), x0 + 112, y + rh / 2); g.textAlign = 'left'; }
+  g.save(); g.beginPath(); g.rect(x0, y0 - 4, w, n * rh + 8); g.clip();
+  rows.map((r, i) => [r, i]).sort((x, y) => !!x[0].tag - !!y[0].tag).forEach(([r, i]) => { const p0 = r.p ?? s0 + i, p1 = r.to ?? p0, pos = lerp(p0, p1, mv), y = y0 + (pos - s0) * rh, ap = easeOut((lt - 0.15 - i * 0.07) / 0.4);
+    const vis = clamp(1 - Math.max(0, pos - (s0 + n - 1)) * 1.2) * clamp(1 - Math.max(0, s0 - pos) * 1.2); if (ap <= 0 || vis <= 0) return;
+    g.save(); g.globalAlpha = ap * vis; const bx = x0 + 136 + (1 - ap) * 80, bw = x0 + w - 24 - bx;
+    rrect(g, bx, y + rh * 0.1, bw, rh * 0.8, rh * 0.2); g.fillStyle = h.out ? 'rgba(127,29,29,0.55)' : r.tag ? '#1c2540' : 'rgba(255,255,255,0.07)'; g.fill();
+    if (hi.has(r.t)) { g.lineWidth = 5; g.strokeStyle = '#ffd23f'; g.stroke(); }
+    rrect(g, bx + 14, y + rh * 0.24, 14, rh * 0.52, 7); g.fillStyle = r.c || '#5b9bff'; g.fill();
+    g.font = font(900, px); g.fillStyle = '#fff'; g.fillText(r.t, bx + 46, y + rh / 2 + 2); const nw = g.measureText(r.t).width;
+    if (r.v) { g.font = font(800, Math.round(px * 0.86)); g.fillStyle = '#cfd8ff'; g.textAlign = 'right'; g.fillText(r.v, bx + bw - 22, y + rh / 2 + 2); g.textAlign = 'left'; }
+    const tg = r.tag && (r.to == null || h.move == null || lt > dur * h.move - 0.5) ? r.tag : (r.tag0 || '');
+    if (tg) { const ta = r.to != null && h.move != null ? clamp((lt - dur * h.move + 0.5) / 0.4) : 1; g.font = font(900, Math.round(px * 0.8)); const tw = g.measureText(tg).width, tx = bx + 46 + nw + 26;
+      g.globalAlpha = ap * vis * ta; rrect(g, tx, y + rh * 0.2, tw + 32, rh * 0.6, rh * 0.3); g.fillStyle = r.tc || '#ef4444'; g.fill(); g.fillStyle = '#fff'; g.fillText(tg, tx + 16, y + rh / 2 + 2); }
+    g.restore(); });
+  g.restore(); g.restore(); g.textBaseline = 'alphabetic'; g.textAlign = 'left';
+}
+
 function hudFor(g, sc, lt) {
   const h = sc.shot?.hud; if (!h) return;
+  if (h.type === 'grid') return hudGrid(g, lt, sc.dur, h, sc.gh);
   if (h.type === 'stopwatch') hudStopwatch(g, lt, sc.dur, h.to);
   else if (h.type === 'laps') hudLaps(g, lt, sc.dur, h.n);
   else if (h.type === 'thermo') hudThermo(g, lt, sc.dur, h.from, h.to);
