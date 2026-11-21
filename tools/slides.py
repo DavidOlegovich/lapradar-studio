@@ -34,7 +34,7 @@ SPOKEN = [('LapRadar Punkt com', 'lapradar.com'), ('LapRadar点com', 'lapradar.c
   ('Формула один', 'Формула 1'), ('Формулу один', 'Формулу 1'), ('Formula One', 'Formula 1'),
   ('двадцать третьего года', '2023 года'), ('двадцать третьем году', '2023 году'), ('twenty twenty-three', '2023'), ('dos mil veintitrés', '2023'), ('dois mil e vinte e três', '2023'),
   ('восемнадцатью кругами', '18 кругами'), ('eighteen laps', '18 laps'), ('dieciocho vueltas', '18 vueltas'), ('dezoito voltas', '18 voltas'),
-  ('ЛапРадар', 'LapRadar'), ('Формулы один', 'Формулы 1'), ('Формуле один', 'Формуле 1'), ('Formula One', 'Formula 1'), ('Fórmula Uno', 'Fórmula 1'), ('Fórmula Um', 'Fórmula 1')]
+  ('эм джи ю эйч', 'MGU-H'), ('эм джи ю кей', 'MGU-K'), ('ЛапРадар', 'LapRadar'), ('Формулы один', 'Формулы 1'), ('Формуле один', 'Формуле 1'), ('Formula One', 'Formula 1'), ('Fórmula Uno', 'Fórmula 1'), ('Fórmula Um', 'Fórmula 1')]
 
 def caption_text(s):
     for a, b in SPOKEN: s = s.replace(a, b)
