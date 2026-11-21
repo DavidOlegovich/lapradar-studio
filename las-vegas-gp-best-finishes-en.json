@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-gp-best-finishes",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.52,
+   "say": "Zero point one seven one seconds split second and third at the first race on the Strip."
+  },
+  {
+   "start": 5.52,
+   "dur": 5.69,
+   "say": "Leclerc passed Perez on the final lap at Turn fourteen. It was voted overtake of the year."
+  },
+  {
+   "start": 11.21,
+   "dur": 5.64,
+   "say": "In the same race Ocon came from sixteenth to fourth, and Stroll from nineteenth to fifth."
+  },
+  {
+   "start": 16.85,
+   "dur": 6.49,
+   "say": "In twenty twenty-five Antonelli started seventeenth, got a jump-start penalty, and still finished third."
+  },
+  {
+   "start": 23.340000000000003,
+   "dur": 5.92,
+   "say": "Verstappen won that night by more than twenty seconds. That's the biggest margin on the Strip."
+  },
+  {
+   "start": 29.260000000000005,
+   "dur": 8.04,
+   "say": "In nineteen eighty-one Vegas raced in the Caesars Palace car park. Piquet could barely leave his car, but won the title by a point."
+  },
+  {
+   "start": 37.300000000000004,
+   "dur": 3.64,
+   "say": "Follow Saturday night's race on the LapRadar live map."
+  }
+ ],
+ "title": "Las Vegas: 0.171 seconds, a charge from 17th and a title in a car park",
+ "caption": "",
+ "slug": "las-vegas-gp-best-finishes",
+ "digest": "e41261939155342e",
+ "studio": 2
+}

@@ -1,0 +1,48 @@
+{
+ "id": "piastri-webber-split",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.69,
+   "say": "Seven years together, and that's it. Oscar Piastri has split with his manager Mark Webber."
+  },
+  {
+   "start": 5.69,
+   "dur": 5.18,
+   "say": "It was announced on the Monday after the São Paulo Grand Prix. Both sides agreed."
+  },
+  {
+   "start": 10.870000000000001,
+   "dur": 7.06,
+   "say": "Webber and his wife Ann managed him from twenty nineteen. Then two titles in a row, Formula Three and Formula Two."
+  },
+  {
+   "start": 17.93,
+   "dur": 6.15,
+   "say": "In twenty twenty-two Alpine announced him. Oscar said no, and the FIA backed his McLaren contract."
+  },
+  {
+   "start": 24.08,
+   "dur": 5.75,
+   "say": "A driver's manager negotiates contracts, finds sponsors and looks after the driver's image."
+  },
+  {
+   "start": 29.83,
+   "dur": 6.21,
+   "say": "This season Webber worked behind the scenes and rarely came to races. Piastri is seventh right now."
+  },
+  {
+   "start": 36.04,
+   "dur": 5.41,
+   "say": "Who manages Piastri next hasn't been announced. The driver standings are on LapRadar."
+  }
+ ],
+ "title": "Piastri and Webber split: seven years, two titles and a contract fight",
+ "caption": "",
+ "slug": "piastri-webber-split",
+ "digest": "eec028e3e9a2e9ed",
+ "studio": 2
+}

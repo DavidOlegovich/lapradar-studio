@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-gp-special-helmets",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.58,
+   "say": "For one night race in Las Vegas, drivers paint a whole new helmet. Here are the wildest."
+  },
+  {
+   "start": 5.58,
+   "dur": 5.64,
+   "say": "Esteban Ocon in twenty twenty-three: all red, with eyes on top. That's the Deadpool mask."
+  },
+  {
+   "start": 11.219999999999999,
+   "dur": 6.66,
+   "say": "Lando Norris for his hundred and fiftieth Grand Prix: raised hand painting with scenes from his best races."
+  },
+  {
+   "start": 17.88,
+   "dur": 5.92,
+   "say": "Yuki Tsunoda went for kintsugi: a lid that looks like ceramic, with the cracks filled in gold."
+  },
+  {
+   "start": 23.799999999999997,
+   "dur": 4.49,
+   "say": "Ocon back with the comics: one half Spider-Man, the other half Venom."
+  },
+  {
+   "start": 28.29,
+   "dur": 6.21,
+   "say": "And for this year's race, Red Bull has already shown Verstappen's lid: blue and covered in glitter."
+  },
+  {
+   "start": 34.5,
+   "dur": 4.61,
+   "say": "We'll show the rest once they're revealed. Follow the race on LapRadar."
+  }
+ ],
+ "title": "The wildest Las Vegas Grand Prix helmets: from Deadpool to kintsugi",
+ "caption": "",
+ "slug": "las-vegas-gp-special-helmets",
+ "digest": "44b462e8a3664675",
+ "studio": 2
+}

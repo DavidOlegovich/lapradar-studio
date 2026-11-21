@@ -1,0 +1,48 @@
+{
+ "id": "path-to-motogp",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.81,
+   "say": "Pedro Acosta won Moto3 at seventeen, in his very first season. Here's the ladder he climbed."
+  },
+  {
+   "start": 5.81,
+   "dur": 5.92,
+   "say": "Talent Cup from age fourteen, Rookies from fifteen, the world championship only from eighteen."
+  },
+  {
+   "start": 11.73,
+   "dur": 5.46,
+   "say": "It starts on minibikes, then the national Talent Cups. You can join those at fourteen."
+  },
+  {
+   "start": 17.19,
+   "dur": 5.92,
+   "say": "Next is the Red Bull Rookies Cup or JuniorGP. The top three can step up to Moto3 at seventeen."
+  },
+  {
+   "start": 23.11,
+   "dur": 6.32,
+   "say": "Moto3 has one cylinder and sixty horsepower. Moto2 runs a Triumph triple with a hundred thirty-eight."
+  },
+  {
+   "start": 29.43,
+   "dur": 6.38,
+   "say": "MotoGP bikes make over two hundred fifty. Acosta got there in twenty twenty-four, after winning Moto2."
+  },
+  {
+   "start": 35.81,
+   "dur": 2.89,
+   "say": "All three MotoGP classes are on LapRadar."
+  }
+ ],
+ "title": "The road to MotoGP: Talent Cup, Rookies Cup, Moto3, Moto2",
+ "caption": "",
+ "slug": "path-to-motogp",
+ "digest": "1d1be686e0d71764",
+ "studio": 2
+}

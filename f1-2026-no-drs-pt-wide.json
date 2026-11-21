@@ -1,0 +1,43 @@
+{
+ "id": "f1-2026-no-drs",
+ "lang": "pt",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.75,
+   "say": "A Fórmula Um não tem mais DRS. Como se ultrapassa agora?"
+  },
+  {
+   "start": 3.75,
+   "dur": 5.98,
+   "say": "Agora as asas dianteira e traseira se movem. Nas retas, todo piloto abre as asas em toda volta."
+  },
+  {
+   "start": 9.73,
+   "dur": 6.55,
+   "say": "Se no ponto de detecção você está a menos de um segundo do carro da frente, ganha energia elétrica extra."
+  },
+  {
+   "start": 16.28,
+   "dur": 6.26,
+   "say": "O motor elétrico agora entrega cerca de metade da potência, e a bateria é recarregada nas frenagens."
+  },
+  {
+   "start": 22.54,
+   "dur": 4.78,
+   "say": "Ultrapassar virou questão de tática: onde gastar a energia e onde guardar."
+  },
+  {
+   "start": 27.32,
+   "dur": 4.55,
+   "say": "Acompanhe ao vivo as diferenças e posições de cada piloto no LapRadar."
+  }
+ ],
+ "title": "Fórmula 1 sem DRS: como funcionam as ultrapassagens com as regras de 2026",
+ "caption": "",
+ "slug": "f1-2026-no-drs",
+ "digest": "1de6454f67a3cbf0",
+ "studio": 2
+}

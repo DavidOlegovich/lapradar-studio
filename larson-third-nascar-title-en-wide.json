@@ -1,0 +1,48 @@
+{
+ "id": "larson-third-nascar-title",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.24,
+   "say": "Twelfth in the final race, and he's still the NASCAR champion. For the third time."
+  },
+  {
+   "start": 5.24,
+   "dur": 6.15,
+   "say": "Kyle Larson won it two years in a row. NASCAR hadn't seen that since Jimmie Johnson in twenty ten."
+  },
+  {
+   "start": 11.39,
+   "dur": 4.72,
+   "say": "That's three titles. Only Petty, Earnhardt, Johnson and Gordon have more."
+  },
+  {
+   "start": 16.11,
+   "dur": 5.81,
+   "say": "He arrived at Homestead sixty-seven points clear, and the first stage was enough to seal it."
+  },
+  {
+   "start": 21.919999999999998,
+   "dur": 5.18,
+   "say": "In the ten-race Chase he won three times and finished in the top ten eight times."
+  },
+  {
+   "start": 27.099999999999998,
+   "dur": 4.55,
+   "say": "He's thirty-four. For Hendrick Motorsports it's a sixteenth Cup title."
+  },
+  {
+   "start": 31.65,
+   "dur": 3.18,
+   "say": "NASCAR calendar and standings are on LapRadar."
+  }
+ ],
+ "title": "Kyle Larson: a third NASCAR title and the first repeat since 2010",
+ "caption": "",
+ "slug": "larson-third-nascar-title",
+ "digest": "664dc38b10df49b8",
+ "studio": 2
+}

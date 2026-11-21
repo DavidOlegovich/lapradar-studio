@@ -1,0 +1,48 @@
+{
+ "id": "undercut-overcut",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.09,
+   "say": "How do you get past a rival without ever passing him on track?"
+  },
+  {
+   "start": 4.09,
+   "dur": 5.81,
+   "say": "You're running second, a second behind the leader, and on a tight track there's no way past."
+  },
+  {
+   "start": 9.899999999999999,
+   "dur": 3.18,
+   "say": "So your team brings you in one lap before him."
+  },
+  {
+   "start": 13.079999999999998,
+   "dur": 4.84,
+   "say": "On their first lap, fresh tyres are a second or two quicker than worn ones."
+  },
+  {
+   "start": 17.919999999999998,
+   "dur": 7.52,
+   "say": "While the leader does one more lap on old tyres, you make up the time. He comes out of the pits, and you're already ahead."
+  },
+  {
+   "start": 25.439999999999998,
+   "dur": 6.44,
+   "say": "When new tyres are hard to warm up, the opposite works. You stay out longer and gain time in clean air."
+  },
+  {
+   "start": 31.88,
+   "dur": 4.44,
+   "say": "Follow every driver's pit stops, tyre age and gaps live on LapRadar."
+  }
+ ],
+ "title": "Undercut and overcut: getting past a rival without passing him on track",
+ "caption": "",
+ "slug": "undercut-overcut",
+ "digest": "1c56f16ca0025c4a",
+ "studio": 2
+}

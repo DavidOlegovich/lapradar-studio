@@ -1,0 +1,53 @@
+{
+ "id": "f1-2027-grid-one-seat-left",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.92,
+   "say": "The twenty twenty-seven F1 grid is almost done. Just one seat out of twenty-two is still open."
+  },
+  {
+   "start": 5.92,
+   "dur": 7.46,
+   "say": "McLaren: Norris and Piastri. Mercedes: Russell and Antonelli. Red Bull: Verstappen, signed to twenty thirty, with Hadjar."
+  },
+  {
+   "start": 13.379999999999999,
+   "dur": 6.26,
+   "say": "Ferrari: Leclerc and Hamilton. Aston Martin: Alonso stays on with Stroll. Williams: Sainz and Albon."
+  },
+  {
+   "start": 19.64,
+   "dur": 6.21,
+   "say": "Alpine: Gasly and Colapinto. Audi: Hulkenberg and Bortoleto. Racing Bulls kept Lawson and Lindblad."
+  },
+  {
+   "start": 25.85,
+   "dur": 5.75,
+   "say": "Cadillac has just kept Bottas alongside Perez. Haas has Camara, and the other seat is open."
+  },
+  {
+   "start": 31.6,
+   "dur": 4.84,
+   "say": "Reports name Oliver Bearman as favourite: Haas holds an option on his deal."
+  },
+  {
+   "start": 36.44,
+   "dur": 5.06,
+   "say": "If Bearman stays, there's only one new face: Rafael Camara in for Esteban Ocon."
+  },
+  {
+   "start": 41.5,
+   "dur": 3.58,
+   "say": "Find every driver and team in the LapRadar standings."
+  }
+ ],
+ "title": "F1 2027 grid: 21 of 22 seats filled, one left at Haas",
+ "caption": "",
+ "slug": "f1-2027-grid-one-seat-left",
+ "digest": "0deb72c54070a32c",
+ "studio": 2
+}

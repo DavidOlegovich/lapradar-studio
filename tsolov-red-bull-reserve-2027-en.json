@@ -1,0 +1,48 @@
+{
+ "id": "tsolov-red-bull-reserve-2027",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.41,
+   "say": "Six wins in one Formula Two season, and still no Formula One race seat for next year."
+  },
+  {
+   "start": 5.41,
+   "dur": 6.38,
+   "say": "Nikola Tsolov is nineteen, Bulgarian and drives for Campos. He won in Monaco and twice at Silverstone."
+  },
+  {
+   "start": 11.79,
+   "dur": 4.95,
+   "say": "But Racing Bulls kept Liam Lawson and Arvid Lindblad for twenty twenty-seven."
+  },
+  {
+   "start": 16.74,
+   "dur": 6.32,
+   "say": "So Tsolov becomes reserve for both Red Bull and Racing Bulls. Simulator, Friday practice, tyre tests."
+  },
+  {
+   "start": 23.06,
+   "dur": 6.66,
+   "say": "First comes the Formula Two finale. He's seven points behind Rafael Câmara, with Qatar and Abu Dhabi to go."
+  },
+  {
+   "start": 29.72,
+   "dur": 5.29,
+   "say": "Last year in Formula Three these two fought for the title too. Câmara won that one."
+  },
+  {
+   "start": 35.01,
+   "dur": 2.72,
+   "say": "Formula Two standings are on LapRadar."
+  }
+ ],
+ "title": "Nikola Tsolov: six F2 wins, and a Red Bull reserve role for 2027",
+ "caption": "",
+ "slug": "tsolov-red-bull-reserve-2027",
+ "digest": "c7a46f823d760a63",
+ "studio": 2
+}

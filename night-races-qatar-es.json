@@ -1,0 +1,43 @@
+{
+ "id": "night-races-qatar",
+ "lang": "es",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.55,
+   "say": "¿Por qué la carrera nocturna de Catar es una de las más duras del año?"
+  },
+  {
+   "start": 4.55,
+   "dur": 6.09,
+   "say": "Lusail se construyó para las motos. Las curvas rápidas llegan una tras otra y casi no hay lentas."
+  },
+  {
+   "start": 10.64,
+   "dur": 7.06,
+   "say": "El coche va casi siempre en curva, los neumáticos trabajan al límite y, aunque sea de noche, hace calor y humedad."
+  },
+  {
+   "start": 17.7,
+   "dur": 7.58,
+   "say": "En dos mil veintitrés cada juego de neumáticos se limitó a dieciocho vueltas. Todos tuvieron que parar al menos tres veces."
+  },
+  {
+   "start": 25.28,
+   "dur": 4.55,
+   "say": "En Catar la velocidad no basta: gana quien mejor cuida los neumáticos."
+  },
+  {
+   "start": 29.830000000000002,
+   "dur": 5.35,
+   "say": "Sigue en directo la edad de los neumáticos y las paradas de cada piloto en LapRadar."
+  }
+ ],
+ "title": "Catar: la carrera nocturna que se come los neumáticos",
+ "caption": "",
+ "slug": "night-races-qatar",
+ "digest": "1052e7394c15578d",
+ "studio": 2
+}

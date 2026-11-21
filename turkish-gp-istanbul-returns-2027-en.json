@@ -1,0 +1,58 @@
+{
+ "id": "turkish-gp-istanbul-returns-2027",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.21,
+   "say": "Turkey is coming back to Formula One! Istanbul Park returns to the calendar in twenty twenty-seven."
+  },
+  {
+   "start": 6.21,
+   "dur": 5.64,
+   "say": "A five-season deal, through twenty thirty-one. The first race is on the third of October."
+  },
+  {
+   "start": 11.85,
+   "dur": 5.06,
+   "say": "Istanbul sits in the middle of a triple header: Baku, Istanbul, then Singapore."
+  },
+  {
+   "start": 16.91,
+   "dur": 4.95,
+   "say": "The star of the lap is Turn Eight. A long, fast left-hander with four apexes."
+  },
+  {
+   "start": 21.86,
+   "dur": 5.64,
+   "say": "The lap is five point three kilometres with fourteen corners, and it runs anti-clockwise."
+  },
+  {
+   "start": 27.5,
+   "dur": 6.44,
+   "say": "In twenty twenty, on a wet and slippery track, Hamilton started sixth, won, and took his seventh title."
+  },
+  {
+   "start": 33.94,
+   "dur": 6.38,
+   "say": "The last race here, in twenty twenty-one, went to Valtteri Bottas from pole. The track was damp again."
+  },
+  {
+   "start": 40.32,
+   "dur": 4.84,
+   "say": "And Istanbul's record man is Felipe Massa: three wins in a row for Ferrari."
+  },
+  {
+   "start": 45.16,
+   "dur": 3.41,
+   "say": "Follow the Turkish round on the LapRadar live map."
+  }
+ ],
+ "title": "Formula 1 returns to Istanbul: five seasons from 2027 and the legendary Turn 8",
+ "caption": "",
+ "slug": "turkish-gp-istanbul-returns-2027",
+ "digest": "e76dd1fe8cdf5c71",
+ "studio": 2
+}

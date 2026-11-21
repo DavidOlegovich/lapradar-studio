@@ -1,0 +1,48 @@
+{
+ "id": "lawson-racing-bulls-2027",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.98,
+   "say": "A year ago Red Bull dropped him after two races. Now he has a contract for twenty twenty-seven."
+  },
+  {
+   "start": 5.98,
+   "dur": 7.06,
+   "say": "Liam Lawson started last season as Verstappen's team-mate, then got sent back to the junior team after two rounds."
+  },
+  {
+   "start": 13.04,
+   "dur": 4.89,
+   "say": "This year he has eighty-nine points. That's more than the whole Alpine team."
+  },
+  {
+   "start": 17.93,
+   "dur": 5.06,
+   "say": "In Brazil he started third and even passed Norris, who went on to win the race."
+  },
+  {
+   "start": 22.99,
+   "dur": 6.21,
+   "say": "Points in fifteen of twenty Grands Prix. Only six drivers from top teams have been more consistent."
+  },
+  {
+   "start": 29.2,
+   "dur": 4.61,
+   "say": "Rookie Arvid Lindblad stays too, so Red Bull junior Tsolov has to wait."
+  },
+  {
+   "start": 33.81,
+   "dur": 3.46,
+   "say": "Lawson's points and the whole grid are on LapRadar."
+  }
+ ],
+ "title": "Lawson stays at Racing Bulls: from written off to his best season",
+ "caption": "",
+ "slug": "lawson-racing-bulls-2027",
+ "digest": "07da4603356f23c5",
+ "studio": 2
+}

@@ -1,0 +1,48 @@
+{
+ "id": "f2-vs-f1-differences",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.61,
+   "say": "Formula Two races on the same weekends and the same tracks as Formula One. But it's a very different game."
+  },
+  {
+   "start": 6.61,
+   "dur": 5.75,
+   "say": "Everyone drives the same Dallara chassis. The driver makes the difference, not the factory."
+  },
+  {
+   "start": 12.36,
+   "dur": 6.84,
+   "say": "A three point four litre turbo V6 with about six hundred twenty horsepower. Formula One has around a thousand."
+  },
+  {
+   "start": 19.2,
+   "dur": 6.21,
+   "say": "Saturday is the sprint, and the top ten from qualifying start in reverse. The fastest starts tenth."
+  },
+  {
+   "start": 25.41,
+   "dur": 5.58,
+   "say": "Sunday is the feature race. At least one pit stop and both tyre compounds are mandatory."
+  },
+  {
+   "start": 30.990000000000002,
+   "dur": 6.21,
+   "say": "A feature win pays twenty-five points, a sprint win ten. Qatar and Abu Dhabi will decide the title."
+  },
+  {
+   "start": 37.2,
+   "dur": 2.72,
+   "say": "Formula Two standings are on LapRadar."
+  }
+ ],
+ "title": "How Formula 2 differs from Formula 1",
+ "caption": "",
+ "slug": "f2-vs-f1-differences",
+ "digest": "8ec1e64156221e18",
+ "studio": 2
+}

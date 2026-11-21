@@ -1,0 +1,43 @@
+{
+ "id": "abu-dhabi-yas-marina",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.01,
+   "say": "Why does the last race of the season start in daylight and finish in the dark?"
+  },
+  {
+   "start": 5.01,
+   "dur": 6.66,
+   "say": "In two thousand nine this was the first Formula One race to start in daylight and finish under floodlights."
+  },
+  {
+   "start": 11.67,
+   "dur": 5.92,
+   "say": "There's no room by the first corner, so the pit lane exit dives into a tunnel under the track."
+  },
+  {
+   "start": 17.59,
+   "dur": 6.61,
+   "say": "In twenty twenty-one the track was reshaped. The slow chicane went, and twenty-one corners became sixteen."
+  },
+  {
+   "start": 24.2,
+   "dur": 4.49,
+   "say": "The finale runs fifty-eight laps, more than three hundred kilometres."
+  },
+  {
+   "start": 28.689999999999998,
+   "dur": 3.69,
+   "say": "Watch the Abu Dhabi finale live on the LapRadar 3D map."
+  }
+ ],
+ "title": "Abu Dhabi: a sunset finale and a pit lane that dives under the track",
+ "caption": "",
+ "slug": "abu-dhabi-yas-marina",
+ "digest": "c554dd76888383ea",
+ "studio": 2
+}

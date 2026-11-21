@@ -1,0 +1,48 @@
+{
+ "id": "news-p2-battle",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.01,
+   "say": "The champion is already decided, but the fight for second has only just begun."
+  },
+  {
+   "start": 5.01,
+   "dur": 5.35,
+   "say": "Five drivers are packed together: just thirty-three points between second and sixth."
+  },
+  {
+   "start": 10.36,
+   "dur": 4.95,
+   "say": "Verstappen leads them, but in Brazil he complained the car was sliding a lot."
+  },
+  {
+   "start": 15.309999999999999,
+   "dur": 5.18,
+   "say": "Ferrari took engine penalties: Leclerc started fourteenth and Hamilton twentieth."
+  },
+  {
+   "start": 20.49,
+   "dur": 6.04,
+   "say": "Next is Las Vegas, with a straight of almost two kilometres where you can pass two cars at once."
+  },
+  {
+   "start": 26.529999999999998,
+   "dur": 5.64,
+   "say": "Three races, up to twenty-five points each. Who finishes second? Tell us in the comments."
+  },
+  {
+   "start": 32.169999999999995,
+   "dur": 3.06,
+   "say": "Live championship standings are on LapRadar."
+  }
+ ],
+ "title": "The champion is decided, the fight for P2 is not",
+ "caption": "Verstappen, Russell, Hamilton, Leclerc and Norris within 33 points before Vegas. Live standings: lapradar.com",
+ "slug": "news-p2-battle",
+ "digest": "1bd5e39f56aa82f2",
+ "studio": 2
+}

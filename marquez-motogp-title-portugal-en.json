@@ -1,0 +1,48 @@
+{
+ "id": "marquez-motogp-title-portugal",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.46,
+   "say": "One win in Saturday's sprint, and Marc Márquez is MotoGP champion for the eighth time."
+  },
+  {
+   "start": 5.46,
+   "dur": 6.44,
+   "say": "Márquez has four hundred thirty-one points. Jorge Martín is sixty behind, Marco Bezzecchi seventy-four."
+  },
+  {
+   "start": 11.9,
+   "dur": 5.24,
+   "say": "Two weekends left, Portugal and Valencia. That's seventy-four points on the table."
+  },
+  {
+   "start": 17.14,
+   "dur": 4.26,
+   "say": "A sprint win is worth twelve points, the Sunday race twenty-five."
+  },
+  {
+   "start": 21.4,
+   "dur": 5.52,
+   "say": "If the sprint goes wrong, fourteen points across the Portimão weekend will still do it."
+  },
+  {
+   "start": 26.919999999999998,
+   "dur": 5.69,
+   "say": "In Qatar he won the sprint, then chose not to take risks and finished second to Bezzecchi."
+  },
+  {
+   "start": 32.61,
+   "dur": 3.92,
+   "say": "MotoGP standings and the Portugal schedule are on LapRadar."
+  }
+ ],
+ "title": "Márquez one step from an eighth MotoGP title: what he needs in Portugal",
+ "caption": "",
+ "slug": "marquez-motogp-title-portugal",
+ "digest": "3c4d495ba2aae238",
+ "studio": 2
+}

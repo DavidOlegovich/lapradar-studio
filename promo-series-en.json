@@ -1,0 +1,43 @@
+{
+ "id": "promo-series",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.86,
+   "say": "Following more than one series? Now it's all in one place."
+  },
+  {
+   "start": 3.86,
+   "dur": 4.55,
+   "say": "Formula One, Two and Three, plus Formula E. Every round, every result."
+  },
+  {
+   "start": 8.41,
+   "dur": 4.09,
+   "say": "MotoGP, Moto2, Moto3 and NASCAR. Bikes and ovals are here too."
+  },
+  {
+   "start": 12.5,
+   "dur": 5.35,
+   "say": "For every series: the calendar, results from every round and championship standings."
+  },
+  {
+   "start": 17.85,
+   "dur": 5.24,
+   "say": "And for Formula One there's a live 3D race map, video explainers and race replays."
+  },
+  {
+   "start": 23.090000000000003,
+   "dur": 2.6,
+   "say": "Free, no sign-up. LapRadar dot com."
+  }
+ ],
+ "title": "Every race in one place: F1, F2, F3, Formula E, MotoGP and NASCAR",
+ "caption": "Calendars, results and standings for eight series. Free, no sign-up: lapradar.com",
+ "slug": "promo-series",
+ "digest": "1f50fb300cea08b6",
+ "studio": 2
+}

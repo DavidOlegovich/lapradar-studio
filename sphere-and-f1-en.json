@@ -1,0 +1,58 @@
+{
+ "id": "sphere-and-f1",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.12,
+   "say": "A glowing ball a hundred and twelve metres tall, and F1 cars race right past it."
+  },
+  {
+   "start": 5.12,
+   "dur": 5.81,
+   "say": "The Sphere opened in September twenty twenty-three, seven weeks before the first Vegas race."
+  },
+  {
+   "start": 10.93,
+   "dur": 5.18,
+   "say": "Its outside has one point two million LED pucks. The largest screen in the world."
+  },
+  {
+   "start": 16.11,
+   "dur": 4.84,
+   "say": "The track wraps around it in sector two and runs alongside after Turn nine."
+  },
+  {
+   "start": 20.95,
+   "dur": 5.75,
+   "say": "During sessions F1 banned red, yellow and blue on it. Drivers could mistake them for flags."
+  },
+  {
+   "start": 26.7,
+   "dur": 5.18,
+   "say": "Instead it showed pole position live, cards of all twenty drivers and the podium."
+  },
+  {
+   "start": 31.88,
+   "dur": 4.72,
+   "say": "Flags and the safety car came up on the Sphere in sync with race control."
+  },
+  {
+   "start": 36.6,
+   "dur": 5.86,
+   "say": "The deal now runs to twenty thirty, and on Saturday the Sphere hosts the first F1 afterparty."
+  },
+  {
+   "start": 42.46,
+   "dur": 3.29,
+   "say": "Follow Saturday's race on the LapRadar live map."
+  }
+ ],
+ "title": "The Sphere and F1: a 112-metre ball of light beside the Las Vegas track",
+ "caption": "",
+ "slug": "sphere-and-f1",
+ "digest": "616af1f85c3a7bce",
+ "studio": 2
+}

@@ -1,0 +1,58 @@
+{
+ "id": "f2-title-qatar-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.64,
+   "say": "Seven points split the Formula Two leaders, and the leader might not even start in Qatar."
+  },
+  {
+   "start": 5.64,
+   "dur": 6.09,
+   "say": "Câmara has two hundred and seven, Tsolov two hundred. Dunne is third, eighteen behind the leader."
+  },
+  {
+   "start": 11.73,
+   "dur": 6.95,
+   "say": "A weekend is worth up to thirty-nine: ten in the sprint, twenty-five in the feature, plus pole and fastest laps."
+  },
+  {
+   "start": 18.68,
+   "dur": 4.21,
+   "say": "Two rounds left, so up to seventy-eight points are on the table."
+  },
+  {
+   "start": 22.89,
+   "dur": 6.15,
+   "say": "But Câmara is already racing for Haas in Formula One, and you can't do both series on one weekend."
+  },
+  {
+   "start": 29.04,
+   "dur": 5.24,
+   "say": "Haas will decide after Vegas who races in Qatar and Abu Dhabi: Câmara or Hirakawa."
+  },
+  {
+   "start": 34.28,
+   "dur": 4.84,
+   "say": "If Câmara skips Qatar, eight points are enough for Tsolov to take the lead."
+  },
+  {
+   "start": 39.120000000000005,
+   "dur": 7.41,
+   "say": "F2 lost Bahrain and Jeddah in spring, but Qatar and Abu Dhabi are on. Racing on November twenty-eighth and twenty-ninth."
+  },
+  {
+   "start": 46.53,
+   "dur": 4.04,
+   "say": "Check the Formula Two standings after every race on LapRadar."
+  }
+ ],
+ "title": "F2 title decider: Câmara vs Tsolov, 7 points and an F1 or F2 choice",
+ "caption": "",
+ "slug": "f2-title-qatar-2026",
+ "digest": "1999e4bd6246d61c",
+ "studio": 2
+}

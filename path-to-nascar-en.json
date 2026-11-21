@@ -1,0 +1,48 @@
+{
+ "id": "path-to-nascar",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.92,
+   "say": "Until fifteen, William Byron raced only on a simulator. Later he won the Daytona five hundred."
+  },
+  {
+   "start": 5.92,
+   "dur": 6.44,
+   "say": "NASCAR has several rungs, each with its own minimum age. ARCA from fifteen, the Cup only from eighteen."
+  },
+  {
+   "start": 12.36,
+   "dur": 6.09,
+   "say": "It starts with karts, dirt ovals and little Legends cars. Kyle Larson came straight off the dirt."
+  },
+  {
+   "start": 18.45,
+   "dur": 6.09,
+   "say": "Next come Late Models at local short tracks. Plenty of drivers stay there for their whole career."
+  },
+  {
+   "start": 24.54,
+   "dur": 6.32,
+   "say": "ARCA is where many first race on a superspeedway. Then the Trucks, open from sixteen on short tracks."
+  },
+  {
+   "start": 30.86,
+   "dur": 6.89,
+   "say": "The second tier is now the O'Reilly series. Byron won it as a rookie in twenty seventeen, then went Cup racing."
+  },
+  {
+   "start": 37.75,
+   "dur": 3.18,
+   "say": "NASCAR calendar and standings are on LapRadar."
+  }
+ ],
+ "title": "The road to NASCAR: from dirt ovals to the Cup",
+ "caption": "",
+ "slug": "path-to-nascar",
+ "digest": "06a1b9afafaf91dd",
+ "studio": 2
+}

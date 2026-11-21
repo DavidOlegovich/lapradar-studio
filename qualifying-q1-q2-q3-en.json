@@ -1,0 +1,43 @@
+{
+ "id": "qualifying-q1-q2-q3",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.69,
+   "say": "Twenty-two cars, three sessions and only ten spots in the final. How does qualifying work?"
+  },
+  {
+   "start": 5.69,
+   "dur": 5.69,
+   "say": "The first part lasts eighteen minutes. The six slowest drivers start seventeenth or lower."
+  },
+  {
+   "start": 11.38,
+   "dur": 5.35,
+   "say": "In the second part all times are wiped, and another six drop out in fifteen minutes."
+  },
+  {
+   "start": 16.73,
+   "dur": 4.44,
+   "say": "In the final part the top ten have twelve minutes to fight for pole."
+  },
+  {
+   "start": 21.17,
+   "dur": 7.24,
+   "say": "The track gets quicker every minute, so everyone waits until the end. And anyone far too slow risks missing the race."
+  },
+  {
+   "start": 28.410000000000004,
+   "dur": 3.24,
+   "say": "Follow qualifying lap by lap, live on LapRadar."
+  }
+ ],
+ "title": "Qualifying Q1, Q2, Q3: how 22 cars become one pole",
+ "caption": "",
+ "slug": "qualifying-q1-q2-q3",
+ "digest": "3f75e0c335d3d249",
+ "studio": 2
+}

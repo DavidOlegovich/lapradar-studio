@@ -1,0 +1,43 @@
+{
+ "id": "graining-vs-blistering",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.24,
+   "say": "The tyre looks fine, yet the driver is losing a second a lap. What happened to it?"
+  },
+  {
+   "start": 5.24,
+   "dur": 6.26,
+   "say": "Graining starts when the tyre slides. The surface tears into little rolls of rubber, and grip drops."
+  },
+  {
+   "start": 11.5,
+   "dur": 5.29,
+   "say": "It usually happens on a cold track, or when the tyre is loaded up before it's warm."
+  },
+  {
+   "start": 16.79,
+   "dur": 6.78,
+   "say": "Blistering starts inside the tyre when it overheats. Bubbles form and chunks of rubber tear out of the tread."
+  },
+  {
+   "start": 23.57,
+   "dur": 6.38,
+   "say": "There's no saving that tyre. A driver can lose a second or more a lap, and the only fix is a pit stop."
+  },
+  {
+   "start": 29.95,
+   "dur": 4.09,
+   "say": "Follow every driver's tyre age and pit stops live on LapRadar."
+  }
+ ],
+ "title": "Graining vs blistering: what actually happened to that tyre",
+ "caption": "",
+ "slug": "graining-vs-blistering",
+ "digest": "bde2114151cd26b3",
+ "studio": 2
+}

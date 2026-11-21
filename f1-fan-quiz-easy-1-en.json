@@ -1,0 +1,88 @@
+{
+ "id": "f1-fan-quiz-easy-1",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.46,
+   "say": "How big a Formula One fan are you? Six easy questions, three seconds each. Keep score!"
+  },
+  {
+   "start": 5.46,
+   "dur": 8.76,
+   "say": "Question one. How many points does the race winner get? Ten, eighteen, or twenty-five?"
+  },
+  {
+   "start": 14.219999999999999,
+   "dur": 3.4,
+   "say": "Twenty-five! Tenth place gets just one point."
+  },
+  {
+   "start": 17.619999999999997,
+   "dur": 8.94,
+   "say": "Question two. Who won the twenty twenty-five world title? Norris, Verstappen, or Piastri?"
+  },
+  {
+   "start": 26.559999999999995,
+   "dur": 3.52,
+   "say": "Lando Norris! He beat Verstappen by just two points."
+  },
+  {
+   "start": 30.079999999999995,
+   "dur": 9.56,
+   "say": "Question three. How many cars start a race in twenty twenty-six? Twenty, twenty-two, or twenty-four?"
+  },
+  {
+   "start": 39.63999999999999,
+   "dur": 4.09,
+   "say": "Twenty-two! Cadillac made it eleven teams, with two cars each."
+  },
+  {
+   "start": 43.72999999999999,
+   "dur": 9.34,
+   "say": "Question four. What does the blue flag mean? Danger, race stopped, or you're about to be lapped?"
+  },
+  {
+   "start": 53.06999999999999,
+   "dur": 6.72,
+   "say": "You're about to be lapped, so let the faster car through. Ignore three blue flags and you can get a penalty."
+  },
+  {
+   "start": 59.78999999999999,
+   "dur": 8.59,
+   "say": "Question five. How many world titles does Lewis Hamilton have? Seven, six, or five?"
+  },
+  {
+   "start": 68.38,
+   "dur": 3.69,
+   "say": "Seven! The same as Michael Schumacher, a shared record."
+  },
+  {
+   "start": 72.07,
+   "dur": 9.34,
+   "say": "Last one. How many dry tyre compounds does Pirelli bring to a race weekend? Two, three, or five?"
+  },
+  {
+   "start": 81.41,
+   "dur": 4.61,
+   "say": "Three: soft, medium and hard, picked from this season's five compounds."
+  },
+  {
+   "start": 86.02,
+   "dur": 5.92,
+   "say": "Six out of six: you're a true fan! Four or five: a solid fan. Fewer: time to watch more races."
+  },
+  {
+   "start": 91.94,
+   "dur": 5.06,
+   "say": "Drop your score in the comments, and follow the races on the LapRadar live map."
+  }
+ ],
+ "title": "How big an F1 fan are you? Easy level",
+ "caption": "How big an F1 fan are you? 6 questions, easy level, 3 seconds each. Drop your score in the comments! Live race map: lapradar.com",
+ "slug": "f1-fan-quiz-easy-1",
+ "digest": "eaa92d90cbc7afd6",
+ "studio": 2
+}

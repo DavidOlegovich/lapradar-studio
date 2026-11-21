@@ -1,0 +1,48 @@
+{
+ "id": "tyres-soft-vs-hard",
+ "lang": "de",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.3,
+   "say": "Der schnellste Reifen der Formel Eins gewinnt nicht immer. Warum eigentlich?"
+  },
+  {
+   "start": 5.3,
+   "dur": 7.74,
+   "say": "Zu jedem Rennen kommen drei Trockenmischungen. Der Soft hat den meisten Grip und ist auf eine Runde am schnellsten."
+  },
+  {
+   "start": 13.04,
+   "dur": 7.8,
+   "say": "Aber er verliert jede Runde ein paar Hundertstel, und dann kommt die Klippe: Der Grip ist fast auf einen Schlag weg."
+  },
+  {
+   "start": 20.84,
+   "dur": 4.55,
+   "say": "Und jeder Boxenstopp kostet zwanzig bis fünfundzwanzig Sekunden."
+  },
+  {
+   "start": 25.39,
+   "dur": 7.74,
+   "say": "Der Soft glänzt auf glattem Asphalt, wo Überholen schwer ist, und in der Kälte. Also in Monaco, Singapur und Vegas."
+  },
+  {
+   "start": 33.13,
+   "dur": 7.55,
+   "say": "Bei Hitze, auf rauem Asphalt und in schnellen Kurven wie hier in Silverstone ist er nach wenigen Runden am Ende."
+  },
+  {
+   "start": 40.68,
+   "dur": 4.92,
+   "say": "Mischung und Reifenalter jedes Fahrers verfolgst du live auf LapRadar."
+  }
+ ],
+ "title": "Soft, Medium, Hard: Warum der schnellste Reifen nicht immer gewinnt",
+ "caption": "",
+ "slug": "tyres-soft-vs-hard",
+ "digest": "aa633eb6f2ab6999",
+ "studio": 2
+}

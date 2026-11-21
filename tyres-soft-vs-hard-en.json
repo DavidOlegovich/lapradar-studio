@@ -1,0 +1,48 @@
+{
+ "id": "tyres-soft-vs-hard",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.15,
+   "say": "The fastest tyre in Formula One doesn't always win. So why not?"
+  },
+  {
+   "start": 4.15,
+   "dur": 6.15,
+   "say": "Every round gets three dry compounds. The soft has the most grip and is the quickest over one lap."
+  },
+  {
+   "start": 10.3,
+   "dur": 6.38,
+   "say": "But it loses a few hundredths every lap, and then it hits the cliff: the grip goes almost all at once."
+  },
+  {
+   "start": 16.68,
+   "dur": 3.69,
+   "say": "And every pit stop costs twenty to twenty-five seconds."
+  },
+  {
+   "start": 20.37,
+   "dur": 6.49,
+   "say": "Softs shine on smooth tarmac, where passing is hard, and in the cold. Think Monaco, Singapore and Vegas."
+  },
+  {
+   "start": 26.86,
+   "dur": 6.84,
+   "say": "In the heat, on abrasive tarmac and through fast sweeps like these at Silverstone, they're gone in a few laps."
+  },
+  {
+   "start": 33.7,
+   "dur": 4.04,
+   "say": "Follow every driver's tyre compound and age live on LapRadar."
+  }
+ ],
+ "title": "Soft, medium, hard: why the fastest tyre doesn't always win",
+ "caption": "",
+ "slug": "tyres-soft-vs-hard",
+ "digest": "f4714402a1d7aa74",
+ "studio": 2
+}

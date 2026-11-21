@@ -1,0 +1,48 @@
+{
+ "id": "f1-2026-vice-champion-fight",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 7.01,
+   "say": "The champion is already decided, but five drivers are fighting for second. Thirty-three points cover all of them."
+  },
+  {
+   "start": 7.01,
+   "dur": 6.26,
+   "say": "Verstappen leads that group on two hundred seventy-nine. Then Russell, Hamilton, Leclerc and Norris."
+  },
+  {
+   "start": 13.27,
+   "dur": 6.09,
+   "say": "One single point splits Russell and Hamilton. The old Mercedes team-mates are side by side again."
+  },
+  {
+   "start": 19.36,
+   "dur": 5.46,
+   "say": "Every one of the five has won a race this season. Norris was the latest, in São Paulo."
+  },
+  {
+   "start": 24.82,
+   "dur": 5.98,
+   "say": "Verstappen has finished top three seven years running. An eighth would equal Hamilton's record."
+  },
+  {
+   "start": 30.8,
+   "dur": 5.81,
+   "say": "Three races left and no sprints. That's seventy-five points at most, so nobody is out of it."
+  },
+  {
+   "start": 36.61,
+   "dur": 3.69,
+   "say": "Watch the standings change during the race on LapRadar."
+  }
+ ],
+ "title": "Five drivers, 33 points: who finishes second in F1 2026",
+ "caption": "",
+ "slug": "f1-2026-vice-champion-fight",
+ "digest": "cb2fa601d71c873a",
+ "studio": 2
+}

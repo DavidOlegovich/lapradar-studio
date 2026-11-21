@@ -1,0 +1,48 @@
+{
+ "id": "path-to-f1",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.81,
+   "say": "Eight million pounds. That's what Coulthard says the road from karting to Formula One costs."
+  },
+  {
+   "start": 5.81,
+   "dur": 6.32,
+   "say": "Formula One needs a super licence, and that takes forty points, earned with results in junior series."
+  },
+  {
+   "start": 12.129999999999999,
+   "dur": 5.06,
+   "say": "It starts with karting at around eight. That alone costs hundreds of thousands."
+  },
+  {
+   "start": 17.189999999999998,
+   "dur": 4.84,
+   "say": "At fifteen you can race Formula Four. The champion gets just twelve points."
+  },
+  {
+   "start": 22.029999999999998,
+   "dur": 7.98,
+   "say": "Formula Three costs about one and a half million pounds a season, Formula Two over two. But the F2 top three get all forty points."
+  },
+  {
+   "start": 30.009999999999998,
+   "dur": 6.49,
+   "say": "And age: since twenty sixteen you must be eighteen. The rule came after Verstappen debuted at seventeen."
+  },
+  {
+   "start": 36.5,
+   "dur": 3.75,
+   "say": "Formula Two and Formula Three standings are on LapRadar."
+  }
+ ],
+ "title": "The road to F1: karting, F4, F3, F2 and 40 super licence points",
+ "caption": "",
+ "slug": "path-to-f1",
+ "digest": "52e63aae552a8fda",
+ "studio": 2
+}

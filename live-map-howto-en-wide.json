@@ -1,0 +1,43 @@
+{
+ "id": "live-map-howto",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.44,
+   "say": "Where is every driver on track right now? The live 3D map shows you."
+  },
+  {
+   "start": 4.44,
+   "dur": 4.66,
+   "say": "Rotate and zoom the map, switch to a top view and turn on corner labels."
+  },
+  {
+   "start": 9.100000000000001,
+   "dur": 7.18,
+   "say": "Under the map there's a table with gaps, tyre compounds and tyre age. Tap a driver and the car lights up on the map."
+  },
+  {
+   "start": 16.28,
+   "dur": 5.86,
+   "say": "Missed a race? Replays go back to twenty twenty-three, on the same data you'd have seen live."
+  },
+  {
+   "start": 22.14,
+   "dur": 6.21,
+   "say": "The championship table also updates during the race, and there are odds for the win and the podium."
+  },
+  {
+   "start": 28.35,
+   "dur": 2.6,
+   "say": "Open LapRadar for the next race."
+  }
+ ],
+ "title": "How to watch a race on the LapRadar 3D map",
+ "caption": "",
+ "slug": "live-map-howto",
+ "digest": "d7294eca73f41d14",
+ "studio": 2
+}

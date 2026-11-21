@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-2026-strip-energy",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.32,
+   "say": "Nearly two kilometres flat out. On a straight that long, the new Formula One cars run out of battery."
+  },
+  {
+   "start": 6.32,
+   "dur": 5.46,
+   "say": "Since this year the power is split roughly half and half between engine and electrics."
+  },
+  {
+   "start": 11.780000000000001,
+   "dur": 5.69,
+   "say": "The battery charges under braking. Vegas has few slow corners and a lot of long straights."
+  },
+  {
+   "start": 17.470000000000002,
+   "dur": 7.01,
+   "say": "So at the end of the straight the car recharges while still flat out. That's super clipping, and top speed drops."
+  },
+  {
+   "start": 24.480000000000004,
+   "dur": 5.81,
+   "say": "Then there's the cold. Pirelli brings its three softest compounds just so the tyres warm up."
+  },
+  {
+   "start": 30.290000000000003,
+   "dur": 5.98,
+   "say": "Fifty laps of six kilometres. Whoever manages energy best will be the one passing on the Strip."
+  },
+  {
+   "start": 36.27,
+   "dur": 3.46,
+   "say": "Follow speeds and gaps during the race on LapRadar."
+  }
+ ],
+ "title": "Vegas 2026: why the Strip is too long for the battery",
+ "caption": "",
+ "slug": "las-vegas-2026-strip-energy",
+ "digest": "2f97ea93bb96d87d",
+ "studio": 2
+}
