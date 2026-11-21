@@ -1,0 +1,123 @@
+{
+ "slug": "f1-dirty-air-explained",
+ "date": "2026-11-22",
+ "tags": [
+  "f1",
+  "aerodynamics",
+  "dirty-air"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f1-dirty-air-explained-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Грязный воздух: почему в F1 так трудно ехать вплотную за соперником",
+   "lead": "Догнать машину впереди проще, чем пройти её. Виноват вихревой след, который болид оставляет за собой. Что с ним пытались сделать правила 2022 года и что изменилось с подвижными крыльями 2026-го.",
+   "body": [
+    "## След за машиной",
+    "Болид Формулы 1 проходит сквозь воздух на огромной скорости, и за ним остаётся турбулентный поток с вихрями от колёс, крыльев и днища. Это и называют грязным воздухом. Крылья и днище машины, которая едет следом, рассчитаны на ровный поток, а получают рваный. Прижимная сила падает, и в поворотах догоняющий не может держать ту же скорость, что лидер в чистом воздухе.",
+    "## Скольжение и перегрев",
+    "Когда прижима меньше, машина больше скользит. Скольжение греет и изнашивает шины, а свежего воздуха, который бы их охлаждал, вокруг мало. Поэтому пилоты стараются не висеть за соперником долго: несколько кругов в грязном воздухе, и шины теряют сцепление, а отставание растёт.",
+    "![Вихревой след за болидом: сюда и попадает догоняющий](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## Что сделали в 2022 году",
+    "По оценке Формулы 1, машины до 2022 года на расстоянии одного корпуса теряли почти половину прижимной силы. Новые правила перенесли основную часть прижима под днище, в профилированные туннели, вернули щитки на колёса и изменили переднее крыло, чтобы след был уже. Цель была терять в том же положении меньше пятой части.",
+    "## Лазейки",
+    "Сначала стало лучше, но команды быстро нашли лазейки. FIA признала, что концевые пластины переднего крыла, детали у колёс и тормозные воздуховоды снова закручивают поток наружу, и след стал сильнее. Исправлять это решили уже в правилах 2026 года.",
+    "![Подвижные крылья 2026 года: на прямых закрылки открываются](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026: подвижные крылья и режим обгона",
+    "С 2026 года DRS больше нет. Переднее и заднее крылья подвижные: в прямом режиме закрылки открываются в заданных зонах, чтобы снизить сопротивление, причём у всех, а не только у того, кто в секунде от соперника. В поворотах крылья возвращаются в положение с большим прижимом. Роль помощи при обгоне перешла к режиму обгона: если пилот в секунде от машины впереди в точке замера, на следующем круге он получает дополнительные 0,5 МДж энергии батареи. Разрывы между пилотами по ходу гонки видно на живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Dirty air: why it's so hard to follow closely in F1",
+   "lead": "Catching the car ahead is easier than passing it. The culprit is the turbulent wake a car leaves behind. Here is what the 2022 rules tried to do about it, and what changed with the moving wings of 2026.",
+   "body": [
+    "## The wake behind a car",
+    "A Formula 1 car punches through the air at huge speed and leaves behind a turbulent flow full of vortices from the wheels, wings and floor. That is dirty air. The wings and floor of the car behind are designed for smooth airflow, and they get a messy one instead. Downforce drops, and in the corners the chasing car can't match the speed of the leader running in clean air.",
+    "## Sliding and overheating",
+    "With less downforce, the car slides more. Sliding heats and wears the tyres, and there is little clean air around to cool them. That is why drivers try not to sit behind a rival for long: a few laps in dirty air and the tyres lose grip while the gap grows.",
+    "![The turbulent wake behind a car: this is where the chaser ends up](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## What 2022 changed",
+    "By Formula 1's own estimate, pre-2022 cars lost almost half their downforce one car length behind another car. The new rules moved most of the downforce under the car, into shaped tunnels, brought back wheel covers and reworked the front wing so that the wake would be narrower. The target was to lose less than a fifth in the same position.",
+    "## Loopholes",
+    "Things improved at first, but the teams soon found loopholes. The FIA acknowledged that front wing endplates, parts around the wheels and the brake ducts were throwing air outwards again, making the wake worse. It decided to fix that in the 2026 rules.",
+    "![The moving wings of 2026: the flaps open on the straights](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026: moving wings and Overtake Mode",
+    "DRS is gone from 2026. Both the front and rear wings move: in Straight Mode the flaps open in set zones to cut drag, and they do so for everyone, not just a driver within a second of the car ahead. In the corners the wings return to their high-downforce position. The overtaking aid is now Overtake Mode: a driver within a second of the car ahead at the detection point gets an extra 0.5 MJ of battery energy on the next lap. You can follow the gaps between drivers through the race on the LapRadar live map."
+   ]
+  },
+  "es": {
+   "title": "Aire sucio: por qué en la F1 cuesta tanto seguir de cerca a un rival",
+   "lead": "Alcanzar al coche de delante es más fácil que adelantarlo. La culpa es de la estela turbulenta que deja cada monoplaza. Esto es lo que intentaron las reglas de 2022 y lo que cambió con los alerones móviles de 2026.",
+   "body": [
+    "## La estela de un coche",
+    "Un Fórmula 1 atraviesa el aire a enorme velocidad y deja detrás un flujo turbulento, lleno de remolinos que salen de las ruedas, los alerones y el fondo. Eso es el aire sucio. Los alerones y el fondo del coche que va detrás están pensados para un flujo limpio y reciben uno revuelto. La carga aerodinámica cae y en las curvas el perseguidor no puede ir tan rápido como el líder en aire limpio.",
+    "## Deslizamiento y sobrecalentamiento",
+    "Con menos carga, el coche desliza más. Ese deslizamiento calienta y desgasta los neumáticos, y alrededor hay poco aire limpio para enfriarlos. Por eso los pilotos intentan no pasar mucho tiempo detrás de un rival: unas pocas vueltas en aire sucio y los neumáticos pierden agarre mientras la distancia crece.",
+    "![La estela turbulenta detrás de un coche: ahí acaba el perseguidor](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## Qué cambió en 2022",
+    "Según la propia Fórmula 1, los coches anteriores a 2022 perdían casi la mitad de su carga a un coche de distancia. Las nuevas reglas llevaron la mayor parte de la carga al fondo, a túneles perfilados, recuperaron los tapacubos y rediseñaron el alerón delantero para que la estela fuera más estrecha. El objetivo era perder menos de una quinta parte en la misma posición.",
+    "## Resquicios",
+    "Al principio mejoró, pero los equipos encontraron pronto resquicios en el reglamento. La FIA reconoció que las derivas del alerón delantero, piezas junto a las ruedas y los conductos de freno volvían a lanzar el aire hacia fuera y la estela empeoraba. Decidió corregirlo en las reglas de 2026.",
+    "![Los alerones móviles de 2026: las aletas se abren en las rectas](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026: alerones móviles y modo adelantamiento",
+    "Desde 2026 ya no hay DRS. Los alerones delantero y trasero son móviles: en el modo recta las aletas se abren en zonas definidas para reducir la resistencia, y lo hacen para todos, no solo para quien está a menos de un segundo. En las curvas los alerones vuelven a la posición de máxima carga. La ayuda para adelantar es ahora el modo adelantamiento: quien llega a menos de un segundo del coche de delante en el punto de detección recibe 0,5 MJ extra de energía de batería en la vuelta siguiente. Las diferencias entre pilotos durante la carrera se ven en el mapa en directo de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Ar sujo: por que na F1 é tão difícil andar colado no rival",
+   "lead": "Alcançar o carro da frente é mais fácil do que ultrapassá-lo. A culpa é da esteira turbulenta que cada carro deixa para trás. Veja o que as regras de 2022 tentaram fazer e o que mudou com as asas móveis de 2026.",
+   "body": [
+    "## A esteira atrás do carro",
+    "Um carro de Fórmula 1 atravessa o ar em altíssima velocidade e deixa para trás um fluxo turbulento, cheio de vórtices saindo das rodas, das asas e do assoalho. Isso é o ar sujo. As asas e o assoalho do carro que vem atrás foram feitos para um fluxo limpo e recebem um fluxo bagunçado. A pressão aerodinâmica cai, e nas curvas o perseguidor não consegue a mesma velocidade do líder no ar limpo.",
+    "## Escorregões e superaquecimento",
+    "Com menos pressão aerodinâmica, o carro escorrega mais. Isso aquece e desgasta os pneus, e há pouco ar limpo em volta para resfriá-los. Por isso os pilotos evitam ficar muito tempo atrás de um rival: algumas voltas no ar sujo e os pneus perdem aderência enquanto a diferença cresce.",
+    "![A esteira turbulenta atrás do carro: é ali que o perseguidor entra](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## O que mudou em 2022",
+    "Pela estimativa da própria Fórmula 1, os carros anteriores a 2022 perdiam quase metade da pressão aerodinâmica a um carro de distância. As novas regras levaram a maior parte da pressão para o assoalho, em túneis perfilados, trouxeram de volta as calotas nas rodas e redesenharam a asa dianteira para deixar a esteira mais estreita. A meta era perder menos de um quinto na mesma posição.",
+    "## Brechas",
+    "No início melhorou, mas as equipes logo encontraram brechas. A FIA admitiu que as placas laterais da asa dianteira, peças em volta das rodas e os dutos de freio voltaram a jogar o ar para fora, e a esteira piorou. A correção ficou para as regras de 2026.",
+    "![As asas móveis de 2026: os flaps abrem nas retas](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026: asas móveis e modo de ultrapassagem",
+    "Desde 2026 não existe mais DRS. As asas dianteira e traseira são móveis: no modo reta os flaps abrem em zonas definidas para reduzir o arrasto, para todos, e não só para quem está a menos de um segundo. Nas curvas, as asas voltam à posição de maior pressão. A ajuda para ultrapassar agora é o modo de ultrapassagem: quem chega a menos de um segundo do carro da frente no ponto de detecção ganha 0,5 MJ extra de energia da bateria na volta seguinte. As diferenças entre os pilotos durante a corrida aparecem no mapa ao vivo do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Dirty Air: Warum es in der F1 so schwer ist, dicht hinterherzufahren",
+   "lead": "Den Vordermann einzuholen ist leichter, als ihn zu überholen. Schuld ist die verwirbelte Luft, die jedes Auto hinter sich herzieht. Was die Regeln von 2022 dagegen tun sollten und was sich mit den beweglichen Flügeln von 2026 geändert hat.",
+   "body": [
+    "## Die Spur hinter dem Auto",
+    "Ein Formel-1-Auto durchschneidet die Luft mit enormem Tempo und hinterlässt eine turbulente Strömung voller Wirbel von Rädern, Flügeln und Unterboden. Das ist die schmutzige Luft. Flügel und Unterboden des Hintermanns sind für eine saubere Anströmung gebaut und bekommen eine zerrissene. Der Abtrieb sinkt, und in den Kurven kann der Verfolger nicht so schnell fahren wie der Führende in sauberer Luft.",
+    "## Rutschen und Überhitzen",
+    "Mit weniger Abtrieb rutscht das Auto mehr. Das erhitzt und verschleißt die Reifen, und kühlende saubere Luft gibt es kaum. Deshalb bleiben Fahrer nicht lange direkt hinter einem Gegner: Nach ein paar Runden in der schmutzigen Luft verlieren die Reifen Grip, und der Abstand wächst.",
+    "![Die Wirbelschleppe hinter einem Auto: genau hier landet der Verfolger](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## Was 2022 geändert wurde",
+    "Nach Schätzung der Formel 1 verloren die Autos vor 2022 eine Wagenlänge hinter einem anderen Auto fast die Hälfte ihres Abtriebs. Das neue Reglement verlagerte den Großteil des Abtriebs unter das Auto in geformte Tunnel, brachte Radabdeckungen zurück und änderte den Frontflügel, damit die Wirbelschleppe schmaler wird. Ziel war, in derselben Position weniger als ein Fünftel zu verlieren.",
+    "## Schlupflöcher",
+    "Zunächst wurde es besser, doch die Teams fanden bald Schlupflöcher. Die FIA räumte ein, dass Frontflügel-Endplatten, Teile an den Rädern und die Bremsbelüftungen die Luft wieder nach außen lenkten und die Wirbelschleppe stärker wurde. Behoben werden sollte das mit dem Reglement 2026.",
+    "![Die beweglichen Flügel von 2026: Auf den Geraden öffnen die Klappen](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026: bewegliche Flügel und Overtake Mode",
+    "Seit 2026 gibt es kein DRS mehr. Front- und Heckflügel sind beweglich: Im Straight Mode öffnen die Klappen in festgelegten Zonen, um den Luftwiderstand zu senken, und zwar bei allen, nicht nur beim Fahrer innerhalb einer Sekunde zum Vordermann. In den Kurven gehen die Flügel zurück in die Position mit viel Abtrieb. Die Überholhilfe ist jetzt der Overtake Mode: Wer am Messpunkt weniger als eine Sekunde hinter dem Vordermann liegt, bekommt in der nächsten Runde zusätzlich 0,5 MJ Batterieenergie. Die Abstände zwischen den Fahrern im Rennverlauf zeigt die Live-Karte von LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "乱流：为什么F1赛车很难紧跟前车",
+   "lead": "追上前车容易，超过它难。罪魁祸首是赛车身后留下的湍流尾流。2022年规则试图解决什么，2026年的可动尾翼又带来了哪些变化。",
+   "body": [
+    "## 赛车身后的尾流",
+    "F1赛车以极高速度穿过空气，身后留下充满涡流的湍流，这些涡流来自车轮、尾翼和底板。这就是所谓的乱流。后车的尾翼和底板是按平顺气流设计的，得到的却是紊乱的气流。下压力随之下降，后车在弯中无法跑出前车在干净空气里的速度。",
+    "## 滑动与过热",
+    "下压力减少，赛车就更容易滑动。滑动会让轮胎升温和磨损，而周围几乎没有能给轮胎降温的干净空气。所以车手不愿长时间跟在对手身后：在乱流中跑上几圈，轮胎就会失去抓地力，差距反而拉大。",
+    "![赛车身后的湍流尾流：后车正好开进这里](/img/articles/3d/f1-dirty-air-explained-wake.jpg)",
+    "## 2022年改了什么",
+    "据F1官方估算，2022年以前的赛车在跟车一个车身距离时，会损失将近一半的下压力。新规则把大部分下压力转移到车底的成形风道，恢复了轮毂罩，并重新设计前翼，让尾流更窄。目标是在同样位置损失不到五分之一。",
+    "## 规则漏洞",
+    "起初情况确有改善，但车队很快找到了漏洞。国际汽联承认，前翼端板、车轮周围部件和刹车导流管又把气流甩向外侧，尾流再次变强。修正被留到了2026年规则。",
+    "![2026年的可动尾翼：直道上襟翼打开](/img/articles/3d/f1-dirty-air-explained-wings.jpg)",
+    "## 2026年：可动尾翼和超车模式",
+    "从2026年起不再有DRS。前翼和尾翼都可以活动：在直道模式下，襟翼在指定区域打开以降低阻力，而且所有车都能用，不只限于与前车相差一秒以内的车手。进入弯道后，尾翼回到高下压力位置。超车辅助改为超车模式：在检测点距前车一秒以内的车手，下一圈可以多获得0.5兆焦的电池能量。比赛中车手之间的差距，可以在 LapRadar 实时地图上查看。"
+   ]
+  }
+ }
+}

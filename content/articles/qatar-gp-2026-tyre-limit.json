@@ -1,0 +1,123 @@
+{
+ "slug": "qatar-gp-2026-tyre-limit",
+ "date": "2026-11-22",
+ "tags": [
+  "f1",
+  "qatar",
+  "tyres"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/qatar-gp-2026-tyre-limit-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Катар: комплект шин живёт максимум 27 кругов, пит-стопов будет минимум два",
+   "lead": "Перед Гран-при Катара Pirelli снова ввела лимит: не больше 27 кругов на одном комплекте за весь уикенд. В гонке 57 кругов, так что каждому пилоту придётся остановиться минимум дважды.",
+   "body": [
+    "## 27 кругов на комплект",
+    "Лимит объявили 20 ноября 2026 года, за неделю до гонки. Круги на комплекте считают нарастающим итогом за весь уикенд: если пилот уже ездил на этих шинах в тренировке или квалификации, эти круги тоже идут в зачёт. Круги за машиной безопасности считаются, прогревочный круг и круг после финиша нет. Гонка длится 57 кругов, поэтому у каждого будет минимум две остановки. По обычным правилам в сухой гонке хватило бы одной.",
+    "## Почему именно Лусаил",
+    "Круг длиной 5,419 км, 16 поворотов и стартовая прямая длиннее километра. Но шины убивает не прямая. Трассу строили под мотогонки, и почти весь круг состоит из средних и быстрых дуг. Самая тяжёлая связка с 12-го по 14-й поворот: три правых, которые проходят почти в пол. Больше всех достаётся левой передней шине. По данным Pirelli, износ передних шин доходит до предела примерно за 25–26 кругов.",
+    "![Пит-стоп в Лусаиле: в 2026 году их будет минимум два](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023: 18 кругов и душная ночь",
+    "Впервые лимит появился в 2023 году, и он был жёстче: 18 кругов. После пятничной тренировки выяснилось, что на высоких пирамидальных поребриках страдают боковины, внутри шины начиналось расслоение. Всем пришлось делать минимум три пит-стопа, и пилоты гнали всю гонку без экономии. Жара и влажность добили людей: Логан Сарджент сошёл из-за сильного обезвоживания, а Эстебана Окона стошнило прямо в кокпите, хотя он доехал седьмым.",
+    "## 2025: 25 кругов и ошибка McLaren",
+    "В 2024 году лимита не было. В 2025-м он вернулся, на этот раз 25 кругов. На седьмом круге на трассу выехала машина безопасности, но McLaren не позвала в боксы ни Ландо Норриса, ни Оскара Пиастри. Останавливаться им всё равно пришлось позже, и гонку выиграл Макс Ферстаппен.",
+    "![Быстрые правые повороты Лусаила нагружают левую переднюю шину](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## Что ждать 29 ноября",
+    "Гонка пройдёт 29 ноября, ночью, при свете прожекторов. Лимит на два круга мягче прошлогоднего, но схема та же: две остановки обязательны, и момент для них, особенно при машине безопасности, может решить исход. Во сколько старт по вашему времени, смотрите на LapRadar, а во время гонки следите на живой карте за пит-стопами и возрастом шин."
+   ]
+  },
+  "en": {
+   "title": "Qatar: a tyre set lasts 27 laps at most, so expect at least two pit stops",
+   "lead": "Pirelli has brought back its stint limit for the Qatar Grand Prix: no more than 27 laps on any set across the whole weekend. With 57 laps to run, every driver will have to stop at least twice.",
+   "body": [
+    "## 27 laps per set",
+    "The limit was announced on 20 November 2026, a week before the race. Laps are counted cumulatively over the weekend, so if a set has already run in practice or qualifying, those laps count too. Laps behind the safety car count; the formation lap and the slow-down lap after the flag do not. The race is 57 laps long, which means at least two stops for everyone. Under the normal rules, a dry race needs only one.",
+    "## Why Lusail",
+    "The lap is 5.419 km with 16 corners and a main straight of more than a kilometre. The straight isn't the problem, though. The circuit was built for motorbikes, and most of the lap is a chain of medium and high-speed bends. The toughest part is Turns 12 to 14, three right-handers taken almost flat out. The left front suffers most. According to Pirelli, front tyre wear reaches its limit after roughly 25 to 26 laps.",
+    "![A pit stop at Lusail: there will be at least two in 2026](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023: 18 laps and a brutal night",
+    "The limit first appeared in 2023, and it was tighter: 18 laps. Friday practice showed that the high pyramid kerbs were damaging the sidewalls, with signs of separation forming inside the sidewall. Everyone had to make at least three stops, and drivers pushed flat out all race. The heat and humidity did the rest. Logan Sargeant retired with severe dehydration, and Esteban Ocon was sick in his cockpit, though he still finished seventh.",
+    "## 2025: 25 laps and McLaren's mistake",
+    "There was no limit in 2024. It returned in 2025, this time at 25 laps. A safety car came out on lap seven, but McLaren kept Lando Norris and Oscar Piastri out. They still had to stop later, and Max Verstappen won the race.",
+    "![Lusail's fast right-handers load up the left front tyre](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## What to expect on 29 November",
+    "The race takes place on 29 November, at night under floodlights. The limit is two laps more generous than last year, but the logic is the same: two stops are mandatory, and timing them, especially around a safety car, could decide the result. Check the start in your own time zone on LapRadar, and follow the pit stops and tyre ages on the live map during the race."
+   ]
+  },
+  "es": {
+   "title": "Catar: un juego de neumáticos aguanta 27 vueltas como máximo y habrá al menos dos paradas",
+   "lead": "Pirelli vuelve a limitar los stints en el Gran Premio de Catar: no más de 27 vueltas por juego en todo el fin de semana. Con 57 vueltas de carrera, cada piloto tendrá que parar al menos dos veces.",
+   "body": [
+    "## 27 vueltas por juego",
+    "El límite se anunció el 20 de noviembre de 2026, una semana antes de la carrera. Las vueltas se suman durante todo el fin de semana: si un juego ya rodó en libres o en la clasificación, esas vueltas también cuentan. Las vueltas detrás del coche de seguridad cuentan; la vuelta de formación y la de después de la bandera, no. La carrera tiene 57 vueltas, así que todos harán al menos dos paradas. Con las reglas normales, en seco bastaría con una.",
+    "## Por qué Lusail",
+    "La vuelta mide 5,419 km, tiene 16 curvas y una recta principal de más de un kilómetro. Pero el problema no es la recta. El circuito se construyó para las motos y casi toda la vuelta es una sucesión de curvas medias y rápidas. Lo más duro llega entre las curvas 12 y 14, tres derechas que se toman casi a fondo. El neumático delantero izquierdo es el que más sufre. Según Pirelli, el desgaste delantero llega al límite tras unas 25 o 26 vueltas.",
+    "![Una parada en boxes en Lusail: en 2026 habrá al menos dos](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023: 18 vueltas y una noche asfixiante",
+    "El límite apareció por primera vez en 2023 y era más duro: 18 vueltas. Los libres del viernes mostraron que los pianos piramidales altos dañaban los flancos y que dentro del flanco empezaba a aparecer una separación. Todos tuvieron que parar al menos tres veces y los pilotos apretaron a fondo toda la carrera. El calor y la humedad hicieron el resto: Logan Sargeant abandonó por una fuerte deshidratación y Esteban Ocon vomitó dentro del coche, aunque terminó séptimo.",
+    "## 2025: 25 vueltas y el error de McLaren",
+    "En 2024 no hubo límite. Volvió en 2025, esta vez con 25 vueltas. En la vuelta siete salió el coche de seguridad, pero McLaren dejó en pista a Lando Norris y Oscar Piastri. Igualmente tuvieron que parar más tarde, y ganó Max Verstappen.",
+    "![Las rápidas curvas a derechas de Lusail castigan el delantero izquierdo](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## Qué esperar el 29 de noviembre",
+    "La carrera se disputa el 29 de noviembre, de noche y con focos. El límite es dos vueltas más generoso que el año pasado, pero la lógica es la misma: dos paradas obligatorias, y acertar el momento, sobre todo con un coche de seguridad, puede decidir el resultado. Consulta la hora de salida en tu zona horaria en LapRadar y sigue las paradas y la edad de los neumáticos en el mapa en directo."
+   ]
+  },
+  "pt": {
+   "title": "Catar: um jogo de pneus dura no máximo 27 voltas, e haverá pelo menos duas paradas",
+   "lead": "A Pirelli voltou a limitar os stints no GP do Catar: no máximo 27 voltas por jogo em todo o fim de semana. Com 57 voltas de corrida, cada piloto terá de parar pelo menos duas vezes.",
+   "body": [
+    "## 27 voltas por jogo",
+    "O limite foi anunciado em 20 de novembro de 2026, uma semana antes da corrida. As voltas são somadas ao longo do fim de semana: se o jogo já rodou no treino livre ou na classificação, essas voltas também contam. Voltas atrás do safety car contam; a volta de apresentação e a volta depois da bandeirada, não. A corrida tem 57 voltas, então todos farão no mínimo duas paradas. Pelas regras normais, uma bastaria numa prova seca.",
+    "## Por que Lusail",
+    "A volta tem 5,419 km, 16 curvas e uma reta principal com mais de um quilômetro. Mas o problema não é a reta. O circuito foi construído para motos, e quase toda a volta é uma sequência de curvas médias e rápidas. O trecho mais duro vai da curva 12 à 14, três curvas à direita feitas quase de pé embaixo. O pneu dianteiro esquerdo é o que mais sofre. Segundo a Pirelli, o desgaste dos dianteiros chega ao limite depois de 25 ou 26 voltas.",
+    "![Pit stop em Lusail: em 2026 serão pelo menos dois](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023: 18 voltas e uma noite sufocante",
+    "O limite surgiu em 2023 e era mais rígido: 18 voltas. O treino de sexta mostrou que as zebras piramidais altas estavam danificando as laterais dos pneus, com sinais de separação dentro da lateral. Todos tiveram de fazer pelo menos três paradas, e os pilotos aceleraram no limite a corrida inteira. O calor e a umidade fizeram o resto: Logan Sargeant abandonou por desidratação severa, e Esteban Ocon vomitou dentro do cockpit, mas ainda terminou em sétimo.",
+    "## 2025: 25 voltas e o erro da McLaren",
+    "Em 2024 não houve limite. Ele voltou em 2025, desta vez com 25 voltas. O safety car entrou na volta sete, mas a McLaren deixou Lando Norris e Oscar Piastri na pista. Os dois tiveram de parar depois de qualquer jeito, e Max Verstappen venceu.",
+    "![As curvas rápidas à direita de Lusail castigam o dianteiro esquerdo](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## O que esperar em 29 de novembro",
+    "A corrida acontece em 29 de novembro, à noite, sob refletores. O limite é duas voltas mais generoso que no ano passado, mas a lógica é a mesma: duas paradas obrigatórias, e acertar o momento delas, principalmente com safety car, pode decidir o resultado. Veja o horário da largada no seu fuso no LapRadar e acompanhe as paradas e a idade dos pneus no mapa ao vivo."
+   ]
+  },
+  "de": {
+   "title": "Katar: Ein Reifensatz hält höchstens 27 Runden, mindestens zwei Boxenstopps sind Pflicht",
+   "lead": "Pirelli begrenzt beim Großen Preis von Katar wieder die Stintlänge: höchstens 27 Runden pro Satz über das ganze Wochenende. Bei 57 Rennrunden muss jeder Fahrer mindestens zweimal stoppen.",
+   "body": [
+    "## 27 Runden pro Satz",
+    "Die Grenze wurde am 20. November 2026 bekanntgegeben, eine Woche vor dem Rennen. Gezählt wird über das ganze Wochenende: Ist ein Satz schon im Training oder im Qualifying gelaufen, zählen diese Runden mit. Runden hinter dem Safety-Car zählen, die Einführungsrunde und die Auslaufrunde nicht. Das Rennen geht über 57 Runden, also stoppt jeder mindestens zweimal. Nach den normalen Regeln würde im Trockenen ein Stopp reichen.",
+    "## Warum gerade Lusail",
+    "Eine Runde ist 5,419 km lang, hat 16 Kurven und eine Start-Ziel-Gerade von mehr als einem Kilometer. Das Problem ist aber nicht die Gerade. Die Strecke wurde für Motorräder gebaut, fast die ganze Runde besteht aus mittelschnellen und schnellen Bögen. Am härtesten ist die Passage von Kurve 12 bis 14: drei Rechtskurven, fast voll gefahren. Am meisten leidet der linke Vorderreifen. Laut Pirelli erreicht der Verschleiß vorne nach etwa 25 bis 26 Runden die Grenze.",
+    "![Boxenstopp in Lusail: 2026 sind es mindestens zwei](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023: 18 Runden und eine drückende Nacht",
+    "Zum ersten Mal gab es die Grenze 2023, damals noch strenger: 18 Runden. Im Freitagstraining zeigte sich, dass die hohen Pyramidenrandsteine die Reifenflanken beschädigten und sich im Inneren der Flanke Ablösungen bildeten. Alle mussten mindestens dreimal an die Box, und die Fahrer fuhren das ganze Rennen am Limit. Hitze und Luftfeuchtigkeit taten den Rest: Logan Sargeant gab wegen starker Dehydrierung auf, Esteban Ocon übergab sich im Cockpit und wurde trotzdem Siebter.",
+    "## 2025: 25 Runden und der Fehler von McLaren",
+    "2024 gab es keine Grenze. 2025 kam sie zurück, diesmal mit 25 Runden. In Runde sieben rückte das Safety-Car aus, doch McLaren ließ Lando Norris und Oscar Piastri draußen. Stoppen mussten beide später trotzdem, und Max Verstappen gewann.",
+    "![Die schnellen Rechtskurven von Lusail belasten den linken Vorderreifen](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## Was am 29. November zu erwarten ist",
+    "Das Rennen findet am 29. November statt, nachts unter Flutlicht. Die Grenze liegt zwei Runden höher als im Vorjahr, das Prinzip bleibt: Zwei Stopps sind Pflicht, und das richtige Timing, vor allem bei einem Safety-Car, kann das Ergebnis entscheiden. Die Startzeit in deiner Zeitzone findest du auf LapRadar, die Boxenstopps und das Reifenalter verfolgst du während des Rennens auf der Live-Karte."
+   ]
+  },
+  "zh": {
+   "title": "卡塔尔：一套轮胎最多跑27圈，至少两次进站",
+   "lead": "倍耐力再次为卡塔尔大奖赛设定单套轮胎圈数上限：整个周末每套胎最多27圈。正赛共57圈，每位车手至少要进站两次。",
+   "body": [
+    "## 每套胎27圈",
+    "这一限制于2026年11月20日公布，距正赛还有一周。圈数在整个周末累计计算：如果这套胎已经在练习赛或排位赛中用过，那些圈数也算在内。安全车领跑的圈数计入，暖胎圈和冲线后的回场圈不计入。正赛57圈，因此所有人至少进站两次。按照常规规则，干地比赛只需进站一次。",
+    "## 为什么是卢赛尔",
+    "赛道一圈5.419公里，16个弯，主直道超过一公里。但伤胎的不是直道。这条赛道最初为摩托车比赛而建，一圈几乎由连续的中高速弯组成。最艰难的是12号到14号弯：三个几乎全油门通过的右弯。受损最严重的是左前胎。据倍耐力介绍，前胎磨损大约在25到26圈时就会达到极限。",
+    "![卢赛尔的进站：2026年至少要进两次](/img/articles/3d/qatar-gp-2026-tyre-limit-pit.jpg)",
+    "## 2023年：18圈和闷热之夜",
+    "圈数限制最早出现在2023年，当时更严格：18圈。周五练习赛后发现，高耸的金字塔形路肩在损伤胎壁，胎壁内部开始出现分层。所有人至少进站三次，车手全程全力推进。高温和湿度让比赛更加煎熬：洛根·萨金特因严重脱水退赛，埃斯特班·奥康在驾驶舱里呕吐，但仍以第七名完赛。",
+    "## 2025年：25圈和迈凯伦的失误",
+    "2024年没有限制。2025年限制回归，这次是25圈。第七圈出动安全车，迈凯伦却让兰多·诺里斯和奥斯卡·皮亚斯特里留在赛道上。两人之后仍然必须进站，最终马克斯·维斯塔潘获胜。",
+    "![卢赛尔的高速右弯让左前胎承受最大负荷](/img/articles/3d/qatar-gp-2026-tyre-limit-corners.jpg)",
+    "## 11月29日看点",
+    "正赛将于11月29日在夜间灯光下进行。今年的限制比去年多两圈，但思路相同：两次进站是必须的，进站时机，尤其是安全车出动时的选择，可能决定比赛结果。在 LapRadar 上查看你所在时区的发车时间，比赛中可在实时地图上关注进站和轮胎圈数。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "f1-penalties-explained",
+ "date": "2026-11-22",
+ "tags": [
+  "f1",
+  "penalties",
+  "stewards"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/f1-penalties-explained-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Штрафы в F1: от пяти секунд до пропуска гонки",
+   "lead": "Плюс пять секунд, проезд по пит-лейну, стоп-энд-гоу, штраф на старте, дисквалификация и штрафные очки в суперлицензии. Как устроена лестница наказаний и почему в 2026 году очков почти не раздают.",
+   "body": [
+    "## 5 и 10 секунд",
+    "Самое частое наказание в гонке. Пилот отбывает его на ближайшем пит-стопе: машина стоит в боксе пять или десять секунд, и только потом механики могут к ней прикоснуться. Если тронут раньше, будет новый штраф. Если пилот до финиша больше не заезжает в боксы, секунды просто прибавят к его итоговому времени, и он может потерять несколько мест.",
+    "## Проезд по пит-лейну и стоп-энд-гоу",
+    "Строже проезд по пит-лейну: пилот заезжает в боксы, проезжает всю аллею с ограничением скорости и возвращается на трассу, ничего не меняя. Ещё строже стоп-энд-гоу на десять секунд: остановиться в своём боксе и стоять, пока механики не имеют права работать с машиной. На оба штрафа у пилота два круга с момента, когда команде сообщили решение. Если в это время выезжает машина безопасности, штраф отбывают после неё.",
+    "![Пит-стоп со штрафом: машина стоит, механики ждут](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## Штраф на старте и дисквалификация",
+    "Штраф на стартовой решётке переносит пилота назад на ближайшей гонке, обычно на пять или десять мест. Чаще всего его получают за лишние детали силовой установки сверх лимита на сезон. Так было в Лас-Вегасе: Оскар Пиастри поставил пятый двигатель и потерял десять мест. Самое суровое решение в рамках одной гонки дисквалификация: пилота или команду вычёркивают из результатов, обычно за технические нарушения.",
+    "## 12 очков и пропуск гонки",
+    "Отдельно стюарды могут начислить штрафные очки в суперлицензию. Очки сгорают через 12 месяцев, а тот, кто набрал 12 за этот срок, пропускает следующую гонку. Система действует с 2014 года, и первым до порога дошёл Кевин Магнуссен. В 2024 году в Монце он столкнулся с Пьером Гасли, получил 10 секунд и два очка, которых не хватало до двенадцати. Гран-при Азербайджана за Haas провёл Оливер Берман.",
+    "![Борьба колесо в колесо: за столкновение могут дать и секунды, и очки](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026: очки почти исчезли",
+    "Перед сезоном FIA обновила рекомендации для стюардов после разговора с пилотами на Гран-при Катара 2025 года. Теперь очки положены только за опасную или безрассудную езду, за намеренные действия, которые привели к столкновению, и за неспортивное поведение. За обычный контакт без серьёзных последствий их больше не дают. В первые месяцы сезона пилоты не получили ни одного очка, хотя секундные штрафы раздавали как обычно. Решения стюардов во время гонки удобно сверять с позициями на живой карте LapRadar."
+   ]
+  },
+  "en": {
+   "title": "F1 penalties explained: from five seconds to a race ban",
+   "lead": "Five-second penalties, drive-throughs, stop-gos, grid drops, disqualification and super licence penalty points. Here is how the ladder works, and why penalty points have almost disappeared in 2026.",
+   "body": [
+    "## 5 and 10 seconds",
+    "The most common penalty in a race. The driver serves it at his next pit stop: the car sits in the box for five or ten seconds before the mechanics are allowed to touch it. Touch it early, and another penalty follows. If the driver doesn't pit again before the flag, the time is simply added to his race time, which can cost him places.",
+    "## Drive-through and stop-go",
+    "Harsher is the drive-through: the driver enters the pit lane, drives its full length at the speed limit and rejoins without stopping. Harsher still is the 10-second stop-go: stop in your box and sit there while the crew is forbidden to work on the car. For both, the driver has two laps from the moment the team is notified. If a safety car comes out in that window, the penalty is served after it.",
+    "![A penalty stop: the car sits still and the crew waits](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## Grid penalties and disqualification",
+    "A grid penalty moves a driver back at the next race, usually by five or ten places. The most common reason is using more power unit parts than the season allows. That is what happened in Las Vegas, where Oscar Piastri took a fifth engine and dropped ten places. The harshest decision within a single race is disqualification: the driver or team is struck from the results, usually for a technical breach.",
+    "## 12 points and a race ban",
+    "The stewards can also add penalty points to a driver's super licence. Points expire after 12 months, and anyone who collects 12 in that period misses the next race. The system has existed since 2014, and Kevin Magnussen was the first to reach the limit. At Monza in 2024 he collided with Pierre Gasly and got 10 seconds plus the two points that took him to twelve. Oliver Bearman drove the Haas in Azerbaijan instead.",
+    "![Wheel to wheel: a collision can cost both seconds and points](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026: the points have nearly gone",
+    "Before the season the FIA updated its guidelines for the stewards after talks with drivers at the 2025 Qatar Grand Prix. Points are now reserved for dangerous or reckless driving, deliberate actions that cause a collision, and unsportsmanlike behaviour. Ordinary contact without serious consequences no longer earns them. In the first months of the season not a single point was handed out, even though time penalties kept coming as usual. During a race, it helps to check the stewards' decisions against the positions on the LapRadar live map."
+   ]
+  },
+  "es": {
+   "title": "Sanciones en la F1: de cinco segundos a perderse una carrera",
+   "lead": "Cinco segundos, drive-through, stop and go, sanciones en parrilla, descalificación y puntos de penalización en la superlicencia. Así funciona la escalera de castigos, y por eso en 2026 casi no se reparten puntos.",
+   "body": [
+    "## 5 y 10 segundos",
+    "Es la sanción más habitual en carrera. El piloto la cumple en su siguiente parada: el coche espera cinco o diez segundos en el box antes de que los mecánicos puedan tocarlo. Si lo tocan antes, llega otra sanción. Si el piloto ya no vuelve a parar, el tiempo se suma a su tiempo final y puede perder posiciones.",
+    "## Drive-through y stop and go",
+    "Más dura es el drive-through: entrar en el pit lane, recorrerlo entero a la velocidad limitada y volver a pista sin detenerse. Todavía más dura es el stop and go de diez segundos: parar en el box y esperar sin que el equipo pueda trabajar en el coche. Para ambas, el piloto tiene dos vueltas desde que se notifica al equipo. Si sale el coche de seguridad en ese plazo, se cumple después.",
+    "![Parada con sanción: el coche quieto y los mecánicos esperando](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## Sanción en parrilla y descalificación",
+    "La sanción en parrilla retrasa al piloto en la siguiente carrera, normalmente cinco o diez puestos. El motivo más frecuente es usar más piezas de la unidad de potencia de las permitidas en la temporada. Pasó en Las Vegas: Oscar Piastri montó un quinto motor y perdió diez puestos. La decisión más severa dentro de una carrera es la descalificación: el piloto o el equipo desaparece de los resultados, casi siempre por una infracción técnica.",
+    "## 12 puntos y una carrera fuera",
+    "Los comisarios también pueden sumar puntos de penalización en la superlicencia. Caducan a los 12 meses, y quien acumula 12 en ese plazo se pierde la siguiente carrera. El sistema existe desde 2014 y el primero en llegar al límite fue Kevin Magnussen. En Monza 2024 chocó con Pierre Gasly, recibió diez segundos y los dos puntos que le faltaban. En Azerbaiyán corrió Oliver Bearman en su lugar en Haas.",
+    "![Rueda con rueda: un choque puede costar segundos y puntos](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026: los puntos casi desaparecen",
+    "Antes de la temporada, la FIA actualizó las pautas de los comisarios tras hablar con los pilotos en el GP de Catar 2025. Ahora los puntos se reservan para la conducción peligrosa o temeraria, las acciones deliberadas que provocan un choque y el comportamiento antideportivo. Un contacto normal sin consecuencias graves ya no los lleva. En los primeros meses de la temporada no se repartió ni un punto, aunque las sanciones de tiempo siguieron como siempre. Durante la carrera, conviene cruzar las decisiones de los comisarios con las posiciones del mapa en directo de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Punições na F1: de cinco segundos a ficar fora de uma corrida",
+   "lead": "Cinco segundos, drive-through, stop and go, perda de posições no grid, desclassificação e pontos na superlicença. Veja como funciona a escada de punições e por que em 2026 quase não há pontos distribuídos.",
+   "body": [
+    "## 5 e 10 segundos",
+    "É a punição mais comum em corrida. O piloto a cumpre na próxima parada: o carro fica parado no box por cinco ou dez segundos antes de os mecânicos poderem tocá-lo. Se mexerem antes, vem outra punição. Se o piloto não voltar aos boxes até o fim, o tempo é somado ao resultado final e ele pode perder posições.",
+    "## Drive-through e stop and go",
+    "Mais dura é o drive-through: entrar no pit lane, percorrê-lo inteiro no limite de velocidade e voltar à pista sem parar. Mais dura ainda é o stop and go de dez segundos: parar no box e esperar sem que a equipe possa trabalhar no carro. Nos dois casos, o piloto tem duas voltas a partir do aviso à equipe. Se o safety car entrar nesse intervalo, a punição é cumprida depois.",
+    "![Parada com punição: carro parado e mecânicos esperando](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## Punição no grid e desclassificação",
+    "A punição no grid joga o piloto para trás na corrida seguinte, normalmente cinco ou dez posições. O motivo mais comum é usar mais peças da unidade de potência do que a temporada permite. Foi o que aconteceu em Las Vegas: Oscar Piastri colocou o quinto motor e perdeu dez posições. A decisão mais severa dentro de uma corrida é a desclassificação: o piloto ou a equipe é retirado do resultado, geralmente por infração técnica.",
+    "## 12 pontos e uma corrida de fora",
+    "Os comissários também podem somar pontos na superlicença. Eles expiram em 12 meses, e quem acumula 12 nesse período fica fora da corrida seguinte. O sistema existe desde 2014, e o primeiro a atingir o limite foi Kevin Magnussen. Em Monza 2024 ele bateu em Pierre Gasly, levou dez segundos e os dois pontos que faltavam. No Azerbaijão, Oliver Bearman correu em seu lugar na Haas.",
+    "![Roda a roda: uma batida pode custar segundos e pontos](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026: os pontos quase sumiram",
+    "Antes da temporada, a FIA atualizou as diretrizes dos comissários depois de conversar com os pilotos no GP do Catar de 2025. Agora os pontos ficam para pilotagem perigosa ou imprudente, ações deliberadas que causam batida e comportamento antidesportivo. Um contato comum sem consequências graves não gera mais pontos. Nos primeiros meses da temporada, nenhum ponto foi aplicado, embora as punições de tempo tenham continuado normalmente. Durante a corrida, vale comparar as decisões dos comissários com as posições no mapa ao vivo do LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Strafen in der F1: von fünf Sekunden bis zur Rennsperre",
+   "lead": "Fünf Sekunden, Durchfahrtsstrafe, Stop-and-Go, Startplatzstrafe, Disqualifikation und Strafpunkte auf der Superlizenz. So funktioniert die Strafenleiter, und deshalb gibt es 2026 kaum noch Punkte.",
+   "body": [
+    "## 5 und 10 Sekunden",
+    "Die häufigste Strafe im Rennen. Der Fahrer sitzt sie beim nächsten Boxenstopp ab: Das Auto steht fünf oder zehn Sekunden, erst dann dürfen die Mechaniker es anfassen. Wer früher Hand anlegt, kassiert die nächste Strafe. Kommt der Fahrer bis zum Ende nicht mehr an die Box, wird die Zeit einfach auf seine Rennzeit addiert, und er kann Plätze verlieren.",
+    "## Durchfahrtsstrafe und Stop-and-Go",
+    "Härter ist die Durchfahrtsstrafe: in die Boxengasse, mit Tempolimit einmal durch und zurück auf die Strecke, ohne anzuhalten. Noch härter ist das Zehn-Sekunden-Stop-and-Go: in der eigenen Box anhalten und warten, während das Team nicht am Auto arbeiten darf. Für beide hat der Fahrer zwei Runden ab dem Moment, in dem das Team informiert wird. Kommt in dieser Zeit das Safety-Car, wird die Strafe danach abgesessen.",
+    "![Strafstopp: Das Auto steht, die Mechaniker warten](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## Startplatzstrafe und Disqualifikation",
+    "Eine Startplatzstrafe schiebt den Fahrer beim nächsten Rennen nach hinten, meist um fünf oder zehn Plätze. Der häufigste Grund sind mehr Antriebsteile als in der Saison erlaubt. So war es in Las Vegas: Oscar Piastri bekam den fünften Motor und verlor zehn Plätze. Die härteste Entscheidung innerhalb eines Rennens ist die Disqualifikation: Fahrer oder Team werden aus dem Ergebnis gestrichen, meist wegen eines technischen Verstoßes.",
+    "## 12 Punkte und eine Rennsperre",
+    "Die Stewards können außerdem Strafpunkte auf die Superlizenz verteilen. Sie verfallen nach 12 Monaten, und wer in diesem Zeitraum 12 sammelt, muss beim nächsten Rennen zuschauen. Das System gibt es seit 2014, als Erster erreichte Kevin Magnussen die Grenze. 2024 in Monza kollidierte er mit Pierre Gasly, bekam zehn Sekunden und die zwei Punkte, die ihm noch fehlten. In Aserbaidschan fuhr Oliver Bearman für ihn im Haas.",
+    "![Rad an Rad: Eine Kollision kann Sekunden und Punkte kosten](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026: Die Punkte sind fast verschwunden",
+    "Vor der Saison überarbeitete die FIA die Richtlinien für die Stewards, nachdem sie beim Großen Preis von Katar 2025 mit den Fahrern gesprochen hatte. Punkte gibt es jetzt nur noch für gefährliches oder rücksichtsloses Fahren, absichtliche Aktionen, die zu einer Kollision führen, und unsportliches Verhalten. Ein normaler Kontakt ohne ernste Folgen bringt keine mehr. In den ersten Monaten der Saison wurde kein einziger Punkt vergeben, obwohl Zeitstrafen wie gewohnt verhängt wurden. Während des Rennens lassen sich die Entscheidungen der Stewards gut mit den Positionen auf der Live-Karte von LapRadar abgleichen."
+   ]
+  },
+  "zh": {
+   "title": "F1处罚详解：从加时5秒到禁赛一场",
+   "lead": "加时5秒、通过维修区处罚、停车处罚、发车位处罚、取消成绩以及超级驾照罚分。一文看懂处罚阶梯，以及为什么2026年几乎没人被罚分。",
+   "body": [
+    "## 5秒和10秒",
+    "这是正赛中最常见的处罚。车手在下一次进站时执行：赛车在维修区静止5秒或10秒，之后技师才能碰车。提前动手会招来新的处罚。如果车手直到比赛结束都不再进站，这些秒数会直接加到他的完赛时间上，可能因此掉名次。",
+    "## 通过维修区处罚和停车处罚",
+    "更重的是通过维修区处罚：驶入维修区，以限速开完整条维修通道后返回赛道，中途不停车。再重一级是10秒停车处罚：在自己的维修位停下等待，期间车队不得对赛车做任何工作。这两种处罚都必须在车队接到通知后的两圈内执行。如果期间出动安全车，则在安全车结束后执行。",
+    "![带处罚的进站：赛车静止，技师等待](/img/articles/3d/f1-penalties-explained-pit.jpg)",
+    "## 发车位处罚和取消成绩",
+    "发车位处罚让车手在下一场比赛的发车位后退，通常是5位或10位。最常见的原因是动力单元部件用量超过赛季上限。拉斯维加斯就是例子：奥斯卡·皮亚斯特里换上第五台引擎，后退十位。单场比赛中最严厉的处罚是取消成绩：车手或车队被从成绩中除名，通常是因为技术违规。",
+    "## 12分即禁赛一场",
+    "干事还可以在车手的超级驾照上记罚分。罚分12个月后清除，12个月内累计12分的车手将缺席下一场比赛。这一制度自2014年实施，第一个触线的是凯文·马格努森。2024年蒙扎站，他与皮埃尔·加斯利相撞，被罚加时10秒并记两分，正好凑满12分。阿塞拜疆站由奥利弗·贝尔曼代替他为哈斯出战。",
+    "![轮对轮缠斗：一次碰撞可能同时付出秒数和罚分](/img/articles/3d/f1-penalties-explained-duel.jpg)",
+    "## 2026年：罚分几乎消失",
+    "赛季开始前，国际汽联在2025年卡塔尔大奖赛与车手沟通后，更新了干事的判罚指引。现在只有危险或鲁莽驾驶、导致碰撞的故意行为以及违背体育精神的行为才会被罚分。没有严重后果的普通碰撞不再记分。赛季头几个月，没有一名车手被记罚分，而加时处罚照常出现。比赛中，可以把干事的判罚与 LapRadar 实时地图上的名次对照来看。"
+   ]
+  }
+ }
+}

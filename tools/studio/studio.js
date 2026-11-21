@@ -861,11 +861,27 @@ function actStates(shot, lt, T, dur) {
   return { cars, ex };
 }
 
+/* «грязный воздух»: вихревой след за машиной. shot.wake: true | {cars: [0], len: 30, n: 120, v: 0.9, c: '#9bd7ff', hot: '#ffb36b', op: 0.55, heat: [1]}.
+   Два закрученных жгута от колёс расходятся и гаснут за машиной, по форме трассы. Свой пул спрайтов создаётся только по запросу: старые ролики не меняются. */
+function wakeFx(w, shot, cars, lt) {
+  const o = shot.wake === true ? {} : (shot.wake || null);
+  if (!w.wk) { const tex = glowTex('rgba(255,255,255,1)', 'rgba(255,255,255,0)');
+    w.wk = Array.from({ length: 300 }, () => { const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false })); s.visible = false; w.scene.add(s); return s; }); }
+  let n = 0; const dot = (p, sc, col, op) => { if (n >= w.wk.length || op <= 0.004) return; const s = w.wk[n++]; s.visible = true; s.position.copy(p); s.scale.set(sc, sc, 1); s.material.color.set(col); s.material.opacity = op; };
+  if (o) for (const k of o.cars || [0]) { const st = cars[k]; if (!st || !st.vis || st.s == null) continue;
+    const len = o.len ?? 30, N = Math.min(o.n ?? 200, 280), b0 = w.at(st.s), lane = st.pos.clone().sub(b0.p).dot(b0.n);
+    for (let j = 0; j < N; j++) { const u = ((lt * (o.v ?? 0.9) + j / N) % 1), d = 1.8 + u * len, a = w.at(st.s - d), side = j % 2 ? 1 : -1;
+      const ang = lt * 6.5 * side + j * 2.39 + d * 0.32, r = 0.22 + d * 0.05, spread = 0.7 + d * 0.04;
+      const p = a.p.clone().addScaledVector(a.n, lane + side * spread + Math.cos(ang) * r).setY(a.p.y + 0.7 + d * 0.014 + Math.sin(ang) * r * 0.8);
+      dot(p, 0.24 + d * 0.022, j % 5 === 0 ? (o.hot || '#ffb36b') : (o.c || '#9bd7ff'), (o.op ?? 0.55) * Math.min(1, u * 8) * (1 - u) * (1 - u)); } }
+  for (let i = n; i < w.wk.length; i++) w.wk[i].visible = false;
+}
 /* ---------- применение состояний к сцене ---------- */
 const UP = new THREE.Vector3(0, 1, 0);
 function pose3(o, st, lift = 0) { const hd = st.dir.clone().addScaledVector(st.n || new THREE.Vector3(-st.dir.z, 0, st.dir.x), st.yaw || 0).normalize(); o.position.copy(st.pos).setY(st.pos.y + lift); o.lookAt(st.pos.x + hd.x, st.pos.y + lift, st.pos.z + hd.z); return hd; }
 function applyActs(shot, lt, T, dur) {
   const w = world, { cars, ex } = actStates(shot, lt, T, dur); fxReset();
+  if (shot.wake?.heat) for (const k of shot.wake.heat) if (cars[k]) cars[k].heat = Math.max(cars[k].heat || 0, 0.35 + 0.6 * clamp(lt / dur));   /* wake.heat: шины машины в грязном воздухе греются */
   w.cars.forEach((c, k) => { applyPaint(w, shot, c, k); const st = cars[k]; c.st = st; c.group.visible = st.vis;
     const bk = brickOf(shot, k); if (c.bk) for (const o of Object.values(c.bk)) o.group.visible = false;   /* кирпичный стиль: обычная машина прячется, вместо неё — из блоков */
     if (bk) { c.bk = c.bk || {}; const id = bk.kind + (bk.c || ''), o = c.bk[id] || (c.bk[id] = makeBrickCar(bk.kind, bk.c || CAR_COLORS[k % CAR_COLORS.length])); if (!o.group.parent) w.scene.add(o.group);
@@ -948,6 +964,7 @@ function applyActs(shot, lt, T, dur) {
     for (const m of ex.markers) { const st = cars[m.k];
       for (let j = 22; j >= 1; j--) { const ps = actStates(shot, lt - j * 0.05, T - j * 0.05, dur).cars[m.k]; glow(ps.pos.clone().setY(ps.pos.y + 29), sz * (1.5 - j * 0.045), m.color, 0.85 * (1 - j / 23), true); }
       glow(st.pos.clone().setY(st.pos.y + 30), sz * (2.6 + 0.3 * Math.sin(lt * 6)), m.color, 0.9, true); disc(st.pos.clone().setY(st.pos.y + 32), sz * 0.85, m.color); } }
+  if (shot.wake || w.wk) wakeFx(w, shot, cars, lt);
   if (shot.rain) rainSpray(w, shot, lt);
   fxEnd();
   if (shot.sphere || shot.neon || w.vx) vegasExtras(w, shot, lt);
@@ -1308,15 +1325,34 @@ function hudGrid(g, lt, dur, h, head) {
     g.font = font(900, px); g.fillStyle = '#fff'; g.fillText(r.t, bx + 46, y + rh / 2 + 2); const nw = g.measureText(r.t).width;
     if (r.v) { g.font = font(800, Math.round(px * 0.86)); g.fillStyle = '#cfd8ff'; g.textAlign = 'right'; g.fillText(r.v, bx + bw - 22, y + rh / 2 + 2); g.textAlign = 'left'; }
     const tg = r.tag && (r.to == null || h.move == null || lt > dur * h.move - 0.5) ? r.tag : (r.tag0 || '');
-    if (tg) { const ta = r.to != null && h.move != null ? clamp((lt - dur * h.move + 0.5) / 0.4) : 1; g.font = font(900, Math.round(px * 0.8)); const tw = g.measureText(tg).width, tx = bx + 46 + nw + 26;
+    if (tg) { const ta = tg !== r.tag ? clamp((dur * h.move - 0.5 - lt) / 0.25) : r.to != null && h.move != null ? clamp((lt - dur * h.move + 0.5) / 0.4) : 1;   /* tag0 виден до перестановки */ g.font = font(900, Math.round(px * 0.8)); const tw = g.measureText(tg).width, tx = bx + 46 + nw + 26;
       g.globalAlpha = ap * vis * ta; rrect(g, tx, y + rh * 0.2, tw + 32, rh * 0.6, rh * 0.3); g.fillStyle = r.tc || '#ef4444'; g.fill(); g.fillStyle = '#fff'; g.fillText(tg, tx + 16, y + rh / 2 + 2); }
     g.restore(); });
   g.restore(); g.restore(); g.textBaseline = 'alphabetic'; g.textAlign = 'left';
 }
 
+/* лестница: шкала от мягкого к строгому (наказания и т. п.), мягкое внизу. Подписи ступеней — из сцены (sc.lad), свои для языка; заголовок — sc.gh.
+   h.hi: текущая ступень (жёлтая рамка, стрелка), h.upto: сколько ступеней снизу видно, h.c: свои цвета (по умолчанию от зелёного к красному). */
+function hudLadder(g, lt, dur, h, labels, head) {
+  const L = labels || h.rows || [], n = L.length; if (!n) return; const upto = h.upto ?? n, hi = h.hi ?? -1, a = back(lt / 0.45); if (a <= 0) return;
+  const x0 = 70, w = W - 140, top = 176, hh = head ? 96 : 0, rh = Math.min(124, (1180 - top - hh - 40) / n), vis = Math.min(n, upto), pal = ['#22c55e', '#84cc16', '#eab308', '#f59e0b', '#f97316', '#ef4444', '#dc2626', '#991b1b'];
+  g.save(); g.translate(W / 2, top); g.scale(a, a); g.translate(-W / 2, -top); hudPanel(g, x0, top, w, hh + vis * rh + 34);
+  if (head) { const f = fitFont(g, head, 900, 54, 32, w - 60, 1); g.font = font(900, f.px); g.fillStyle = '#ffd23f'; g.textBaseline = 'middle'; g.fillText(f.lines[0], x0 + 34, top + 56); }
+  const y0 = top + hh + 17, bx = x0 + 112, bwMax = x0 + w - 28 - bx, bwMin = bwMax * 0.62;
+  for (let k = 0; k < n; k++) { if (k >= upto) continue; const y = y0 + (vis - 1 - k) * rh, ap = easeOut((lt - 0.12 - k * 0.09) / 0.4); if (ap <= 0) continue;
+    const on = k === hi, col = h.c?.[k] || pal[Math.round(k * (pal.length - 1) / Math.max(1, n - 1))], bw = lerp(bwMin, bwMax, n > 1 ? k / (n - 1) : 1) * ap;
+    const ps = on ? 1 + 0.035 * Math.sin(lt * 5) : 1; g.save(); g.globalAlpha = hi < 0 || on ? 1 : 0.5;
+    g.translate(bx, y + rh / 2); g.scale(ps, ps); g.translate(-bx, -(y + rh / 2));
+    g.font = font(900, Math.round(rh * 0.44)); g.fillStyle = on ? '#ffd23f' : '#7f8db0'; g.textBaseline = 'middle'; g.textAlign = 'right'; g.fillText(String(k + 1), bx - 22, y + rh / 2 + 2); g.textAlign = 'left';
+    rrect(g, bx, y + rh * 0.1, Math.max(20, bw), rh * 0.8, rh * 0.22); g.fillStyle = col; g.fill(); if (on) { g.lineWidth = 7; g.strokeStyle = '#ffd23f'; g.stroke(); }
+    const f = fitFont(g, L[k], 900, Math.round(rh * 0.44), 24, Math.max(40, bw - 44), 1); g.font = font(900, f.px); g.fillStyle = '#fff'; g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowBlur = 8;
+    g.fillText(f.lines[0], bx + 24, y + rh / 2 + 2); g.shadowBlur = 0; g.restore(); }
+  g.restore(); g.textBaseline = 'alphabetic'; g.textAlign = 'left';
+}
 function hudFor(g, sc, lt) {
   const h = sc.shot?.hud; if (!h) return;
   if (h.type === 'grid') return hudGrid(g, lt, sc.dur, h, sc.gh);
+  if (h.type === 'ladder') return hudLadder(g, lt, sc.dur, h, sc.lad, sc.gh);
   if (h.type === 'stopwatch') hudStopwatch(g, lt, sc.dur, h.to);
   else if (h.type === 'laps') hudLaps(g, lt, sc.dur, h.n);
   else if (h.type === 'thermo') hudThermo(g, lt, sc.dur, h.from, h.to);
