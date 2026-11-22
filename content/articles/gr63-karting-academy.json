@@ -1,0 +1,124 @@
+{
+ "slug": "gr63-karting-academy",
+ "date": "2026-11-23",
+ "tags": [
+  "f1",
+  "russell",
+  "karting",
+  "gr63"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/gr63-karting-academy-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Расселл запустил академию GR63: оплаченный картинг для детей, которым не хватает денег",
+   "lead": "12 ноября Джордж Расселл объявил об академии картинга для мальчиков и девочек 8 и 9 лет. Её делают вместе с Сильверстоуном и Британским клубом гонщиков (BRDC), а победитель получит полностью оплаченный сезон 2028 года.",
+   "body": [
+    "## Дорога в Формулу 1 стоит миллионы",
+    "Расселл сам прошёл этот путь: за руль карта он сел в семь лет. По данным Daily Mail, на которые ссылаются Crash.net и GPblog, его отец потратил на юниорскую карьеру сына около 1,5 миллиона фунтов, и Джордж говорил, что вернул всё до последнего пенни. Академия GR63 как раз для тех, у кого нет такой семейной подушки. Расселл анонсировал проект в Instagram 12 ноября.",
+    "## Кто может участвовать",
+    "Берут мальчиков и девочек 8 и 9 лет, чьим семьям может не хватать бюджета на картинг. Сначала идут открытые заезды на картинговой трассе Сильверстоуна, с 6 по 31 декабря 2026 года. Один заезд стоит 25 фунтов.",
+    "![Двадцать пять мест в чемпионате 2027 года](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## От восьмидесяти до двадцати пяти",
+    "По итогам заездов 80 самых быстрых попадают на шоу-аут 31 января 2027 года, и за участие в нём платят 75 фунтов. Из восьмидесяти отбирают 25 человек. Они проведут восьмиэтапный чемпионат с марта по ноябрь 2027 года, и дальше всё за счёт проекта, включая комплект формы: комбинезон, шлем, перчатки и ботинки.",
+    "## Приз на следующий год",
+    "Пятёрка лучших по итогам чемпионата встретится в финале в Сильверстоуне в декабре 2027 года. Победитель получит полностью оплаченный сезон в картинге в 2028 году.",
+    "![Болид на трассе Сильверстоуна](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## Почему это важно",
+    "Картинг в Британии остаётся входным билетом в гонки, а билет дорогой. Академия не обещает места в Формуле 1, но убирает первый барьер: деньги на старт. Календарь гонок и новости серий можно смотреть на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Russell launches the GR63 Academy: funded karting for kids whose families may lack the budget",
+   "lead": "On 12 November George Russell announced a karting academy for boys and girls aged 8 and 9. It is run with Silverstone and the British Racing Drivers' Club (BRDC), and the winner gets a fully funded 2028 season.",
+   "body": [
+    "## The road to Formula 1 costs millions",
+    "Russell has travelled it himself: he started karting at seven. According to the Daily Mail, as reported by Crash.net and GPblog, his father spent roughly £1.5 million on his junior career, and George says he has paid back every penny. The GR63 Academy is aimed at families without that kind of cushion. Russell announced the project on Instagram on 12 November.",
+    "## Who can enter",
+    "Boys and girls aged 8 and 9 whose families may not have the budget for karting. First come open qualifiers at the Silverstone kart track, from 6 to 31 December 2026. A session costs £25.",
+    "![Twenty-five places in the 2027 championship](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## From eighty to twenty-five",
+    "The 80 fastest from the qualifiers go to a shoot-out on 31 January 2027, which costs £75 to enter. Of those 80, 25 are chosen. They race an eight-round championship from March to November 2027, and from there everything is paid for, including a full kit of overalls, helmet, gloves and boots.",
+    "## A prize for the year after",
+    "The top five of the championship meet in a final at Silverstone in December 2027. The winner receives a fully funded karting season in 2028.",
+    "![A single-seater on the Silverstone circuit](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## Why it matters",
+    "Karting in Britain is still the entry ticket to racing, and the ticket is expensive. The academy does not promise a place in Formula 1, but it removes the first barrier: money for a start. You can follow the race calendar and series news on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Russell lanza la Academia GR63: karting financiado para niños cuyas familias pueden no tener presupuesto",
+   "lead": "El 12 de noviembre George Russell anunció una academia de karting para niños y niñas de 8 y 9 años. Se organiza con Silverstone y el British Racing Drivers' Club (BRDC), y el ganador recibirá una temporada 2028 totalmente financiada.",
+   "body": [
+    "## El camino a la Fórmula 1 cuesta millones",
+    "Russell lo ha recorrido: empezó en el karting a los siete años. Según el Daily Mail, recogido por Crash.net y GPblog, su padre gastó unos 1,5 millones de libras en su carrera júnior, y George dice que se lo devolvió todo. La Academia GR63 está pensada para familias sin ese colchón. Russell presentó el proyecto en Instagram el 12 de noviembre.",
+    "## Quién puede participar",
+    "Niños y niñas de 8 y 9 años cuyas familias pueden no tener presupuesto para el karting. Primero hay clasificatorios abiertos en el circuito de karting de Silverstone, del 6 al 31 de diciembre de 2026. Cada sesión cuesta 25 libras.",
+    "![Veinticinco plazas en el campeonato de 2027](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## De ochenta a veinticinco",
+    "Los 80 más rápidos pasan a una final el 31 de enero de 2027, con una inscripción de 75 libras. De esos 80 se eligen 25. Disputarán un campeonato de ocho pruebas de marzo a noviembre de 2027 y todo corre a cargo del proyecto, incluido el equipamiento completo: mono, casco, guantes y botas.",
+    "## Un premio para el año siguiente",
+    "Los cinco primeros del campeonato se enfrentan en una final en Silverstone en diciembre de 2027. El ganador recibe una temporada de karting en 2028 totalmente pagada.",
+    "![Un monoplaza en el circuito de Silverstone](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## Por qué importa",
+    "El karting en Gran Bretaña sigue siendo la entrada al automovilismo, y la entrada es cara. La academia no promete un puesto en la Fórmula 1, pero quita la primera barrera: el dinero para empezar. Las noticias y calendarios de las series se pueden seguir en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Russell lança a Academia GR63: kart financiado para crianças cujas famílias podem não ter orçamento",
+   "lead": "Em 12 de novembro George Russell anunciou uma academia de kart para meninos e meninas de 8 e 9 anos. Ela é feita com Silverstone e o British Racing Drivers' Club (BRDC), e o vencedor ganha uma temporada de 2028 totalmente paga.",
+   "body": [
+    "## O caminho até a Fórmula 1 custa milhões",
+    "Russell percorreu esse caminho: começou no kart aos sete anos. Segundo o Daily Mail, citado por Crash.net e GPblog, o pai gastou cerca de 1,5 milhão de libras na carreira júnior dele, e George diz que devolveu tudo. A Academia GR63 é para famílias sem essa folga. Russell anunciou o projeto no Instagram em 12 de novembro.",
+    "## Quem pode participar",
+    "Meninos e meninas de 8 e 9 anos cujas famílias podem não ter orçamento para o kart. Primeiro vêm classificatórios abertos na pista de kart de Silverstone, de 6 a 31 de dezembro de 2026. Cada sessão custa 25 libras.",
+    "![Vinte e cinco vagas no campeonato de 2027](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## De oitenta a vinte e cinco",
+    "Os 80 mais rápidos vão a uma final em 31 de janeiro de 2027, com inscrição de 75 libras. Desses 80, são escolhidos 25. Eles disputam um campeonato de oito etapas de março a novembro de 2027, e a partir daí tudo é pago, inclusive o kit completo: macacão, capacete, luvas e botas.",
+    "## Um prêmio para o ano seguinte",
+    "Os cinco melhores do campeonato se encontram em uma final em Silverstone em dezembro de 2027. O vencedor recebe uma temporada de kart em 2028 totalmente paga.",
+    "![Um monoposto no circuito de Silverstone](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## Por que isso importa",
+    "O kart na Grã-Bretanha continua sendo a porta de entrada do automobilismo, e a porta é cara. A academia não promete vaga na Fórmula 1, mas derruba a primeira barreira: dinheiro para começar. Notícias e calendários das categorias estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Russell startet die GR63 Academy: finanzierter Kartsport für Kinder, deren Familien womöglich kein Budget haben",
+   "lead": "Am 12. November hat George Russell eine Kart-Akademie für Jungen und Mädchen von 8 und 9 Jahren angekündigt. Sie entsteht mit Silverstone und dem British Racing Drivers' Club (BRDC), der Sieger bekommt eine voll finanzierte Saison 2028.",
+   "body": [
+    "## Der Weg in die Formel 1 kostet Millionen",
+    "Russell kennt ihn selbst: Mit sieben Jahren stieg er ins Kart. Laut Daily Mail, zitiert von Crash.net und GPblog, gab sein Vater rund 1,5 Millionen Pfund für seine Nachwuchskarriere aus, und George sagt, er habe alles zurückgezahlt. Die GR63 Academy richtet sich an Familien ohne so ein Polster. Russell stellte das Projekt am 12. November auf Instagram vor.",
+    "## Wer mitmachen kann",
+    "Jungen und Mädchen von 8 und 9 Jahren, deren Familien womöglich kein Budget für Kartsport haben. Zuerst gibt es offene Qualifikationen auf der Kartbahn in Silverstone, vom 6. bis 31. Dezember 2026. Eine Session kostet 25 Pfund.",
+    "![Fünfundzwanzig Plätze in der Meisterschaft 2027](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## Von achtzig auf fünfundzwanzig",
+    "Die 80 Schnellsten treten am 31. Januar 2027 in einem Shootout an, die Teilnahme kostet 75 Pfund. Von diesen 80 werden 25 ausgewählt. Sie fahren von März bis November 2027 eine Meisterschaft mit acht Läufen, und ab da ist alles bezahlt, auch die komplette Ausrüstung aus Overall, Helm, Handschuhen und Stiefeln.",
+    "## Ein Preis fürs Jahr danach",
+    "Die besten fünf der Meisterschaft treffen im Dezember 2027 in Silverstone zu einem Finale aufeinander. Der Sieger erhält eine voll finanzierte Kartsaison 2028.",
+    "![Ein Einsitzer auf dem Kurs von Silverstone](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## Warum das wichtig ist",
+    "Kartsport ist in Großbritannien weiterhin die Eintrittskarte in den Rennsport, und die Karte ist teuer. Die Akademie verspricht keinen Platz in der Formel 1, aber sie nimmt die erste Hürde weg: das Geld für den Start. Nachrichten und Kalender der Serien gibt es bei LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "拉塞尔推出GR63卡丁车学院：为预算有限的孩子提供全额资助的起步机会",
+   "lead": "11月12日，乔治·拉塞尔宣布成立面向8至9岁男孩和女孩的卡丁车学院。项目与银石赛道和英国赛车手俱乐部（BRDC）合作，冠军将获得全额资助的2028赛季。",
+   "body": [
+    "## 通往一级方程式的路要花数百万",
+    "拉塞尔自己走过这条路：他7岁开始玩卡丁车。据《每日邮报》报道，Crash.net和GPblog转述，他的父亲在他的青少年赛车生涯上花了大约150万英镑，乔治表示已经全部还清。GR63学院面向没有这种家底的家庭。拉塞尔于11月12日在Instagram上宣布了这个项目。",
+    "## 谁可以参加",
+    "8岁和9岁、家庭可能没有足够预算玩卡丁车的男孩和女孩。首先是在银石卡丁车场举行的公开资格赛，时间为2026年12月6日至31日，每场25英镑。",
+    "![2027年锦标赛的25个名额](/img/articles/3d/gr63-karting-academy-grid.jpg)",
+    "## 从八十人到二十五人",
+    "资格赛成绩最快的80人参加2027年1月31日的淘汰对决，报名费75英镑。从80人中选出25人，参加2027年3月至11月的八站锦标赛，此后所有费用由项目承担，包括全套装备：赛车服、头盔、手套和靴子。",
+    "## 下一年的奖励",
+    "锦标赛前五名将于2027年12月在银石进行决赛。冠军获得全额资助的2028赛季卡丁车参赛机会。",
+    "![银石赛道上的单座赛车](/img/articles/3d/gr63-karting-academy-side.jpg)",
+    "## 为什么重要",
+    "在英国，卡丁车仍是进入赛车运动的门票，而且这张门票很贵。学院并不承诺一级方程式的席位，但拿掉了第一道门槛：起步的钱。各项赛事的新闻和日历可以在LapRadar上查看。"
+   ]
+  }
+ }
+}
