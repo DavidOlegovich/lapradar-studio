@@ -1,0 +1,57 @@
+{
+ "slug": "las-vegas-gp-2026-race",
+ "date": "2026-11-22",
+ "tags": [
+  "f1",
+  "las-vegas",
+  "race"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/las-vegas-gp-2026-race-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Гонка в Лас-Вегасе: Ферстаппен победил с поула, Ferrari столкнулись, Расселл в барьере",
+   "lead": "Макс Ферстаппен выиграл Гран-при Лас-Вегаса, стартовав с поула, Ландо Норрис и Оскар Пиастри поднялись на подиум. Позади было много всего: столкновение пилотов Ferrari, сломанное крыло Исака Хаджара, удар Джорджа Расселла в барьер за три круга до финиша и Кими Антонелли без энергии на последнем круге.",
+   "body": [
+    "## Победа с поула",
+    "Ферстаппен стартовал первым после штрафа Антонелли за мотор и первым же финишировал. Спокойной гонку не назовёшь: Расселл несколько раз ненадолго выходил вперёд, но Ферстаппен каждый раз возвращал лидерство и в концовке удержал всех позади. Норрис финишировал вторым. Пиастри из-за штрафа за пятый двигатель стартовал семнадцатым и приехал третьим, обогнав Антонелли на последнем круге.",
+    "Первая десятка: 1. Ферстаппен, 2. Норрис, 3. Пиастри, 4. Антонелли, 5. Гасли, 6. Колапинто, 7. Хэмилтон, 8. Сайнс, 9. Расселл, 10. Леклер.",
+    "![Sphere у трассы Лас-Вегаса](/img/articles/3d/las-vegas-gp-2026-race-sphere.jpg)",
+    "## Машина безопасности и крыло Хаджара",
+    "На 19-м круге Серхио Перес в борьбе с Рафаэлом Камарой разбил Cadillac о стену, и выехала машина безопасности. Под машиной безопасности развернулся Арвид Линдблад, его гонка на этом закончилась. На рестарте у Хаджара сломалось переднее крыло, ему пришлось ехать в боксы за новым, и в итоге он финишировал только 14-м. Алекс Албон не стартовал из-за проблемы с машиной.",
+    "## Ferrari против Ferrari",
+    "Ещё в первой половине гонки Льюис Хэмилтон получил 10 секунд штрафа: в борьбе с Норрисом на шикане он срезал по полосе безопасности и выиграл позицию. На 38-м круге Шарль Леклер атаковал напарника изнутри в седьмом-восьмом поворотах, ударил машину Хэмилтона, и тот развернулся. Стюарды дали Леклеру 10 секунд штрафа. Хэмилтон всё равно добрался до седьмого места, Леклер финишировал десятым.",
+    "![Красный болид под огнями Вегаса](/img/articles/3d/las-vegas-gp-2026-race-red.jpg)",
+    "## Концовка Mercedes",
+    "За три круга до конца Расселл шёл третьим и атаковал Антонелли. Он заблокировал колёса, вылетел за траекторию и ударил барьер. Машина поехала дальше, но Расселл откатился на девятое место. Антонелли до последнего круга был вторым, но там у него закончилась электрическая энергия, и обе McLaren прошли его. Чемпион мира финишировал четвёртым.",
+    "## Обе Aston Martin на финише",
+    "Лэнс Стролл и Фернандо Алонсо доехали до клетчатого флага, хоть и в хвосте порядка: Стролл 17-й. Для Aston Martin в этом сезоне это редкость: первый двойной финиш у команды случился только в Майами, в четвёртом этапе.",
+    "## Что это значит для чемпионата",
+    "Титул Антонелли выиграл ещё в Мехико, у него 402 очка. Ферстаппен с 304 очками упрочил второе место: позади Хэмилтон (267), Расселл и Норрис (по 264). Дальше Катар. Во сколько старт по вашему часовому поясу, смотрите на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Las Vegas race: Verstappen wins from pole, Ferraris collide, Russell hits the wall",
+   "lead": "Max Verstappen converted pole into victory at the Las Vegas Grand Prix, with Lando Norris and Oscar Piastri completing the podium. Behind them, the night was anything but calm: a Ferrari team-mate clash, a broken front wing for Isack Hadjar, George Russell in the barrier three laps from the end and Kimi Antonelli out of energy on the final lap.",
+   "body": [
+    "## From pole to the win",
+    "Verstappen inherited pole after Antonelli's engine penalty and turned it into victory. It was no procession: Russell briefly took the lead more than once, but Verstappen took the lead back every time and held everyone off at the end. Norris finished second. Piastri, who started seventeenth after a penalty for a fifth engine, came home third after passing Antonelli on the last lap.",
+    "Top ten: 1. Verstappen, 2. Norris, 3. Piastri, 4. Antonelli, 5. Gasly, 6. Colapinto, 7. Hamilton, 8. Sainz, 9. Russell, 10. Leclerc.",
+    "![The Sphere beside the Las Vegas circuit](/img/articles/3d/las-vegas-gp-2026-race-sphere.jpg)",
+    "## Safety car and Hadjar's wing",
+    "On lap 19 Sergio Perez crashed his Cadillac into the wall while fighting Rafael Camara, bringing out the safety car. Arvid Lindblad spun behind the safety car and his race was over. At the restart Hadjar's front wing broke, he had to pit for a new one and finished only fourteenth. Alex Albon did not start because of a problem with his car.",
+    "## Ferrari against Ferrari",
+    "In the first half of the race Lewis Hamilton was given a ten-second penalty for leaving the track at the chicane and gaining an advantage while fighting Norris. On lap 38 Charles Leclerc went for the inside of his team-mate through Turns 7 and 8, hit Hamilton's car and spun him. The stewards gave Leclerc a ten-second penalty. Hamilton still recovered to seventh, while Leclerc finished tenth.",
+    "![A red car under the Vegas lights](/img/articles/3d/las-vegas-gp-2026-race-red.jpg)",
+    "## A painful finish for Mercedes",
+    "Three laps from the end Russell was third and attacking Antonelli. He locked up, ran wide and hit the barrier. The car kept going, but he dropped to ninth. Antonelli ran second until the final lap, when he ran out of electrical energy and both McLarens went past. The world champion finished fourth.",
+    "## Both Aston Martins at the flag",
+    "Lance Stroll and Fernando Alonso both reached the chequered flag, even if at the back of the pack, with Stroll seventeenth. That has been rare for Aston Martin this season: the team's first double finish only came in Miami, the fourth round.",
+    "## What it means for the championship",
+    "Antonelli already sealed the title in Mexico City and has 402 points. Verstappen strengthened his hold on second with 304, ahead of Hamilton (267) and Russell and Norris (264 each). Qatar is next. Check the race start in your own time zone on LapRadar."
+   ]
+  }
+ }
+}
