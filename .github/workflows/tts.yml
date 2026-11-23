@@ -1,0 +1,24 @@
+name: TTS preview
+# Free Piper voice-over of text files in tts/ (for listening to drafts). Publishes mp3 to the `tts` branch.
+on:
+  push:
+    branches: [main]
+    paths: ['tts/**']
+  workflow_dispatch: {}
+concurrency: { group: tts, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          curl -fsSL https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz | tar xz
+          curl -fsSL -o ru.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium.onnx
+          curl -fsSL -o ru.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium.onnx.json
+          mkdir -p out
+          for f in tts/*.txt; do n=$(basename "$f" .txt); ./piper/piper -m ru.onnx -f "out/$n.wav" --sentence_silence 0.35 < "$f"; ffmpeg -loglevel error -y -i "out/$n.wav" -b:a 96k "out/$n.mp3"; rm "out/$n.wav"; done
+          cd out && git init -q && git checkout -q -b tts
+          git config user.name DavidOlegovich; git config user.email DavidOlegovich@users.noreply.github.com
+          git add -A && git commit -qm "TTS $(date -u +%F' '%H:%M)" && git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" tts
