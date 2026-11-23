@@ -19,6 +19,7 @@ def _grid(n, cols, s=0.42, gx=2.1, gz=2.6):
 VIDEO = {
  "slug": "gr63-karting-academy",
  "track": "silverstone",
+ "coverText": {"ru": {"head": "Академия Расселла GR63", "sub": "Оплаченный картинг для детей 8–9 лет"}, "en": {"head": "Russell's GR63 Academy", "sub": "Funded karting for kids aged 8–9"}},
  "theme": "day",
  "hq": {"cars": [[_BLU["c"], _BLU["a"], _BLU["p"]], [_ORG["c"], _ORG["a"], _ORG["p"]]], "lampFade": True},
  "shots": [

@@ -1,0 +1,124 @@
+{
+ "slug": "ir28-indycar-new-car",
+ "date": "2026-11-24",
+ "tags": [
+  "indycar",
+  "ir-28",
+  "indianapolis",
+  "new-car"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/ir28-indycar-new-car-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "IR-28: новая машина IndyCar уже проехала по овалу Индианаполиса",
+   "lead": "С сезона 2028 года IndyCar сменит нынешнюю Dallara на IR-28. Мотор станет больше, гибрид получит батарею, а в сентябре машина впервые вышла на овал.",
+   "body": [
+    "## Дебют в 2028 году",
+    "Гоночный дебют IR-28 назначен на начало сезона 2028 года. Построила её, как и нынешнюю, итальянская Dallara. Первые выезды прошли в августе на дорожной конфигурации Индианаполисского спидвея, а потом дело дошло до овала.",
+    "## Больше мотор, другой гибрид",
+    "Вместо 2,2-литрового двухтурбинного V6 на машину ставят 2,4-литровый, тоже с двумя турбинами, мощностью до 760 лошадиных сил. Моторы будут делать Chevrolet и Honda. Гибрид тоже новый: в серии впервые появится аккумулятор вместо суперконденсатора, и по данным IndyCar он вмещает в 14 раз больше энергии. Аэродинамику перекроили: новые переднее и заднее крылья, а поток за машиной должен стать удобнее для того, кто едет следом.",
+    "![Условная машина на овале: IR-28 уже проверяли на кругах Индианаполиса](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## Первый выезд на овал",
+    "9 сентября на 2,5-мильном овале Индианаполиса первым за руль сел Александр Росси из ECR, победитель Индианаполиса-500 2016 года. Следующим днём ездил Алекс Палоу из Chip Ganassi Racing, пятикратный чемпион серии. Оба пилота описали машину как очень похожую на нынешнюю: серьёзных отличий на овале они не нашли. Палоу рассказал, что за день прибавил больше двух миль в час, а его сессия закончилась на 15 минут раньше плана: команда выполнила свой список задач. Скорости специально держали умеренными, это была проверка деталей, а не гонка за временем.",
+    "## Рекорд, до которого ещё далеко",
+    "Квалификационные отметки Индианаполиса стоят с 1996 года: Арие Лёйендейк проехал круг со скоростью 237,498 мили в час, а четыре круга со средней 236,986. В IndyCar считают, что IR-28 способна их побить, но в сентябре за этим никто не гнался.",
+    "![Группа машин на овале](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## Себринг: тест на прочность",
+    "В октябре IR-28 впервые выехала за пределы Индианаполиса, на Себринг во Флориде. Палоу проехал там 43 круга по внешнему кругу трассы. Покрытие в Себринге неровное, как на временных городских трассах, поэтому такие тесты показывают, что в машине может сломаться. Впереди ещё длинный список проверок. Календарь и таблицу IndyCar можно смотреть на ЛапРадар."
+   ]
+  },
+  "en": {
+   "title": "IR-28: IndyCar's new car has already run on the Indianapolis oval",
+   "lead": "From 2028 IndyCar replaces its current Dallara with the IR-28. The engine gets bigger, the hybrid gets a battery, and in September the car ran on an oval for the first time.",
+   "body": [
+    "## A 2028 debut",
+    "The IR-28 makes its racing debut at the start of the 2028 season. Like the current car, it is built by Dallara. The first runs came in August on the road course at the Indianapolis Motor Speedway, and then it was the oval's turn.",
+    "## A bigger engine and a different hybrid",
+    "The 2.2-litre twin-turbo V6 gives way to a 2.4-litre twin-turbo unit making up to 760 horsepower. Chevrolet and Honda will supply the engines. The hybrid is new too: the series gets its first battery in place of a supercapacitor, and IndyCar says it stores 14 times as much energy. The aero has been reworked, with new front and rear wings, and the wake behind the car is meant to be kinder to whoever follows.",
+    "![A generic car on the oval: the IR-28 has already been tested at Indianapolis](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## The first oval run",
+    "On September 9 Alexander Rossi of ECR, the 2016 Indianapolis 500 winner, was first to drive the car on the 2.5-mile oval. The next day Alex Palou of Chip Ganassi Racing, a five-time series champion, took over. Both described it as very similar to the current car, with nothing major separating the two on an oval. Palou said he gained more than two miles an hour during the day, and his session ended 15 minutes early because the team had finished its checklist. Speeds were deliberately kept moderate: this was about checking parts, not chasing lap times.",
+    "## A record still out of reach",
+    "The Indianapolis qualifying marks date from 1996, when Arie Luyendyk lapped at 237.498 mph and averaged 236.986 mph over four laps. IndyCar says the IR-28 can beat them, but nobody was chasing them in September.",
+    "![A group of cars on the oval](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## Sebring: a durability test",
+    "In October the IR-28 left Indianapolis for the first time, for Sebring in Florida. Palou ran 43 laps there on the outer loop. Sebring's surface is bumpy, like a temporary street circuit, so tests like this show what might break. A long list of checks still lies ahead. You can follow the IndyCar calendar and standings on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "IR-28: el nuevo coche de IndyCar ya ha rodado en el óvalo de Indianápolis",
+   "lead": "A partir de 2028 IndyCar sustituirá su Dallara actual por el IR-28. El motor crece, el híbrido recibe una batería y en septiembre el coche rodó por primera vez en un óvalo.",
+   "body": [
+    "## Debut en 2028",
+    "El IR-28 debutará en carrera al inicio de la temporada 2028. Igual que el actual, lo construye Dallara. Las primeras salidas fueron en agosto en el trazado mixto del Indianapolis Motor Speedway, y después le tocó al óvalo.",
+    "## Motor más grande y otro híbrido",
+    "El V6 biturbo de 2,2 litros cede el sitio a uno de 2,4 litros, también biturbo, con hasta 760 caballos. Los motores los pondrán Chevrolet y Honda. El híbrido también es nuevo: la serie estrena una batería en lugar del supercondensador, y según IndyCar almacena 14 veces más energía. La aerodinámica se ha rehecho, con alerones delantero y trasero nuevos, y la estela del coche debería molestar menos al que va detrás.",
+    "![Un coche genérico en el óvalo: el IR-28 ya se ha probado en Indianápolis](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## La primera vuelta al óvalo",
+    "El 9 de septiembre Alexander Rossi, de ECR y ganador de las 500 Millas de Indianápolis de 2016, fue el primero en rodar con el coche en el óvalo de 2,5 millas. Al día siguiente lo hizo Alex Palou, de Chip Ganassi Racing y cinco veces campeón de la serie. Ambos lo describieron como muy parecido al actual. Palou contó que mejoró más de dos millas por hora a lo largo del día, y su sesión terminó 15 minutos antes porque el equipo cumplió su lista de tareas. Las velocidades se mantuvieron moderadas a propósito: era una revisión de piezas, no una caza de tiempos.",
+    "## Un récord todavía lejano",
+    "Las marcas de clasificación de Indianápolis datan de 1996: Arie Luyendyk dio una vuelta a 237,498 mph y promedió 236,986 mph en cuatro vueltas. IndyCar cree que el IR-28 puede superarlas, pero en septiembre nadie las perseguía.",
+    "![Un grupo de coches en el óvalo](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## Sebring: prueba de resistencia",
+    "En octubre el IR-28 salió por primera vez de Indianápolis, rumbo a Sebring, en Florida. Palou dio allí 43 vueltas al circuito exterior. El asfalto de Sebring es bacheado, como el de un circuito urbano provisional, así que estas pruebas enseñan qué puede romperse. Aún quedan muchas pruebas por delante. El calendario y la clasificación de IndyCar están en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "IR-28: o novo carro da IndyCar já andou no oval de Indianápolis",
+   "lead": "A partir de 2028 a IndyCar troca a atual Dallara pelo IR-28. O motor cresce, o híbrido ganha bateria e em setembro o carro andou pela primeira vez num oval.",
+   "body": [
+    "## Estreia em 2028",
+    "O IR-28 estreia em corrida no início da temporada de 2028. Como o atual, é construído pela Dallara. As primeiras saídas foram em agosto no traçado misto do Indianapolis Motor Speedway, e depois chegou a vez do oval.",
+    "## Motor maior e outro híbrido",
+    "O V6 biturbo de 2,2 litros dá lugar a um de 2,4 litros, também biturbo, com até 760 cavalos. Os motores serão da Chevrolet e da Honda. O híbrido também é novo: a categoria ganha sua primeira bateria no lugar do supercapacitor, e segundo a IndyCar ela guarda 14 vezes mais energia. A aerodinâmica foi refeita, com asas dianteira e traseira novas, e a esteira do carro deve atrapalhar menos quem vem atrás.",
+    "![Um carro genérico no oval: o IR-28 já foi testado em Indianápolis](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## A primeira volta no oval",
+    "Em 9 de setembro Alexander Rossi, da ECR e vencedor das 500 Milhas de Indianápolis de 2016, foi o primeiro a andar com o carro no oval de 2,5 milhas. No dia seguinte foi a vez de Alex Palou, da Chip Ganassi Racing e pentacampeão da categoria. Os dois o descreveram como muito parecido com o atual. Palou contou que melhorou mais de duas milhas por hora ao longo do dia, e a sessão dele acabou 15 minutos mais cedo porque a equipe concluiu a lista de tarefas. As velocidades foram mantidas moderadas de propósito: era conferência de peças, não caça a tempos.",
+    "## Um recorde ainda distante",
+    "As marcas de classificação de Indianápolis são de 1996: Arie Luyendyk fez uma volta a 237,498 mph e média de 236,986 mph em quatro voltas. A IndyCar acredita que o IR-28 pode superá-las, mas em setembro ninguém as perseguia.",
+    "![Um grupo de carros no oval](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## Sebring: teste de resistência",
+    "Em outubro o IR-28 saiu de Indianápolis pela primeira vez, rumo a Sebring, na Flórida. Palou deu ali 43 voltas no circuito externo. O asfalto de Sebring é irregular, como o de um circuito de rua provisório, então testes assim mostram o que pode quebrar. Ainda há muitos testes pela frente. O calendário e a classificação da IndyCar estão no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "IR-28: Das neue IndyCar-Auto ist schon auf dem Oval von Indianapolis gefahren",
+   "lead": "Ab 2028 ersetzt IndyCar den aktuellen Dallara durch den IR-28. Der Motor wächst, das Hybridsystem bekommt eine Batterie, und im September lief das Auto erstmals auf einem Oval.",
+   "body": [
+    "## Debüt 2028",
+    "Das Renndebüt des IR-28 ist für den Start der Saison 2028 angesetzt. Gebaut wird er wie das aktuelle Auto von Dallara. Die ersten Fahrten gab es im August auf dem Rundkurs des Indianapolis Motor Speedway, danach war das Oval dran.",
+    "## Größerer Motor, anderes Hybridsystem",
+    "Der 2,2-Liter-V6 mit zwei Turbos weicht einem 2,4-Liter-Motor, ebenfalls mit zwei Turbos und bis zu 760 PS. Die Motoren liefern Chevrolet und Honda. Auch das Hybridsystem ist neu: Die Serie bekommt erstmals eine Batterie statt eines Superkondensators, die laut IndyCar 14-mal so viel Energie speichert. Die Aerodynamik wurde überarbeitet, mit neuen Front- und Heckflügeln, und die Luftströmung hinter dem Auto soll dem Hintermann weniger zusetzen.",
+    "![Ein generisches Auto auf dem Oval: Der IR-28 wurde in Indianapolis bereits getestet](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## Die erste Runde auf dem Oval",
+    "Am 9. September fuhr Alexander Rossi von ECR, Sieger des Indianapolis 500 von 2016, als Erster mit dem Auto auf dem 2,5 Meilen langen Oval. Am nächsten Tag übernahm Alex Palou von Chip Ganassi Racing, fünffacher Serienmeister. Beide beschrieben das Auto als dem aktuellen sehr ähnlich. Palou sagte, er habe im Laufe des Tages mehr als zwei Meilen pro Stunde zugelegt, und seine Session endete 15 Minuten früher, weil das Team seine Aufgabenliste abgearbeitet hatte. Die Geschwindigkeiten hielt man bewusst moderat: Es ging um die Prüfung der Teile, nicht um Rundenzeiten.",
+    "## Ein Rekord, der noch fern ist",
+    "Die Qualifying-Bestmarken von Indianapolis stammen von 1996: Arie Luyendyk fuhr eine Runde mit 237,498 mph und im Vier-Runden-Schnitt 236,986 mph. IndyCar traut dem IR-28 zu, sie zu knacken, doch im September jagte sie niemand.",
+    "![Eine Autogruppe auf dem Oval](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## Sebring: Härtetest",
+    "Im Oktober verließ der IR-28 erstmals Indianapolis, Ziel war Sebring in Florida. Palou fuhr dort 43 Runden auf der äußeren Schleife. Der Belag in Sebring ist holprig wie bei einem temporären Stadtkurs, daher zeigen solche Tests, was kaputtgehen könnte. Weitere Tests stehen noch an. Kalender und Tabelle der IndyCar findest du auf LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "IR-28：IndyCar 新车已在印第安纳波利斯椭圆赛道跑过",
+   "lead": "从2028年起，IndyCar 将用 IR-28 取代现在的达拉拉赛车。发动机变大，混动系统换成电池，9月新车首次在椭圆赛道上路测。",
+   "body": [
+    "## 2028年首秀",
+    "IR-28 将在2028赛季初迎来正赛首秀。和现款一样，它由达拉拉（Dallara）制造。首批测试8月在印第安纳波利斯赛道的公路赛道布局上进行，随后轮到椭圆赛道。",
+    "## 更大的发动机，不同的混动",
+    "2.2升双涡轮V6换成了2.4升双涡轮V6，最大功率可达760马力，供应商是雪佛兰和本田。混动系统也是新的：赛事首次用电池取代超级电容，据 IndyCar 称储能是原来的14倍。空气动力学也重新设计，前后翼都是新的，车尾气流应该对跟在后面的车更友好。",
+    "![椭圆赛道上的示意赛车：IR-28 已在印第安纳波利斯测试](/img/articles/3d/ir28-indycar-new-car-side.jpg)",
+    "## 首次上椭圆赛道",
+    "9月9日，ECR 车手亚历山大·罗西（2016年印第安纳波利斯500赛冠军）第一个驾驶新车跑上2.5英里的椭圆赛道。次日由 Chip Ganassi Racing 的亚历克斯·帕洛（五届系列赛总冠军）接手。两人都说新车和现款非常相似。帕洛表示一天下来速度提升了两英里每小时以上，他的测试比计划提前15分钟结束，因为车队已完成任务清单。速度被刻意控制在适中水平：这是检查零部件，而不是追圈速。",
+    "## 仍然遥远的纪录",
+    "印第安纳波利斯的排位赛纪录来自1996年：阿里·吕恩代克单圈237.498英里每小时，四圈平均236.986英里每小时。IndyCar 认为 IR-28 有能力打破它们，不过9月没有人去追。",
+    "![椭圆赛道上的一组赛车](/img/articles/3d/ir28-indycar-new-car-oval.jpg)",
+    "## 塞布林：耐久测试",
+    "10月，IR-28 第一次离开印第安纳波利斯，前往佛罗里达州的塞布林（Sebring）。帕洛在外圈赛道跑了43圈。塞布林的路面颠簸，类似临时街道赛道，这类测试能暴露哪里可能出问题。后面还有很多测试要做。IndyCar 的赛程和积分榜可以在 LapRadar 上查看。"
+   ]
+  }
+ }
+}
