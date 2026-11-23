@@ -1,0 +1,78 @@
+{
+ "slug": "abu-dhabi-2021-final",
+ "date": "2026-11-24",
+ "tags": [
+  "f1",
+  "abu-dhabi",
+  "verstappen",
+  "hamilton"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/abu-dhabi-2021-final-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Абу-Даби 2021: как решился самый спорный титул F1 и почему его решила не одна гонка",
+   "lead": "12 декабря 2021 года Макс Ферстаппен и Льюис Хэмилтон приехали на последний этап с одинаковыми очками. Титул решил один круг после машины безопасности, а решение дирекции гонки потом признали ошибкой. Что произошло в тот вечер и почему у каждой стороны есть своя гонка, которая «отняла» у неё чемпионство.",
+   "body": [
+    "## Равенство перед финалом",
+    "Перед Абу-Даби у обоих было по 369,5 очка. Так сезон подходил к финалу второй раз в истории F1, впервые с 1974 года. Кто выше в последней гонке, тот и чемпион.",
+    "## Первый круг: срезка без наказания",
+    "Ферстаппен стартовал с поула, но Хэмилтон обошёл его на старте. На первом же круге Макс поздно атаковал на торможении в шестой поворот. Хэмилтон, уходя от контакта, срезал шикану и остался впереди. Ферстаппен по радио требовал вернуть позицию. Хэмилтон ненадолго сбросил скорость, но позицию не отдал. Стюарды решили, что расследование не нужно.",
+    "## Хэмилтон уезжает",
+    "Дальше гонку вёл Хэмилтон. К 51-му кругу из 58 он был впереди больше чем на 11 секунд, и восьмой титул выглядел решённым.",
+    "## Круг 53: машина безопасности",
+    "Николас Латифи разбил Williams, на трассу выехала машина безопасности. Red Bull сразу поменял Ферстаппену шины на свежие мягкие. Mercedes оставила Хэмилтона на старых: если бы он заехал в боксы, то потерял бы лидерство.",
+    "![Колонна за машиной безопасности: условные машины, без ливрей команд](/img/articles/3d/abu-dhabi-2021-final-sc.jpg)",
+    "## Решение, которое всё изменило",
+    "Между лидерами оказались пять машин, отстающих на круг: Норрис, Алонсо, Окон, Леклер и Феттель. Сначала дирекция гонки разослала сообщение: обгонять машину безопасности отстающим на круг нельзя. С пятью машинами между ними у Ферстаппена почти не было шансов атаковать.",
+    "На 57-м круге директор гонки Майкл Мази изменил решение: обогнать разрешили только этим пятерым. Ещё трое отстающих, Риккардо, Стролл и Шумахер, остались на своих местах. Машина безопасности ушла в конце того же круга, и на последний, 58-й круг Ферстаппен выехал прямо за Хэмилтоном, на свежих шинах. Он обошёл Хэмилтона в пятом повороте, удержался до финиша и стал чемпионом.",
+    "## Протесты и отчёт FIA",
+    "Mercedes подала два протеста, стюарды их отклонили. 16 декабря команда отозвала апелляцию. В феврале 2022 года FIA отстранила Мази от должности директора гонки и предложила ему другую роль, а летом он сам ушёл из FIA. Вместо одного директора гонки ввели двух, работающих по очереди, и выносной центр контроля, аналог видеоповторов в футболе.",
+    "В марте 2022 года вышел отчёт FIA. В нём сказано: отстающих на круг до этого отмечали вручную, и из-за человеческой ошибки обогнать разрешили не всем. Там же отмечено, что Мази действовал добросовестно, в условиях жёсткой нехватки времени и сильного давления со стороны команд, а целью было закончить гонку не под машиной безопасности. Итоги гонки и чемпионата отчёт назвал окончательными. Правило переписали: теперь отстающие на круг, если их пропускают, обгоняют все, а не «любые».",
+    "![Последний круг: две условные машины, синяя и серебристая](/img/articles/3d/abu-dhabi-2021-final-duel.jpg)",
+    "## Почему титул решила не одна гонка",
+    "Сезон состоял из 22 гонок, и до Абу-Даби обе стороны теряли очки не по своей вине.",
+    "**Сильверстоун.** На первом круге Хэмилтон и Ферстаппен столкнулись в повороте Copse. Ферстаппен врезался в барьер с перегрузкой 51g и уехал в больницу на обследование. Стюарды признали виноватым Хэмилтона и дали ему 10 секунд штрафа, но он всё равно выиграл гонку. Итог: 25 очков у Хэмилтона, ноль у Ферстаппена.",
+    "**Венгрия.** На старте под дождём Боттас, напарник Хэмилтона по Mercedes, ошибся на торможении и устроил завал. Перес сошёл, машина Ферстаппена была сильно повреждена. Макс дотянул до двух очков, Хэмилтон взял 18. Боттас получил штраф: минус пять мест на старте следующей гонки.",
+    "**Баку.** Ферстаппен уверенно лидировал, но у него лопнула задняя шина. Хэмилтон на рестарте ошибся с торможением и вылетел. Ноль очков у обоих.",
+    "**Монца.** Здесь виноватым признали уже Ферстаппена: после его атаки их машины сцепились, Red Bull оказалась на Mercedes. Сошли оба, Макс получил штраф три места на старте следующей гонки.",
+    "**Саудовская Аравия.** За «резкое торможение» перед Хэмилтоном, после которого машины столкнулись, Ферстаппен получил 10 секунд штрафа. Хэмилтон выиграл гонку, и очки сравнялись.",
+    "## Итог",
+    "Ферстаппен закончил сезон с 395,5 очка, Хэмилтон с 387,5. Разница в восемь очков за 22 гонки. Болельщики Хэмилтона назовут Абу-Даби. Болельщики Ферстаппена назовут Сильверстоун и Венгрию. Правы обе стороны в одном: титул складывается из всего сезона. Последний круг в Абу-Даби остался самым спорным моментом F1 последних лет, а правило, из-за которого всё случилось, с тех пор переписали."
+   ]
+  },
+  "en": {
+   "title": "Abu Dhabi 2021: how F1's most controversial title was decided, and why it wasn't decided by one race",
+   "lead": "On 12 December 2021, Max Verstappen and Lewis Hamilton arrived at the final round level on points. The title came down to one lap after a safety car, and the race control decision behind it was later admitted to be a mistake. Here is what happened that evening, and why each side has its own race that \"cost\" it the championship.",
+   "body": [
+    "## Level before the finale",
+    "Going into Abu Dhabi, both drivers had 369.5 points. It was only the second time in F1 history that a season reached its finale like this, and the first since 1974. Whoever finished ahead in the last race would be champion.",
+    "## Lap one: a cut with no penalty",
+    "Verstappen started from pole, but Hamilton passed him at the start. On the very first lap Max made a late attack on the brakes into Turn 6. Hamilton, avoiding contact, cut the chicane and stayed ahead. Verstappen demanded on the radio that the position be given back. Hamilton briefly lifted, but kept the place. The stewards decided no investigation was necessary.",
+    "## Hamilton pulls away",
+    "From there Hamilton led the race. By lap 51 of 58 he was more than 11 seconds ahead, and an eighth title looked settled.",
+    "## Lap 53: the safety car",
+    "Nicholas Latifi crashed his Williams and the safety car came out. Red Bull immediately put Verstappen on fresh softs. Mercedes kept Hamilton out on his old tyres: had he pitted, he would have lost the lead.",
+    "![The queue behind the safety car: generic cars, no team liveries](/img/articles/3d/abu-dhabi-2021-final-sc.jpg)",
+    "## The decision that changed everything",
+    "Five lapped cars sat between the leaders: Norris, Alonso, Ocon, Leclerc and Vettel. Race control first sent a message that lapped cars would not be allowed to overtake the safety car. With five cars between them, Verstappen had almost no chance to attack.",
+    "On lap 57, race director Michael Masi changed that decision: only those five were allowed to overtake. Three more lapped drivers, Ricciardo, Stroll and Schumacher, stayed where they were. The safety car came in at the end of the same lap, and Verstappen started the last lap, lap 58, directly behind Hamilton on fresh tyres. He passed Hamilton at Turn 5, held on to the flag and became champion.",
+    "## Protests and the FIA report",
+    "Mercedes lodged two protests, and the stewards rejected both. On 16 December the team withdrew its appeal. In February 2022 the FIA removed Masi from the race director role and offered him another position; in the summer he left the FIA himself. One race director was replaced by two working in rotation, plus a remote operations centre, similar to video review in football.",
+    "The FIA report came out in March 2022. It said lapped cars had been identified manually until then, and because of human error not all of them were allowed to overtake. It also noted that Masi had acted in good faith, under severe time pressure and heavy pressure from the teams, and that the aim was to avoid finishing the race behind the safety car. The report called the race and championship results final. The rule was rewritten: now, if lapped cars are waved past, all of them overtake, not \"any\" of them.",
+    "![The final lap: two generic cars, one blue and one silver](/img/articles/3d/abu-dhabi-2021-final-duel.jpg)",
+    "## Why one race didn't decide the title",
+    "The season had 22 races, and before Abu Dhabi both sides had lost points through no fault of their own.",
+    "**Silverstone.** On lap one Hamilton and Verstappen collided at Copse. Verstappen hit the barrier with a 51g impact and went to hospital for checks. The stewards found Hamilton responsible and gave him a 10-second penalty, but he still won the race. Result: 25 points for Hamilton, zero for Verstappen.",
+    "**Hungary.** At the wet start, Bottas, Hamilton's Mercedes team-mate, misjudged his braking and triggered a pile-up. Pérez retired and Verstappen's car was badly damaged. Max scraped two points, Hamilton took 18. Bottas was penalised five grid places for the next race.",
+    "**Baku.** Verstappen was leading comfortably when a rear tyre failed. Hamilton got his braking wrong at the restart and went off. Zero points for both.",
+    "**Monza.** This time Verstappen was found responsible: after his attack the two cars tangled and the Red Bull ended up on top of the Mercedes. Both retired, and Max received a three-place grid penalty for the next race.",
+    "**Saudi Arabia.** Verstappen got a 10-second penalty for \"erratic braking\" in front of Hamilton, which led to contact. Hamilton won the race, and they were level on points.",
+    "## The final tally",
+    "Verstappen finished the season on 395.5 points, Hamilton on 387.5. A gap of eight points over 22 races. Hamilton's fans will point to Abu Dhabi. Verstappen's fans will point to Silverstone and Hungary. On one thing both sides are right: a title is built over the whole season. The last lap in Abu Dhabi remains the most controversial moment in F1 of recent years, and the rule at the heart of it has since been rewritten."
+   ]
+  }
+ }
+}
