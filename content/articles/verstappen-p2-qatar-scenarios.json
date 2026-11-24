@@ -1,0 +1,54 @@
+{
+ "slug": "verstappen-p2-qatar-scenarios",
+ "date": "2026-11-25",
+ "tags": [
+  "f1",
+  "verstappen",
+  "qatar",
+  "standings"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/verstappen-p2-qatar-scenarios-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Ферстаппен может закрыть второе место уже в Катаре: что для этого нужно",
+   "lead": "После победы в Лас-Вегасе у Макса Ферстаппена 304 очка, у Хэмилтона 267, у Расселла и Норриса по 264. До конца сезона два Гран-при, и уже в Катаре борьба за второе место в личном зачёте может закончиться. Считаем, при каких результатах.",
+   "body": [
+    "## Таблица после Вегаса",
+    "Кими Антонелли стал чемпионом ещё в Мехико, у него 402 очка. Второе место после Вегаса у Ферстаппена: 304. Льюис Хэмилтон набрал 267, Джордж Расселл и Ландо Норрис по 264, Шарль Леклер 250. Отрыв Ферстаппена от Хэмилтона 37 очков, от Расселла и Норриса 40.",
+    "## 50 очков на две гонки",
+    "Остались Катар 27–29 ноября и Абу-Даби 4–6 декабря. Спринтов там нет: в 2026 году их провели на шести этапах, последний в Сингапуре. Очко за быстрый круг отменили ещё в 2025-м. Поэтому за каждую гонку можно набрать максимум 25, на двоих 50. Леклер отстаёт на 54 и догнать Ферстаппена уже не может, так что претендентов трое.",
+    "![Претендентов на второе место трое: Хэмилтон, Расселл и Норрис](/img/articles/3d/verstappen-p2-qatar-scenarios-pack.jpg)",
+    "## Главное условие: отрыв после Катара",
+    "После Катара в запасе останется одна гонка, то есть 25 очков. Если Ферстаппен будет впереди соперника больше чем на 25, тот его уже не догонит. При равенстве очков в конце сезона выше тот, у кого больше побед в Гран-при. У Ферстаппена их четыре, у Расселла и Норриса по три, у Хэмилтона одна. Против Хэмилтона поэтому хватает и ровно 25: даже выиграв Абу-Даби, он не догонит Ферстаппена по победам.",
+    "В очках условие простое. Хэмилтон может набрать в Катаре максимум на 12 очков больше Ферстаппена, Расселл и Норрис максимум на 14. Если все трое уложатся в эти рамки, второе место за Ферстаппеном.",
+    "## Что это значит на финише в Катаре",
+    "Финиш в тройке закрывает вопрос при любом раскладе: даже если кто-то из троих выиграет, отрыв останется больше 25. Четвёртого места хватит, если гонку не выиграет Хэмилтон. С пятого по седьмое место хватит, если не победит никто из троих. Даже без очков Ферстаппен сохранит второе место, если никто из троих не поднимется на подиум.",
+    "![Отрыв считают от каждого из троих отдельно](/img/articles/3d/verstappen-p2-qatar-scenarios-duel.jpg)",
+    "## Если не сложится",
+    "Если ни одно условие не выполнится, второе место решится в Абу-Даби 6 декабря. Тогда снова важны будут и очки, и число побед. Во сколько гонка по вашему времени, смотрите на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "Verstappen could seal second place in Qatar: here is what he needs",
+   "lead": "After winning in Las Vegas, Max Verstappen has 304 points, Lewis Hamilton 267, and George Russell and Lando Norris 264 each. Two grands prix remain, and the fight for second in the drivers' standings could be over in Qatar. Here are the results that would do it.",
+   "body": [
+    "## The table after Vegas",
+    "Kimi Antonelli wrapped up the title back in Mexico City and has 402 points. Verstappen sits second on 304 after his Las Vegas win. Hamilton has 267, Russell and Norris 264 each, Charles Leclerc 250. That puts Verstappen 37 clear of Hamilton and 40 clear of Russell and Norris.",
+    "## 50 points across two races",
+    "Qatar (27–29 November) and Abu Dhabi (4–6 December) are all that is left. Neither has a sprint: 2026 had six sprint weekends, the last of them in Singapore. The bonus point for fastest lap was dropped back in 2025. So the most a driver can score is 25 per race, 50 in total. Leclerc is 54 behind and can no longer catch Verstappen, which leaves three contenders.",
+    "![Three drivers can still catch him: Hamilton, Russell and Norris](/img/articles/3d/verstappen-p2-qatar-scenarios-pack.jpg)",
+    "## The key number: his lead after Qatar",
+    "Once Qatar is done, only one race and 25 points remain. If Verstappen is more than 25 ahead of a rival, that rival can no longer catch him. If two drivers finish level on points, the one with more grand prix wins goes ahead. Verstappen has four wins, Russell and Norris three each, Hamilton one. That is why exactly 25 is also enough against Hamilton: even with a win in Abu Dhabi he could not match Verstappen on wins.",
+    "Put in points, it is simple. Hamilton can outscore Verstappen in Qatar by 12 points at most, Russell and Norris by 14 at most. If all three stay within those limits, second place belongs to Verstappen.",
+    "## What it means at the Qatar flag",
+    "A top-three finish settles it whatever happens: even if one of the three wins, the gap stays above 25. Fourth is enough unless Hamilton wins the race. Fifth to seventh is enough as long as none of the three wins. Even with no points at all, Verstappen keeps second if none of the three makes the podium.",
+    "![The gap counts against each of the three separately](/img/articles/3d/verstappen-p2-qatar-scenarios-duel.jpg)",
+    "## If it doesn't happen in Qatar",
+    "If none of these conditions is met, second place will be decided in Abu Dhabi on 6 December, where points and wins will both come into play again. Check the race start in your own time zone on LapRadar."
+   ]
+  }
+ }
+}
