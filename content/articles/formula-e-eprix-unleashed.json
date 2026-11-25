@@ -1,0 +1,130 @@
+{
+ "slug": "formula-e-eprix-unleashed",
+ "date": "2026-11-26",
+ "tags": [
+  "fe",
+  "eprix-unleashed",
+  "gen4",
+  "format"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/formula-e-eprix-unleashed-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "E-Prix Unleashed: короткая гонка Формулы E, которой раньше не было",
+   "lead": "В сезоне 2026/27 на двойных этапах Формулы E пройдут две гонки в разном формате: классический E-Prix и короткий E-Prix Unleashed. Что в них отличается и где их ждать.",
+   "body": [
+    "## Один уикенд, два формата",
+    "Раньше на двойном этапе обе гонки были одинаковыми. С эры Gen4 это не так: в субботу и воскресенье пилоты проведут разные заезды, один классический E-Prix и один E-Prix Unleashed. Порядок заездов Formula E в описании формата не называет. Одиночные этапы остаются с классической гонкой.",
+    "## Двадцать пять минут вместо сорока",
+    "Unleashed короче. В обновлённом описании FIA это 25 минут против 40 у классической гонки, в июньском анонсе называли 30 и 45. В прессе чаще всего встречается ориентир «25–30 минут против 40–45».",
+    "![Дуэль в короткой гонке Unleashed: две условные машины колесо в колесо](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## Другая аэродинамика и другие стратегии",
+    "В Unleashed команды ставят конфигурацию с высоким прижимом, в классической гонке прижим низкий, чтобы снизить сопротивление и сэкономить энергию. Короткая гонка требует меньше экономии, поэтому в ней можно ехать быстрее и атаковать. В классическом E-Prix, как пишет сама серия, эффективность остаётся ключом к успеху.",
+    "Режим атаки в Unleashed длится шесть минут. Обязательного Pit Boost в короткой гонке нет, а в классической он остаётся.",
+    "![Пит-буст в классическом E-Prix: условная машина у боксов](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## Где это будет",
+    "Короткие гонки пройдут только на двойных этапах. В сезоне 21 гонка в 13 городах, двойных этапов восемь: Джидда, Монако, Берлин, Зандфорт, Брэндс-Хэтч, Харама, Шанхай и Токио. Первоначально сезон должен был начаться в Джидде в декабре, но этап перенесли на 16–17 апреля 2027 года, и теперь первой гонкой станет Мехико 16 января. Среди новых трасс Брэндс-Хэтч, Зандфорт и Circuit of the Americas. Финал в Токио 24–25 июля 2027 года.",
+    "## Что остаётся прежним",
+    "Очки за гонку не меняются: 25 победителю, очки получает первая десятка, независимо от формата. Мощность Gen4 до 600 киловатт, а короткий формат придуман, чтобы показать машину без ограничений. Календарь и формат гонок смотрите на LapRadar."
+   ]
+  },
+  "en": {
+   "title": "E-Prix Unleashed: the short Formula E race that did not exist before",
+   "lead": "In 2026/27, Formula E double-header weekends will have two different races: a classic E-Prix and a short E-Prix Unleashed. Here is what differs and where to expect them.",
+   "body": [
+    "## One weekend, two formats",
+    "Until now both races of a double-header were the same. Starting with the Gen4 era that changes: over the two days the drivers will run a classic E-Prix and an E-Prix Unleashed. The series' description of the format does not say which one goes first. Single-header rounds keep the classic race.",
+    "## Twenty-five minutes instead of forty",
+    "Unleashed is shorter. In the updated FIA description it is 25 minutes against 40 for the classic race, while the June announcement quoted 30 and 45. Reports most often give a rule of thumb of 25–30 minutes against 40–45.",
+    "![A fight in the short Unleashed race: two generic cars wheel to wheel](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## Different aero, different tactics",
+    "In Unleashed the teams run the high-downforce configuration, while the classic race uses low downforce to cut drag and save energy. The short race needs less saving, so drivers can push harder and attack. In the classic E-Prix, as the series itself puts it, efficiency remains the key to success.",
+    "Attack Mode in Unleashed lasts six minutes. There is no mandatory Pit Boost in the short race, while the classic keeps it.",
+    "![Pit Boost in a classic E-Prix: a generic car at the pit box](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## Where it will happen",
+    "Short races run only at double-headers. The season has 21 races in 13 cities, with eight double-headers: Jeddah, Monaco, Berlin, Zandvoort, Brands Hatch, Jarama, Shanghai and Tokyo. The season was due to open in Jeddah in December, but that round has moved to 16–17 April 2027, so Mexico City on 16 January now starts the year. New venues include Brands Hatch, Zandvoort and the Circuit of the Americas. The finale is in Tokyo on 24–25 July 2027.",
+    "## What stays the same",
+    "Race points do not change: 25 for the winner and points for the top ten, whatever the format. Gen4 offers up to 600 kilowatts, and the short format is designed to show the car without restrictions. You can find the calendar on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "E-Prix Unleashed: la carrera corta de la Fórmula E que no existía",
+   "lead": "En la temporada 2026/27, los fines de semana dobles de la Fórmula E tendrán dos carreras distintas: un E-Prix clásico y un E-Prix Unleashed corto. Qué cambia y dónde llegarán.",
+   "body": [
+    "## Un fin de semana, dos formatos",
+    "Hasta ahora, las dos carreras de una cita doble eran idénticas. Con la era Gen4 eso cambia: durante el fin de semana los pilotos correrán un E-Prix clásico y un E-Prix Unleashed. La descripción oficial del formato no dice cuál va primero. Las citas simples mantienen la carrera clásica.",
+    "## Veinticinco minutos en lugar de cuarenta",
+    "Unleashed es más corta. En la descripción actualizada de la FIA son 25 minutos frente a 40 de la carrera clásica, mientras que el anuncio de junio hablaba de 30 y 45. En la prensa lo habitual es la referencia de 25–30 minutos frente a 40–45.",
+    "![Pelea en la carrera corta Unleashed: dos coches genéricos rueda con rueda](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## Otra aerodinámica y otra táctica",
+    "En Unleashed los equipos usan la configuración de alta carga aerodinámica; la carrera clásica lleva poca carga para reducir la resistencia y ahorrar energía. La carrera corta exige menos ahorro, así que se puede ir más rápido y atacar. En el E-Prix clásico, según la propia serie, la eficiencia sigue siendo la clave del éxito.",
+    "El Modo Ataque en Unleashed dura seis minutos. En la carrera corta no hay Pit Boost obligatorio; en la clásica sí.",
+    "![Pit Boost en un E-Prix clásico: un coche genérico en el box](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## Dónde será",
+    "Las carreras cortas solo se disputarán en citas dobles. La temporada tiene 21 carreras en 13 ciudades y ocho citas dobles: Yeda, Mónaco, Berlín, Zandvoort, Brands Hatch, Jarama, Shanghái y Tokio. El campeonato iba a empezar en Yeda en diciembre, pero esa cita pasó al 16–17 de abril de 2027, así que ahora abre México el 16 de enero. Entre los circuitos nuevos están Brands Hatch, Zandvoort y el Circuit of the Americas. La final será en Tokio el 24–25 de julio de 2027.",
+    "## Lo que no cambia",
+    "Los puntos de carrera siguen igual: 25 para el ganador y puntos para los diez primeros, sea cual sea el formato. El Gen4 ofrece hasta 600 kilovatios y el formato corto se concibió para mostrar el coche sin restricciones. El calendario lo tienes en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "E-Prix Unleashed: a corrida curta da Fórmula E que não existia",
+   "lead": "Na temporada 2026/27, os fins de semana duplos da Fórmula E terão duas corridas diferentes: um E-Prix clássico e um E-Prix Unleashed, mais curto. O que muda e onde vai acontecer.",
+   "body": [
+    "## Um fim de semana, dois formatos",
+    "Até agora, as duas corridas de uma etapa dupla eram iguais. Com a era Gen4 isso muda: ao longo do fim de semana os pilotos disputam um E-Prix clássico e um E-Prix Unleashed. A descrição oficial do formato não diz qual vem primeiro. As etapas simples mantêm a corrida clássica.",
+    "## Vinte e cinco minutos em vez de quarenta",
+    "A Unleashed é mais curta. Na descrição atualizada da FIA são 25 minutos contra 40 da corrida clássica, enquanto o anúncio de junho falava em 30 e 45. Na imprensa, a referência mais comum é 25–30 minutos contra 40–45.",
+    "![Disputa na corrida curta Unleashed: dois carros genéricos roda com roda](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## Outra aerodinâmica, outra tática",
+    "Na Unleashed as equipas usam a configuração de alta pressão aerodinâmica; a corrida clássica usa pouca pressão para reduzir o arrasto e poupar energia. A corrida curta exige menos poupança, por isso dá para andar mais depressa e atacar. No E-Prix clássico, como diz a própria série, a eficiência continua a ser a chave do sucesso.",
+    "O Modo de Ataque na Unleashed dura seis minutos. Na corrida curta não há Pit Boost obrigatório; na clássica há.",
+    "![Pit Boost num E-Prix clássico: um carro genérico na box](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## Onde vai acontecer",
+    "As corridas curtas só acontecem nas etapas duplas. A temporada tem 21 corridas em 13 cidades e oito etapas duplas: Jeddah, Mónaco, Berlim, Zandvoort, Brands Hatch, Jarama, Xangai e Tóquio. A época ia abrir em Jeddah em dezembro, mas essa etapa passou para 16–17 de abril de 2027, e por isso quem abre agora é a Cidade do México, a 16 de janeiro. Entre os novos circuitos estão Brands Hatch, Zandvoort e o Circuit of the Americas. A final é em Tóquio, a 24–25 de julho de 2027.",
+    "## O que fica igual",
+    "Os pontos da corrida não mudam: 25 para o vencedor e pontos para os dez primeiros, seja qual for o formato. O Gen4 chega a 600 quilowatts, e o formato curto foi pensado para mostrar o carro sem restrições. O calendário está no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "E-Prix Unleashed: das kurze Formel-E-Rennen, das es früher nicht gab",
+   "lead": "In der Saison 2026/27 gibt es an Doppelrennwochenenden der Formel E zwei unterschiedliche Rennen: einen klassischen E-Prix und einen kurzen E-Prix Unleashed. Was sich unterscheidet und wo sie stattfinden.",
+   "body": [
+    "## Ein Wochenende, zwei Formate",
+    "Bisher waren beide Rennen eines Doppelwochenendes gleich. In der Gen4-Ära ist das anders: Die Fahrer bestreiten an den zwei Tagen einen klassischen E-Prix und einen E-Prix Unleashed. Welches Rennen zuerst kommt, steht in der Beschreibung des Formats nicht. Einzelne Rennwochenenden behalten das klassische Rennen.",
+    "## Fünfundzwanzig Minuten statt vierzig",
+    "Unleashed ist kürzer. In der aktualisierten FIA-Beschreibung sind es 25 Minuten gegen 40 beim klassischen Rennen, in der Juni-Ankündigung war von 30 und 45 die Rede. In der Presse liest man meist die Faustregel 25–30 gegen 40–45 Minuten.",
+    "![Zweikampf im kurzen Unleashed-Rennen: zwei generische Autos Rad an Rad](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## Andere Aerodynamik, andere Taktik",
+    "In Unleashed fahren die Teams mit der Konfiguration mit hohem Abtrieb, im klassischen Rennen ist der Abtrieb niedrig, um Luftwiderstand zu senken und Energie zu sparen. Das kurze Rennen verlangt weniger Sparen, also kann man schneller fahren und angreifen. Im klassischen E-Prix bleibt Effizienz nach Angaben der Serie der Schlüssel zum Erfolg.",
+    "Der Attack Mode dauert in Unleashed sechs Minuten. Einen Pflicht-Pit-Boost gibt es im kurzen Rennen nicht, im klassischen bleibt er.",
+    "![Pit Boost im klassischen E-Prix: ein generisches Auto an der Box](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## Wo es stattfindet",
+    "Die kurzen Rennen gibt es nur an Doppelwochenenden. Die Saison hat 21 Rennen in 13 Städten und acht Doppelrennen: Dschidda, Monaco, Berlin, Zandvoort, Brands Hatch, Jarama, Schanghai und Tokio. Eigentlich sollte die Saison im Dezember in Dschidda beginnen, doch der Lauf wurde auf den 16.–17. April 2027 verschoben, deshalb eröffnet nun Mexiko-Stadt am 16. Januar. Zu den neuen Strecken zählen Brands Hatch, Zandvoort und der Circuit of the Americas. Das Finale steigt am 24.–25. Juli 2027 in Tokio.",
+    "## Was gleich bleibt",
+    "Die Rennpunkte ändern sich nicht: 25 für den Sieger und Punkte für die ersten Zehn, egal in welchem Format. Der Gen4 leistet bis zu 600 Kilowatt, und das kurze Format soll das Auto ohne Beschränkungen zeigen. Den Kalender gibt es bei LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "E-Prix Unleashed：电动方程式全新的短程赛",
+   "lead": "2026/27赛季，电动方程式的双赛周末将举行两场不同的比赛：经典E-Prix和更短的E-Prix Unleashed。两者有什么区别，又会在哪些站出现。",
+   "body": [
+    "## 一个周末，两种赛制",
+    "以前，双赛周末的两场比赛完全一样。进入Gen4时代后情况不同了：车手在周末要跑一场经典E-Prix和一场E-Prix Unleashed。赛制说明里没有写哪场先跑。单赛站依然只跑经典比赛。",
+    "## 25分钟对40分钟",
+    "Unleashed更短。国际汽联更新后的说明是25分钟对经典赛的40分钟，6月公布时则是30分钟和45分钟。媒体上最常见的说法是25至30分钟对40至45分钟。",
+    "![Unleashed短程赛中的缠斗：两辆示意赛车并排](/img/articles/3d/formula-e-eprix-unleashed-sprint.jpg)",
+    "## 空气动力学不同，战术也不同",
+    "在Unleashed中，车队使用高下压力配置；经典赛则使用低下压力，以降低风阻、节省电量。短程赛对节能的要求更低，所以可以开得更快、更多进攻。而在经典E-Prix中，正如赛事官方所说，效率依然是成功的关键。",
+    "Unleashed的进攻模式持续6分钟。短程赛没有强制进站加电（Pit Boost），经典赛仍然保留。",
+    "![经典E-Prix中的Pit Boost：示意赛车停在维修区](/img/articles/3d/formula-e-eprix-unleashed-pitboost.jpg)",
+    "## 在哪里举行",
+    "短程赛只在双赛站举行。本赛季共21场比赛、13座城市，其中八个双赛站：吉达、摩纳哥、柏林、赞德沃特、布兰兹哈奇、哈拉马、上海和东京。赛季原定12月在吉达揭幕，但这一站已改到2027年4月16日至17日，所以现在由墨西哥城在1月16日开幕。新赛道包括布兰兹哈奇、赞德沃特和美洲赛道。总决赛于2027年7月24日至25日在东京举行。",
+    "## 不变的部分",
+    "无论哪种赛制，正赛积分都不变：冠军25分，前十名都有积分。Gen4的功率最高可达600千瓦，短程赛正是为了展示这辆不受限制的赛车。赛历可以在LapRadar上查看。"
+   ]
+  }
+ }
+}
