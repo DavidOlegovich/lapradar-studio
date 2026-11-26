@@ -89,8 +89,10 @@ async function buildWorld(trackName, themeName) {
   }
   // старт: шахматная линия
   { const c = document.createElement('canvas'); c.width = 64; c.height = 8; const g = c.getContext('2d'); for (let i = 0; i < 16; i++) for (let j = 0; j < 2; j++) { g.fillStyle = (i + j) % 2 ? '#111' : '#fff'; g.fillRect(i * 4, j * 4, 4, 4); }
-    const t = new THREE.CanvasTexture(c); t.magFilter = THREE.NearestFilter; const m = new THREE.Mesh(new THREE.PlaneGeometry(14, 1.8), new THREE.MeshBasicMaterial({ map: t }));
-    m.rotation.x = -Math.PI / 2; m.rotation.z = Math.atan2(TG[0].x, TG[0].z) + Math.PI / 2; m.position.copy(P[0]).setY(P[0].y + 0.07); scene.add(m); }
+    // поперёк трассы (как в игре): плоскость кладём на землю, ширина 14 м по локальной x, затем поворот вокруг вертикали по направлению трассы
+    const t = new THREE.CanvasTexture(c); t.magFilter = THREE.NearestFilter; const lg = new THREE.PlaneGeometry(14, 1.8); lg.rotateX(-Math.PI / 2);
+    const m = new THREE.Mesh(lg, new THREE.MeshBasicMaterial({ map: t }));
+    m.rotation.y = Math.atan2(TG[0].x, TG[0].z); m.position.copy(P[0]).setY(P[0].y + 0.07); scene.add(m); }
 
   // нативный брендинг на трассе: арка LapRadar над стартовой прямой и щиты вдоль трассы (как реклама спонсора)
   if (spec?.brand3d !== false) {
