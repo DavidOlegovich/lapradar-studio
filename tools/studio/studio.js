@@ -128,7 +128,7 @@ async function buildWorld(trackName, themeName) {
   if (map?.green?.length) for (const [gi, gr] of map.green.slice(0, 400).entries()) {
     const pts = []; for (let i = 0; i < gr.p.length; i += 2) { const v = toV(gr.p[i], gr.p[i + 1]); pts.push(new THREE.Vector2(v.x, -v.z)); }
     if (pts.length < 3) continue; const g = new THREE.ShapeGeometry(new THREE.Shape(pts)); g.rotateX(-Math.PI / 2);
-    const m = new THREE.Mesh(g, new THREE.MeshLambertMaterial({ color: gr.k === 'wood' ? '#3f6b35' : '#5f8f45' })); m.position.y = -1.2 - (gr.k === 'wood' ? 0.15 : 0) - (gi % 7) * 0.03; scene.add(m); // разная высота, чтобы перекрывающиеся газоны не мерцали
+    const m = new THREE.Mesh(g, new THREE.MeshLambertMaterial({ color: gr.k === 'wood' ? '#3f6b35' : '#5f8f45' })); m.position.y = -1.2 - (gr.k === 'wood' ? 0.15 : 0) - (gi % 7) * 0.03; m.userData.green = gr.k || 'grass'; scene.add(m); // разная высота, чтобы перекрывающиеся газоны не мерцали
   }
   // пальмы (Катар, Абу-Даби, Бахрейн)
   if (T.palms) {
@@ -853,6 +853,7 @@ function actStates(shot, lt, T, dur) {
         if (a.pass === k) ds += 34 * ease(tp) - 4; if (a.drop === k) ds -= 30 * ease(tp);
         return { ...trackPose(s + ds, a.pass === k ? lerp(lane, 0, ease(tp)) : lane) }; });
       if (a.pass != null && w.pack[a.pass]) ex.focus = ex.pack[a.pass]; break; }
+    case 'fpv': { touched.add(0); Object.assign(cars[0], fpvCarPose(a, lt)); break; }   /* FPV-промо: машина по гоночной линии */
     case 'motogp': { /* только мотоциклы: группа из n гонщиков, обгон pass */
       hide([]); const n = a.n ?? 6, s = (a.at ?? 0.3) * L + (a.v ?? 50) * lt;
       ex.bikes = w.bikes.slice(0, n).map((_, k) => { let ds = -k * 6.5 + 0.6 * Math.sin(lt * 1.1 + k * 2); if (a.pass === k) ds += 16 * ease(tp);
@@ -1004,6 +1005,7 @@ function placeCamera(cam, shot, u, T, sc, lt) {
     const fwd = new THREE.Vector3(-Math.sin(rot), 0, -Math.cos(rot));
     cam.position.set(cx - fwd.x * h * tilt, h, cz - fwd.z * h * tilt); cam.up.copy(fwd); cam.lookAt(cx, 0, cz); cam.fov = 40;
   } else if (shot.type === 'side' || shot.type === 'onboard' || shot.type === 'carorbit' || shot.type === 'flyby') hqCamera(cam, shot, u, T, sc, lt);
+  else if (shot.type === 'fpv') fpvCamera(cam, shot, u, T, sc, lt);
   cam.updateProjectionMatrix();
 }
 
@@ -1175,7 +1177,12 @@ function hudPhone(g, lt, dur, mode, fx) {
   g.fillStyle = `rgba(4,7,14,${0.45 * clamp(lt * 2)})`; g.fillRect(-3000, -3000, 9000, 9000);
   g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 50; rrect(g, x, y, pw, ph, 70); g.fillStyle = '#0a0c12'; g.fill(); g.restore();
   rrect(g, x + 16, y + 16, pw - 32, ph - 32, 56); g.save(); g.clip(); g.fillStyle = '#0b1020'; g.fillRect(x, y, pw, ph);
-  const sx = x + 16, sy = y + 16, sw = pw - 32, shh = ph - 32, w = world, cars = fx?.cars || [];
+  phoneApp(g, x + 16, y + 16, pw - 32, ph - 32, lt, dur, mode, fx);
+  g.restore();
+}
+/* экран приложения LapRadar (общий для 2D-телефона в конце ролика и 3D-телефона в руке пилота, look: cinema); opt.rows — строк таблицы в режиме map */
+function phoneApp(g, sx, sy, sw, shh, lt, dur, mode, fx, opt = {}) {
+  const w = world, cars = fx?.cars || [];
   rrect(g, sx + sw / 2 - 70, sy + 14, 140, 34, 17); g.fillStyle = '#000'; g.fill();
   logo(g, sx + 28, sy + 70, 0.6); g.font = font(900, 30); g.fillStyle = '#fff'; g.textBaseline = 'middle'; g.fillText('LAPRADAR', sx + 76, sy + 90);
   const map = (cx, cy, size, rot, prog = 1) => { const pts = w.P.filter((_, i) => i % 3 === 0).map(p => [p.x, p.z]); const c = Math.cos(rot), s = Math.sin(rot);
@@ -1190,7 +1197,7 @@ function hudPhone(g, lt, dur, mode, fx) {
   if (mode === 'map' || mode === 'replay') {
     const dot = map(sx + sw / 2, sy + 360, sw - 70, mode === 'map' ? lt * 0.25 : 0.3);
     cars.slice(0, 8).forEach((st, k) => st.vis && dot(st.pos, CAR_COLORS[k % CAR_COLORS.length], 12, k === 0 && mode === 'map'));
-    if (mode === 'map') { const b = w.corners.slice(0, 12); b.forEach((c, i) => { if (lt < 1 + i * 0.15) return; }); rows(sy + 640, 5, -1); }
+    if (mode === 'map') { const b = w.corners.slice(0, 12); b.forEach((c, i) => { if (lt < 1 + i * 0.15) return; }); rows(sy + 640, opt.rows ?? 5, -1); }
     else { const ty = sy + 700, p = (lt / dur) % 1; rrect(g, sx + 40, ty, sw - 80, 12, 6); g.fillStyle = '#2a3142'; g.fill(); rrect(g, sx + 40, ty, (sw - 80) * p, 12, 6); g.fillStyle = '#3b82f6'; g.fill(); g.beginPath(); g.arc(sx + 40 + (sw - 80) * p, ty + 6, 18, 0, 7); g.fillStyle = '#fff'; g.fill();
       g.beginPath(); g.arc(sx + sw / 2, ty + 120, 52, 0, 7); g.fillStyle = '#3b82f6'; g.fill(); g.fillStyle = '#fff'; g.beginPath(); g.moveTo(sx + sw / 2 - 16, ty + 92); g.lineTo(sx + sw / 2 + 26, ty + 120); g.lineTo(sx + sw / 2 - 16, ty + 148); g.fill();
       ['2023', '2024', '2025', '2026'].forEach((yr, i) => { const a = easeOut((lt - 0.3 - i * 0.15) / 0.3); g.globalAlpha = a; rrect(g, sx + 30 + i * 118, ty + 210, 106, 50, 25); g.fillStyle = i === 0 ? '#ffd23f' : 'rgba(255,255,255,0.1)'; g.fill(); g.font = font(800, 24); g.fillStyle = i === 0 ? '#0b1020' : '#fff'; g.textAlign = 'center'; g.fillText(yr, sx + 83 + i * 118, ty + 236); g.textAlign = 'left'; }); g.globalAlpha = 1; }
@@ -1205,7 +1212,6 @@ function hudPhone(g, lt, dur, mode, fx) {
     g.globalAlpha = 1; const pr = [0.46, 0.31, 0.15, 0.08], top = sy + 790; let acc = 0; pr.forEach((p, i) => { const ww = (sw - 80) * p * easeOut((lt - 1) / 1); rrect(g, sx + 40 + acc, top, Math.max(1, ww - 6), 60, 14); g.fillStyle = CAR_COLORS[i]; g.fill(); acc += ww; });
     g.font = font(800, 26); g.fillStyle = '#cfd8ff'; g.fillText(Math.round(pr[0] * 100 * easeOut((lt - 1) / 1)) + '%', sx + 50, top + 100);
   }
-  g.restore();
 }
 
 
@@ -1385,7 +1391,7 @@ const hqNoise = (g, w, h, base, amp, seed = 1, cell = 1) => { const r = rng(seed
 
 /* ---------- рендер: HDR → bloom → ACES ---------- */
 function hqSetup() {
-  R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = HQO.exposure ?? 1.0;
+  R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = (CIN ? CINO.exposure : null) ?? HQO.exposure ?? 1.0;
   R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap;
   const w = gl.width, h = gl.height, hf = { type: THREE.HalfFloatType, depthBuffer: false };
   const rt = new THREE.WebGLRenderTarget(w, h, { type: THREE.HalfFloatType, samples: 4 });
@@ -1413,6 +1419,7 @@ function hqSetup() {
   comp.toneMapped = true;
   const qs = new THREE.Scene(), quad = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), copy); quad.frustumCulled = false; qs.add(quad);
   HQS = { rt, lv, bright, copy, blur, comp, qs, quad, qc: new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1), env: {} };
+  if (CIN) { cinSetup(HQS, sm, w, h); bright.uniforms.thr.value = CINO.bloomThr ?? 1.4; }   /* look cinema: глубина для motion blur и DoF, свой финальный проход */
 }
 function hqPass(mat, u, target) { const S = HQS; Object.entries(u).forEach(([k, v]) => { if (mat.uniforms[k].value?.set && !v?.isTexture) mat.uniforms[k].value.set(...v); else mat.uniforms[k].value = v; });
   S.quad.material = mat; R.setRenderTarget(target); R.render(S.qs, S.qc); }
@@ -1424,6 +1431,7 @@ function hqRender(scene, cam) {
     hqPass(i ? S.copy : S.bright, { t: src, px: [0.5 / sw * 2, 0.5 / sh * 2] }, a);
     hqPass(S.blur, { t: a.texture, dir: [1 / a.width, 0] }, b); hqPass(S.blur, { t: b.texture, dir: [0, 1 / a.height] }, a);
     src = a.texture; sw = a.width; sh = a.height; });
+  if (CIN) { cinComp(S, cam, CINO.bloom ?? (world?.cin?.night ? 1 : 0.8)); return; }
   hqPass(S.comp, { t: S.rt.texture, b1: S.lv[0][0].texture, b2: S.lv[1][0].texture, b3: S.lv[2][0].texture, k: [0.5 * bl, 0.55 * bl, 0.6 * bl] }, null);
 }
 function draw(scene, cam) { if (HQ) hqRender(scene, cam); else R.render(scene, cam); }
@@ -1506,6 +1514,7 @@ function hqWorld(w, refs, tr) {
   scene.traverse(o => { if ((o.isMesh || o.isInstancedMesh) && o.material?.isMeshLambertMaterial) { const green = !day && !o.material.map && o.material.color.g > o.material.color.r * 1.2; o.material = hqStd(o.material); if (green) o.material.color.multiplyScalar(0.35); } });
   if (street) hqStreet(w, refs);
   if (T.lights) hqLamps(w);
+  if (CIN) cinWorld(w, refs, tr);
 }
 /* бетонные блоки + щиты + сетка-забор вдоль городской трассы, пунктир полос */
 function hqStreet(w, refs) {
@@ -1772,7 +1781,7 @@ function hqFrame(shot, lt, cam) {
   let f; if (st?.vis && ['chase', 'side', 'onboard', 'carorbit', 'flyby'].includes(shot.type)) f = st.pos.clone();
   else if (w.lastEx?.sc?.vis) f = w.lastEx.sc.pos.clone();
   else { const fw = new THREE.Vector3(); cam.getWorldDirection(fw); const t = fw.y < -0.05 ? Math.min(60, (cam.position.y - 0) / -fw.y) : 40; f = cam.position.clone().addScaledVector(fw, t); f.y = 0; }
-  const k = w.hq.key; k.target.position.copy(f); k.position.copy(f).add(new THREE.Vector3(-14, 42, 10)); k.target.updateMatrixWorld();
+  const k = w.hq.key; k.target.position.copy(f); k.position.copy(f).add(CIN && w.cin?.sun ? w.cin.sun.clone().multiplyScalar(160) : new THREE.Vector3(-14, 42, 10)); k.target.updateMatrixWorld();
   const lamps = w.hq.lamps; if (lamps.length) { const near = lamps.map(p => [p.distanceToSquared(f), p]).sort((a, b) => a[0] - b[0]); w.hq.pl.forEach((l, i) => { const p = near[i]?.[1]; if (p) l.position.copy(p);
     if (p && HQO.lampFade) { const d = Math.sqrt(near[i][0]), d5 = Math.sqrt(near[4]?.[0] ?? 1e12); l.userData.i0 ??= l.intensity; l.intensity = l.userData.i0 * clamp((d5 - d) / Math.max(6, 0.35 * d5)); } }); }   /* VIDEO.hq.lampFade: свет фонаря гаснет плавно, когда он выпадает из четырёх ближайших (без вспышек земли) */
   w.cars.forEach(c => { if (c.helmet) c.helmet.visible = !(shot.type === 'onboard' && c === car); });
@@ -1802,6 +1811,346 @@ function hqCamera(cam, shot, u, T, sc, lt) {
   }
 }
 
+/* ================= LOOK «cinema» (VIDEO.look = 'cinema' или {…}): реалистичная картинка по запросу =================
+   Включается только явно и всегда поверх HQ; без look студия рисует всё как раньше (хэши и кадры старых роликов не меняются).
+   Небо: своя модель неба (рассеяние, гало солнца, облака) + PMREM для отражений и рассеянного света; низкое «золотое» солнце
+   с мягкими тенями (PCFSoft), трава/асфальт с картами нормалей и макро-вариацией, деревья, холмы, отбойники.
+   Пост: motion blur по глубине (репроекция прошлого кадра камеры, у своей машины — её собственное движение), глубина резкости,
+   bloom, ACES, грейдинг (сплит-тон), виньетка, зерно, лёгкая бочка FPV-объектива. Камера fpv + act fpv: промо-ролик (tools/video3d/promo_fpv.py).
+   Настройки: { sun: [высота°, азимут°], exposure, bloom, grain, mb (доля выдержки, 0.5 = 180°), dist (бочка), trees, rails } */
+let CIN = false, CINO = {}, CINF = null;
+const cinSun = () => { const [el, az] = CINO.sun || [9, 235], e = el * Math.PI / 180, a = az * Math.PI / 180; return new THREE.Vector3(Math.cos(e) * Math.sin(a), Math.sin(e), Math.cos(e) * Math.cos(a)).normalize(); };
+const CIN_NOISE = `float cnH(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+  float cnV(vec2 p) { vec2 i = floor(p), f = fract(p); f = f * f * (3.0 - 2.0 * f); return mix(mix(cnH(i), cnH(i + vec2(1.0, 0.0)), f.x), mix(cnH(i + vec2(0.0, 1.0)), cnH(i + vec2(1.0, 1.0)), f.x), f.y); }
+  float cnF(vec2 p) { float s = 0.0, a = 0.5; for (int i = 0; i < 4; i++) { s += a * cnV(p); p = p * 2.03 + 17.1; a *= 0.5; } return s; }`;
+function cinSkyMat(envMode) {
+  return new THREE.ShaderMaterial({ uniforms: { sunDir: { value: cinSun() }, envMode: { value: envMode ? 1 : 0 } }, side: THREE.BackSide, depthWrite: false, depthTest: false, fog: false,
+    vertexShader: 'varying vec3 vDir; void main() { vDir = position; vec4 p = modelViewMatrix * vec4(position, 1.0); gl_Position = projectionMatrix * p; }',
+    fragmentShader: `uniform vec3 sunDir; uniform float envMode; varying vec3 vDir; ${CIN_NOISE}
+    void main() { vec3 d = normalize(vDir); float h = d.y, hh = max(h, 0.0), mu = dot(d, sunDir), ms = max(mu, 0.0);
+      vec3 zen = vec3(0.13, 0.26, 0.58), hor = vec3(0.98, 0.74, 0.52);
+      vec3 c = mix(hor, zen, pow(hh, 0.45));
+      c = mix(c, vec3(1.35, 0.78, 0.42), pow(ms, 5.0) * (1.0 - pow(hh, 0.3)) * 0.85);
+      c += vec3(1.3, 0.8, 0.45) * pow(ms, 48.0) * 1.6 + vec3(0.5, 0.3, 0.15) * pow(ms, 12.0);
+      if (h > 0.0) { vec2 cp = d.xz / (h + 0.08); float cl = smoothstep(0.5, 0.82, cnF(cp * 1.1 + vec2(3.1, 1.7))) * smoothstep(0.0, 0.1, h) * (1.0 - smoothstep(0.55, 0.9, h));
+        vec3 cc = mix(vec3(0.62, 0.55, 0.6), vec3(1.7, 1.05, 0.62), pow(ms, 3.0)); c = mix(c, cc, cl * 0.7); }
+      if (h < 0.0) c = mix(hor * 0.8, vec3(0.3, 0.28, 0.22), clamp(-h * 5.0, 0.0, 1.0));
+      c += (envMode > 0.5 ? vec3(5.0, 3.6, 2.2) * smoothstep(0.996, 0.9995, mu) : vec3(60.0, 44.0, 28.0) * smoothstep(0.99992, 0.99996, mu));
+      gl_FragColor = vec4(c, 1.0); }` });
+}
+/* текстуры: шум нескольких масштабов, карта нормалей из «высоты» */
+function cinNormal(src, k = 2) {
+  const w = src.width, h = src.height, a = src.getContext('2d').getImageData(0, 0, w, h).data, c = document.createElement('canvas'); c.width = w; c.height = h;
+  const g = c.getContext('2d'), o = g.createImageData(w, h), L = (x, y) => a[(((y + h) % h) * w + ((x + w) % w)) * 4 + 1] / 255;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const dx = (L(x + 1, y) - L(x - 1, y)) * k, dy = (L(x, y + 1) - L(x, y - 1)) * k, n = 1 / Math.hypot(dx, dy, 1), i = (y * w + x) * 4;
+    o.data[i] = (-dx * n * 0.5 + 0.5) * 255; o.data[i + 1] = (dy * n * 0.5 + 0.5) * 255; o.data[i + 2] = (n * 0.5 + 0.5) * 255; o.data[i + 3] = 255; }
+  g.putImageData(o, 0, 0); const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8; return t;
+}
+function cinCanvas(w, h, fn) { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; }
+const cinTex = (c, srgb = true) => { const t = new THREE.CanvasTexture(c); if (srgb) t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8; return t; };
+function cinGrassCanvas() { return cinCanvas(512, 512, (g, w, h) => { const r = rng(21); g.fillStyle = '#4f6b2c'; g.fillRect(0, 0, w, h);
+  for (let i = 0; i < 26; i++) { const x = r() * w, y = r() * h, rr = 30 + r() * 90, gr = g.createRadialGradient(x, y, 0, x, y, rr); const c = r() < 0.5 ? '96,120,52' : '58,84,34'; gr.addColorStop(0, `rgba(${c},0.45)`); gr.addColorStop(1, `rgba(${c},0)`); g.fillStyle = gr;
+    for (const dx of [-w, 0, w]) for (const dy of [-h, 0, h]) { g.save(); g.translate(dx, dy); g.fillRect(x - rr, y - rr, rr * 2, rr * 2); g.restore(); } }
+  for (let i = 0; i < 16000; i++) { const x = r() * w, y = r() * h, l = 2 + r() * 6, a = -Math.PI / 2 + (r() - 0.5) * 1.2, v = r();
+    g.strokeStyle = v < 0.3 ? 'rgba(150,160,80,0.55)' : v < 0.65 ? 'rgba(78,110,40,0.6)' : v < 0.9 ? 'rgba(40,62,22,0.6)' : 'rgba(170,150,90,0.5)'; g.lineWidth = 1 + r() * 0.6;
+    g.beginPath(); g.moveTo(x, y); g.lineTo(x + Math.cos(a) * l, y + Math.sin(a) * l); g.stroke(); } }); }
+function cinAsphaltCanvas() { return cinCanvas(512, 512, (g, w, h) => { const r = rng(33); g.fillStyle = '#5c5c5e'; g.fillRect(0, 0, w, h);
+  for (let i = 0; i < 40; i++) { const x = r() * w, y = r() * h, rr = 20 + r() * 70, gr = g.createRadialGradient(x, y, 0, x, y, rr), c = r() < 0.5 ? '0,0,0' : '255,255,255'; gr.addColorStop(0, `rgba(${c},0.07)`); gr.addColorStop(1, `rgba(${c},0)`); g.fillStyle = gr; g.fillRect(x - rr, y - rr, rr * 2, rr * 2); }
+  for (let i = 0; i < 40000; i++) { const v = r(); g.fillStyle = v < 0.45 ? `rgba(0,0,0,${0.15 + r() * 0.3})` : v < 0.9 ? `rgba(255,255,255,${0.08 + r() * 0.18})` : 'rgba(150,140,125,0.5)'; const s = 0.8 + r() * 2.2; g.fillRect(r() * w, r() * h, s, s); }
+  const gr = g.createLinearGradient(0, 0, w, 0); [[0, 0], [0.3, 0.16], [0.42, 0.24], [0.5, 0.26], [0.58, 0.22], [0.7, 0.14], [1, 0]].forEach(([o, a]) => gr.addColorStop(o, `rgba(10,10,12,${a})`)); g.fillStyle = gr; g.fillRect(0, 0, w, h); }); }   /* темнее по линии езды: резина */
+/* макро-вариация цвета по мировым координатам: без заметного повтора текстуры вдали */
+function cinMacro(mat, sc = 0.012, amt = 0.22) {
+  mat.onBeforeCompile = sh => {
+    sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vCinW;').replace('#include <project_vertex>', '#include <project_vertex>\nvCinW = (modelMatrix * vec4(transformed, 1.0)).xyz;');
+    sh.fragmentShader = sh.fragmentShader.replace('#include <common>', `#include <common>\nvarying vec3 vCinW;\n${CIN_NOISE}`)
+      .replace('#include <map_fragment>', `#include <map_fragment>\n{ float m = cnF(vCinW.xz * ${sc.toFixed(5)}); float m2 = cnV(vCinW.xz * ${(sc * 9).toFixed(5)}); diffuseColor.rgb *= mix(1.0 - ${amt.toFixed(3)}, 1.0 + ${amt.toFixed(3)}, m) * mix(0.9, 1.08, m2); }`);
+  };
+  mat.customProgramCacheKey = () => 'cinMacro' + sc + amt; return mat;
+}
+function cinWorld(w, refs, tr) {
+  const { scene, P, N, NR, L } = w, sun = cinSun();
+  const night = !!w.theme.lights;   /* ночь, Вегас, закат: небо, фонари, карта окружения и ключевой свет остаются из HQ, cinema добавляет материалы и пост */
+  w.cin = { sun: night ? null : sun, night };
+  cinMovers(w).forEach(g => cinBox(g, w));   /* рамки машин считаем сразу, в позе покоя: кадр не зависит от порядка отрисовки */
+  if (night) HQS.bright.uniforms.thr.value = CINO.bloomThr ?? 0.95;   /* ночью фонари светятся, как в HQ */
+  if (!night) {
+    /* небо: купол со своей моделью и та же модель в карте окружения */
+    scene.background = null;
+    const dome = new THREE.Mesh(new THREE.SphereGeometry(12000, 48, 24), cinSkyMat(false)); dome.renderOrder = -10; dome.frustumCulled = false; scene.add(dome); w.cin.dome = dome;
+    const es = new THREE.Scene(); es.add(new THREE.Mesh(new THREE.SphereGeometry(60, 64, 32), cinSkyMat(true)));
+    const pm = new THREE.PMREMGenerator(R); scene.environment = pm.fromScene(es, 0.015).texture; pm.dispose();
+    scene.fog = new THREE.FogExp2(new THREE.Color('#d7b593'), CINO.fog ?? 0.00016);
+    scene.traverse(o => { if (o.isHemisphereLight) { o.intensity = 0.28; o.color.set('#bcd0ff'); o.groundColor.set('#6a5a40'); } });
+    const key = w.hq.key; key.color.set('#ffc78f'); key.intensity = CINO.sunI ?? 3.4; key.shadow.mapSize.set(2048, 2048);
+    Object.assign(key.shadow.camera, { left: -22, right: 22, top: 22, bottom: -22, near: 1, far: 400 }); key.shadow.camera.updateProjectionMatrix(); key.shadow.bias = -0.00035; key.shadow.normalBias = 0.045; key.shadow.radius = 5;
+    w.hq.pl.forEach(l => { l.intensity = 0; });
+  }
+  /* асфальт, трава, обочины */
+  const ac = cinAsphaltCanvas(), at = cinTex(ac), an = cinNormal(ac, 2.2); an.repeat.set(1, 1);
+  refs.asphalt.material = new THREE.MeshStandardMaterial({ color: night ? '#9a9aa0' : '#8a8a8e', map: at, normalMap: an, normalScale: new THREE.Vector2(0.35, 0.35), roughness: CINO.aspR ?? (night ? 0.6 : 0.86), metalness: 0, envMapIntensity: night ? 0.8 : 0.5 });
+  cinMacro(refs.asphalt.material, 0.02, 0.1);
+  const gc = cinGrassCanvas(), gt = cinTex(gc), gn = cinNormal(gc, 3);
+  const grass = (rep, base = '#ffffff') => { const t = gt.clone(), n = gn.clone(); t.repeat.set(rep[0], rep[1]); n.repeat.set(rep[0], rep[1]); t.needsUpdate = n.needsUpdate = true;
+    return cinMacro(new THREE.MeshStandardMaterial({ color: base, map: t, normalMap: n, normalScale: new THREE.Vector2(0.8, 0.8), roughness: 0.97, metalness: 0, envMapIntensity: 0.45 }), 0.008, 0.28); };
+  if (!night) {   /* ночью (пустыня, город) обочины и земля остаются из HQ */
+  refs.runoff.material = grass([10, 1], '#f2f6e8');   /* лента ±24 м: u поперёк (48 м), v вдоль по 48 м */
+  refs.runoff.material.map.repeat.set(10, 10); refs.runoff.material.normalMap.repeat.set(10, 10);
+  refs.ground.material = grass([5000, 5000], '#e6ecd8'); refs.ground.position.y = -0.6; }
+  if (!night) scene.traverse(o => { if (o.userData?.green) { o.material = grass([1 / 5, 1 / 5], o.userData.green === 'wood' ? '#b8c4a6' : '#eef3e2'); o.receiveShadow = true; } });
+  refs.lines.forEach(m => { m.material = new THREE.MeshStandardMaterial({ color: '#e9e8e2', roughness: 0.6, envMapIntensity: 0.4 }); });
+  refs.kerbs.forEach(m => { m.material = new THREE.MeshStandardMaterial({ vertexColors: true, side: THREE.DoubleSide, roughness: 0.42, envMapIntensity: 0.6 }); m.position.y = 0.01; });
+  [refs.asphalt, refs.runoff, refs.ground].forEach(m => { m.receiveShadow = true; });
+  if (w.bldMesh && !night && w.bldMesh.geometry.attributes.uv) {   /* днём: фасады — бетонные панели, ленты тёмного стекла, крыши темнее (ночью — окна HQ со светом) */
+    const fc = cinCanvas(256, 256, (g, ww, hh) => { const r = rng(61); g.fillStyle = '#d4d0c6'; g.fillRect(0, 0, ww, hh);
+      for (let y = 0; y < hh; y += 32) { g.fillStyle = 'rgba(0,0,0,0.06)'; g.fillRect(0, y, ww, 2); g.fillStyle = r() < 0.75 ? '#2c3440' : '#46505c'; g.fillRect(14, y + 9, ww - 28, 15);
+        g.fillStyle = 'rgba(160,190,215,0.35)'; g.fillRect(14, y + 9, ww - 28, 3); for (let x = 14; x < ww - 14; x += 22) { g.fillStyle = '#9aa0a6'; g.fillRect(x, y + 9, 2, 15); } }
+      g.fillStyle = '#5b5e63'; g.fillRect(0, 0, 14, hh); g.fillRect(0, 0, ww, 10); g.fillRect(0, hh - 10, ww, 10); });
+    const ft = cinTex(fc); ft.repeat.set(1 / 38, 1 / 38);
+    w.bldMesh.material = new THREE.MeshStandardMaterial({ vertexColors: true, map: ft, roughness: 0.55, metalness: 0.15, envMapIntensity: 0.8 }); }
+  const dist = (x, z, step = 3) => { let bd = 1e9; for (let i = 0; i < N; i += step) { const d = (P[i].x - x) ** 2 + (P[i].z - z) ** 2; if (d < bd) bd = d; } return Math.sqrt(bd); };
+  /* деревья: кроны из трёх «шаров», стволы; отбрасывают длинные тени на трассу */
+  if (CINO.trees ?? (!night && !w.theme.palms)) {   /* деревья — только на «зелёных» дневных трассах */
+    const blob = (r, x, y, z, seed) => { const g = new THREE.IcosahedronGeometry(r, 1), p = g.attributes.position, rr = rng(seed); for (let i = 0; i < p.count; i++) { const k = 0.82 + rr() * 0.3; p.setXYZ(i, p.getX(i) * k + x, p.getY(i) * k * 0.9 + y, p.getZ(i) * k + z); } return g; };
+    const crownG = cinMerge([blob(2.4, 0, 6.2, 0, 1), blob(1.9, 1.3, 7.4, 0.6, 2), blob(1.8, -1.1, 7.6, -0.7, 3), blob(1.5, 0.2, 8.8, 0.1, 4), blob(1.4, 1.5, 6.0, -0.9, 5), blob(1.3, -1.4, 6.6, 1.0, 6)]); crownG.computeVertexNormals();
+    const trunkG = new THREE.CylinderGeometry(0.18, 0.3, 5.2, 7); trunkG.translate(0, 2.6, 0);
+    const jit = (g, sd, k) => { const p = g.attributes.position, rr = rng(sd); for (let i = 0; i < p.count; i++) { const y = p.getY(i); p.setXYZ(i, p.getX(i) * (1 + (rr() - 0.5) * k), y + (rr() - 0.5) * k * 0.6, p.getZ(i) * (1 + (rr() - 0.5) * k)); } return g; };
+    const pineG = cinMerge([4.6, 6.4, 8.0, 9.5, 10.9, 12.1].map((y, i) => jit(new THREE.ConeGeometry(2.5 - i * 0.36, 2.6, 11, 2, true).translate(0, y, 0), 40 + i, 0.35))); pineG.computeVertexNormals();
+    const leafy = (m, y0, y1) => { m.onBeforeCompile = sh => {   /* листва: свет «ломается» по мировому шуму, низ кроны темнее */
+        sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vCinW; varying float vCinY;').replace('#include <project_vertex>', `#include <project_vertex>\nvCinY = position.y; vCinW = (modelMatrix * instanceMatrix * vec4(transformed, 1.0)).xyz;`);
+        sh.fragmentShader = sh.fragmentShader.replace('#include <common>', `#include <common>\nvarying vec3 vCinW; varying float vCinY;\n${CIN_NOISE}`)
+          .replace('#include <map_fragment>', `#include <map_fragment>\ndiffuseColor.rgb *= mix(0.45, 1.1, smoothstep(${y0.toFixed(1)}, ${y1.toFixed(1)}, vCinY)) * mix(0.75, 1.2, cnV(vCinW.xz * 1.7 + vCinW.y * 1.3));`)
+          .replace('#include <normal_fragment_begin>', `#include <normal_fragment_begin>\nnormal = normalize(normal + 0.55 * vec3(cnV(vCinW.xy * 2.1) - 0.5, cnV(vCinW.yz * 2.3 + 7.0) - 0.5, cnV(vCinW.zx * 1.9 + 3.0) - 0.5));`); };
+      m.customProgramCacheKey = () => 'leafy' + y0; return m; };
+    const n = CINO.treeN ?? 1400, crowns = new THREE.InstancedMesh(crownG, leafy(new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.95, envMapIntensity: 0.35 }), 4, 9.5), n);
+    const pines = new THREE.InstancedMesh(pineG, leafy(new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.95, envMapIntensity: 0.3, side: THREE.DoubleSide }), 3.5, 13), n);
+    const trunks = new THREE.InstancedMesh(trunkG, new THREE.MeshStandardMaterial({ color: '#4a3a2c', roughness: 0.95 }), n * 2);
+    const r = rng(91), m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), sv = new THREE.Vector3(), pv = new THREE.Vector3(), cc = new THREE.Color();
+    let kc = 0, kp = 0, kt = 0;
+    for (let tries = 0; tries < n * 8 && kc + kp < n; tries++) {
+      const i = Math.floor(r() * N), side = r() < 0.5 ? -1 : 1, off = 27 + Math.pow(r(), 1.6) * 260, p = P[i], nn = NR[i], x = p.x + nn.x * off * side, z = p.z + nn.z * off * side;
+      if (dist(x, z) < 26) continue; const s = 0.75 + r() * 0.7, pine = r() < 0.18;
+      q.setFromEuler(e.set(0, r() * 6.28, 0)); m4.compose(pv.set(x, p.y - 0.6, z), q, sv.set(s, s * (0.85 + r() * 0.4), s));
+      if (pine) { pines.setMatrixAt(kp, m4); pines.setColorAt(kp++, cc.setHSL(0.3 + r() * 0.05, 0.3, 0.07 + r() * 0.04)); }
+      else { crowns.setMatrixAt(kc, m4); crowns.setColorAt(kc++, cc.setHSL(0.19 + r() * 0.08, 0.35 + r() * 0.15, 0.09 + r() * 0.06)); }
+      trunks.setMatrixAt(kt++, m4); }
+    crowns.count = kc; pines.count = kp; trunks.count = kt;
+    [crowns, pines, trunks].forEach(o => { o.castShadow = true; scene.add(o); });
+  }
+  /* холмы на горизонте: дымка тумана делает их силуэтами */
+  { const seg = 256, pos = [], idx = [], r = rng(5), hs = Array.from({ length: seg }, (_, i) => 0); for (let o = 0; o < 5; o++) { const ph = r() * 6.28, f = [2, 3, 5, 9, 15][o], a = [260, 150, 90, 50, 25][o]; for (let i = 0; i < seg; i++) hs[i] += a * (0.5 + 0.5 * Math.sin(i / seg * 6.283 * f + ph)); }
+    const c0 = new THREE.Vector3(); P.forEach(p => c0.add(p)); c0.divideScalar(N);
+    for (let i = 0; i <= seg; i++) { const a = i / seg * Math.PI * 2, h = hs[i % seg]; for (const [rad, y] of [[3600, -2], [5600, h], [7000, h * 0.6]]) pos.push(c0.x + Math.cos(a) * rad, y, c0.z + Math.sin(a) * rad); }
+    for (let i = 0; i < seg; i++) for (let j = 0; j < 2; j++) { const a = i * 3 + j, b = (i + 1) * 3 + j; idx.push(a, b, a + 1, b, b + 1, a + 1); }
+    const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setIndex(idx); g.computeVertexNormals();
+    scene.add(new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#3f5132', roughness: 1, side: THREE.DoubleSide, envMapIntensity: 0.4 }))); }
+  /* отбойники (armco) вдоль трассы, кроме стартовой прямой и мест, где рядом другой участок трассы */
+  if (CINO.rails ?? !w.hq.street) {   /* отбойники — не на городских трассах (там блоки HQ) */
+    const off = CINO.railOff ?? 15.5, pos = [], idx = [], posts = [], s0 = w.straight;
+    for (const side of [-1, 1]) { let prev = -1;
+      for (let i = 0; i <= N; i++) { const k = i % N, p = P[k], nn = NR[k], x = p.x + nn.x * side * off, z = p.z + nn.z * side * off, s = k / N * L;
+        const nearStart = s < 380 || s > L - 420, ok = !nearStart && dist(x, z, 2) > off - 1.2;
+        if (!ok) { prev = -1; continue; }
+        const b = pos.length / 3; pos.push(x, p.y + 0.32, z, x, p.y + 0.78, z);
+        if (prev >= 0) idx.push(prev, b, prev + 1, b, b + 1, prev + 1); prev = b; if (i % 1 === 0) posts.push([x, p.y, z]); } }
+    const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setIndex(idx); g.computeVertexNormals();
+    const rail = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#b9bcc2', metalness: 0.85, roughness: 0.38, side: THREE.DoubleSide, envMapIntensity: 0.9 })); rail.castShadow = true; rail.receiveShadow = true; scene.add(rail);
+    const pg = new THREE.BoxGeometry(0.12, 0.8, 0.12); pg.translate(0, 0.4, 0); const pm2 = new THREE.InstancedMesh(pg, new THREE.MeshStandardMaterial({ color: '#8d9096', metalness: 0.6, roughness: 0.5 }), posts.length);
+    posts.forEach(([x, y, z], k) => pm2.setMatrixAt(k, m4z.makeTranslation(x, y, z))); scene.add(pm2);
+  }
+  /* машины: карбон с лаком, размытые в движении диски и боковины шин (без стробоскопа спиц) */
+  const carbon = new THREE.MeshPhysicalMaterial({ color: '#16171b', roughness: 0.38, metalness: 0.25, clearcoat: 0.7, clearcoatRoughness: 0.12, envMapIntensity: 0.8 });
+  const rimB = hqTex(256, 256, (g, ww, hh) => { const src = hqRimTex().image; g.fillStyle = '#0c0d10'; g.fillRect(0, 0, ww, hh); g.globalAlpha = 1 / 10; for (let i = 0; i < 24; i++) { g.save(); g.translate(ww / 2, hh / 2); g.rotate(i / 24 * Math.PI / 5); g.translate(-ww / 2, -hh / 2); g.globalAlpha = 0.09; g.drawImage(src, 0, 0); g.restore(); } }, { rep: false });
+  const tyB = hqTex(512, 64, (g, ww, hh) => { g.fillStyle = '#16171a'; g.fillRect(0, 0, ww, hh); g.fillStyle = 'rgba(200,200,205,0.12)'; g.fillRect(0, 4, ww, 10); g.fillRect(0, 50, ww, 10); g.fillStyle = '#0d0e10'; g.fillRect(0, 22, ww, 20); });
+  w.cars.forEach(c => c.group.traverse(o => { if (!o.isMesh) return; const m = o.material;
+    if (m.isMeshStandardMaterial && !m.isMeshPhysicalMaterial && m.color?.getHexString() === '141518') o.material = carbon;
+    if (m.map === hqRimTex()) { o.material = m.clone(); o.material.map = rimB; }
+    if (m.map === hqTyreTex()) { o.material = m.clone(); o.material.map = tyB; o.material.roughness = 0.88; }
+    if (c.band === m) { m.roughness = 0.75; m.envMapIntensity = 0.3; } }));
+}
+const m4z = new THREE.Matrix4();
+function cinMerge(geos) { const parts = geos.map(g => g.index ? g.toNonIndexed() : g), pos = new Float32Array(parts.reduce((a, g) => a + g.attributes.position.count * 3, 0)); let o = 0;
+  for (const g of parts) { pos.set(g.attributes.position.array, o); o += g.attributes.position.count * 3; } const m = new THREE.BufferGeometry(); m.setAttribute('position', new THREE.BufferAttribute(pos, 3)); return m; }
+
+/* ---------- пост-обработка cinema ---------- */
+function cinSetup(S, sm, w, h) {
+  S.rt.depthTexture = new THREE.DepthTexture(w, h, THREE.FloatType);
+  S.cine = sm(`uniform sampler2D t, dep, b1, b2, b3; uniform vec3 k, bmin[4], bmax[4], lift, gain; uniform float vig, lfar, focus, aper, maxCoc, maxVel, seed, grain, dist, sat;
+    uniform vec2 px, pq; uniform mat4 camW, prevVP, carInv[4], carPrev[4]; varying vec2 vUv; ${CIN_NOISE}
+    float vw(vec2 uv) { return exp2(texture2D(dep, uv).r * lfar) - 1.0; }
+    void main() {
+      vec2 c0 = vUv - 0.5, q = c0 * vec2(px.y / px.x, 1.0); float r2 = dot(q, q), rm = 0.25 * (px.y / px.x) * (px.y / px.x) + 0.25;
+      vec2 uv = 0.5 + c0 * (1.0 + dist * r2) / (1.0 + dist * rm);
+      float w0 = vw(uv); vec2 ndc = uv * 2.0 - 1.0;
+      vec4 wp = camW * vec4(ndc.x * w0 / pq.x, ndc.y * w0 / pq.y, -w0, 1.0);
+      for (int j = 0; j < 4; j++) { vec4 lp = carInv[j] * wp; if (all(greaterThan(lp.xyz, bmin[j])) && all(lessThan(lp.xyz, bmax[j]))) { wp = carPrev[j] * lp; break; } }   /* машины у камеры: своё движение */
+      vec4 pc = prevVP * wp; vec2 vel = pc.w > 0.05 ? uv - (pc.xy / pc.w * 0.5 + 0.5) : vec2(0.0);
+      float vl = length(vel / px); if (vl > maxVel) vel *= maxVel / vl;
+      float coc = min(maxCoc, aper * abs(1.0 - focus / w0)), jit = cnH(gl_FragCoord.xy + seed);
+      vec3 acc = vec3(0.0); float ws = 0.0;
+      for (int i = 0; i < 16; i++) { float fi = float(i), f = (fi + jit) / 16.0 - 0.5, rr = sqrt((fi + 0.5) / 16.0), an = fi * 2.39996 + jit * 6.2832;
+        vec2 o = vel * f + vec2(cos(an), sin(an)) * rr * coc * px, su = clamp(uv + o, px, 1.0 - px); float sw = vw(su), wg = 1.0;
+        if (sw < w0 * 0.8) { float cs = min(maxCoc, aper * abs(1.0 - focus / sw)); wg = clamp(cs / max(1.0, length(o / px)), 0.0, 1.0); }
+        acc += texture2D(t, su).rgb * wg; ws += wg; }
+      vec3 c = acc / max(ws, 1e-3) + k.x * texture2D(b1, uv).rgb + k.y * texture2D(b2, uv).rgb + k.z * texture2D(b3, uv).rgb;
+      c *= 1.0 - vig * smoothstep(0.1, 0.62, r2 * 1.25);
+      gl_FragColor = vec4(c, 1.0);
+      #include <tonemapping_fragment>
+      #include <colorspace_fragment>
+      vec3 g = gl_FragColor.rgb; float l = dot(g, vec3(0.2126, 0.7152, 0.0722));
+      g = mix(vec3(l), g, sat); g = g * gain + lift * (1.0 - g);
+      g += vec3(-0.012, 0.002, 0.016) * (1.0 - smoothstep(0.0, 0.42, l)) + vec3(0.018, 0.006, -0.018) * smoothstep(0.55, 1.0, l);
+      float n = cnH(gl_FragCoord.xy * 1.37 + seed * 7.13) + cnH(gl_FragCoord.xy * 0.71 + seed * 3.7 + 5.0) - 1.0;
+      gl_FragColor = vec4(clamp(g + n * grain * (0.55 + 0.45 * (1.0 - l)), 0.0, 1.0), 1.0); }`,
+    { t: { value: null }, dep: { value: null }, b1: { value: null }, b2: { value: null }, b3: { value: null }, k: { value: new THREE.Vector3() }, bmin: { value: [0, 1, 2, 3].map(() => new THREE.Vector3(1e9, 1e9, 1e9)) }, bmax: { value: [0, 1, 2, 3].map(() => new THREE.Vector3()) },
+      lift: { value: new THREE.Vector3(0.012, 0.01, 0.018) }, gain: { value: new THREE.Vector3(1.02, 1.0, 0.97) }, vig: { value: 0.38 }, lfar: { value: 1 }, focus: { value: 10 }, aper: { value: 0 }, maxCoc: { value: 14 }, maxVel: { value: 40 },
+      seed: { value: 0 }, grain: { value: 0.022 }, dist: { value: 0 }, sat: { value: 1.06 }, px: { value: new THREE.Vector2(1 / w, 1 / h) }, pq: { value: new THREE.Vector2(1, 1) },
+      camW: { value: new THREE.Matrix4() }, prevVP: { value: new THREE.Matrix4() }, carInv: { value: [0, 1, 2, 3].map(() => new THREE.Matrix4()) }, carPrev: { value: [0, 1, 2, 3].map(() => new THREE.Matrix4()) } });
+  S.cine.toneMapped = true;
+}
+function cinComp(S, cam, bl) {
+  const u = S.cine.uniforms, f = CINF || {};
+  u.t.value = S.rt.texture; u.dep.value = S.rt.depthTexture; u.b1.value = S.lv[0][0].texture; u.b2.value = S.lv[1][0].texture; u.b3.value = S.lv[2][0].texture;
+  u.k.value.set(0.35 * bl, 0.42 * bl, 0.5 * bl); u.lfar.value = Math.log2(cam.far + 1); u.pq.value.set(cam.projectionMatrix.elements[0], cam.projectionMatrix.elements[5]);
+  u.camW.value.copy(cam.matrixWorld); u.prevVP.value.copy(f.prevVP || new THREE.Matrix4().multiplyMatrices(cam.projectionMatrix, cam.matrixWorldInverse));
+  for (let j = 0; j < 4; j++) { const o = f.objs?.[j];   /* до 4 ближайших к камере машин/мотоциклов: у них своё движение, а не «фоновый» смаз */
+    if (o) { u.carInv.value[j].copy(o.inv); u.carPrev.value[j].copy(o.prev); u.bmin.value[j].copy(o.box.min); u.bmax.value[j].copy(o.box.max); } else { u.bmin.value[j].setScalar(1e9); u.bmax.value[j].setScalar(-1e9); } }
+  u.focus.value = f.focus ?? 10; u.aper.value = f.aper ?? 0; u.maxCoc.value = CINO.maxCoc ?? 14; u.maxVel.value = (CINO.maxVel ?? 40) * S.rt.height / 1280;
+  u.seed.value = (f.frame ?? 0) % 997; u.grain.value = CINO.grain ?? 0.022; u.dist.value = f.dist ?? (CINO.dist ?? 0); u.vig.value = CINO.vig ?? 0.38;
+  hqPass(S.cine, {}, null);
+}
+
+/* ---------- FPV-промо: машина по траектории гонщика, камера-дрон по ключевым точкам, пилот достаёт телефон с LapRadar ----------
+   act: { type: 'fpv', s | at, v } — машина 0 едет по «гоночной линии» (внешний край → апекс → внешний край) с постоянной скоростью v (м/с).
+   shot: { type: 'fpv', keys: [{ t, p: [вправо, вверх, вперёд], l: [точка взгляда], fov, ap, sh } | { t, ph: d, fov, ap, sh }], phone: { t0, t1, turn0, turn1, pill } }
+   p/l — в системе машины (м), ph: d — камера на расстоянии d перед экраном телефона и смотрит на него. ap — сила размытия фона (px), sh — тряска (0–1). */
+function fpvLane(w) {
+  if (w.fpvLane) return w.fpvLane; const N = w.N, a = new Float32Array(N), b = new Float32Array(N);
+  for (let i = 0; i < N; i++) { let s = 0; for (let j = -9; j <= 9; j++) s += w.curv[(i + j + N) % N]; a[i] = clamp(s / 19 * 26, -3.4, 3.4); }
+  for (let i = 0; i < N; i++) { let s = 0; for (let j = -7; j <= 7; j++) s += a[(i + j + N) % N]; b[i] = s / 15; }
+  return (w.fpvLane = b);
+}
+function fpvPath(s) {   /* гладкая кривая Катмулла–Рома по точкам трассы (ломаная с шагом 3 м давала дрожь кадр-через-кадр) */
+  const w = world, N = w.N, ln = fpvLane(w), f = ((s % w.L) + w.L) % w.L / w.L * N, i = Math.floor(f), u = f - i, ix = k => ((i + k) % N + N) % N;
+  const cr = (a, b, c, d) => 0.5 * (2 * b + (c - a) * u + (2 * a - 5 * b + 4 * c - d) * u * u + (3 * b - a - 3 * c + d) * u * u * u);
+  const dcr = (a, b, c, d) => 0.5 * ((c - a) + 2 * (2 * a - 5 * b + 4 * c - d) * u + 3 * (3 * b - a - 3 * c + d) * u * u);
+  const [p0, p1, p2, p3] = [-1, 0, 1, 2].map(k => w.P[ix(k)]), [l0, l1, l2, l3] = [-1, 0, 1, 2].map(k => ln[ix(k)]);
+  const t = new THREE.Vector3(dcr(p0.x, p1.x, p2.x, p3.x), 0, dcr(p0.z, p1.z, p2.z, p3.z)).normalize(), lane = cr(l0, l1, l2, l3);
+  return new THREE.Vector3(cr(p0.x, p1.x, p2.x, p3.x) - t.z * lane, cr(p0.y, p1.y, p2.y, p3.y) + 0.02, cr(p0.z, p1.z, p2.z, p3.z) + t.x * lane); }
+function fpvCarPose(a, t) {
+  const s = (a.s ?? (a.at ?? 0) * world.L) + (a.v ?? 48) * t, p = fpvPath(s), d = fpvPath(s + 3).sub(fpvPath(s - 3)).setY(0).normalize();
+  return { pos: p, dir: d, n: new THREE.Vector3(-d.z, 0, d.x), s, roll: s, yaw: 0, vis: true };
+}
+/* Эрмит по ключам с неравными интервалами (касательные Катмулла–Рома): гладко, без рывков на ключах */
+function fpvSpline(ks, t, get) {
+  const n = ks.length; if (t <= ks[0].t) return get(ks[0]); if (t >= ks[n - 1].t) return get(ks[n - 1]);
+  let i = 0; while (i < n - 2 && t > ks[i + 1].t) i++;
+  const k0 = ks[Math.max(0, i - 1)], k1 = ks[i], k2 = ks[i + 1], k3 = ks[Math.min(n - 1, i + 2)], h = k2.t - k1.t, u = (t - k1.t) / h;
+  const v0 = get(k0), v1 = get(k1), v2 = get(k2), v3 = get(k3), m1 = v2.map((x, j) => (x - v0[j]) / Math.max(1e-3, k2.t - k0.t) * h), m2 = v3.map((x, j) => (x - v1[j]) / Math.max(1e-3, k3.t - k1.t) * h);
+  const u2 = u * u, u3 = u2 * u; return v1.map((x, j) => (2 * u3 - 3 * u2 + 1) * x + (u3 - 2 * u2 + u) * m1[j] + (-2 * u3 + 3 * u2) * v2[j] + (u3 - u2) * m2[j]);
+}
+/* телефон в руке пилота: всё в координатах машины (до масштаба 1.15), +x — влево, +z — вперёд */
+const FPV_SH = new THREE.Vector3(0.19, 0.84, 0.1);
+function fpvPhonePose(o, t) {
+  const up = ease(clamp((t - o.t0) / (o.t1 - o.t0))), turn = ease(clamp((t - o.turn0) / (o.turn1 - o.turn0)));
+  const hand = new THREE.Vector3(0.13, 0.6, 0.4).lerp(new THREE.Vector3(0.56, 1.27, 0.42), up);
+  hand.y += 0.012 * Math.sin(t * 3.1) * up; hand.x += 0.008 * Math.sin(t * 2.3 + 1) * up;   /* рука живая: чуть покачивается */
+  const n0 = new THREE.Vector3(0.12, 0.22, 1).normalize(), n1 = new THREE.Vector3(1, 0.1, -0.03).normalize(), n = n0.clone().lerp(n1, turn).normalize();
+  const y = new THREE.Vector3(0, 1, -0.12).normalize(); y.addScaledVector(n, -y.dot(n)).normalize();
+  const x = y.clone().cross(n).normalize(), ctr = hand.clone().addScaledVector(y, 0.105).addScaledVector(n, 0.002);
+  return { up, hand, n, y, x, ctr };
+}
+const L2C = v => new THREE.Vector3(-v.x * 1.15, v.y * 1.15, v.z * 1.15);   /* координаты машины → система камеры [вправо, вверх, вперёд] в метрах */
+function makeFpvProp() {
+  const g = new THREE.Group(), add = (geo, m, p = g) => { const o = new THREE.Mesh(geo, m); o.castShadow = true; p.add(o); return o; };
+  const suit = new THREE.MeshStandardMaterial({ color: '#1c2b52', roughness: 0.82, envMapIntensity: 0.5 }), glove = new THREE.MeshStandardMaterial({ color: '#17191f', roughness: 0.72, envMapIntensity: 0.5 });
+  const accent = new THREE.MeshStandardMaterial({ color: '#2f6fe0', roughness: 0.55, envMapIntensity: 0.6 }), palm = new THREE.MeshStandardMaterial({ color: '#2a2d35', roughness: 0.9 });
+  const upper = add(new THREE.CylinderGeometry(0.056, 0.05, 1, 14), suit), fore = add(new THREE.CylinderGeometry(0.048, 0.04, 1, 14), suit), elbow = add(new THREE.SphereGeometry(0.052, 14, 10), suit);
+  const hand = new THREE.Group(); g.add(hand);
+  const seg = (a, b, r, m) => { const A = new THREE.Vector3(...a), B = new THREE.Vector3(...b), d = B.clone().sub(A), o = add(new THREE.CapsuleGeometry(r, Math.max(0.001, d.length()), 4, 10), m, hand);
+    o.position.copy(A).add(B).multiplyScalar(0.5); o.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize()); return o; };
+  /* перчатка: манжета, ладонь за телефоном, четыре пальца обхватывают левый край, большой палец — правый */
+  { const c = add(new THREE.CylinderGeometry(0.043, 0.038, 0.075, 16), accent, hand); c.position.set(0, -0.03, -0.018);
+    const p = add(new THREE.SphereGeometry(1, 20, 14), glove, hand); p.scale.set(0.047, 0.058, 0.02); p.position.set(0.0, 0.045, -0.024);
+    const k = add(new THREE.BoxGeometry(0.07, 0.016, 0.006), accent, hand); k.position.set(-0.004, 0.072, -0.043); }
+  [0.07, 0.092, 0.113, 0.132].forEach((y, i) => { const l = i === 3 ? 0.85 : 1; seg([-0.028, y - 0.006, -0.03], [-0.0475, y, -0.01], 0.0074 * l, glove); seg([-0.0475, y, -0.01], [-0.0425, y + 0.002, 0.0062], 0.0068 * l, glove); });
+  seg([0.028, 0.022, -0.026], [0.047, 0.05, -0.009], 0.0088, glove); seg([0.047, 0.05, -0.009], [0.043, 0.07, 0.0062], 0.008, glove);
+  /* телефон: корпус с закруглением, металлическая рамка, экран с картой LapRadar, стекло с отражением неба */
+  const ph = new THREE.Group(); ph.position.set(0, 0.105, 0); hand.add(ph);
+  { const W2 = 0.08, H2 = 0.166, r = 0.012, s = new THREE.Shape(); s.moveTo(-W2 / 2 + r, -H2 / 2); s.lineTo(W2 / 2 - r, -H2 / 2); s.quadraticCurveTo(W2 / 2, -H2 / 2, W2 / 2, -H2 / 2 + r); s.lineTo(W2 / 2, H2 / 2 - r); s.quadraticCurveTo(W2 / 2, H2 / 2, W2 / 2 - r, H2 / 2);
+    s.lineTo(-W2 / 2 + r, H2 / 2); s.quadraticCurveTo(-W2 / 2, H2 / 2, -W2 / 2, H2 / 2 - r); s.lineTo(-W2 / 2, -H2 / 2 + r); s.quadraticCurveTo(-W2 / 2, -H2 / 2, -W2 / 2 + r, -H2 / 2);
+    const bg = new THREE.ExtrudeGeometry(s, { depth: 0.0075, bevelEnabled: true, bevelThickness: 0.0012, bevelSize: 0.0012, bevelSegments: 3, curveSegments: 10 }); bg.translate(0, 0, -0.00375);
+    add(bg, [new THREE.MeshPhysicalMaterial({ color: '#08090c', roughness: 0.12, metalness: 0.2, clearcoat: 1, envMapIntensity: 1 }), new THREE.MeshPhysicalMaterial({ color: '#3a3d44', roughness: 0.28, metalness: 1, envMapIntensity: 1.2 })], ph);
+    const cam = add(new THREE.CylinderGeometry(0.009, 0.009, 0.003, 18), new THREE.MeshPhysicalMaterial({ color: '#0d0f14', roughness: 0.05, metalness: 0.6, clearcoat: 1 }), ph); cam.rotation.x = Math.PI / 2; cam.position.set(-0.022, 0.06, -0.0055); }
+  const sc = document.createElement('canvas'); sc.width = 762; sc.height = 1512; const st = new THREE.CanvasTexture(sc); st.colorSpace = THREE.SRGBColorSpace; st.anisotropy = 8;
+  const screen = new THREE.Mesh(new THREE.PlaneGeometry(0.0745, 0.1478), new THREE.MeshBasicMaterial({ map: st, color: hqC('#ffffff', 1.3), fog: false })); screen.position.z = 0.0052; ph.add(screen);
+  const glass = new THREE.Mesh(new THREE.PlaneGeometry(0.0745, 0.1478), new THREE.MeshPhysicalMaterial({ color: '#000000', roughness: 0.04, metalness: 0, clearcoat: 1, transparent: true, opacity: 0.18, envMapIntensity: 1.4, depthWrite: false })); glass.position.z = 0.0056; ph.add(glass);
+  g.visible = false;
+  return { group: g, upper, fore, elbow, hand, ph, screen, sc, st };
+}
+function fpvApplyProp(c, o, t) {
+  if (!c.fpv) { c.fpv = makeFpvProp(); c.group.add(c.fpv.group); }
+  const P = c.fpv, q = fpvPhonePose(o, t), S = FPV_SH, l1 = 0.33, l2 = 0.35;
+  P.group.visible = t > o.t0 - 0.05;
+  if (c.helmet) c.helmet.rotation.y = 0.45 * q.up;   /* пилот смотрит на телефон */
+  if (!P.group.visible) return q;
+  /* рука: две кости, локоть наружу и вниз */
+  const d = q.hand.clone().sub(S), L = Math.min(d.length(), l1 + l2 - 0.002), dn = d.clone().normalize(), a = (l1 * l1 - l2 * l2 + L * L) / (2 * L), h = Math.sqrt(Math.max(0, l1 * l1 - a * a));
+  const pole = new THREE.Vector3(1, -0.7, -0.35).normalize(); pole.addScaledVector(dn, -pole.dot(dn)).normalize();
+  const E = S.clone().addScaledVector(dn, a).addScaledVector(pole, h), W = S.clone().addScaledVector(dn, L);
+  const bone = (m, A, B) => { const v = B.clone().sub(A); m.position.copy(A).add(B).multiplyScalar(0.5); m.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), v.clone().normalize()); m.scale.set(1, v.length(), 1); };
+  bone(P.upper, S, E); bone(P.fore, E, W); P.elbow.position.copy(E);
+  P.hand.position.copy(W); P.hand.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(q.x, q.y, q.n));
+  return q;
+}
+function fpvScreen(c, o, t, fx, dur) {
+  const P = c.fpv; if (!P?.group.visible) return; const g = P.sc.getContext('2d'), k = P.sc.width / 508, at = Math.max(0, t - o.t0 + 0.4);
+  g.save(); g.setTransform(k, 0, 0, k, 0, 0); g.fillStyle = '#040507'; g.fillRect(0, 0, 508, 1008); rrect(g, 6, 6, 496, 996, 46); g.clip(); g.fillStyle = '#0b1020'; g.fillRect(0, 0, 508, 1008);
+  phoneApp(g, 0, 0, 508, 1008, at, dur, 'map', fx, { rows: 4 });
+  const a = back((t - o.pill) / 0.45);
+  if (a > 0) { const txt = 'lapradar.com', n = Math.floor(clamp((t - o.pill - 0.2) / 0.75) * txt.length), shown = txt.slice(0, n), pw = 420, x0 = 254 - pw / 2;
+    g.save(); g.translate(254, 940); g.scale(a, a); g.translate(-254, -940); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowBlur = 24; rrect(g, x0, 900, pw, 80, 40); g.fillStyle = '#ffffff'; g.fill(); g.shadowBlur = 0;
+    g.strokeStyle = '#0b1020'; g.lineWidth = 6; g.lineCap = 'round'; g.beginPath(); g.arc(x0 + 46, 936, 14, 0, 7); g.stroke(); g.beginPath(); g.moveTo(x0 + 56, 947); g.lineTo(x0 + 68, 959); g.stroke();
+    g.font = font(800, 40); g.fillStyle = '#0b1020'; g.textBaseline = 'middle'; g.textAlign = 'left'; g.fillText(shown, x0 + 88, 942);
+    if (n < txt.length || Math.floor(t * 2.2) % 2) { const cx = x0 + 92 + g.measureText(shown).width; g.fillStyle = '#3b82f6'; g.fillRect(cx, 920, 4, 44); }
+    g.restore(); }
+  g.restore(); P.st.needsUpdate = true;
+}
+/* камера: позиция и взгляд в системе машины; ph-ключи привязаны к экрану телефона */
+function fpvKeys(shot) {
+  if (shot._k) return shot._k; const o = shot.phone || {};
+  shot._k = (shot.keys || []).map(k => { if (k.ph == null) return { ...k, P: k.p, Lk: k.l };
+    const q = fpvPhonePose(o, k.t), c = L2C(q.ctr), n = L2C(q.n).normalize(), d = k.ph, off = k.off || [0, 0, 0];
+    return { ...k, P: [c.x + n.x * d + off[0], c.y + n.y * d + off[1], c.z + n.z * d + off[2]], Lk: [c.x, c.y, c.z] }; });
+  return shot._k;
+}
+function fpvRig(shot, t) {   /* система машины во времени t: начало — машина, оси — сглаженный курс (погоня) → точный курс машины (крупный план) */
+  const a = shot.act || {}, st = fpvCarPose(a, t), rg = shot.rig || [7.5, 10.5], k = ease(clamp((t - rg[0]) / (rg[1] - rg[0])));
+  const sm = fpvPath(st.s + 7).sub(fpvPath(st.s - 12)).setY(0).normalize(), f = sm.lerp(st.dir, k).normalize();
+  return { o: st.pos, f, r: new THREE.Vector3(-f.z, 0, f.x), u: UP };
+}
+function fpvEval(shot, t) {
+  const ks = fpvKeys(shot), R2 = fpvRig(shot, t), p = fpvSpline(ks, t, k => k.P), l = fpvSpline(ks, t, k => k.Lk);
+  const W = v => R2.o.clone().addScaledVector(R2.r, v[0]).addScaledVector(R2.u, v[1]).addScaledVector(R2.f, v[2]);
+  const o = shot.phone, fp = fpvSpline(ks, t, k => [k.fp ?? (k.ph != null ? 1 : 0)])[0], car = R2.o.clone().setY(R2.o.y + 1.0);
+  const foc = o && fp > 0 ? car.lerp(W(L2C(fpvPhonePose(o, t).ctr).toArray()), fp) : car;   /* резкость: на машине, к концу — на телефоне */
+  return { foc, fp, pos: W(p), look: W(l), fov: fpvSpline(ks, t, k => [k.fov ?? 80])[0], ap: fpvSpline(ks, t, k => [k.ap ?? 3])[0], sh: fpvSpline(ks, t, k => [k.sh ?? 1])[0], bank: fpvSpline(ks, t, k => [k.bank ?? 1])[0] };
+}
+function fpvCamera(cam, shot, u, T, sc, lt) {
+  const c = world.cars[shot.car ?? 0], o = shot.phone || { t0: 1e9, t1: 1e9 + 1, turn0: 1e9, turn1: 1e9 + 1, pill: 1e9 };
+  fpvApplyProp(c, o, lt);
+  const e = fpvEval(shot, lt), hh = 0.3, acc = new THREE.Vector3();   /* поперечное ускорение по широкому окну: изломы ломаной трассы не дают дрожи */
+  for (const dt of [-0.2, 0, 0.2]) { const a = fpvEval(shot, lt + dt - hh).pos, b = fpvEval(shot, lt + dt + hh).pos, m = dt ? fpvEval(shot, lt + dt).pos : e.pos; acc.add(a.add(b).addScaledVector(m, -2).divideScalar(hh * hh * 3)); }
+  const fw = e.look.clone().sub(e.pos).normalize(), rt = fw.clone().cross(UP).normalize();
+  const roll = 0.3 * Math.tanh(Math.atan2(acc.dot(rt), 9.81) * 0.38 * e.bank / 0.3);   /* мягкий предел: без излома при насыщении */   /* дрон кренится в сторону поперечного ускорения: в повороте и при облёте */
+  const n3 = (f, ph) => Math.sin(lt * f + ph) * 0.6 + Math.sin(lt * f * 1.73 + ph * 2.1) * 0.3 + Math.sin(lt * f * 2.91 + ph * 0.7) * 0.1;   /* тряска: плавный «шум» 1–6 Гц, без дрожи кадр-в-кадр */
+  const sh = e.sh * (shot.shake ?? 1);
+  cam.position.copy(e.pos).add(new THREE.Vector3(n3(2.1, 0.3), n3(2.7, 1.1), n3(1.7, 2.3)).multiplyScalar(0.018 * sh));
+  cam.up.set(0, 1, 0); if (e.fp > 0 && c.fpv) { c.group.updateMatrixWorld(); cam.up.lerp(fpvPhonePose(o, lt).y.transformDirection(c.group.matrixWorld), e.fp).normalize(); }   /* в конце горизонт по телефону */
+  cam.lookAt(e.look); cam.rotateZ(-roll + n3(1.9, 4.1) * 0.006 * sh); cam.rotateX(n3(2.4, 5.2) * 0.004 * sh); cam.rotateY(n3(1.6, 0.9) * 0.004 * sh);
+  cam.fov = W > H ? e.fov * 0.6 : e.fov; cam.near = 0.03;
+  world.fpvF = { focus: e.pos.distanceTo(e.foc), aper: e.ap };
+}
+
 // ---------- кадр ----------
 function sceneAt(i) { let k = 0; while (k + 1 < sceneStarts.length && sceneStarts[k + 1] <= i / fps) k++; return k; }
 const camera = new THREE.PerspectiveCamera(50, W / H, 0.5, 20000);
@@ -1811,6 +2160,7 @@ function render3D(sc, lt, T) {
   /* TikTok-темп: длинную сцену с камерой «за машиной» сами режем на два ракурса */
   if (TT() && !shot.alt && !shot.noCut && shot.type === 'chase' && sc.dur > 4.6) shot = { ...shot, alt: [{ dist: (shot.dist ?? 14) * 2.4, dist2: (shot.dist2 ?? shot.dist ?? 14) * 2.0, h: (shot.h ?? 4) * 3.2, h2: (shot.h2 ?? shot.h ?? 4) * 2.6, side: -(shot.side ?? 0) * 2 - 4, side2: -(shot.side2 ?? shot.side ?? 0) * 2 - 2, look: (shot.look ?? 30) * 1.4 }] };
   if (shot.alt?.length) { const n = shot.alt.length + 1, k = Math.min(n - 1, Math.floor(u * n)); if (k > 0) shot = { ...shot, ...shot.alt[k - 1], act: shot.act, build: shot.build, hud: shot.hud }; u = clamp(u * n - k); }
+  if (CIN) CINF = { frame: Math.round(T * fps), aper: 0, focus: 100 };   /* студия/шины: без смаза и DoF, ничего не берём из прошлого кадра */
   if (shot.type === 'stage') { renderStage(shot, u, lt, T); return; }
   if (shot.type === 'tyres' || shot.type === 'tyre') {
     const s = stage; const single = shot.type === 'tyre';
@@ -1828,6 +2178,7 @@ function render3D(sc, lt, T) {
     draw(s.scene, s.cam); return;
   }
   const w = world;
+  if (CIN) cinPrev(sc, sc.shot?.alt ? { ...shot, act: sc.shot.act } : shot, lt, T);   /* look cinema: камера и машина за полкадра до этого (motion blur) */
   sc.fx = applyActs(sc.shot?.alt ? { ...shot, act: sc.shot.act } : shot, lt, T, sc.dur);
   w.glowLine.visible = shot.type === 'top' && shot.reveal;
   if (w.glowLine.visible) w.glowLine.geometry.setDrawRange(0, Math.floor(clamp(u * 1.4) * w.N) * 6);
@@ -1836,13 +2187,47 @@ function render3D(sc, lt, T) {
   w.scene.fog.far = shot.type === 'top' || shot.type === 'orbit' ? 60000 : w.theme.fogF; w.scene.fog.near = shot.type === 'top' || shot.type === 'orbit' ? 40000 : w.theme.fogN;
   if (shot.rain || w.rain) { rainFx(w, shot, lt, camera); if (shot.rain) { w.scene.fog.near = Math.min(w.scene.fog.near, 260); w.scene.fog.far = Math.min(w.scene.fog.far, 2600); } }
   if (HQ) hqFrame(shot, lt, camera);
+  if (CIN) cinCur(sc, shot, lt, T);
   draw(w.scene, camera);
+}
+function cinPrev(sc, shot, lt, T) {
+  const dt = (CINO.mb ?? 0.5) / fps; applyActs(shot, lt - dt, T - dt, sc.dur); placeCamera(camera, shot, clamp((lt - dt) / sc.dur), T - dt, sc, lt - dt); camera.updateMatrixWorld();
+  const prev = new Map(); for (const g of cinMovers()) if (g.visible) { g.updateMatrixWorld(); prev.set(g, g.matrixWorld.clone()); }
+  CINF = { prevVP: new THREE.Matrix4().multiplyMatrices(camera.projectionMatrix, camera.matrixWorldInverse), prev, frame: Math.round(T * fps) };
+}
+/* всё, что ездит: машины, мотоциклы, сток-кары, сейфти-кар, такси (группы с локальной рамкой) */
+function cinMovers(w = world) { return [...w.cars.map(c => c.group), ...w.cars.flatMap(c => Object.values(c.bk || {}).map(o => o.group)), ...w.bikes.map(b => b.group), ...w.stock.map(b => b.group), ...w.pack.map(b => b.group), ...w.taxis.map(b => b.group), w.sc.group]; }
+function cinBox(g, w = world) {   /* рамка объекта в его локальных координатах (один раз) */
+  if (g.userData.cinBox) return g.userData.cinBox; const p = g.position.clone(), q = g.quaternion.clone(); g.position.set(0, 0, 0); g.quaternion.identity(); g.updateMatrixWorld(true);
+  const b = new THREE.Box3().setFromObject(g, true); g.position.copy(p); g.quaternion.copy(q); g.updateMatrixWorld(true);
+  b.min.divide(g.scale); b.max.divide(g.scale); b.min.y = Math.max(b.min.y, 0.03);
+  if (w.cars.some(c => c.group === g)) b.union(new THREE.Box3(new THREE.Vector3(-1.25, 0.03, -2.95), new THREE.Vector3(1.25, 1.85, 3.75)));   /* болид: с запасом на руку пилота с телефоном (FPV-промо) */
+  b.max.x = Math.max(b.max.x, -b.min.x, 0.7 * b.max.y);   /* запас на наклон мотоцикла в повороте */
+  for (const k of ['x', 'z']) { const m = Math.max(-b.min[k], b.max[k]); b.min[k] = -m; b.max[k] = m; }   /* симметрично: наклон мотоцикла и руль меняются от кадра к кадру */ b.expandByVector(new THREE.Vector3(0.08, 0.05, 0.08)); return (g.userData.cinBox = b);
+}
+/* резкость: на объекте, за которым идёт камера; на общих планах и в студии — без размытия */
+function cinFocus(shot) {
+  const w = world, ex = w.lastEx || {}, c = w.cars[shot.car ?? 0];
+  if (shot.type === 'fpv') return w.fpvF;
+  if (shot.type === 'onboard') return { focus: 30, aper: (CINO.aper ?? 2.5) * 0.5 };
+  if (!['chase', 'side', 'carorbit', 'flyby'].includes(shot.type)) return { focus: 100, aper: 0 };
+  const st = (shot.follow === 'bike' && ex.bikes?.[shot.fi ?? 1]) || (shot.follow === 'stock' && ex.pack?.[shot.fi ?? 0]) || (shot.follow === 'taxi' && ex.taxis?.[2]) || (shot.follow === 'focus' && ex.focus) || (shot.follow === 'sc' && ex.sc?.vis && ex.sc)
+    || (!shot.follow && c.group.visible && c.st);
+  return st?.pos ? { focus: camera.position.distanceTo(st.pos.clone().setY(st.pos.y + 0.8)), aper: CINO.aper ?? 2.5 } : { focus: 100, aper: 0 };
+}
+function cinCur(sc, shot, lt, T) {
+  const c = world.cars[shot.car ?? 0]; camera.updateMatrixWorld();
+  CINF.objs = cinMovers().filter(g => g.visible && CINF.prev.has(g)).map(g => { g.updateMatrixWorld(); return { g, d: g.position.distanceToSquared(camera.position) }; })
+    .sort((a, b) => a.d - b.d).slice(0, 4).map(({ g }) => ({ inv: g.matrixWorld.clone().invert(), prev: CINF.prev.get(g), box: cinBox(g) }));
+  const f = cinFocus(shot); CINF.focus = f.focus; CINF.aper = f.aper;
+  if (shot.type === 'fpv' && shot.phone) fpvScreen(c, shot.phone, lt, sc.fx, sc.dur);
 }
 
 function overlay(sc, lt, i) {
   const g = ctx; g.clearRect(0, 0, W, H); g.imageSmoothingQuality = 'high'; g.drawImage(gl, 0, 0, W, H);
   if (W > H) { // горизонтальный кадр для статьи: та же вёрстка, уменьшенная колонка по центру поверх широкой сцены
     const RW = W, RH = H, k = RH / 1920 * 1.21;
+    if (sc.kind === 'fpv') { overlayBody(g, sc, lt, i, false); return; }   /* FPV-промо: только водяной знак, без затемнения */
     const gr = g.createLinearGradient(0, 0, 0, RH); gr.addColorStop(0, 'rgba(0,0,0,0.55)'); gr.addColorStop(0.35, 'rgba(0,0,0,0)'); gr.addColorStop(0.7, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,0.6)'); g.fillStyle = gr; g.fillRect(0, 0, RW, RH);
     g.save(); g.translate((RW - 1080 * k) / 2, -60 * k); g.scale(k, k); W = 1080; H = 1920;
     try { overlayBody(g, sc, lt, i, false); } finally { W = RW; H = RH; g.restore(); }
@@ -1912,7 +2297,9 @@ function quizEnd(g, sc, lt) {
   g.restore(); g.textAlign = 'left'; g.textBaseline = 'alphabetic';
 }
 function overlayBody(g, sc, lt, i, portrait) {
-  const kind = sc.kind; if (portrait) shade(g, true, true);
+  const kind = sc.kind;
+  if (kind === 'fpv') { g.save(); g.globalAlpha = 0.85 * (1 - clamp((lt - (sc.wmOut ?? 1e9)) / 0.6)); brandTT(g); g.restore(); return; }   /* FPV-промо: без текста, только маленький водяной знак */
+  if (portrait) shade(g, true, true);
   if (kind !== 'end' && !spec.cover) (TT() ? brandTT(g) : brand(g)); else if (spec.cover) brand(g);
   if (spec.cover) { /* обложка для TikTok: крупный заголовок по центру (сетка профиля режет 3:4) */
     const gr = g.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, 'rgba(5,8,16,0.15)'); gr.addColorStop(0.35, 'rgba(5,8,16,0.55)'); gr.addColorStop(0.65, 'rgba(5,8,16,0.55)'); gr.addColorStop(1, 'rgba(5,8,16,0.2)'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
@@ -1943,7 +2330,8 @@ function overlayBody(g, sc, lt, i, portrait) {
 
 window.setupVideo = async s => {
   spec = s; fps = s.fps || 30; W = s.w || 1080; H = s.h || 1920; camera.aspect = W / H;
-  HQ = !!(s.hq || s.scenes.some(x => x.shot?.hq)); HQO = typeof s.hq === 'object' ? s.hq : {}; if (STG && (HQ || STG.hq)) STG = null;   /* HQ-режим: только если ролик его попросил */
+  CIN = !!s.look && s.look !== 'none'; CINO = typeof s.look === 'object' ? s.look : {}; CINF = null;   /* look cinema: только если ролик его попросил */
+  HQ = !!(s.hq || CIN || s.scenes.some(x => x.shot?.hq)); HQO = typeof s.hq === 'object' ? s.hq : {}; if (STG && (HQ || STG.hq)) STG = null;   /* HQ-режим: только если ролик его попросил */
   await document.fonts.load('900 40px Inter'); await document.fonts.load('800 40px Inter'); await document.fonts.load('700 40px Inter');
   /* q3d < 1: 3D рисуем в меньшем разрешении (дешевле), текст поверх — в полном */
   const q3 = s.q3d || 1; gl = document.createElement('canvas'); gl.width = Math.round(W * q3); gl.height = Math.round(H * q3);
@@ -1967,3 +2355,5 @@ window.renderFrame = (i, q = 0.9) => {
 window.studioReady = true;
 window.__w = () => world;
 window.__cam = () => camera;
+window.__cinf = () => CINF;
+window.__place = i => { const k = sceneAt(i), sc = spec.scenes[k], lt = i / fps - sceneStarts[k], T = i / fps + (sc.shot?.t0 ?? 0); applyActs(sc.shot, lt, T, sc.dur); placeCamera(camera, sc.shot, clamp(lt / sc.dur), T, sc, lt); };   /* отладка: только камера, без отрисовки */

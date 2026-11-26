@@ -55,6 +55,7 @@ def plan(art, lang):
     for sc, shot in zip(scenes, v['shots']): sc['shot'] = shot
     out = {'track': v['track'], 'theme': v.get('theme', 'night'), 'city': v.get('city', False), 'style': v.get('style', 'tt'), 'brand3d': v.get('brand3d', True), 'fps': 30, 'scenes': scenes}
     if v.get('hq'): out['hq'] = v['hq']  # HQ-режим студии (свет, тени, bloom, детальные машины): только у роликов, где он задан
+    if v.get('look'): out['look'] = v['look']  # look cinema (реалистичный свет, motion blur, DoF, грейдинг): только у роликов, где он задан
     return out
 
 
@@ -70,7 +71,7 @@ async def render(art, lang, frames=None, still=None, wide=False):
     from playwright.async_api import async_playwright
     port = serve(); spec = plan(art, lang)
     if wide: spec['w'], spec['h'] = 1920, 1080  # горизонтальная версия для статьи
-    spec['q3d'] = float(os.environ.get('Q3D', '0.667'))  # 3D в ~720p, текст в 1080p: почти вдвое быстрее
+    spec['q3d'] = float(os.environ.get('Q3D', art['video3d'].get('q3d', '0.667')))  # 3D в ~720p, текст в 1080p: почти вдвое быстрее
     vid = art.get('videoId') or art['slug']; suf = '-wide' if wide else ''
     os.makedirs(OUT, exist_ok=True)
     async with async_playwright() as p:

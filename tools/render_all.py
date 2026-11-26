@@ -20,6 +20,8 @@ def digest(path, art, lang, wide):
     key = {'scenes': v['scenes'][lang], 'shots': v['shots'], 'track': v['track'], 'theme': v.get('theme'), 'wide': wide,
            'title': (art.get('i18n') or {}).get(lang, {}).get('title') or (art.get('titles') or {}).get(lang)}
     if v.get('hq'): key['hq'] = v['hq']  # HQ-режим входит в хэш, только если задан: хэши старых роликов не меняются
+    if v.get('look'): key['look'] = v['look']  # look cinema — так же: только если задан
+    if v.get('q3d'): key['q3d'] = v['q3d']
     h.update(json.dumps(key, ensure_ascii=False, sort_keys=True).encode())
     h.update(f'studio-v{STUDIO_VERSION}'.encode())
     for f in [os.path.join(ROOT, 'tools', 'studio', 'tracks', v['track'] + '.json')]:
