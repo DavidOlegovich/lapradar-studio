@@ -34,7 +34,7 @@ jobs:
     needs: plan
     if: needs.plan.outputs.pairs != '[]'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     strategy: { fail-fast: false, max-parallel: 20, matrix: { include: '${{ fromJson(needs.plan.outputs.pairs) }}' } }
     steps:
       - uses: actions/checkout@v4
