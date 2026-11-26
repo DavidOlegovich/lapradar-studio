@@ -1,0 +1,123 @@
+{
+ "slug": "motogp-valencia-2026-finale-preview",
+ "date": "2026-11-27",
+ "tags": [
+  "motogp",
+  "valencia",
+  "finale"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/motogp-valencia-2026-finale-preview-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Валенсия: последняя гонка MotoGP эпохи 1000 кубов и три вопроса без ответа",
+   "lead": "Чемпион известен, но финал сезона 27–29 ноября ещё решит зачёт производителей, второе место среди пилотов и титул в Moto2.",
+   "body": [
+    "## Aprilia впереди Ducati на девять очков",
+    "Зачёт производителей остаётся открытым. После Портимана у Aprilia 598 очков, у Ducati 589. В Валенсии осталось разыграть до 37 очков: 12 за субботний спринт и 25 за воскресную гонку. Чтобы обойти Aprilia, Ducati нужно набрать минимум на десять очков больше. Командный зачёт Aprilia выиграла заранее.",
+    "## Мартин и Беццекки: два очка за второе место",
+    "Марк Маркес стал чемпионом ещё в Португалии, а вот второе место остаётся за двумя пилотами одной команды. У Хорхе Мартина 396 очков, у Марко Беццекки 394. Беццекки выиграл две последние гонки. Для Мартина это ещё и последний уикенд в Aprilia: в 2027 году он переходит в заводскую Yamaha.",
+    "![Пелотон MotoGP: условные мотоциклы на трассе](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2: пять очков решают всё",
+    "У Мануэля Гонсалеса 286,5 очка, у Исана Гевары 282. После Португалии разрыв составляет 4,5 очка. Гевара становится чемпионом, если выигрывает гонку, даже когда Гонсалес приходит вторым: 25 очков против 20 дают как раз пять. Если Гевара финиширует вторым, ему нужно, чтобы Гонсалес был не выше четвёртого.",
+    "## Кто прощается с MotoGP",
+    "Джек Миллер и Брэд Биндер с 2027 года едут в WorldSBK, Миллер в заводскую Yamaha, Биндер в BMW. Маверик Виньялес финал пропускает: плечо, травмированное на Заксенринге в 2025 году, так и не восстановилось. Вместо него за Tech3 выйдет Пол Эспаргаро. Франческо Баньяя тоже не стартует из-за перелома стопы, за Ducati поедет Икер Лекуона.",
+    "![Дуэль за второе место: два условных мотоцикла в студии](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## Трасса и конец эпохи",
+    "Трасса Рикардо Тормо расположена в Честе под Валенсией и открылась в 1999 году. Круг чуть больше четырёх километров, 14 поворотов. Это последняя гонка MotoGP с моторами в 1000 кубов: с 2027 года класс переходит на 850. Во сколько гонка по вашему времени, смотрите на ЛапРадар."
+   ]
+  },
+  "en": {
+   "title": "Valencia: the last 1000cc MotoGP race and three open questions",
+   "lead": "The champion is known, but the season finale on 27–29 November still has to settle the constructors' title, second place among the riders and the Moto2 crown.",
+   "body": [
+    "## Aprilia lead Ducati by nine points",
+    "The constructors' title is still open. After Portimão Aprilia have 598 points and Ducati 589. Up to 37 points remain in Valencia: 12 for Saturday's sprint and 25 for Sunday's race. To pass Aprilia, Ducati need to score at least ten points more. Aprilia have already won the teams' title.",
+    "## Martín and Bezzecchi: two points for second",
+    "Marc Márquez clinched the title back in Portugal, but second place is a fight between two riders from the same team. Jorge Martín has 396 points, Marco Bezzecchi 394. Bezzecchi has won the last two races. For Martín it is also the final weekend with Aprilia: in 2027 he moves to the factory Yamaha team.",
+    "![A MotoGP pack: generic bikes on track](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2: five points decide it",
+    "Manuel González has 286.5 points, Izan Guevara 282. After Portugal the gap is 4.5 points. Guevara is champion if he wins the race, even with González second: 25 points against 20 is exactly five. If Guevara finishes second, he needs González to be no higher than fourth.",
+    "## Who is saying goodbye to MotoGP",
+    "Jack Miller and Brad Binder are heading to WorldSBK from 2027, Miller to the factory Yamaha team and Binder to BMW. Maverick Viñales misses the finale: the shoulder he injured at the Sachsenring in 2025 never fully recovered. Pol Espargaró will ride for Tech3 in his place. Francesco Bagnaia is also out with a fractured foot, and Iker Lecuona rides the Ducati.",
+    "![The fight for second: two generic bikes in a studio](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## The track and the end of an era",
+    "The Ricardo Tormo circuit sits in Cheste near Valencia and opened in 1999. A lap is just over four kilometres with 14 corners. It is the last MotoGP race with 1000cc engines: from 2027 the class moves to 850cc. Check the race start in your own time zone on the LapRadar map."
+   ]
+  },
+  "es": {
+   "title": "Valencia: la última carrera de MotoGP con motores de 1000 cc y tres incógnitas",
+   "lead": "El campeón ya es conocido, pero el cierre del 27 al 29 de noviembre aún decidirá el título de constructores, el subcampeonato y la corona de Moto2.",
+   "body": [
+    "## Aprilia manda por nueve puntos sobre Ducati",
+    "El título de constructores sigue abierto. Tras Portimão, Aprilia tiene 598 puntos y Ducati 589. En Valencia quedan hasta 37 por repartir: 12 en el sprint del sábado y 25 en la carrera del domingo. Para superar a Aprilia, Ducati necesita sumar al menos diez puntos más. Aprilia ya ganó el título de equipos.",
+    "## Martín y Bezzecchi: dos puntos por el segundo puesto",
+    "Marc Márquez se proclamó campeón en Portugal, pero el segundo puesto lo pelean dos pilotos del mismo equipo. Jorge Martín suma 396 puntos y Marco Bezzecchi 394. Bezzecchi ganó las dos últimas carreras. Para Martín es además el último fin de semana con Aprilia: en 2027 pasa al equipo oficial de Yamaha.",
+    "![Un grupo de MotoGP: motos genéricas en pista](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2: cinco puntos lo deciden todo",
+    "Manuel González tiene 286,5 puntos e Izan Guevara 282. Tras Portugal la diferencia es de 4,5. Guevara es campeón si gana la carrera, incluso con González segundo: 25 puntos contra 20 son justo cinco. Si Guevara acaba segundo, necesita que González no pase del cuarto puesto.",
+    "## Quién se despide de MotoGP",
+    "Jack Miller y Brad Binder se van a WorldSBK en 2027, Miller al equipo oficial de Yamaha y Binder a BMW. Maverick Viñales se pierde la final: el hombro que se lesionó en Sachsenring en 2025 no terminó de recuperarse. Pol Espargaró correrá por Tech3 en su lugar. Francesco Bagnaia tampoco estará por una fractura de pie, e Iker Lecuona pilotará la Ducati.",
+    "![La lucha por el segundo puesto: dos motos genéricas en un estudio](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## El circuito y el fin de una era",
+    "El circuito Ricardo Tormo está en Cheste, cerca de Valencia, y abrió en 1999. La vuelta mide algo más de cuatro kilómetros y tiene 14 curvas. Es la última carrera de MotoGP con motores de 1000 cc: desde 2027 la categoría pasa a 850 cc. A qué hora empieza la carrera en tu zona horaria, míralo en el mapa de LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Valência: a última corrida do MotoGP com motores de 1000 cc e três dúvidas em aberto",
+   "lead": "O campeão já é conhecido, mas a final de 27 a 29 de novembro ainda decide o título de construtores, o vice-campeonato e a coroa da Moto2.",
+   "body": [
+    "## Aprilia lidera a Ducati por nove pontos",
+    "O título de construtores continua em aberto. Depois de Portimão, a Aprilia tem 598 pontos e a Ducati 589. Em Valência ainda restam até 37 pontos: 12 na corrida sprint de sábado e 25 na corrida de domingo. Para passar a Aprilia, a Ducati precisa somar pelo menos dez pontos a mais. A Aprilia já venceu o título de equipas.",
+    "## Martín e Bezzecchi: dois pontos pelo segundo lugar",
+    "Marc Márquez garantiu o título em Portugal, mas o segundo lugar é disputado por dois pilotos da mesma equipa. Jorge Martín tem 396 pontos e Marco Bezzecchi 394. Bezzecchi venceu as duas últimas corridas. Para Martín é também o último fim de semana pela Aprilia: em 2027 muda-se para a equipa oficial da Yamaha.",
+    "![Um pelotão de MotoGP: motos genéricas na pista](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2: cinco pontos decidem tudo",
+    "Manuel González tem 286,5 pontos e Izan Guevara 282. Depois de Portugal, a diferença é de 4,5. Guevara é campeão se vencer a corrida, mesmo com González em segundo: 25 pontos contra 20 dão exatamente cinco. Se Guevara terminar em segundo, precisa que González não passe do quarto lugar.",
+    "## Quem se despede do MotoGP",
+    "Jack Miller e Brad Binder vão para o WorldSBK em 2027, Miller para a equipa oficial da Yamaha e Binder para a BMW. Maverick Viñales falha a final: o ombro lesionado em Sachsenring, em 2025, nunca recuperou totalmente. Pol Espargaró corre pela Tech3 no seu lugar. Francesco Bagnaia também fica de fora, com uma fratura no pé, e Iker Lecuona pilota a Ducati.",
+    "![A luta pelo segundo lugar: duas motos genéricas num estúdio](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## O circuito e o fim de uma era",
+    "O circuito Ricardo Tormo fica em Cheste, perto de Valência, e abriu em 1999. A volta tem pouco mais de quatro quilómetros e 14 curvas. É a última corrida do MotoGP com motores de 1000 cc: a partir de 2027 a categoria passa a 850 cc. A que horas começa a corrida no seu fuso horário, veja no mapa da LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Valencia: das letzte MotoGP-Rennen mit 1000 ccm und drei offene Fragen",
+   "lead": "Der Weltmeister steht fest, doch das Finale vom 27. bis 29. November klärt noch die Konstrukteurswertung, Platz zwei bei den Fahrern und den Moto2-Titel.",
+   "body": [
+    "## Aprilia führt neun Punkte vor Ducati",
+    "Die Konstrukteurswertung ist offen. Nach Portimão hat Aprilia 598 Punkte, Ducati 589. In Valencia sind noch bis zu 37 Punkte zu holen: 12 im Sprint am Samstag und 25 im Rennen am Sonntag. Um Aprilia zu überholen, muss Ducati mindestens zehn Punkte mehr holen. Die Teamwertung hat Aprilia schon gewonnen.",
+    "## Martín und Bezzecchi: zwei Punkte um Platz zwei",
+    "Marc Márquez ist schon in Portugal Weltmeister geworden, um Platz zwei streiten zwei Fahrer desselben Teams. Jorge Martín hat 396 Punkte, Marco Bezzecchi 394. Bezzecchi gewann die letzten beiden Rennen. Für Martín ist es zugleich das letzte Wochenende bei Aprilia: 2027 wechselt er ins Werksteam von Yamaha.",
+    "![Ein MotoGP-Feld: neutrale Motorräder auf der Strecke](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2: fünf Punkte entscheiden",
+    "Manuel González hat 286,5 Punkte, Izan Guevara 282. Nach Portugal beträgt der Abstand 4,5 Punkte. Guevara wird Weltmeister, wenn er das Rennen gewinnt, selbst bei Platz zwei von González: 25 Punkte gegen 20 ergeben genau fünf. Wird Guevara Zweiter, muss González schlechter als Vierter sein.",
+    "## Wer sich von der MotoGP verabschiedet",
+    "Jack Miller und Brad Binder wechseln 2027 in die WorldSBK, Miller ins Yamaha-Werksteam, Binder zu BMW. Maverick Viñales verpasst das Finale: Die Schulter, die er sich 2025 am Sachsenring verletzt hat, ist nie ganz verheilt. Pol Espargaró fährt für Tech3 an seiner Stelle. Auch Francesco Bagnaia fehlt wegen eines Fußbruchs, Iker Lecuona sitzt auf der Ducati.",
+    "![Der Kampf um Platz zwei: zwei neutrale Motorräder im Studio](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## Die Strecke und das Ende einer Ära",
+    "Der Circuit Ricardo Tormo liegt in Cheste bei Valencia und wurde 1999 eröffnet. Eine Runde misst knapp über vier Kilometer, mit 14 Kurven. Es ist das letzte MotoGP-Rennen mit 1000-ccm-Motoren: Ab 2027 fährt die Klasse mit 850 ccm. Wann das Rennen in Ihrer Zeitzone startet, sehen Sie auf der LapRadar-Karte."
+   ]
+  },
+  "zh": {
+   "title": "瓦伦西亚：1000cc时代的最后一场MotoGP与三个悬念",
+   "lead": "总冠军已经产生，但11月27日至29日的收官战仍要决出制造商总冠军、车手年度第二以及Moto2冠军。",
+   "body": [
+    "## Aprilia领先杜卡迪9分",
+    "制造商总冠军仍未决出。波尔蒂芒站之后，Aprilia有598分，杜卡迪589分。瓦伦西亚还有最多37分可争：周六冲刺赛12分，周日正赛25分。杜卡迪要想反超，需要比Aprilia至少多拿10分。车队总冠军Aprilia已经提前拿下。",
+    "## 马丁与贝泽奇：两分之差争第二",
+    "马克·马奎斯在葡萄牙已经夺冠，年度第二则由同队的两名车手争夺。豪尔赫·马丁396分，马尔科·贝泽奇394分。贝泽奇赢下了最近两场比赛。对马丁来说，这也是他在Aprilia的最后一个周末：2027年他将加盟雅马哈厂队。",
+    "![MotoGP车群：赛道上的示意摩托车](/img/articles/3d/motogp-valencia-2026-finale-preview-pack.jpg)",
+    "## Moto2：五分定乾坤",
+    "曼努埃尔·冈萨雷斯286.5分，伊赞·格瓦拉282分。葡萄牙站之后分差为4.5分。如果格瓦拉赢下正赛，即使冈萨雷斯排第二，格瓦拉也能夺冠：25分对20分，正好差5分。如果格瓦拉第二，则需要冈萨雷斯排在第四名之后。",
+    "## 谁在告别MotoGP",
+    "杰克·米勒和布拉德·宾德将在2027年转战WorldSBK，米勒加入雅马哈厂队，宾德加入宝马。马维里克·维尼亚莱斯缺席收官战：他2025年在萨克森林受伤的肩膀始终没有完全恢复，Tech3由波尔·埃斯帕加罗代替出战。弗朗切斯科·巴尼亚亚因脚部骨折同样缺席，杜卡迪由伊克尔·莱库奥纳驾驶。",
+    "![争夺第二名：演播室里的两辆示意摩托车](/img/articles/3d/motogp-valencia-2026-finale-preview-duel.jpg)",
+    "## 赛道与一个时代的终结",
+    "里卡多·托尔莫赛道位于瓦伦西亚附近的切斯特，1999年启用。一圈略长于四公里，共14个弯道。这是MotoGP最后一场使用1000cc发动机的比赛：从2027年起，该组别改用850cc。比赛在你所在时区几点开始，请在LapRadar地图上查看。"
+   ]
+  }
+ }
+}
