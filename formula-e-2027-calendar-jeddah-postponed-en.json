@@ -1,0 +1,53 @@
+{
+ "id": "formula-e-2027-calendar-jeddah-postponed",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.92,
+   "say": "Formula E's new era starts a month later. The first Gen4 race goes to Mexico City, not Jeddah."
+  },
+  {
+   "start": 5.92,
+   "dur": 6.49,
+   "say": "The Jeddah double-header on December eighteenth and nineteenth moves to April sixteenth and seventeenth."
+  },
+  {
+   "start": 12.41,
+   "dur": 6.89,
+   "say": "The reason is the conflict in the Middle East. The series pointed to the situation in the region and logistics."
+  },
+  {
+   "start": 19.3,
+   "dur": 5.41,
+   "say": "Mexico City now opens the season on January sixteenth. It was originally round three."
+  },
+  {
+   "start": 24.71,
+   "dur": 5.98,
+   "say": "Jeddah takes Sanya's April weekend, and the China race moves two weeks earlier, to April third."
+  },
+  {
+   "start": 30.69,
+   "dur": 4.66,
+   "say": "It's still twenty-one races: eight double-headers and five single races."
+  },
+  {
+   "start": 35.35,
+   "dur": 7.35,
+   "say": "Formula One, meanwhile, is still heading to the Middle East: Qatar at the end of November, Abu Dhabi in early December."
+  },
+  {
+   "start": 42.7,
+   "dur": 3.46,
+   "say": "Check race times in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Formula E postpones Jeddah: the Gen4 era now starts in Mexico City on 16 January",
+ "caption": "",
+ "slug": "formula-e-2027-calendar-jeddah-postponed",
+ "digest": "2e609d64bf944bcf",
+ "studio": 2
+}

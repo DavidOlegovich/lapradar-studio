@@ -1,0 +1,48 @@
+{
+ "id": "formula-e-origins",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.75,
+   "say": "In early Formula E, drivers jumped out of their car mid-race and climbed into a second one."
+  },
+  {
+   "start": 5.75,
+   "dur": 6.49,
+   "say": "It started on a napkin: in Paris, March twenty eleven, Jean Todt and Alejandro Agag sketched the series."
+  },
+  {
+   "start": 12.24,
+   "dur": 6.72,
+   "say": "First race: Beijing, September twenty fourteen. Prost and Heidfeld crash at the last corner, di Grassi wins."
+  },
+  {
+   "start": 18.96,
+   "dur": 6.09,
+   "say": "One battery couldn't last a race, so drivers swapped cars halfway. That went on for four seasons."
+  },
+  {
+   "start": 25.05,
+   "dur": 6.44,
+   "say": "Gen2 went the full distance on one battery. Gen3 added a front motor and dropped rear hydraulic brakes."
+  },
+  {
+   "start": 31.490000000000002,
+   "dur": 6.66,
+   "say": "Gen4 is testing now, Mortara lapped in one twenty-four. It races first in Mexico City on January sixteenth."
+  },
+  {
+   "start": 38.150000000000006,
+   "dur": 2.72,
+   "say": "The Formula E calendar is on LapRadar."
+  }
+ ],
+ "title": "How Formula E was born: a napkin, Beijing and the mid-race car swap",
+ "caption": "",
+ "slug": "formula-e-origins",
+ "digest": "c27aa6392aece2f3",
+ "studio": 2
+}

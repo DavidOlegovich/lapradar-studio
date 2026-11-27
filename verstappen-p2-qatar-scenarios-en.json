@@ -1,0 +1,58 @@
+{
+ "id": "verstappen-p2-qatar-scenarios",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.32,
+   "say": "Verstappen could lock up second place in Qatar. What does he need?"
+  },
+  {
+   "start": 4.32,
+   "dur": 5.75,
+   "say": "Verstappen has three hundred four. Hamilton is thirty-seven back, Russell and Norris forty."
+  },
+  {
+   "start": 10.07,
+   "dur": 4.32,
+   "say": "No sprints left, no fastest lap point. Twenty-five per race, tops."
+  },
+  {
+   "start": 14.39,
+   "dur": 4.44,
+   "say": "Leclerc is fifty-four back and out of reach. It's a three-way fight."
+  },
+  {
+   "start": 18.830000000000002,
+   "dur": 4.04,
+   "say": "With a podium in Qatar, second is his whatever the others do."
+  },
+  {
+   "start": 22.87,
+   "dur": 4.26,
+   "say": "Fourth place is enough, as long as Hamilton doesn't win the race."
+  },
+  {
+   "start": 27.130000000000003,
+   "dur": 4.44,
+   "say": "Even zero points is enough, if none of the three reaches the podium."
+  },
+  {
+   "start": 31.570000000000004,
+   "dur": 4.04,
+   "say": "If points are tied, more wins decide it. Verstappen has four."
+  },
+  {
+   "start": 35.61000000000001,
+   "dur": 3.69,
+   "say": "Check the race start in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Verstappen could seal second place in Qatar: here is what he needs",
+ "caption": "",
+ "slug": "verstappen-p2-qatar-scenarios",
+ "digest": "c1172befdee1be32",
+ "studio": 2
+}

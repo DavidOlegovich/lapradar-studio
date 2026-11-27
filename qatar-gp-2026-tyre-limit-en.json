@@ -1,0 +1,58 @@
+{
+ "id": "qatar-gp-2026-tyre-limit",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.58,
+   "say": "In Qatar a set of tyres can do twenty-seven laps at most. After that it has to come off."
+  },
+  {
+   "start": 5.58,
+   "dur": 6.38,
+   "say": "The limit was announced on November twentieth. Laps count across the whole weekend, practice included."
+  },
+  {
+   "start": 11.96,
+   "dur": 4.72,
+   "say": "The race is fifty-seven laps, so every driver has to stop at least twice."
+  },
+  {
+   "start": 16.68,
+   "dur": 5.86,
+   "say": "Blame the fast right-handers from Turn twelve to fourteen. Drivers take them almost flat out."
+  },
+  {
+   "start": 22.54,
+   "dur": 5.81,
+   "say": "The left front takes the worst of it. It hits the wear limit after roughly twenty-five laps."
+  },
+  {
+   "start": 28.349999999999998,
+   "dur": 5.81,
+   "say": "In twenty twenty-three it was eighteen laps, after the sidewalls suffered on the high kerbs."
+  },
+  {
+   "start": 34.16,
+   "dur": 5.52,
+   "say": "It was a brutal night: Sargeant retired with dehydration, and Ocon was sick in the car."
+  },
+  {
+   "start": 39.67999999999999,
+   "dur": 6.09,
+   "say": "Last year the limit was twenty-five. McLaren didn't pit under the safety car, and Verstappen won."
+  },
+  {
+   "start": 45.769999999999996,
+   "dur": 5.58,
+   "say": "The race is on November twenty-ninth. Check the start in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Qatar: a tyre set lasts 27 laps at most, so expect at least two pit stops",
+ "caption": "",
+ "slug": "qatar-gp-2026-tyre-limit",
+ "digest": "276e868bf7ca07c3",
+ "studio": 2
+}

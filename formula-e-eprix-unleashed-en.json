@@ -1,0 +1,58 @@
+{
+ "id": "formula-e-eprix-unleashed",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.72,
+   "say": "One weekend, two races, and they're nothing alike. Meet E-Prix Unleashed."
+  },
+  {
+   "start": 4.72,
+   "dur": 7.01,
+   "say": "Per the FIA description, the new race runs about twenty-five minutes. A classic Formula E race takes about forty."
+  },
+  {
+   "start": 11.73,
+   "dur": 5.86,
+   "say": "The short race uses high downforce. The classic uses low, less drag and easier energy saving."
+  },
+  {
+   "start": 17.59,
+   "dur": 4.78,
+   "say": "In Unleashed, Attack Mode lasts six minutes. Expect wheel-to-wheel fights."
+  },
+  {
+   "start": 22.37,
+   "dur": 5.06,
+   "say": "The mandatory Pit Boost stop stays in the classic race. The short one has none."
+  },
+  {
+   "start": 27.43,
+   "dur": 5.12,
+   "say": "Short races only run at double-headers, and there are eight of them this season."
+  },
+  {
+   "start": 32.55,
+   "dur": 6.61,
+   "say": "Twenty-one races in thirteen cities. Mexico City opens it on January sixteenth, and Jeddah moved to April."
+  },
+  {
+   "start": 39.16,
+   "dur": 5.35,
+   "say": "Race points haven't changed: twenty-five for the winner, and points for the top ten."
+  },
+  {
+   "start": 44.51,
+   "dur": 2.72,
+   "say": "The Formula E calendar is on LapRadar."
+  }
+ ],
+ "title": "E-Prix Unleashed: the short Formula E race that did not exist before",
+ "caption": "",
+ "slug": "formula-e-eprix-unleashed",
+ "digest": "baf03ee274a24b08",
+ "studio": 2
+}

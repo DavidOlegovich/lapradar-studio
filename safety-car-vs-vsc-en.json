@@ -1,0 +1,43 @@
+{
+ "id": "safety-car-vs-vsc",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.78,
+   "say": "One crash, and the leader loses everything he built over half a race. How?"
+  },
+  {
+   "start": 4.78,
+   "dur": 5.58,
+   "say": "The safety car gathers everyone into a queue. No overtaking, and the gaps simply vanish."
+  },
+  {
+   "start": 10.36,
+   "dur": 6.66,
+   "say": "Under a virtual safety car there is no car on track. Drivers follow a set time, and the gaps barely change."
+  },
+  {
+   "start": 17.02,
+   "dur": 6.15,
+   "say": "A normal pit stop costs more than twenty seconds. When everyone else is slow, it costs a lot less."
+  },
+  {
+   "start": 23.17,
+   "dur": 6.15,
+   "say": "At the restart the leader picks the moment to go, and the tyres have cooled down on the slow laps."
+  },
+  {
+   "start": 29.32,
+   "dur": 3.64,
+   "say": "See who pitted under the safety car, live on LapRadar."
+  }
+ ],
+ "title": "Safety car or virtual safety car: who gets lucky",
+ "caption": "",
+ "slug": "safety-car-vs-vsc",
+ "digest": "623eafd0211e13f0",
+ "studio": 2
+}

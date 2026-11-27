@@ -1,0 +1,48 @@
+{
+ "id": "ir28-indycar-new-car",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.61,
+   "say": "This car will replace the current one in IndyCar. It has already run on the Indianapolis oval. What's new?"
+  },
+  {
+   "start": 6.61,
+   "dur": 7.18,
+   "say": "The engine grows from two point two to two point four litres. Twin turbos, up to seven hundred and sixty horsepower."
+  },
+  {
+   "start": 13.79,
+   "dur": 7.18,
+   "say": "The hybrid now uses a battery, a first for the series. It stores fourteen times more energy than the supercapacitor."
+  },
+  {
+   "start": 20.97,
+   "dur": 6.61,
+   "say": "On September ninth, Alexander Rossi was first to drive it on the oval. The next day, Alex Palou took over."
+  },
+  {
+   "start": 27.58,
+   "dur": 8.72,
+   "say": "IndyCar says the car can beat Indianapolis records from nineteen ninety-six. In September they weren't chasing them: speeds were kept moderate."
+  },
+  {
+   "start": 36.3,
+   "dur": 7.06,
+   "say": "In October Palou ran forty-three laps at Sebring, a durability test. Racing with it starts in twenty twenty-eight."
+  },
+  {
+   "start": 43.36,
+   "dur": 2.84,
+   "say": "Follow IndyCar on the LapRadar live map."
+  }
+ ],
+ "title": "IR-28: IndyCar's new car has already run on the Indianapolis oval",
+ "caption": "",
+ "slug": "ir28-indycar-new-car",
+ "digest": "2a87def33f851e8f",
+ "studio": 2
+}

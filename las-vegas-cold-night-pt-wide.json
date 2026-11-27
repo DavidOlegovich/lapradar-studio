@@ -1,0 +1,43 @@
+{
+ "id": "las-vegas-cold-night",
+ "lang": "pt",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.18,
+   "say": "Las Vegas. A corrida mais brilhante do ano e também a mais escorregadia. Por quê?"
+  },
+  {
+   "start": 5.18,
+   "dur": 5.58,
+   "say": "A corrida é à noite, e em novembro o deserto é frio: o ar fica entre dez e quinze graus."
+  },
+  {
+   "start": 10.76,
+   "dur": 7.52,
+   "say": "Os pneus da Fórmula Um são feitos para o calor. Frios, eles seguram menos e a superfície se rasga em bolinhas de borracha."
+  },
+  {
+   "start": 18.28,
+   "dur": 5.81,
+   "say": "A volta passa de seis quilômetros: retas longas pela Strip e curvas lentas de noventa graus."
+  },
+  {
+   "start": 24.09,
+   "dur": 5.69,
+   "say": "Por isso aqui o macio rende mais, o duro pode nem esquentar e cada relargada vira loteria."
+  },
+  {
+   "start": 29.78,
+   "dur": 4.55,
+   "say": "Acompanhe ao vivo os pneus e as diferenças de cada piloto no LapRadar."
+  }
+ ],
+ "title": "Las Vegas: a corrida mais brilhante do ano também é a mais escorregadia",
+ "caption": "",
+ "slug": "las-vegas-cold-night",
+ "digest": "628532c374f7fa19",
+ "studio": 2
+}

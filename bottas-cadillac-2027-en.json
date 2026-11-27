@@ -1,0 +1,58 @@
+{
+ "id": "bottas-cadillac-2027",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.32,
+   "say": "\"To whom it may concern, I'm staying!\" That's how Valtteri Bottas confirmed another year at Cadillac."
+  },
+  {
+   "start": 6.32,
+   "dur": 6.49,
+   "say": "A nod to his radio call after winning in Australia in twenty nineteen. That one had a much ruder ending."
+  },
+  {
+   "start": 12.81,
+   "dur": 4.55,
+   "say": "His deal had an option for a second season, and the team has taken it."
+  },
+  {
+   "start": 17.36,
+   "dur": 5.18,
+   "say": "Same team-mate too: Sergio Perez extended in October, through twenty twenty-nine."
+  },
+  {
+   "start": 22.54,
+   "dur": 5.69,
+   "say": "The team-mate fight hasn't gone his way: Perez finished ahead fourteen times, Bottas four."
+  },
+  {
+   "start": 28.23,
+   "dur": 5.29,
+   "say": "Nine retirements this year, only Stroll has more. Brakes kept failing the new team."
+  },
+  {
+   "start": 33.52,
+   "dur": 4.84,
+   "say": "Cadillac is still on zero points. Best finish: Bottas, thirteenth in China."
+  },
+  {
+   "start": 38.36,
+   "dur": 5.69,
+   "say": "Colton Herta earned superlicence points in practice, but there's no race seat for him yet."
+  },
+  {
+   "start": 44.05,
+   "dur": 3.35,
+   "say": "Follow Bottas and Perez on the LapRadar live map."
+  }
+ ],
+ "title": "Bottas stays at Cadillac for 2027: option taken, same team-mate",
+ "caption": "",
+ "slug": "bottas-cadillac-2027",
+ "digest": "bdd0ffc31f63f5c8",
+ "studio": 2
+}

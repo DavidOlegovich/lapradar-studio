@@ -1,0 +1,43 @@
+{
+ "id": "las-vegas-cold-night",
+ "lang": "de",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.8,
+   "say": "Las Vegas. Das hellste Rennen der Saison und das rutschigste. Warum?"
+  },
+  {
+   "start": 4.8,
+   "dur": 7.55,
+   "say": "Es ist ein Nachtrennen, und Novembernächte in der Wüste sind kalt, die Luft hat nur etwa zehn bis fünfzehn Grad."
+  },
+  {
+   "start": 12.35,
+   "dur": 8.55,
+   "say": "Formel-Eins-Reifen sind für Hitze gebaut. Kaltes Gummi greift schlechter, und die Oberfläche reißt zu kleinen Gummiröllchen auf."
+  },
+  {
+   "start": 20.9,
+   "dur": 6.92,
+   "say": "Die Runde ist über sechs Kilometer lang: lange Geraden auf dem Strip und langsame Neunzig-Grad-Kurven."
+  },
+  {
+   "start": 27.82,
+   "dur": 7.49,
+   "say": "Deshalb glänzt hier der Soft, der Hard kommt womöglich nie auf Temperatur, und jeder Restart wird zur Lotterie."
+  },
+  {
+   "start": 35.31,
+   "dur": 4.61,
+   "say": "Reifen und Abstände jedes Fahrers verfolgst du live auf LapRadar."
+  }
+ ],
+ "title": "Las Vegas: Das hellste Rennen der Saison und das rutschigste",
+ "caption": "",
+ "slug": "las-vegas-cold-night",
+ "digest": "c83ab438d7ecc521",
+ "studio": 2
+}

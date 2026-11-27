@@ -1,0 +1,48 @@
+{
+ "id": "lego-las-vegas",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.41,
+   "say": "Four hundred and eighteen thousand pieces. That's the car built for the Vegas podium."
+  },
+  {
+   "start": 5.41,
+   "dur": 7.52,
+   "say": "In twenty twenty-five a pink convertible drove Verstappen, Norris and Russell to the podium. Terry Crews was at the wheel."
+  },
+  {
+   "start": 12.93,
+   "dur": 6.95,
+   "say": "It was inspired by a nineteen fifties Cadillac. Seventeen builders, nearly four thousand hours, over two tonnes."
+  },
+  {
+   "start": 19.88,
+   "dur": 5.41,
+   "say": "On Saturday, before the race, eleven brick-built F1 cars hit the track, one per team."
+  },
+  {
+   "start": 25.29,
+   "dur": 5.06,
+   "say": "One lap, up to twenty-five kilometres an hour. Who's driving is still a secret."
+  },
+  {
+   "start": 30.349999999999998,
+   "dur": 5.35,
+   "say": "And in F1 Academy, Dutch driver Esmee Kosterman races for the LEGO team this season."
+  },
+  {
+   "start": 35.699999999999996,
+   "dur": 3.64,
+   "say": "Follow Saturday night's race on the LapRadar live map."
+  }
+ ],
+ "title": "LEGO and Las Vegas: a pink Cadillac for the podium and brick-built F1 cars on the Strip",
+ "caption": "",
+ "slug": "lego-las-vegas",
+ "digest": "de037472f2cd7423",
+ "studio": 2
+}

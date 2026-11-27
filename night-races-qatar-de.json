@@ -1,0 +1,43 @@
+{
+ "id": "night-races-qatar",
+ "lang": "de",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.67,
+   "say": "Warum ist das Nachtrennen in Katar eines der härtesten der Saison?"
+  },
+  {
+   "start": 4.67,
+   "dur": 6.8,
+   "say": "Lusail wurde für Motorräder gebaut. Schnelle Kurven folgen dicht aufeinander, langsame gibt es kaum."
+  },
+  {
+   "start": 11.469999999999999,
+   "dur": 7.36,
+   "say": "Das Auto ist fast ständig in Kurvenfahrt, die Reifen sind am Limit, und selbst nachts ist es heiß und schwül."
+  },
+  {
+   "start": 18.83,
+   "dur": 8.8,
+   "say": "Zweitausenddreiundzwanzig durfte jeder Reifensatz höchstens achtzehn Runden fahren. Jedes Team musste mindestens dreimal an die Box."
+  },
+  {
+   "start": 27.63,
+   "dur": 5.86,
+   "say": "In Katar reicht reiner Speed also nicht. Das Rennen gewinnt, wer seine Reifen schont."
+  },
+  {
+   "start": 33.49,
+   "dur": 5.11,
+   "say": "Reifenalter und Boxenstopps jedes Fahrers verfolgst du live auf LapRadar."
+  }
+ ],
+ "title": "Katar: Das Nachtrennen, das Reifen frisst",
+ "caption": "",
+ "slug": "night-races-qatar",
+ "digest": "557fbdcce0a85bb2",
+ "studio": 2
+}

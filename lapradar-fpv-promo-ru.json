@@ -1,0 +1,18 @@
+{
+ "id": "lapradar-fpv-promo",
+ "lang": "ru",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 14.5,
+   "say": ""
+  }
+ ],
+ "title": "LapRadar: гонка у тебя в телефоне",
+ "caption": "Живая карта, тайминг и вся гонка в одном приложении. lapradar.com",
+ "slug": "lapradar-fpv-promo",
+ "digest": "0ec2c7a5aaf64fc2",
+ "studio": 2
+}

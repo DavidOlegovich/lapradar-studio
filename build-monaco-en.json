@@ -1,0 +1,53 @@
+{
+ "id": "build-monaco",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.58,
+   "say": "So how do you build a track in Monaco, where people need these streets every single day?"
+  },
+  {
+   "start": 5.58,
+   "dur": 6.26,
+   "say": "You start six weeks before the race and do almost everything at night, so the city can drive by day."
+  },
+  {
+   "start": 11.84,
+   "dur": 6.55,
+   "say": "In total that's more than twenty-one kilometres of barriers and twenty thousand square metres of fencing."
+  },
+  {
+   "start": 18.39,
+   "dur": 5.81,
+   "say": "But the city never closes: around seven in the evening the streets reopen to normal traffic."
+  },
+  {
+   "start": 24.2,
+   "dur": 4.61,
+   "say": "At six in the morning the roads close again and the race cars come out."
+  },
+  {
+   "start": 28.81,
+   "dur": 5.86,
+   "say": "The track is narrow and there's almost nowhere to overtake, so qualifying decides everything."
+  },
+  {
+   "start": 34.67,
+   "dur": 6.44,
+   "say": "The result: three point three kilometres, nineteen corners, and a race here since nineteen twenty-nine."
+  },
+  {
+   "start": 41.11,
+   "dur": 3.29,
+   "say": "See every track of the season in 3D on LapRadar."
+  }
+ ],
+ "title": "How to build an F1 track in Monaco",
+ "caption": "Six weeks of night work, 21 km of barriers and streets that reopen every evening. Every track in 3D: lapradar.com",
+ "slug": "build-monaco",
+ "digest": "bfabb3e93d022ffb",
+ "studio": 2
+}

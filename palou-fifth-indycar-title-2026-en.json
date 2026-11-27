@@ -1,0 +1,53 @@
+{
+ "id": "palou-fifth-indycar-title-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.01,
+   "say": "Five IndyCar titles, and he is only twenty-nine. Alex Palou is champion again."
+  },
+  {
+   "start": 5.01,
+   "dur": 5.69,
+   "say": "It was settled on the thirtieth of August at Milwaukee, one race before the season finale."
+  },
+  {
+   "start": 10.7,
+   "dur": 6.32,
+   "say": "Fourth title in a row. Sebastien Bourdais won four straight in Champ Car, two thousand four to seven."
+  },
+  {
+   "start": 17.02,
+   "dur": 5.46,
+   "say": "He is now third on the all-time list. Only A.J. Foyt and Scott Dixon have more titles."
+  },
+  {
+   "start": 22.48,
+   "dur": 4.55,
+   "say": "This season Palou has six wins and eight poles, more than anyone else."
+  },
+  {
+   "start": 27.03,
+   "dur": 7.41,
+   "say": "Japanese Super Formula in twenty nineteen, IndyCar with Dale Coyne in twenty twenty, Ganassi title in twenty twenty-one."
+  },
+  {
+   "start": 34.44,
+   "dur": 5.81,
+   "say": "And in twenty twenty-five he won the Indianapolis five hundred, the first Spaniard to do it."
+  },
+  {
+   "start": 40.25,
+   "dur": 4.38,
+   "say": "Follow the IndyCar calendar and standings on the LapRadar live map."
+  }
+ ],
+ "title": "Palou wins a fifth IndyCar title: the story behind it",
+ "caption": "",
+ "slug": "palou-fifth-indycar-title-2026",
+ "digest": "d3276c578afd6aab",
+ "studio": 2
+}

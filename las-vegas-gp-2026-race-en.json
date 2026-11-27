@@ -1,0 +1,63 @@
+{
+ "id": "las-vegas-gp-2026-race",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.69,
+   "say": "Verstappen won Vegas from pole. Behind him, pure chaos."
+  },
+  {
+   "start": 3.69,
+   "dur": 5.4,
+   "say": "Norris second, Piastri third, after starting seventeenth."
+  },
+  {
+   "start": 9.09,
+   "dur": 5.58,
+   "say": "Lap thirty-eight: Leclerc hits his teammate and Hamilton spins. Ten seconds for Leclerc."
+  },
+  {
+   "start": 14.67,
+   "dur": 4.66,
+   "say": "After the safety car, Hadjar's front wing broke. He finished fourteenth."
+  },
+  {
+   "start": 19.33,
+   "dur": 5.29,
+   "say": "Three laps from the end Russell was third. A lock-up, the barrier, and ninth place."
+  },
+  {
+   "start": 24.619999999999997,
+   "dur": 4.72,
+   "say": "On the last lap Antonelli ran out of energy, and both McLarens went past."
+  },
+  {
+   "start": 29.339999999999996,
+   "dur": 4.09,
+   "say": "Both Aston Martins reached the flag. This season, that's rare."
+  },
+  {
+   "start": 33.42999999999999,
+   "dur": 4.8,
+   "say": "Verstappen tightened his grip on second in the championship."
+  },
+  {
+   "start": 38.22999999999999,
+   "dur": 4.55,
+   "say": "Qatar is next. Check the race start in your own time zone on LapRadar."
+  },
+  {
+   "start": 42.77999999999999,
+   "dur": 3.01,
+   "say": "Follow every race on the LapRadar live map."
+  }
+ ],
+ "title": "Las Vegas race: Verstappen wins from pole, Ferraris collide, Russell hits the wall",
+ "caption": "",
+ "slug": "las-vegas-gp-2026-race",
+ "digest": "d7c7949bdbfaf508",
+ "studio": 2
+}

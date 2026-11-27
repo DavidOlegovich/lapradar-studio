@@ -1,0 +1,68 @@
+{
+ "id": "las-vegas-gp-2026-qualifying",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.66,
+   "say": "Antonelli was fastest in Vegas qualifying. But he won't start from pole."
+  },
+  {
+   "start": 4.66,
+   "dur": 5.24,
+   "say": "Antonelli beat Verstappen by a quarter of a second. Russell and Norris were close."
+  },
+  {
+   "start": 9.9,
+   "dur": 7.2,
+   "say": "But it's his sixth engine of the season, against a limit of four. A five-place penalty drops him to sixth."
+  },
+  {
+   "start": 17.1,
+   "dur": 4.84,
+   "say": "So Verstappen gets pole, Russell joins him. Norris and Hadjar make row two."
+  },
+  {
+   "start": 21.94,
+   "dur": 4.66,
+   "say": "Piastri took a fifth engine: a ten-place drop, so he starts seventeenth."
+  },
+  {
+   "start": 26.6,
+   "dur": 4.61,
+   "say": "Sainz, Stroll and Bearman also changed engine parts and go to the back."
+  },
+  {
+   "start": 31.21,
+   "dur": 4.6,
+   "say": "Out in Q1: Camara, Perez, Alonso, Stroll, Bottas and Bearman."
+  },
+  {
+   "start": 35.81,
+   "dur": 4.8,
+   "say": "And in Q2 both Ferraris went out: Leclerc eleventh, Hamilton twelfth."
+  },
+  {
+   "start": 40.61,
+   "dur": 5.52,
+   "say": "Leclerc made a mistake on his best lap and ran out of time. Hamilton was short of grip."
+  },
+  {
+   "start": 46.129999999999995,
+   "dur": 3.69,
+   "say": "Check the race start in your own time zone on LapRadar."
+  },
+  {
+   "start": 49.81999999999999,
+   "dur": 2.89,
+   "say": "Follow the race on the LapRadar live map."
+  }
+ ],
+ "title": "Las Vegas qualifying: Antonelli fastest, but Verstappen starts from pole",
+ "caption": "",
+ "slug": "las-vegas-gp-2026-qualifying",
+ "digest": "48e5eb2d40b3f622",
+ "studio": 2
+}

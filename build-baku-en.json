@@ -1,0 +1,53 @@
+{
+ "id": "build-baku",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.72,
+   "say": "Now we build a track in Baku, the fastest street circuit on the calendar."
+  },
+  {
+   "start": 4.72,
+   "dur": 5.01,
+   "say": "You close the streets with walls for the whole race weekend, not just one day."
+  },
+  {
+   "start": 9.73,
+   "dur": 5.58,
+   "say": "Part of the lap runs along the walls of a twelfth-century fortress, protected by UNESCO."
+  },
+  {
+   "start": 15.31,
+   "dur": 6.55,
+   "say": "Between those walls the track is just seven point six metres wide, and the car is almost two metres wide."
+  },
+  {
+   "start": 21.86,
+   "dur": 4.72,
+   "say": "Then you hit the seafront and stay flat out for more than two kilometres."
+  },
+  {
+   "start": 26.58,
+   "dur": 6.15,
+   "say": "At the end of the straight you're doing over three hundred and fifty, into a ninety-degree corner."
+  },
+  {
+   "start": 32.73,
+   "dur": 5.24,
+   "say": "The result: six kilometres and twenty corners. One mistake and you're in the wall."
+  },
+  {
+   "start": 37.97,
+   "dur": 3.29,
+   "say": "See every track of the season in 3D on LapRadar."
+  }
+ ],
+ "title": "How to build an F1 track in Baku",
+ "caption": "A 12th-century fortress, 7.6 metres between walls and 2.2 km flat out. Every track in 3D: lapradar.com",
+ "slug": "build-baku",
+ "digest": "79208fcc69497fbb",
+ "studio": 2
+}

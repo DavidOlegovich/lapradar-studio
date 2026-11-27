@@ -1,0 +1,43 @@
+{
+ "id": "night-races-qatar",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.09,
+   "say": "Why is the Qatar night race one of the toughest of the season?"
+  },
+  {
+   "start": 4.09,
+   "dur": 6.55,
+   "say": "Lusail was built for motorbikes. Fast corners come one after another, and there are hardly any slow ones."
+  },
+  {
+   "start": 10.64,
+   "dur": 6.66,
+   "say": "The car is cornering almost all the time, the tyres are on the limit, and even at night it's hot and humid."
+  },
+  {
+   "start": 17.3,
+   "dur": 7.06,
+   "say": "In twenty twenty-three each set of tyres was capped at eighteen laps. Every team had to stop at least three times."
+  },
+  {
+   "start": 24.36,
+   "dur": 5.29,
+   "say": "So in Qatar raw speed isn't enough. The race goes to whoever looks after the tyres."
+  },
+  {
+   "start": 29.65,
+   "dur": 4.09,
+   "say": "Follow every driver's tyre age and pit stops live on LapRadar."
+  }
+ ],
+ "title": "Qatar: the night race that eats tyres",
+ "caption": "",
+ "slug": "night-races-qatar",
+ "digest": "6b4d05b631bba50a",
+ "studio": 2
+}

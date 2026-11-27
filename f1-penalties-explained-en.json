@@ -1,0 +1,63 @@
+{
+ "id": "f1-penalties-explained",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.32,
+   "say": "What costs a driver five seconds, and what costs a whole race? Here's the Formula One penalty ladder."
+  },
+  {
+   "start": 6.32,
+   "dur": 5.86,
+   "say": "The mildest: plus five or ten seconds. At the pit stop the car sits still and the crew waits."
+  },
+  {
+   "start": 12.18,
+   "dur": 5.29,
+   "say": "Next up, the drive-through: in, down the pit lane at the speed limit, and back out."
+  },
+  {
+   "start": 17.47,
+   "dur": 5.06,
+   "say": "Harsher still, the stop-go: ten seconds in the box, and nobody touches the car."
+  },
+  {
+   "start": 22.529999999999998,
+   "dur": 5.58,
+   "say": "A grid penalty: five or ten places back at the start, most often for extra engine parts."
+  },
+  {
+   "start": 28.11,
+   "dur": 5.35,
+   "say": "Disqualification wipes a driver from the results, most often for a technical breach."
+  },
+  {
+   "start": 33.46,
+   "dur": 5.86,
+   "say": "Then there are super licence penalty points. Twelve in twelve months, and you sit out a race."
+  },
+  {
+   "start": 39.32,
+   "dur": 6.38,
+   "say": "Magnussen was the first to be banned this way, in twenty twenty-four. His twelfth point came at Monza."
+  },
+  {
+   "start": 45.7,
+   "dur": 5.92,
+   "say": "This season points are rare: only for dangerous or reckless driving, or deliberate collisions."
+  },
+  {
+   "start": 51.620000000000005,
+   "dur": 2.89,
+   "say": "Watch the races live on the LapRadar map."
+  }
+ ],
+ "title": "F1 penalties explained: from five seconds to a race ban",
+ "caption": "",
+ "slug": "f1-penalties-explained",
+ "digest": "300cd87a15b57f57",
+ "studio": 2
+}

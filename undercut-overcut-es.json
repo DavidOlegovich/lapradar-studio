@@ -1,0 +1,48 @@
+{
+ "id": "undercut-overcut",
+ "lang": "es",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.04,
+   "say": "¿Cómo se supera a un rival sin adelantarlo nunca en la pista?"
+  },
+  {
+   "start": 4.04,
+   "dur": 5.46,
+   "say": "Vas segundo, a un segundo del líder, y en una pista estrecha no hay manera de pasarlo."
+  },
+  {
+   "start": 9.5,
+   "dur": 4.09,
+   "say": "Entonces el equipo te llama a boxes una vuelta antes que a él."
+  },
+  {
+   "start": 13.59,
+   "dur": 5.24,
+   "say": "En su primera vuelta, la goma nueva es uno o dos segundos más rápida que la usada."
+  },
+  {
+   "start": 18.83,
+   "dur": 6.84,
+   "say": "Mientras el líder da una vuelta más con goma vieja, tú recuperas el tiempo. Sale de boxes y tú ya vas delante."
+  },
+  {
+   "start": 25.669999999999998,
+   "dur": 7.35,
+   "say": "Si cuesta calentar la goma nueva, funciona lo contrario. Te quedas más vueltas en pista y ganas tiempo con aire limpio."
+  },
+  {
+   "start": 33.019999999999996,
+   "dur": 6.32,
+   "say": "Sigue en directo las paradas, la edad de los neumáticos y las diferencias de cada piloto en LapRadar."
+  }
+ ],
+ "title": "Undercut y overcut: cómo superar a un rival sin adelantarlo en pista",
+ "caption": "",
+ "slug": "undercut-overcut",
+ "digest": "6e376449b4893f7a",
+ "studio": 2
+}

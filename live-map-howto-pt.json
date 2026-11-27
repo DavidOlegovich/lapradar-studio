@@ -1,0 +1,43 @@
+{
+ "id": "live-map-howto",
+ "lang": "pt",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.18,
+   "say": "Onde está cada piloto na pista agora? Dá para ver no mapa tridimensional ao vivo."
+  },
+  {
+   "start": 5.18,
+   "dur": 5.58,
+   "say": "Dá para girar o mapa, aproximar, mudar para a visão de cima e ligar os nomes das curvas."
+  },
+  {
+   "start": 10.76,
+   "dur": 6.78,
+   "say": "Embaixo fica a tabela com intervalos, compostos e voltas de cada jogo. Toque num piloto e ele acende no mapa."
+  },
+  {
+   "start": 17.54,
+   "dur": 5.75,
+   "say": "Perdeu a corrida? Há replays desde dois mil e vinte e três, com os mesmos dados do ao vivo."
+  },
+  {
+   "start": 23.29,
+   "dur": 6.09,
+   "say": "E a classificação do campeonato é recalculada durante a corrida, com previsão de vitória e pódio."
+  },
+  {
+   "start": 29.38,
+   "dur": 2.6,
+   "say": "Abra o LapRadar na próxima corrida."
+  }
+ ],
+ "title": "Como assistir a uma corrida no mapa 3D do LapRadar",
+ "caption": "",
+ "slug": "live-map-howto",
+ "digest": "a670c7999dc1fb9e",
+ "studio": 2
+}

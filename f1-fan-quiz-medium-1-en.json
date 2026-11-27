@@ -1,0 +1,88 @@
+{
+ "id": "f1-fan-quiz-medium-1",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.29,
+   "say": "You asked, we're making it harder! How big a Formula One fan are you? Medium level!"
+  },
+  {
+   "start": 5.29,
+   "dur": 9.28,
+   "say": "Question one. When was the first world championship? Nineteen forty-six, fifty, or fifty-eight?"
+  },
+  {
+   "start": 14.57,
+   "dur": 5.18,
+   "say": "Nineteen fifty! Giuseppe Farina won the first race and became the first champion."
+  },
+  {
+   "start": 19.75,
+   "dur": 8.65,
+   "say": "Question two. Who has the most Grand Prix wins? Hamilton, Schumacher, or Verstappen?"
+  },
+  {
+   "start": 28.4,
+   "dur": 4.44,
+   "say": "Lewis Hamilton, with more than a hundred! Schumacher has ninety-one."
+  },
+  {
+   "start": 32.839999999999996,
+   "dur": 8.94,
+   "say": "Question three. Which track is called the Temple of Speed? Monaco, Silverstone, or Monza?"
+  },
+  {
+   "start": 41.779999999999994,
+   "dur": 6.04,
+   "say": "Monza! Long straights and flat out for almost the whole lap. That's the track you're looking at."
+  },
+  {
+   "start": 47.81999999999999,
+   "dur": 9.05,
+   "say": "Question four. Which team has the most Constructors' titles? McLaren, Ferrari, or Mercedes?"
+  },
+  {
+   "start": 56.86999999999999,
+   "dur": 3.64,
+   "say": "Ferrari, with sixteen! McLaren has ten, Mercedes nine."
+  },
+  {
+   "start": 60.50999999999999,
+   "dur": 11.05,
+   "say": "Now a trick question! What's gone from the Formula One power unit since twenty twenty-six? The turbo, the MGU-H, or the MGU-K?"
+  },
+  {
+   "start": 71.55999999999999,
+   "dur": 5.12,
+   "say": "The MGU-H! The turbo stayed, and the MGU-K got almost three times more powerful."
+  },
+  {
+   "start": 76.67999999999999,
+   "dur": 8.99,
+   "say": "Last one. Who is the youngest world champion in history? Vettel, Verstappen, or Antonelli?"
+  },
+  {
+   "start": 85.66999999999999,
+   "dur": 5.01,
+   "say": "Kimi Antonelli! He won the title this year at twenty, beating Vettel's record."
+  },
+  {
+   "start": 90.67999999999999,
+   "dur": 6.09,
+   "say": "Six out of six: you're a real expert! Four or five: a solid fan. Fewer: try the easy level first."
+  },
+  {
+   "start": 96.77,
+   "dur": 5.06,
+   "say": "Drop your score in the comments, and follow the races on the LapRadar live map."
+  }
+ ],
+ "title": "How big an F1 fan are you? Medium level",
+ "caption": "You asked, we're making it harder! How big an F1 fan are you? 6 questions, medium level, 3 seconds each. Drop your score in the comments! Live race map: lapradar.com",
+ "slug": "f1-fan-quiz-medium-1",
+ "digest": "d9bebfa10eff33ed",
+ "studio": 2
+}

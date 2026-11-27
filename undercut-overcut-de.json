@@ -1,0 +1,48 @@
+{
+ "id": "undercut-overcut",
+ "lang": "de",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.55,
+   "say": "Wie kommt man an einem Rivalen vorbei, ohne ihn auf der Strecke je zu überholen?"
+  },
+  {
+   "start": 5.55,
+   "dur": 7.17,
+   "say": "Du bist Zweiter, eine Sekunde hinter dem Führenden, und auf einer engen Strecke gibt es kein Vorbeikommen."
+  },
+  {
+   "start": 12.719999999999999,
+   "dur": 3.99,
+   "say": "Also holt dich dein Team eine Runde vor ihm an die Box."
+  },
+  {
+   "start": 16.71,
+   "dur": 6.17,
+   "say": "In ihrer ersten Runde sind frische Reifen ein bis zwei Sekunden schneller als abgefahrene."
+  },
+  {
+   "start": 22.880000000000003,
+   "dur": 8.74,
+   "say": "Während der Führende noch eine Runde auf alten Reifen dreht, holst du die Zeit auf. Er kommt aus der Box, und du liegst schon vorn."
+  },
+  {
+   "start": 31.620000000000005,
+   "dur": 8.49,
+   "say": "Kommen neue Reifen schwer auf Temperatur, klappt das Gegenteil. Du bleibst länger draußen und holst in freier Luft Zeit heraus."
+  },
+  {
+   "start": 40.11000000000001,
+   "dur": 5.74,
+   "say": "Boxenstopps, Reifenalter und Abstände jedes Fahrers verfolgst du live auf LapRadar."
+  }
+ ],
+ "title": "Undercut und Overcut: Am Gegner vorbei, ohne ihn auf der Strecke zu überholen",
+ "caption": "",
+ "slug": "undercut-overcut",
+ "digest": "27c8bc16b20d81a8",
+ "studio": 2
+}

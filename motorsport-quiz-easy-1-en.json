@@ -1,0 +1,88 @@
+{
+ "id": "motorsport-quiz-easy-1",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.69,
+   "say": "Can you guess? Six easy questions about motorsport beyond Formula One. Three seconds each!"
+  },
+  {
+   "start": 5.69,
+   "dur": 8.65,
+   "say": "Question one. How long is the big race at Le Mans? Six hours, twelve, or a full day?"
+  },
+  {
+   "start": 14.34,
+   "dur": 4.38,
+   "say": "A full day, twenty-four hours! Drivers take turns behind the wheel."
+  },
+  {
+   "start": 18.72,
+   "dur": 9.39,
+   "say": "Question two. What number did Valentino Rossi race with? Ninety-three, forty-six, or ninety-nine?"
+  },
+  {
+   "start": 28.11,
+   "dur": 4.72,
+   "say": "Forty-six! In twenty twenty-two MotoGP retired it for good in his honour."
+  },
+  {
+   "start": 32.83,
+   "dur": 8.31,
+   "say": "Question three. What powers a Formula E car? Petrol, electricity, or hydrogen?"
+  },
+  {
+   "start": 41.14,
+   "dur": 5.98,
+   "say": "Electricity only! That's how it's been since the very first race in Beijing in twenty fourteen."
+  },
+  {
+   "start": 47.120000000000005,
+   "dur": 9.05,
+   "say": "Question four. Which way do NASCAR cars turn on ovals? Left only, right only, or both ways?"
+  },
+  {
+   "start": 56.17,
+   "dur": 4.89,
+   "say": "Left only: ovals run counterclockwise. They turn right only on road courses."
+  },
+  {
+   "start": 61.06,
+   "dur": 9.11,
+   "say": "Question five. Where is the famous Indy five hundred held? Monaco, Indianapolis, or Daytona?"
+  },
+  {
+   "start": 70.17,
+   "dur": 4.61,
+   "say": "Indianapolis! Two hundred laps of the oval, five hundred miles exactly."
+  },
+  {
+   "start": 74.78,
+   "dur": 8.42,
+   "say": "Last one. Who holds the rally record of nine world titles? Loeb, Ogier, or both?"
+  },
+  {
+   "start": 83.2,
+   "dur": 4.26,
+   "say": "Both! Ogier matched Loeb in twenty twenty-five, nine titles each."
+  },
+  {
+   "start": 87.46000000000001,
+   "dur": 6.84,
+   "say": "Six out of six: you're a motorsport expert! Four or five: a solid fan. Fewer: time to look beyond Formula One."
+  },
+  {
+   "start": 94.30000000000001,
+   "dur": 5.06,
+   "say": "Drop your score in the comments, and follow the races on the LapRadar live map."
+  }
+ ],
+ "title": "Motorsport beyond F1: easy level",
+ "caption": "Motorsport beyond F1: Le Mans, MotoGP, Formula E, NASCAR, IndyCar and rally. 6 questions, 3 seconds each. Drop your score in the comments! Live race map: lapradar.com",
+ "slug": "motorsport-quiz-easy-1",
+ "digest": "5a1a80a97bb10298",
+ "studio": 2
+}

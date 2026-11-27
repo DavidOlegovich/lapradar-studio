@@ -1,0 +1,48 @@
+{
+ "id": "news-antonelli-champion",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.84,
+   "say": "Twenty years old, second season in Formula One, and already world champion."
+  },
+  {
+   "start": 4.84,
+   "dur": 5.64,
+   "say": "Kimi Antonelli is the youngest champion ever. Vettel's record had stood since twenty ten."
+  },
+  {
+   "start": 10.48,
+   "dur": 5.52,
+   "say": "He sealed it in Mexico City: third place was enough, the gap could no longer be closed."
+  },
+  {
+   "start": 16,
+   "dur": 3.35,
+   "say": "And at Monza he started nineteenth and still won."
+  },
+  {
+   "start": 19.35,
+   "dur": 4.78,
+   "say": "He's Italy's first champion since Alberto Ascari, seventy-three years ago."
+  },
+  {
+   "start": 24.130000000000003,
+   "dur": 4.66,
+   "say": "A week later in Brazil, Mercedes wrapped up the constructors' title too."
+  },
+  {
+   "start": 28.790000000000003,
+   "dur": 2.78,
+   "say": "Every champion's stats are on LapRadar."
+  }
+ ],
+ "title": "Antonelli: world champion at 20",
+ "caption": "The youngest champion in F1 history, Italy's first since Ascari, and the constructors' title for Mercedes. Stats: lapradar.com",
+ "slug": "news-antonelli-champion",
+ "digest": "cbee9a40a1269a4c",
+ "studio": 2
+}

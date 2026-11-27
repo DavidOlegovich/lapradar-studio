@@ -1,0 +1,43 @@
+{
+ "id": "live-map-howto",
+ "lang": "es",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.52,
+   "say": "¿Dónde está ahora cada piloto en la pista? Lo ves en el mapa tridimensional en directo."
+  },
+  {
+   "start": 5.52,
+   "dur": 6.21,
+   "say": "Puedes girar el mapa, acercarlo, pasar a la vista desde arriba y activar los nombres de las curvas."
+  },
+  {
+   "start": 11.73,
+   "dur": 6.95,
+   "say": "Debajo hay una tabla con intervalos, compuestos y vueltas de cada juego. Toca un piloto y se ilumina en el mapa."
+  },
+  {
+   "start": 18.68,
+   "dur": 6.49,
+   "say": "¿Te perdiste la carrera? Hay repeticiones desde dos mil veintitrés, con los mismos datos que en directo."
+  },
+  {
+   "start": 25.17,
+   "dur": 6.78,
+   "say": "Además, la clasificación del campeonato se recalcula durante la carrera y hay pronóstico de victoria y podio."
+  },
+  {
+   "start": 31.950000000000003,
+   "dur": 2.61,
+   "say": "Abre LapRadar en la próxima carrera."
+  }
+ ],
+ "title": "Cómo ver una carrera en el mapa 3D de LapRadar",
+ "caption": "",
+ "slug": "live-map-howto",
+ "digest": "f4935171a049b8a0",
+ "studio": 2
+}

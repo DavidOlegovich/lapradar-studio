@@ -1,0 +1,48 @@
+{
+ "id": "undercut-overcut",
+ "lang": "pt",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.64,
+   "say": "Como passar um rival sem nunca ultrapassá-lo na pista?"
+  },
+  {
+   "start": 3.64,
+   "dur": 5.52,
+   "say": "Você está em segundo, a um segundo do líder, e numa pista estreita não tem como passar."
+  },
+  {
+   "start": 9.16,
+   "dur": 4.04,
+   "say": "Então a equipe chama você para os boxes uma volta antes dele."
+  },
+  {
+   "start": 13.2,
+   "dur": 4.95,
+   "say": "Na primeira volta, o pneu novo é um ou dois segundos mais rápido que o gasto."
+  },
+  {
+   "start": 18.15,
+   "dur": 7.24,
+   "say": "Enquanto o líder dá mais uma volta com pneu velho, você recupera o tempo. Ele sai dos boxes e você já está na frente."
+  },
+  {
+   "start": 25.39,
+   "dur": 7.46,
+   "say": "Quando o pneu novo demora a esquentar, funciona o contrário. Você fica mais tempo na pista e ganha tempo com pista livre."
+  },
+  {
+   "start": 32.85,
+   "dur": 5.75,
+   "say": "Acompanhe ao vivo as paradas, a idade dos pneus e as diferenças de cada piloto no LapRadar."
+  }
+ ],
+ "title": "Undercut e overcut: como passar um rival sem ultrapassá-lo na pista",
+ "caption": "",
+ "slug": "undercut-overcut",
+ "digest": "2bebbbb56eca2f9b",
+ "studio": 2
+}

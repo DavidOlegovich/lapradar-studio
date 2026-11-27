@@ -1,0 +1,48 @@
+{
+ "id": "f1-v8-return-2031",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.98,
+   "say": "Formula One wants V8 engines back. Just not the screaming V8s that raced until twenty thirteen."
+  },
+  {
+   "start": 5.98,
+   "dur": 6.44,
+   "say": "The cheap idea: take today's turbo V6 and bolt on two more cylinders. That gets you roughly two litres."
+  },
+  {
+   "start": 12.420000000000002,
+   "dur": 4.78,
+   "say": "Less electric power. Two hundred kilowatts instead of three hundred fifty."
+  },
+  {
+   "start": 17.200000000000003,
+   "dur": 6.26,
+   "say": "A hundred kilowatts all the time, another hundred only for overtaking, like push to pass in IndyCar."
+  },
+  {
+   "start": 23.46,
+   "dur": 4.78,
+   "say": "The cars should lose eighty kilos. The FIA wants them under seven hundred."
+  },
+  {
+   "start": 28.240000000000002,
+   "dur": 6.09,
+   "say": "Current rules run to the end of twenty thirty, so think twenty thirty-one. Nothing is signed yet."
+  },
+  {
+   "start": 34.33,
+   "dur": 3.18,
+   "say": "What the FIA decides, you'll find on LapRadar."
+  }
+ ],
+ "title": "V8s are coming back to F1: what the FIA is proposing and when it could happen",
+ "caption": "",
+ "slug": "f1-v8-return-2031",
+ "digest": "e833b3eab6ecd3f2",
+ "studio": 2
+}

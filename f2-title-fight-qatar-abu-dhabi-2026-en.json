@@ -1,0 +1,58 @@
+{
+ "id": "f2-title-fight-qatar-abu-dhabi-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.55,
+   "say": "The Formula Two leader won't start in Qatar. So who decides the title?"
+  },
+  {
+   "start": 4.55,
+   "dur": 5.69,
+   "say": "Câmara has two oh seven, Tsolov two hundred, Dunne one eighty-nine. Câmara can't add more."
+  },
+  {
+   "start": 10.24,
+   "dur": 5.81,
+   "say": "Câmara races for Haas in Formula One, and Freddie Slater makes his debut in the Invicta car."
+  },
+  {
+   "start": 16.05,
+   "dur": 5.52,
+   "say": "A driver can take thirty-nine points in a weekend, seventy-eight across the two rounds."
+  },
+  {
+   "start": 21.57,
+   "dur": 4.78,
+   "say": "Tsolov needs eight points to lead. Second in the sprint pays exactly that."
+  },
+  {
+   "start": 26.35,
+   "dur": 6.15,
+   "say": "Dunne is eleven behind Tsolov. Nineteen would pass Câmara: second in the feature plus fastest lap."
+  },
+  {
+   "start": 32.5,
+   "dur": 6.26,
+   "say": "Tsolov can only seal it in Qatar by getting more than thirty-nine points clear of every close rival."
+  },
+  {
+   "start": 38.76,
+   "dur": 5.86,
+   "say": "Sprint Saturday, feature race Sunday. Abu Dhabi closes it on the fifth and sixth of December."
+  },
+  {
+   "start": 44.62,
+   "dur": 4.32,
+   "say": "Check what time the races start in your own time zone on LapRadar."
+  }
+ ],
+ "title": "The F2 title: Tsolov, Dunne and two rounds without the points leader",
+ "caption": "",
+ "slug": "f2-title-fight-qatar-abu-dhabi-2026",
+ "digest": "fed4bc6616ffd6b6",
+ "studio": 2
+}

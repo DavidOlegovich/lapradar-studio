@@ -1,0 +1,58 @@
+{
+ "id": "motogp-2027-rider-market",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.41,
+   "say": "Twenty-two riders and five rookies. Who is going where in MotoGP twenty twenty-seven?"
+  },
+  {
+   "start": 5.41,
+   "dur": 7.01,
+   "say": "Pedro Acosta leaves KTM for Ducati and lines up next to Márquez. His deal runs to the end of twenty twenty-eight."
+  },
+  {
+   "start": 12.42,
+   "dur": 5.64,
+   "say": "Bagnaia leaves Ducati and signs a four-year deal with Aprilia. His teammate is Bezzecchi."
+  },
+  {
+   "start": 18.06,
+   "dur": 5.41,
+   "say": "Jorge Martín moves from Aprilia to the factory Yamaha team. His teammate is Ai Ogura."
+  },
+  {
+   "start": 23.47,
+   "dur": 5.58,
+   "say": "Quartararo swaps Yamaha for Honda on a two-year deal, to the end of twenty twenty-eight."
+  },
+  {
+   "start": 29.049999999999997,
+   "dur": 4.6,
+   "say": "KTM have a brand new pair: Álex Márquez and Fabio Di Giannantonio."
+  },
+  {
+   "start": 33.65,
+   "dur": 6.21,
+   "say": "Holgado, Alonso, Guevara, Agius and Bulega, who arrives from WorldSBK, all make their MotoGP debut."
+  },
+  {
+   "start": 39.86,
+   "dur": 5.2,
+   "say": "Miller, Binder and Morbidelli head to WorldSBK: Yamaha, BMW and factory Ducati."
+  },
+  {
+   "start": 45.06,
+   "dur": 3.24,
+   "say": "The full calendar and line-ups are on LapRadar."
+  }
+ ],
+ "title": "MotoGP 2027: who goes where before the 850cc era",
+ "caption": "",
+ "slug": "motogp-2027-rider-market",
+ "digest": "0e1a53eac467419e",
+ "studio": 2
+}

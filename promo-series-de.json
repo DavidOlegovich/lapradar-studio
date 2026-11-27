@@ -1,0 +1,43 @@
+{
+ "id": "promo-series",
+ "lang": "de",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.74,
+   "say": "Du verfolgst mehr als eine Serie? Jetzt gibt es alles an einem Ort."
+  },
+  {
+   "start": 4.74,
+   "dur": 5.3,
+   "say": "Formel Eins, Zwei und Drei, dazu die Formel E. Jedes Rennen, jedes Ergebnis."
+  },
+  {
+   "start": 10.04,
+   "dur": 5.42,
+   "say": "MotoGP, Moto zwei, Moto drei und NASCAR. Motorräder und Ovale sind auch dabei."
+  },
+  {
+   "start": 15.459999999999999,
+   "dur": 6.61,
+   "say": "Für jede Serie gibt es den Kalender, die Ergebnisse jedes Rennens und die Meisterschaftstabellen."
+  },
+  {
+   "start": 22.07,
+   "dur": 6.92,
+   "say": "Und für die Formel Eins gibt es eine dreidimensionale Live-Karte, Erklärvideos und Rennwiederholungen."
+  },
+  {
+   "start": 28.990000000000002,
+   "dur": 3.61,
+   "say": "Kostenlos und ohne Anmeldung. LapRadar Punkt com."
+  }
+ ],
+ "title": "Alle Rennen an einem Ort: F1, F2, F3, Formel E, MotoGP und NASCAR",
+ "caption": "Kalender, Ergebnisse und Tabellen von acht Serien. Kostenlos, ohne Anmeldung: lapradar.com",
+ "slug": "promo-series",
+ "digest": "48bebaf54e34474f",
+ "studio": 2
+}

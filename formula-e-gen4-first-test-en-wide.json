@@ -1,0 +1,48 @@
+{
+ "id": "formula-e-gen4-first-test",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 7.35,
+   "say": "This week Formula E put its Gen4 car on track for official testing. It's the most powerful car the series has ever had."
+  },
+  {
+   "start": 7.35,
+   "dur": 7.52,
+   "say": "Four hundred fifty kilowatts in the race, six hundred in attack mode and qualifying. That's over eight hundred horsepower."
+  },
+  {
+   "start": 14.87,
+   "dur": 6.61,
+   "say": "Under braking it puts up to seven hundred kilowatts back into the battery. The brakes work as a generator."
+  },
+  {
+   "start": 21.48,
+   "dur": 6.15,
+   "say": "For the first time the series has permanent all-wheel drive. All four wheels drive, all race long."
+  },
+  {
+   "start": 27.630000000000003,
+   "dur": 5.18,
+   "say": "Gen4 gets from zero to two hundred kilometres an hour in four point four seconds."
+  },
+  {
+   "start": 32.81,
+   "dur": 6.32,
+   "say": "The first race is in Mexico City on January sixteenth. Twenty-one races and twelve teams this season."
+  },
+  {
+   "start": 39.13,
+   "dur": 2.72,
+   "say": "The Formula E calendar is on LapRadar."
+  }
+ ],
+ "title": "Formula E Gen4 hits the track: 600 kW and all-wheel drive",
+ "caption": "",
+ "slug": "formula-e-gen4-first-test",
+ "digest": "da66f1d0f4e3b23e",
+ "studio": 2
+}

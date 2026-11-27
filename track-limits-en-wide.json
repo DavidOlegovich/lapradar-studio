@@ -1,0 +1,43 @@
+{
+ "id": "track-limits",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.06,
+   "say": "Four wheels over the white line, and the lap is gone. How do track limits work?"
+  },
+  {
+   "start": 5.06,
+   "dur": 7.86,
+   "say": "The white line counts as part of the track, the kerb doesn't. With all four wheels over the line, the driver has left the track."
+  },
+  {
+   "start": 12.92,
+   "dur": 6.32,
+   "say": "In qualifying that lap is simply deleted. Get the final corner wrong and the next lap can go as well."
+  },
+  {
+   "start": 19.240000000000002,
+   "dur": 7.41,
+   "say": "In the race, the third offence brings the black and white flag, the fourth a five second penalty, the fifth ten seconds."
+  },
+  {
+   "start": 26.650000000000002,
+   "dur": 9.86,
+   "say": "At the twenty twenty-three Austrian Grand Prix, officials had to check more than twelve hundred possible offences. The final result came five hours after the flag."
+  },
+  {
+   "start": 36.510000000000005,
+   "dur": 4.09,
+   "say": "Follow every driver's position and lap times live on LapRadar."
+  }
+ ],
+ "title": "Track limits: how they're policed and what they cost",
+ "caption": "",
+ "slug": "track-limits",
+ "digest": "ef0c78d28be78813",
+ "studio": 2
+}

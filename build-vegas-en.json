@@ -1,0 +1,53 @@
+{
+ "id": "build-vegas",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.26,
+   "say": "Let's build a Formula One track right in the middle of Las Vegas."
+  },
+  {
+   "start": 4.26,
+   "dur": 4.15,
+   "say": "First you close the streets and line them with concrete blocks."
+  },
+  {
+   "start": 8.41,
+   "dur": 8.44,
+   "say": "It's normal city asphalt with manholes. In the very first practice in twenty twenty-three, a manhole cover was ripped out under a Ferrari."
+  },
+  {
+   "start": 16.85,
+   "dur": 6.49,
+   "say": "Second practice was delayed two and a half hours while every manhole on the lap was checked and secured."
+  },
+  {
+   "start": 23.340000000000003,
+   "dur": 4.78,
+   "say": "The race runs at night, so you put floodlights all the way around the lap."
+  },
+  {
+   "start": 28.120000000000005,
+   "dur": 4.78,
+   "say": "The main course is the run down the Strip: almost two kilometres flat out."
+  },
+  {
+   "start": 32.900000000000006,
+   "dur": 5.46,
+   "say": "The result: six point two kilometres and seventeen corners, right between the casinos."
+  },
+  {
+   "start": 38.36000000000001,
+   "dur": 3.29,
+   "say": "See every track of the season in 3D on LapRadar."
+  }
+ ],
+ "title": "How to build an F1 track in Las Vegas",
+ "caption": "Concrete blocks, manholes, floodlights and 1.9 km down the Strip. Every track in 3D: lapradar.com",
+ "slug": "build-vegas",
+ "digest": "45fe84468bf92d63",
+ "studio": 2
+}

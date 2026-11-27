@@ -1,0 +1,43 @@
+{
+ "id": "live-map-howto",
+ "lang": "de",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.11,
+   "say": "Wo ist gerade jeder Fahrer auf der Strecke? Die dreidimensionale Live-Karte zeigt es dir."
+  },
+  {
+   "start": 6.11,
+   "dur": 6.11,
+   "say": "Dreh und zoom die Karte, wechsle in die Draufsicht und blende die Kurvenbeschriftung ein."
+  },
+  {
+   "start": 12.22,
+   "dur": 9.86,
+   "say": "Unter der Karte steht eine Tabelle mit Abständen, Reifenmischungen und Reifenalter. Tippst du auf einen Fahrer, leuchtet sein Auto auf der Karte auf."
+  },
+  {
+   "start": 22.08,
+   "dur": 7.49,
+   "say": "Rennen verpasst? Die Wiederholungen reichen bis zweitausenddreiundzwanzig zurück, mit denselben Daten wie live."
+  },
+  {
+   "start": 29.57,
+   "dur": 6.74,
+   "say": "Auch die WM-Tabelle wird während des Rennens aktualisiert, und es gibt Chancen auf Sieg und Podium."
+  },
+  {
+   "start": 36.31,
+   "dur": 2.74,
+   "say": "Öffne LapRadar zum nächsten Rennen."
+  }
+ ],
+ "title": "So verfolgst du ein Rennen auf der 3D-Karte von LapRadar",
+ "caption": "",
+ "slug": "live-map-howto",
+ "digest": "2e42d8f3e7160947",
+ "studio": 2
+}

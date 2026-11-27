@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-neon-trophy",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.04,
+   "say": "This year's Vegas winner takes home their very own neon sign."
+  },
+  {
+   "start": 4.04,
+   "dur": 6.49,
+   "say": "The trophy is shaped like a V, for Vegas and victory. Fans instantly joked that V stands for Verstappen."
+  },
+  {
+   "start": 10.530000000000001,
+   "dur": 5.86,
+   "say": "One hundred and twenty-two lights and a red outline, like the old marquees on Fremont Street."
+  },
+  {
+   "start": 16.39,
+   "dur": 5.24,
+   "say": "Fifty-six centimetres tall and three point six kilos. Easy to lift after the race."
+  },
+  {
+   "start": 21.630000000000003,
+   "dur": 6.38,
+   "say": "The old trophy echoed the desert rock: a bronze base made to look like sandstone and a lit chrome top."
+  },
+  {
+   "start": 28.01,
+   "dur": 5.86,
+   "say": "The new one took about six months to make. It's only the second design in the race's history."
+  },
+  {
+   "start": 33.870000000000005,
+   "dur": 3.64,
+   "say": "See who lifts it on Saturday on the LapRadar live map."
+  }
+ ],
+ "title": "A neon sign for the winner: the new Las Vegas Grand Prix trophy",
+ "caption": "",
+ "slug": "las-vegas-neon-trophy",
+ "digest": "af2677111c50ff5b",
+ "studio": 2
+}

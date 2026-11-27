@@ -1,0 +1,48 @@
+{
+ "id": "tyres-soft-vs-hard",
+ "lang": "pt",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.92,
+   "say": "O pneu mais rápido da Fórmula Um nem sempre vence. Por quê?"
+  },
+  {
+   "start": 3.92,
+   "dur": 6.61,
+   "say": "Cada etapa recebe três compostos para pista seca. O macio tem mais aderência e é o mais rápido numa volta."
+  },
+  {
+   "start": 10.530000000000001,
+   "dur": 6.32,
+   "say": "Mas a cada volta ele perde alguns centésimos e depois vem a queda: a aderência some quase de uma vez."
+  },
+  {
+   "start": 16.85,
+   "dur": 3.75,
+   "say": "E cada pit stop custa de vinte a vinte e cinco segundos."
+  },
+  {
+   "start": 20.6,
+   "dur": 6.26,
+   "say": "O macio rende em asfalto liso, onde é difícil ultrapassar, e no frio. Mônaco, Singapura e Las Vegas."
+  },
+  {
+   "start": 26.86,
+   "dur": 6.49,
+   "say": "No calor, em asfalto abrasivo e em curvas rápidas como estas de Silverstone, ele acaba em poucas voltas."
+  },
+  {
+   "start": 33.35,
+   "dur": 4.89,
+   "say": "Acompanhe ao vivo o composto e a idade dos pneus de cada piloto no LapRadar."
+  }
+ ],
+ "title": "Macio, médio, duro: por que o pneu mais rápido nem sempre vence",
+ "caption": "",
+ "slug": "tyres-soft-vs-hard",
+ "digest": "1ee5d3f129a1321a",
+ "studio": 2
+}

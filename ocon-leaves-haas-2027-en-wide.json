@@ -1,0 +1,48 @@
+{
+ "id": "ocon-leaves-haas-2027",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.84,
+   "say": "He's a Grand Prix winner, and he still has no team for twenty twenty-seven."
+  },
+  {
+   "start": 4.84,
+   "dur": 6.09,
+   "say": "Esteban Ocon won the twenty twenty-one Hungarian Grand Prix with Alpine. It's still his only win."
+  },
+  {
+   "start": 10.93,
+   "dur": 4.89,
+   "say": "More than ten years in Formula One: Manor, Force India, Alpine and now Haas."
+  },
+  {
+   "start": 15.82,
+   "dur": 5.41,
+   "say": "Haas rate his speed but wanted more consistency. Rookie Rafael Câmara takes his seat."
+  },
+  {
+   "start": 21.23,
+   "dur": 5.86,
+   "say": "Ocon calls himself a free agent. If no race seat comes up, he's ready to be a reserve driver."
+  },
+  {
+   "start": 27.09,
+   "dur": 3.64,
+   "say": "He's thirty, and he has no plans to leave Formula One."
+  },
+  {
+   "start": 30.73,
+   "dur": 2.61,
+   "say": "Every team's line-up is on LapRadar."
+  }
+ ],
+ "title": "Esteban Ocon leaves Haas: a Grand Prix winner without a 2027 seat",
+ "caption": "",
+ "slug": "ocon-leaves-haas-2027",
+ "digest": "9ebc2a74e1c55753",
+ "studio": 2
+}

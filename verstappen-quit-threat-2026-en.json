@@ -1,0 +1,58 @@
+{
+ "id": "verstappen-quit-threat-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.09,
+   "say": "In spring Verstappen was threatening to quit Formula One. By summer he'd signed to twenty thirty."
+  },
+  {
+   "start": 6.09,
+   "dur": 4.04,
+   "say": "A year ago in Qatar: if the new cars weren't fun, he'd leave."
+  },
+  {
+   "start": 10.129999999999999,
+   "dur": 6.72,
+   "say": "In March at Suzuka he was eighth and called the racing anti-driving. Reports said he might quit at year end."
+  },
+  {
+   "start": 16.849999999999998,
+   "dur": 5.75,
+   "say": "His deal ran to twenty twenty-eight, but with performance clauses that let him leave early."
+  },
+  {
+   "start": 22.599999999999998,
+   "dur": 7.01,
+   "say": "In May in Canada: staying like this was mentally not doable. No changes for twenty twenty-seven, and he could go."
+  },
+  {
+   "start": 29.61,
+   "dur": 6.61,
+   "say": "In June the FIA approved the tweaks: for twenty twenty-seven, more engine power and less from the battery."
+  },
+  {
+   "start": 36.22,
+   "dur": 5.92,
+   "say": "On August twentieth, before Zandvoort, Red Bull extended his deal to the end of twenty thirty."
+  },
+  {
+   "start": 42.14,
+   "dur": 5.58,
+   "say": "First win only in race sixteen, then Singapore and Mexico. He's second going into Vegas."
+  },
+  {
+   "start": 47.72,
+   "dur": 3.01,
+   "say": "Follow how Max ends the season on LapRadar."
+  }
+ ],
+ "title": "Verstappen threatened to quit F1, then signed to 2030: his 2026 timeline",
+ "caption": "",
+ "slug": "verstappen-quit-threat-2026",
+ "digest": "c29b6cfa3e8e772a",
+ "studio": 2
+}

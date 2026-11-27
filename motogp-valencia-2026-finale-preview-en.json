@@ -1,0 +1,53 @@
+{
+ "id": "motogp-valencia-2026-finale-preview",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.21,
+   "say": "The champion is known, but Valencia still settles three questions. It is the last thousand cc race."
+  },
+  {
+   "start": 6.21,
+   "dur": 6.32,
+   "say": "Question one: constructors. Aprilia lead by nine points, and Ducati need at least ten more than them."
+  },
+  {
+   "start": 12.530000000000001,
+   "dur": 6.21,
+   "say": "Question two: second place among the riders. Martín leads Bezzecchi by two points, both on Aprilia."
+  },
+  {
+   "start": 18.740000000000002,
+   "dur": 4.15,
+   "say": "Question three: the Moto2 title. It goes down to the last race."
+  },
+  {
+   "start": 22.89,
+   "dur": 6.32,
+   "say": "González leads by four and a half points. If Guevara wins, he is champion, even with González second."
+  },
+  {
+   "start": 29.21,
+   "dur": 6.55,
+   "say": "A farewell for many: Martín heads to Yamaha, Miller and Binder to WorldSBK. Bagnaia and Viñales miss out."
+  },
+  {
+   "start": 35.76,
+   "dur": 5.64,
+   "say": "From twenty twenty-seven MotoGP moves to eight hundred fifty cc. The thousand is history."
+  },
+  {
+   "start": 41.4,
+   "dur": 3.69,
+   "say": "Check the race start in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Valencia: the last 1000cc MotoGP race and three open questions",
+ "caption": "",
+ "slug": "motogp-valencia-2026-finale-preview",
+ "digest": "a0aafa98d80be397",
+ "studio": 2
+}

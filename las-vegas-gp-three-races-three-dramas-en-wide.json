@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-gp-three-races-three-dramas",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.52,
+   "say": "Las Vegas has hosted Formula One three times, and every time something went off script."
+  },
+  {
+   "start": 5.52,
+   "dur": 8.04,
+   "say": "Twenty twenty-three. In first practice a loose cover wrecks Sainz's Ferrari, and the next session starts two and a half hours late."
+  },
+  {
+   "start": 13.559999999999999,
+   "dur": 6.04,
+   "say": "In the race Verstappen gets five seconds for pushing Leclerc wide at the start, and wins anyway."
+  },
+  {
+   "start": 19.599999999999998,
+   "dur": 5.58,
+   "say": "Twenty twenty-four. Russell wins from pole, Hamilton comes through from tenth to second."
+  },
+  {
+   "start": 25.18,
+   "dur": 5.69,
+   "say": "And fifth place was enough for Verstappen to clinch his fourth title right there in Vegas."
+  },
+  {
+   "start": 30.87,
+   "dur": 6.26,
+   "say": "Twenty twenty-five. Norris second, Piastri fourth, then both McLarens are thrown out for plank wear."
+  },
+  {
+   "start": 37.13,
+   "dur": 3.64,
+   "say": "Follow the fourth Vegas race on the LapRadar live map."
+  }
+ ],
+ "title": "Three Las Vegas GPs, three dramas: a manhole, a title and a double DSQ",
+ "caption": "",
+ "slug": "las-vegas-gp-three-races-three-dramas",
+ "digest": "5ce32b2c9f22b5ee",
+ "studio": 2
+}

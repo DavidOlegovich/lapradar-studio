@@ -1,0 +1,53 @@
+{
+ "id": "abu-dhabi-2026-season-finale-stakes",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.55,
+   "say": "The champion is already known. So what is left to decide in Abu Dhabi?"
+  },
+  {
+   "start": 4.55,
+   "dur": 8.21,
+   "say": "Antonelli clinched in Mexico City and has four hundred and two points. Qatar and the Abu Dhabi finale on the sixth of December remain."
+  },
+  {
+   "start": 12.760000000000002,
+   "dur": 5.35,
+   "say": "No sprints and no fastest lap point. So a driver can take fifty more points at most."
+  },
+  {
+   "start": 18.11,
+   "dur": 7.18,
+   "say": "For second: Verstappen has three hundred and four, Hamilton two sixty-seven, Russell and Norris two sixty-four each."
+  },
+  {
+   "start": 25.29,
+   "dur": 7.24,
+   "say": "Places two to six go to five drivers: Verstappen, Hamilton, Russell, Norris and Leclerc. Piastri is out of the fight."
+  },
+  {
+   "start": 32.53,
+   "dur": 7.58,
+   "say": "In the constructors' table Ferrari lead Red Bull by seventy-seven points, and nine separate Red Bull and McLaren for third."
+  },
+  {
+   "start": 40.11,
+   "dur": 6.55,
+   "say": "Ocon leaves Haas. Next year Camara and Bearman drive there, and the twenty twenty-seven grid is complete."
+  },
+  {
+   "start": 46.66,
+   "dur": 4.32,
+   "say": "Check what time the race starts in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Abu Dhabi: what is still to be decided in the F1 season finale",
+ "caption": "",
+ "slug": "abu-dhabi-2026-season-finale-stakes",
+ "digest": "6cea6271ff06c962",
+ "studio": 2
+}

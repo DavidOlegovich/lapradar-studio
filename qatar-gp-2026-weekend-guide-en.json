@@ -1,0 +1,63 @@
+{
+ "id": "qatar-gp-2026-weekend-guide",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.69,
+   "say": "What to expect in Qatar? The champion is already known, but plenty is still to be decided."
+  },
+  {
+   "start": 5.69,
+   "dur": 6.61,
+   "say": "No sprint. Two practice sessions on Friday, third practice and qualifying on Saturday, the race on Sunday."
+  },
+  {
+   "start": 12.3,
+   "dur": 6.49,
+   "say": "Fifty-seven laps of five point four one nine kilometres, about three hundred and nine kilometres in all."
+  },
+  {
+   "start": 18.79,
+   "dur": 6.21,
+   "say": "The race lap record belongs to Norris: one twenty-two three eighty-four, set in twenty twenty-four."
+  },
+  {
+   "start": 25,
+   "dur": 5.41,
+   "say": "Fast bends all lap. Hardest on tyres: the right-handers from Turn twelve to fourteen."
+  },
+  {
+   "start": 30.41,
+   "dur": 6.26,
+   "say": "The main straight is over a kilometre long, and Turn one at the end of it is the best place to pass."
+  },
+  {
+   "start": 36.67,
+   "dur": 6.09,
+   "say": "Pirelli brought its three hardest compounds, plus a limit: a set lasts at most twenty-seven laps."
+  },
+  {
+   "start": 42.760000000000005,
+   "dur": 7.98,
+   "say": "Antonelli is champion with four hundred and two points. Verstappen has three hundred and four in second, Hamilton two sixty-seven."
+  },
+  {
+   "start": 50.74000000000001,
+   "dur": 3.12,
+   "say": "Formula Two races at Lusail the same weekend."
+  },
+  {
+   "start": 53.86000000000001,
+   "dur": 4.32,
+   "say": "Check what time the race starts in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Qatar: how the weekend works and what to watch",
+ "caption": "",
+ "slug": "qatar-gp-2026-weekend-guide",
+ "digest": "f0e6f353c64590bc",
+ "studio": 2
+}

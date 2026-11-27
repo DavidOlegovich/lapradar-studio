@@ -1,0 +1,43 @@
+{
+ "id": "promo-series",
+ "lang": "es",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.26,
+   "say": "¿Sigues varias categorías? Ahora lo tienes todo en un solo lugar."
+  },
+  {
+   "start": 4.26,
+   "dur": 5.41,
+   "say": "Fórmula Uno, Dos y Tres, y también Fórmula E. Todas las rondas, todos los resultados."
+  },
+  {
+   "start": 9.67,
+   "dur": 3.64,
+   "say": "MotoGP, Moto2, Moto3 y NASCAR. Motos y óvalos también."
+  },
+  {
+   "start": 13.31,
+   "dur": 4.89,
+   "say": "Para cada categoría: calendario, resultados de cada ronda y clasificaciones."
+  },
+  {
+   "start": 18.2,
+   "dur": 6.15,
+   "say": "Y para la Fórmula Uno, un mapa 3D de la carrera en directo, explicaciones en vídeo y repeticiones."
+  },
+  {
+   "start": 24.35,
+   "dur": 2.95,
+   "say": "Gratis y sin registro. LapRadar punto com."
+  }
+ ],
+ "title": "Todas las carreras en un solo lugar: F1, F2, F3, Fórmula E, MotoGP y NASCAR",
+ "caption": "Calendarios, resultados y clasificaciones de ocho categorías. Gratis y sin registro: lapradar.com",
+ "slug": "promo-series",
+ "digest": "03465aa7a0ca1bf8",
+ "studio": 2
+}

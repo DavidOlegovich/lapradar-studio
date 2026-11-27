@@ -1,0 +1,118 @@
+{
+ "id": "abu-dhabi-2021-final",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.95,
+   "say": "Season finale, two drivers level on points. How did one lap decide the title?"
+  },
+  {
+   "start": 4.95,
+   "dur": 5.12,
+   "say": "Both on three sixty-nine and a half. The first time since nineteen seventy-four."
+  },
+  {
+   "start": 10.07,
+   "dur": 4.32,
+   "say": "Verstappen starts from pole, but Hamilton passes him at the start."
+  },
+  {
+   "start": 14.39,
+   "dur": 5.35,
+   "say": "Max attacks into Turn six. Hamilton cuts the chicane, stays ahead. No investigation."
+  },
+  {
+   "start": 19.740000000000002,
+   "dur": 4.55,
+   "say": "Hamilton pulls away. By lap fifty-one he is over eleven seconds clear."
+  },
+  {
+   "start": 24.290000000000003,
+   "dur": 4.09,
+   "say": "Lap fifty-three. Latifi crashes, and the safety car comes out."
+  },
+  {
+   "start": 28.380000000000003,
+   "dur": 5.01,
+   "say": "Verstappen gets fresh softs. Hamilton stays out on old tyres to keep the lead."
+  },
+  {
+   "start": 33.39,
+   "dur": 5.06,
+   "say": "Five lapped cars sit between the leaders. First message: they may not overtake."
+  },
+  {
+   "start": 38.45,
+   "dur": 4.72,
+   "say": "Lap fifty-seven. Masi changes the decision: only those five may overtake."
+  },
+  {
+   "start": 43.17,
+   "dur": 4.49,
+   "say": "Three stay put. Verstappen starts the last lap right behind Hamilton."
+  },
+  {
+   "start": 47.660000000000004,
+   "dur": 4.84,
+   "say": "He passes Hamilton at Turn five, holds on to the flag and becomes champion."
+  },
+  {
+   "start": 52.5,
+   "dur": 5.12,
+   "say": "Mercedes' protests rejected, appeal withdrawn. In February the FIA removed Masi."
+  },
+  {
+   "start": 57.62,
+   "dur": 4.95,
+   "say": "The FIA report: human error, results final. Now all lapped cars are let past."
+  },
+  {
+   "start": 62.57,
+   "dur": 5.01,
+   "say": "But one race doesn't decide a title. Before Abu Dhabi, both sides lost points."
+  },
+  {
+   "start": 67.58,
+   "dur": 5.12,
+   "say": "Silverstone: a collision, a fifty-one g impact. Hamilton wins despite a penalty."
+  },
+  {
+   "start": 72.7,
+   "dur": 4.61,
+   "say": "Hungary: a wet-start pile-up. Verstappen two points, Hamilton eighteen."
+  },
+  {
+   "start": 77.31,
+   "dur": 5.06,
+   "say": "Baku: Verstappen's tyre fails, Hamilton goes off at the restart. Zero for both."
+  },
+  {
+   "start": 82.37,
+   "dur": 4.72,
+   "say": "Monza: Verstappen is found responsible. The cars tangle, and both retire."
+  },
+  {
+   "start": 87.09,
+   "dur": 5.18,
+   "say": "Jeddah: a penalty for Verstappen's erratic braking. Hamilton wins, they're level."
+  },
+  {
+   "start": 92.27000000000001,
+   "dur": 5.52,
+   "say": "In the end, eight points over twenty-two races. A title is built over the whole season."
+  },
+  {
+   "start": 97.79,
+   "dur": 2.6,
+   "say": "Read the full story on LapRadar."
+  }
+ ],
+ "title": "Abu Dhabi 2021: how F1's most controversial title was decided, and why it wasn't decided by one race",
+ "caption": "",
+ "slug": "abu-dhabi-2021-final",
+ "digest": "7de9150ceae1344b",
+ "studio": 2
+}

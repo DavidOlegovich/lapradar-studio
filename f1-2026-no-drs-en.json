@@ -1,0 +1,43 @@
+{
+ "id": "f1-2026-no-drs",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.21,
+   "say": "Formula One has no DRS any more. So how do drivers overtake now?"
+  },
+  {
+   "start": 4.21,
+   "dur": 5.81,
+   "say": "Both the front and rear wings now move. Every driver opens them on the straights, every lap."
+  },
+  {
+   "start": 10.02,
+   "dur": 6.89,
+   "say": "Be within a second of the car ahead at the detection point, and you get Overtake mode: extra electrical energy."
+  },
+  {
+   "start": 16.91,
+   "dur": 6.49,
+   "say": "The electric motor now delivers about half the power, and the battery has to be recharged under braking."
+  },
+  {
+   "start": 23.4,
+   "dur": 5.35,
+   "say": "So overtaking has become tactical: where to spend your energy, and where to save it."
+  },
+  {
+   "start": 28.75,
+   "dur": 3.86,
+   "say": "Follow every driver's gaps and positions live on LapRadar."
+  }
+ ],
+ "title": "Formula 1 without DRS: how overtaking works under the 2026 rules",
+ "caption": "",
+ "slug": "f1-2026-no-drs",
+ "digest": "adcdd05d66f82281",
+ "studio": 2
+}

@@ -1,0 +1,43 @@
+{
+ "id": "las-vegas-cold-night",
+ "lang": "es",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.29,
+   "say": "Las Vegas. La carrera más brillante del año y también la más resbaladiza. ¿Por qué?"
+  },
+  {
+   "start": 5.29,
+   "dur": 5.92,
+   "say": "Se corre de noche, y en noviembre el desierto es frío: el aire ronda los diez o quince grados."
+  },
+  {
+   "start": 11.21,
+   "dur": 7.64,
+   "say": "Los neumáticos de Fórmula Uno están hechos para el calor. En frío agarran menos y la superficie se rompe en bolitas de goma."
+  },
+  {
+   "start": 18.85,
+   "dur": 6.04,
+   "say": "La vuelta pasa de seis kilómetros: rectas largas por el Strip y curvas lentas de noventa grados."
+  },
+  {
+   "start": 24.89,
+   "dur": 6.44,
+   "say": "Por eso aquí el blando rinde más, el duro puede no llegar a calentarse y cada relanzada es una lotería."
+  },
+  {
+   "start": 31.330000000000002,
+   "dur": 4.95,
+   "say": "Sigue en directo los neumáticos y las diferencias de cada piloto en LapRadar."
+  }
+ ],
+ "title": "Las Vegas: la carrera más brillante del año es también la más resbaladiza",
+ "caption": "",
+ "slug": "las-vegas-cold-night",
+ "digest": "37d750d2ab432daa",
+ "studio": 2
+}

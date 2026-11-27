@@ -1,0 +1,48 @@
+{
+ "id": "motogp-2027-850cc-rules",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.44,
+   "say": "In a year, MotoGP bikes will get slower. And that's the whole point."
+  },
+  {
+   "start": 4.44,
+   "dur": 5.06,
+   "say": "Engines shrink from a thousand to eight hundred fifty cc. Still four cylinders."
+  },
+  {
+   "start": 9.5,
+   "dur": 5.41,
+   "say": "The devices that drop the bike at the start and out of corners are banned completely."
+  },
+  {
+   "start": 14.91,
+   "dur": 5.58,
+   "say": "Less aero too: the front fairing gets five centimetres narrower and the nose moves back."
+  },
+  {
+   "start": 20.490000000000002,
+   "dur": 6.66,
+   "say": "The tank drops to twenty litres and the fuel goes fully sustainable. Six engines a season instead of seven."
+  },
+  {
+   "start": 27.150000000000002,
+   "dur": 4.44,
+   "say": "New tyres as well: Pirelli replaces Michelin as the single supplier."
+  },
+  {
+   "start": 31.590000000000003,
+   "dur": 3.18,
+   "say": "MotoGP calendar and standings are on LapRadar."
+  }
+ ],
+ "title": "MotoGP 2027: 850cc engines, no ride-height devices and Pirelli tyres",
+ "caption": "",
+ "slug": "motogp-2027-850cc-rules",
+ "digest": "dd87d6b2ac73652e",
+ "studio": 2
+}

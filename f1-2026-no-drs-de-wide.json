@@ -1,0 +1,43 @@
+{
+ "id": "f1-2026-no-drs",
+ "lang": "de",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.24,
+   "say": "Die Formel Eins hat kein DRS mehr. Wie wird jetzt überholt?"
+  },
+  {
+   "start": 4.24,
+   "dur": 7.36,
+   "say": "Front- und Heckflügel sind jetzt beweglich. Jeder Fahrer öffnet sie auf den Geraden, und zwar in jeder Runde."
+  },
+  {
+   "start": 11.600000000000001,
+   "dur": 8.99,
+   "say": "Liegst du am Messpunkt weniger als eine Sekunde hinter dem Vordermann, bekommst du den Overtake-Modus: zusätzliche elektrische Energie."
+  },
+  {
+   "start": 20.590000000000003,
+   "dur": 8.11,
+   "say": "Der Elektromotor liefert jetzt etwa die Hälfte der Leistung, und die Batterie muss beim Bremsen wieder aufgeladen werden."
+  },
+  {
+   "start": 28.700000000000003,
+   "dur": 5.99,
+   "say": "Überholen ist also Taktik geworden: Wo setzt man die Energie ein, und wo spart man sie?"
+  },
+  {
+   "start": 34.690000000000005,
+   "dur": 4.86,
+   "say": "Abstände und Positionen jedes Fahrers verfolgst du live auf LapRadar."
+  }
+ ],
+ "title": "Formel 1 ohne DRS: So funktioniert das Überholen mit den Regeln von 2026",
+ "caption": "",
+ "slug": "f1-2026-no-drs",
+ "digest": "e8c7b4bd0771d88c",
+ "studio": 2
+}

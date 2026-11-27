@@ -1,0 +1,48 @@
+{
+ "id": "las-vegas-wet-thursday-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.44,
+   "say": "First practice in Vegas: an hour of rain and not a single timed lap."
+  },
+  {
+   "start": 4.44,
+   "dur": 6.49,
+   "say": "Everyone ran full wet tyres. The fastest car through the speed trap managed just one hundred and ninety."
+  },
+  {
+   "start": 10.93,
+   "dur": 6.61,
+   "say": "By the evening the rain had stopped, but the track was still wet. Norris was the first onto intermediates."
+  },
+  {
+   "start": 17.54,
+   "dur": 5.46,
+   "say": "Russell set the best lap, almost fourteen seconds slower than dry practice a year ago."
+  },
+  {
+   "start": 23,
+   "dur": 5.98,
+   "say": "Gasly was seven hundredths behind, Leclerc a third of a second. Verstappen was only thirteenth."
+  },
+  {
+   "start": 28.98,
+   "dur": 4.89,
+   "say": "Thirty-three laps were deleted, most of them for track limits at Turn Eight."
+  },
+  {
+   "start": 33.87,
+   "dur": 3.81,
+   "say": "All of these laps and tyres are on our LapRadar live map."
+  }
+ ],
+ "title": "Wet Thursday in Vegas: both practice sessions in LapRadar numbers",
+ "caption": "",
+ "slug": "las-vegas-wet-thursday-2026",
+ "digest": "b8633a8922de408e",
+ "studio": 2
+}

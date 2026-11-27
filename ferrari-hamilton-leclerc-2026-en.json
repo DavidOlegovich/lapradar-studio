@@ -1,0 +1,68 @@
+{
+ "id": "ferrari-hamilton-leclerc-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.38,
+   "say": "A second clash in three weeks. What's up with Hamilton and Leclerc?"
+  },
+  {
+   "start": 4.38,
+   "dur": 5.86,
+   "say": "Mexico, lap one. Hamilton and Leclerc go wheel to wheel, and both Ferraris run off the track."
+  },
+  {
+   "start": 10.24,
+   "dur": 3.69,
+   "say": "No contact, but Verstappen gets past Hamilton and wins."
+  },
+  {
+   "start": 13.93,
+   "dur": 4.44,
+   "say": "Leclerc gets five seconds. Hamilton finishes second, Leclerc fourth."
+  },
+  {
+   "start": 18.37,
+   "dur": 4.26,
+   "say": "Hamilton wants serious talks. Vasseur calls it a lack of respect."
+  },
+  {
+   "start": 22.630000000000003,
+   "dur": 4.21,
+   "say": "Before Brazil, Vasseur sits them down. He says they left joking."
+  },
+  {
+   "start": 26.840000000000003,
+   "dur": 4.44,
+   "say": "Vegas, lap thirty-eight. A dive up the inside, and Hamilton is spun."
+  },
+  {
+   "start": 31.280000000000005,
+   "dur": 4.38,
+   "say": "The stewards blame Leclerc: ten seconds. Hamilton finishes seventh."
+  },
+  {
+   "start": 35.660000000000004,
+   "dur": 4.32,
+   "say": "Leclerc apologises. Vasseur: unacceptable, same message as Mexico."
+  },
+  {
+   "start": 39.980000000000004,
+   "dur": 4.84,
+   "say": "Ferrari are second in the constructors', with only seven points from Vegas."
+  },
+  {
+   "start": 44.82000000000001,
+   "dur": 3.69,
+   "say": "Every race and team-mate duel on the LapRadar live map."
+  }
+ ],
+ "title": "Hamilton and Leclerc: three flashpoints in a month and what Ferrari said about them",
+ "caption": "",
+ "slug": "ferrari-hamilton-leclerc-2026",
+ "digest": "1283eea469b725e4",
+ "studio": 2
+}

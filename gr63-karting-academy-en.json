@@ -1,0 +1,58 @@
+{
+ "id": "gr63-karting-academy",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 7.52,
+   "say": "The road to Formula One is expensive: Russell's father spent about one and a half million pounds, and George paid it back."
+  },
+  {
+   "start": 7.52,
+   "dur": 6.38,
+   "say": "On the twelfth of November Russell launched the G R sixty-three academy with Silverstone and the BRDC."
+  },
+  {
+   "start": 13.899999999999999,
+   "dur": 6.26,
+   "say": "Russell himself got in a kart at seven. Now he's looking for kids whose families can't fund a start."
+  },
+  {
+   "start": 20.159999999999997,
+   "dur": 6.15,
+   "say": "Boys and girls aged eight and nine can take part, if their family may lack the budget for karting."
+  },
+  {
+   "start": 26.309999999999995,
+   "dur": 6.66,
+   "say": "Qualifiers at Silverstone run from the sixth to the thirty-first of December, twenty-five pounds a session."
+  },
+  {
+   "start": 32.97,
+   "dur": 4.89,
+   "say": "The best eighty from the qualifiers go to a shoot-out at the end of January."
+  },
+  {
+   "start": 37.86,
+   "dur": 7.24,
+   "say": "Twenty-five get places in the twenty twenty-seven championship. Everything is paid for, even the overalls and helmet."
+  },
+  {
+   "start": 45.1,
+   "dur": 4.72,
+   "say": "And the winner gets a fully funded karting season in twenty twenty-eight."
+  },
+  {
+   "start": 49.82,
+   "dur": 2.66,
+   "say": "Race news and the live map: LapRadar."
+  }
+ ],
+ "title": "Russell launches the GR63 Academy: funded karting for kids whose families may lack the budget",
+ "caption": "",
+ "slug": "gr63-karting-academy",
+ "digest": "bbc30870719d819c",
+ "studio": 2
+}

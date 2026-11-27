@@ -1,0 +1,43 @@
+{
+ "id": "f1-2026-no-drs",
+ "lang": "es",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.75,
+   "say": "La Fórmula Uno ya no tiene DRS. ¿Cómo se adelanta ahora?"
+  },
+  {
+   "start": 3.75,
+   "dur": 6.26,
+   "say": "Ahora se mueven los alerones delantero y trasero. En las rectas los abre cada piloto en cada vuelta."
+  },
+  {
+   "start": 10.01,
+   "dur": 6.84,
+   "say": "Si en el punto de detección estás a menos de un segundo del coche de delante, recibes energía eléctrica extra."
+  },
+  {
+   "start": 16.85,
+   "dur": 6.44,
+   "say": "El motor eléctrico aporta ya cerca de la mitad de la potencia, y la batería se recarga en las frenadas."
+  },
+  {
+   "start": 23.290000000000003,
+   "dur": 5.46,
+   "say": "Adelantar se ha vuelto cuestión de táctica: dónde gastar la energía y dónde guardarla."
+  },
+  {
+   "start": 28.750000000000004,
+   "dur": 4.72,
+   "say": "Sigue en directo las diferencias y posiciones de cada piloto en LapRadar."
+  }
+ ],
+ "title": "Fórmula 1 sin DRS: cómo funcionan los adelantamientos con las reglas de 2026",
+ "caption": "",
+ "slug": "f1-2026-no-drs",
+ "digest": "cc03e5be116d9ad5",
+ "studio": 2
+}

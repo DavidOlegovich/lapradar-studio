@@ -1,0 +1,58 @@
+{
+ "id": "lusail-history-qatar-gp-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.26,
+   "say": "Who was the Qatar circuit built for? Not Formula One. Motorbikes."
+  },
+  {
+   "start": 4.26,
+   "dur": 5.64,
+   "say": "MotoGP arrived in two thousand four, and held its first night race in two thousand eight."
+  },
+  {
+   "start": 9.899999999999999,
+   "dur": 6.84,
+   "say": "F1 debuted in twenty twenty-one, Hamilton won. No race in twenty twenty-two because of the football World Cup."
+  },
+  {
+   "start": 16.74,
+   "dur": 5.18,
+   "say": "It returned in twenty twenty-three on a ten-year deal, through twenty thirty-two."
+  },
+  {
+   "start": 21.919999999999998,
+   "dur": 6.84,
+   "say": "Twenty twenty-three was brutal: Sargeant retired, Ocon was sick in his cockpit, tyres capped at eighteen laps."
+  },
+  {
+   "start": 28.759999999999998,
+   "dur": 3.52,
+   "say": "Verstappen has won all three races since the return."
+  },
+  {
+   "start": 32.28,
+   "dur": 5.58,
+   "say": "Now it's twenty-seven laps per set in a fifty-seven-lap race. So at least two pit stops."
+  },
+  {
+   "start": 37.86,
+   "dur": 5.52,
+   "say": "Formula Two races here too. Leader Câmara drives for Haas, Tsolov is seven points back."
+  },
+  {
+   "start": 43.379999999999995,
+   "dur": 3.69,
+   "say": "Check the race start in your own time zone on LapRadar."
+  }
+ ],
+ "title": "Lusail: a circuit built for bikes, night racing and two pit stops in 2026",
+ "caption": "",
+ "slug": "lusail-history-qatar-gp-2026",
+ "digest": "46f6dcf32caa7779",
+ "studio": 2
+}

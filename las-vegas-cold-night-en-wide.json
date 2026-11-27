@@ -1,0 +1,43 @@
+{
+ "id": "las-vegas-cold-night",
+ "lang": "en",
+ "variant": "wide",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.55,
+   "say": "Las Vegas. The brightest race of the season, and the slipperiest. Why?"
+  },
+  {
+   "start": 4.55,
+   "dur": 6.78,
+   "say": "It's a night race, and November nights in the desert are cold, with the air at around ten to fifteen degrees."
+  },
+  {
+   "start": 11.33,
+   "dur": 6.44,
+   "say": "F1 tyres are built for heat. Cold rubber grips less, and the surface tears into little rolls of rubber."
+  },
+  {
+   "start": 17.77,
+   "dur": 5.86,
+   "say": "The lap is over six kilometres: long straights down the Strip and slow ninety-degree corners."
+  },
+  {
+   "start": 23.63,
+   "dur": 6.49,
+   "say": "That's why softs shine here, hards may never get up to temperature, and every restart becomes a lottery."
+  },
+  {
+   "start": 30.119999999999997,
+   "dur": 3.64,
+   "say": "Follow every driver's tyres and gaps live on LapRadar."
+  }
+ ],
+ "title": "Las Vegas: the brightest race of the season, and the slipperiest",
+ "caption": "",
+ "slug": "las-vegas-cold-night",
+ "digest": "d99c3a08914c7140",
+ "studio": 2
+}

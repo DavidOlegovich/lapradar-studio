@@ -1,0 +1,58 @@
+{
+ "id": "f1-dirty-air-explained",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.35,
+   "say": "Why is it so hard to follow another car closely in Formula One? Blame the dirty air."
+  },
+  {
+   "start": 5.35,
+   "dur": 5.98,
+   "say": "A car punches through the air and leaves a swirling wake. The chasing car drives right into it."
+  },
+  {
+   "start": 11.33,
+   "dur": 6.04,
+   "say": "The wings and floor get messy airflow and lose downforce. The car slides and the tyres overheat."
+  },
+  {
+   "start": 17.37,
+   "dur": 7.69,
+   "say": "Older cars lost almost half their downforce one car length back. The twenty twenty-two cars were meant to lose under a fifth."
+  },
+  {
+   "start": 25.060000000000002,
+   "dur": 6.04,
+   "say": "So downforce moved under the floor, into tunnels, and the wake behind the car was made narrower."
+  },
+  {
+   "start": 31.1,
+   "dur": 5.41,
+   "say": "But teams found loopholes in the wings and brake ducts, and the wake got worse again."
+  },
+  {
+   "start": 36.510000000000005,
+   "dur": 5.75,
+   "say": "Now the wings move: on the straights the flaps open for everyone, not just the chasing car."
+  },
+  {
+   "start": 42.260000000000005,
+   "dur": 6.32,
+   "say": "And DRS is gone. Within a second of the car ahead, Overtake Mode gives extra energy for the next lap."
+  },
+  {
+   "start": 48.580000000000005,
+   "dur": 4.21,
+   "say": "See who's closing in, and by how much, on the LapRadar live map."
+  }
+ ],
+ "title": "Dirty air: why it's so hard to follow closely in F1",
+ "caption": "",
+ "slug": "f1-dirty-air-explained",
+ "digest": "16ff9513ef9ce4eb",
+ "studio": 2
+}

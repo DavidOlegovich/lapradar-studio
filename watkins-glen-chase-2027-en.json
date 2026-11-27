@@ -1,0 +1,48 @@
+{
+ "id": "watkins-glen-chase-2027",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 5.86,
+   "say": "NASCAR's playoff is almost all ovals. But in twenty twenty seven it gets a road course again."
+  },
+  {
+   "start": 5.86,
+   "dur": 6.72,
+   "say": "The Chase is the last ten races of the season. Sixteen drivers qualify on points and nobody gets eliminated."
+  },
+  {
+   "start": 12.58,
+   "dur": 7.41,
+   "say": "Richmond opens the Chase. Watkins Glen is the second race, on September nineteenth, and the finale is back at Homestead."
+  },
+  {
+   "start": 19.990000000000002,
+   "dur": 6.09,
+   "say": "This year's Chase had no road courses. Charlotte went back from the Roval to the oval in October."
+  },
+  {
+   "start": 26.080000000000002,
+   "dur": 8.15,
+   "say": "On the twenty twenty seven schedule, the playoff includes Watkins Glen, a road course race. Charlotte's layout hasn't been named yet."
+  },
+  {
+   "start": 34.230000000000004,
+   "dur": 4.95,
+   "say": "The Glen was last in the playoff in twenty twenty four. Now it's coming back."
+  },
+  {
+   "start": 39.18000000000001,
+   "dur": 3.18,
+   "say": "NASCAR calendar and standings are on LapRadar."
+  }
+ ],
+ "title": "Watkins Glen returns to the Chase: a road course in NASCAR's 2027 playoff",
+ "caption": "",
+ "slug": "watkins-glen-chase-2027",
+ "digest": "e8f653cb6677225a",
+ "studio": 2
+}

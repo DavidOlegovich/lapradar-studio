@@ -1,0 +1,48 @@
+{
+ "id": "camara-haas-f1-2027",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.49,
+   "say": "Formula Three champion, Formula Two leader a year later, and in twenty twenty-seven he's in Formula One."
+  },
+  {
+   "start": 6.49,
+   "dur": 4.95,
+   "say": "Rafael Câmara is twenty-one, Brazilian, and a product of the Ferrari academy."
+  },
+  {
+   "start": 11.440000000000001,
+   "dur": 5.35,
+   "say": "Last year he won Formula Three with Trident and wrapped it up with a round to spare."
+  },
+  {
+   "start": 16.79,
+   "dur": 5.98,
+   "say": "In Formula Two he went straight for the title. His main rival is Red Bull junior Nikola Tsolov."
+  },
+  {
+   "start": 22.77,
+   "dur": 4.78,
+   "say": "Haas didn't wait for the finale and signed Câmara to replace Esteban Ocon."
+  },
+  {
+   "start": 27.55,
+   "dur": 5.24,
+   "say": "The Formula Two title will be settled in the last two rounds, Qatar and Abu Dhabi."
+  },
+  {
+   "start": 32.79,
+   "dur": 3.12,
+   "say": "Follow the Formula Two standings on LapRadar."
+  }
+ ],
+ "title": "Rafael Câmara: from F3 champion to Formula 1 in two years",
+ "caption": "",
+ "slug": "camara-haas-f1-2027",
+ "digest": "fa9c4891fc8e6e0e",
+ "studio": 2
+}

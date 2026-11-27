@@ -1,0 +1,58 @@
+{
+ "id": "marquez-eighth-motogp-title-2026",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 4.72,
+   "say": "A hundred and two points down, and still champion. How did Márquez do it?"
+  },
+  {
+   "start": 4.72,
+   "dur": 6.72,
+   "say": "After Mugello he is a hundred and two down. The old comeback record: ninety-one, Bagnaia, twenty twenty-two."
+  },
+  {
+   "start": 11.44,
+   "dur": 5.41,
+   "say": "In Hungary Márquez won the sprint and the race, his first grand prix win of the year."
+  },
+  {
+   "start": 16.85,
+   "dur": 5.69,
+   "say": "Since Hungary he has scored three hundred sixty-eight points. Bezzecchi's gap melted away."
+  },
+  {
+   "start": 22.540000000000003,
+   "dur": 6.49,
+   "say": "The sprint. Márquez runs third, title within reach, but on the penultimate lap he crashes at Turn seven."
+  },
+  {
+   "start": 29.03,
+   "dur": 5.92,
+   "say": "The title waits. His lead over Martín is fifty-five points, and ninth place on Sunday will do."
+  },
+  {
+   "start": 34.95,
+   "dur": 5.12,
+   "say": "Bezzecchi wins, Martín is second, and Márquez comes home eighth. That is enough."
+  },
+  {
+   "start": 40.07,
+   "dur": 6.04,
+   "say": "An eighth premier-class title, level with Agostini. Agostini himself handed him a golden helmet."
+  },
+  {
+   "start": 46.11,
+   "dur": 7.24,
+   "say": "Next, Valencia, November twenty-seventh to twenty-ninth, the last race of the thousand cc era. Follow it on LapRadar."
+  }
+ ],
+ "title": "Márquez is an eight-time champion: how he erased a 102-point gap",
+ "caption": "",
+ "slug": "marquez-eighth-motogp-title-2026",
+ "digest": "ea38ec0360d11c18",
+ "studio": 2
+}

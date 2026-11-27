@@ -1,0 +1,48 @@
+{
+ "id": "whoop-f1-heart-rate",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 6.09,
+   "say": "From twenty twenty-seven, Formula One broadcasts will show drivers' heart rates live in the race."
+  },
+  {
+   "start": 6.09,
+   "dur": 5.01,
+   "say": "Formula One has signed a four-year deal with WHOOP. It was announced in Vegas."
+  },
+  {
+   "start": 11.1,
+   "dur": 7.24,
+   "say": "It's the first consumer wearable the FIA has approved for racing. It sits on the upper arm, under a fireproof sleeve."
+  },
+  {
+   "start": 18.34,
+   "dur": 5.41,
+   "say": "In a race a driver's heart averages more than one hundred and seventy beats a minute."
+  },
+  {
+   "start": 23.75,
+   "dur": 5.18,
+   "say": "Not everyone is in. Verstappen said no: people don't need to know his heart rate."
+  },
+  {
+   "start": 28.93,
+   "dur": 6.44,
+   "say": "Leclerc already wears the strap and has nothing to hide. And WHOOP has partnered Ferrari since January."
+  },
+  {
+   "start": 35.37,
+   "dur": 3.98,
+   "say": "If Formula One opens up this data, we'll add it to LapRadar."
+  }
+ ],
+ "title": "Driver heart rates on TV: F1 signs WHOOP, Verstappen opts out",
+ "caption": "",
+ "slug": "whoop-f1-heart-rate",
+ "digest": "86d6b1280b1b0827",
+ "studio": 2
+}
