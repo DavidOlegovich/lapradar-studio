@@ -1,0 +1,47 @@
+{
+ "id": "lapradar-live3d-promo",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "scenes": [
+  {
+   "start": 0,
+   "dur": 3.4,
+   "say": "The race. In 3D. Live."
+  },
+  {
+   "start": 3.4,
+   "dur": 2.8,
+   "say": "Onboard camera."
+  },
+  {
+   "start": 6.2,
+   "dur": 2.8,
+   "say": "Helicopter view."
+  },
+  {
+   "start": 9.0,
+   "dur": 4.6,
+   "say": "Tap a driver for sectors and laps."
+  },
+  {
+   "start": 13.6,
+   "dur": 3.6,
+   "say": "Qatar is this weekend."
+  },
+  {
+   "start": 17.2,
+   "dur": 3.4,
+   "say": "Flags and penalties, instantly."
+  },
+  {
+   "start": 20.6,
+   "dur": 3.2,
+   "say": "LapRadar dot com. Live 3D."
+  }
+ ],
+ "title": "LapRadar: the race in 3D, live",
+ "caption": "Watch the race live in 3D on the site: cameras, sectors, race control. lapradar.com → Live 3D",
+ "slug": "lapradar-live3d-promo",
+ "studio": 2
+}
