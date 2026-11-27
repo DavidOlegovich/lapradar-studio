@@ -1,0 +1,142 @@
+{
+ "slug": "abu-dhabi-2026-season-finale-stakes",
+ "date": "2026-11-29",
+ "tags": [
+  "f1",
+  "abu-dhabi",
+  "standings",
+  "season-finale"
+ ],
+ "cover": {
+  "kind": "bg",
+  "src": "public/img/articles/3d/abu-dhabi-2026-season-finale-stakes-cover.jpg"
+ },
+ "i18n": {
+  "ru": {
+   "title": "Абу-Даби: что решится в финале сезона F1",
+   "lead": "Чемпион 2026 года уже известен, но перед последними двумя этапами не решены места со второго по шестое среди пилотов и второе место в Кубке конструкторов. Все цифры ниже даны после Лас-Вегаса, до гонки в Катаре.",
+   "body": [
+    "## Что уже решено",
+    "Кими Антонелли стал чемпионом ещё в Мехико, сейчас у него 402 очка. Кубок конструкторов Mercedes выиграла в Сан-Паулу. Впереди два этапа: Катар 29 ноября и финал в Абу-Даби 6 декабря.",
+    "## Сколько очков ещё можно взять",
+    "Спринтов ни в Катаре, ни в Абу-Даби нет, а очко за быстрый круг отменили с 2025 года. Победа даёт 25 очков, поэтому пилот может добавить к своему счёту максимум 50, а команда максимум 86: до 43 за гонку.",
+    "## Борьба за второе место",
+    "У Макса Ферстаппена 304 очка, у Льюиса Хэмилтона 267, у Джорджа Расселла и Ландо Норриса по 264. До Хэмилтона 37 очков, до Расселла и Норриса 40, а на кону 50, так что математически второе место открыто для всех троих. Шарль Леклер с 250 очками отстаёт на 54 и в борьбу за второе место уже не вмешается.",
+    "![Пелотон на прямой в сумерках: до конца сезона два этапа](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## Места со второго по шестое",
+    "Пятеро делят места со второго по шестое: Ферстаппен, Хэмилтон, Расселл, Норрис и Леклер. Ферстаппен может опуститься до пятого места, а Леклер выше него не поднимется: максимум у Леклера 300 очков. Хэмилтон обошёл Расселла в Лас-Вегасе и идёт третьим, между ним, Расселлом и Норрисом три очка, Леклер на 17 позади Хэмилтона. Оскар Пиастри с 167 очками в эту борьбу уже не вмешается.",
+    "## Кубок конструкторов",
+    "Mercedes недосягаема: 666 очков. Ferrari с 517 опережает Red Bull с 440 на 77 очков. Red Bull теоретически ещё может обойти Ferrari (77 очков при максимуме 86), McLaren (431) лишь сравняться: 431 плюс 86 равно 517. Запас у Ferrari большой. Ближе другая развязка: за третье место Red Bull и McLaren разделяют девять очков. За седьмое место Haas (31) опережает Audi (28) на три, а Cadillac пока без единого очка.",
+    "![Колесо в колесо: места со второго по шестое ещё не распределены](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## Составы на 2027 год",
+    "Эстебан Окон покидает Haas, и команда заявила, что в этом сезоне он в гоночное кресло не вернётся. Рафаэл Камара дебютировал в Сан-Паулу и поедет за Haas в 2027 году, а Оливера Бермана команда подтвердила 26 ноября. После этого сетка следующего сезона собрана: все 11 команд назвали обоих пилотов.",
+    "Гоночный уикенд в Абу-Даби идёт с 4 по 6 декабря, гонка в воскресенье, 6 декабря, на 58 кругов. Во сколько гонка по вашему времени, смотрите на ЛапРадар."
+   ]
+  },
+  "en": {
+   "title": "Abu Dhabi: what is still to be decided in the F1 season finale",
+   "lead": "The 2026 champion is already known, but with two rounds to go, places two to six among the drivers and second place in the constructors' table are all open. Every figure below is taken after Las Vegas and before the Qatar race.",
+   "body": [
+    "## What is already settled",
+    "Kimi Antonelli clinched the title back in Mexico City and now has 402 points. Mercedes won the constructors' title in São Paulo. Two rounds remain: Qatar on 29 November and the Abu Dhabi finale on 6 December.",
+    "## How many points are left",
+    "There is no sprint in either Qatar or Abu Dhabi, and the fastest lap point was scrapped from 2025. A win is worth 25, so a driver can add 50 at most and a team 86 at most, up to 43 per race.",
+    "## The fight for second",
+    "Max Verstappen has 304 points, Lewis Hamilton 267, George Russell and Lando Norris 264 each. Hamilton is 37 behind, Russell and Norris 40, and 50 are on offer, so second place is mathematically open to all three. Charles Leclerc, on 250, is 54 back and can no longer take part in the fight for second.",
+    "![A pack on the straight at dusk: two rounds left in the season](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## Places two to six",
+    "Five drivers share places two to six: Verstappen, Hamilton, Russell, Norris and Leclerc. Verstappen can drop as far as fifth, while Leclerc cannot get above him: Leclerc's maximum is 300 points. Hamilton passed Russell in Las Vegas and sits third, three points separate him, Russell and Norris, and Leclerc is 17 behind Hamilton. Oscar Piastri, on 167, can no longer join the fight.",
+    "## The constructors' table",
+    "Mercedes are out of reach on 666. Ferrari, on 517, lead Red Bull, on 440, by 77 points. Red Bull can still theoretically overtake Ferrari (77 points against a maximum of 86), while McLaren (431) could only draw level: 431 plus 86 is 517. Ferrari's cushion is large. The closer finish is for third: Red Bull and McLaren are nine points apart. For seventh, Haas (31) are three ahead of Audi (28), and Cadillac are still without a point.",
+    "![Wheel to wheel: places two to six are still undecided](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## Line-ups for 2027",
+    "Esteban Ocon is leaving Haas, and the team has said he will not return to a race seat this season. Rafael Camara made his debut in São Paulo and will drive for Haas in 2027, and the team confirmed Oliver Bearman on 26 November. That completes next year's grid: all 11 teams have named both drivers.",
+    "The Abu Dhabi race weekend runs from 4 to 6 December, with the 58-lap race on Sunday 6 December. Check what time the race starts in your own time zone on LapRadar."
+   ]
+  },
+  "es": {
+   "title": "Abu Dabi: qué se decide en el final de temporada de la F1",
+   "lead": "El campeón de 2026 ya se conoce, pero a dos carreras del final siguen abiertos los puestos del segundo al sexto entre los pilotos y el segundo lugar del Mundial de Constructores. Todas las cifras son posteriores a Las Vegas y anteriores a la carrera de Catar.",
+   "body": [
+    "## Lo que ya está decidido",
+    "Kimi Antonelli se proclamó campeón en Ciudad de México y suma 402 puntos. Mercedes ganó el título de constructores en São Paulo. Quedan dos carreras: Catar el 29 de noviembre y la final de Abu Dabi el 6 de diciembre.",
+    "## Cuántos puntos quedan",
+    "Ni en Catar ni en Abu Dabi hay sprint, y el punto por la vuelta rápida desapareció en 2025. La victoria da 25 puntos, así que un piloto puede sumar como mucho 50 y un equipo como mucho 86, hasta 43 por carrera.",
+    "## La lucha por el segundo puesto",
+    "Max Verstappen tiene 304 puntos, Lewis Hamilton 267, George Russell y Lando Norris 264 cada uno. Hamilton está a 37, Russell y Norris a 40, y hay 50 en juego, así que matemáticamente el segundo puesto sigue abierto para los tres. Charles Leclerc, con 250, está a 54 y ya no entra en esa pelea.",
+    "![Un grupo en la recta al atardecer: quedan dos carreras](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## Del segundo al sexto puesto",
+    "Cinco pilotos se reparten los puestos del segundo al sexto: Verstappen, Hamilton, Russell, Norris y Leclerc. Verstappen puede bajar hasta el quinto, y Leclerc no puede superarlo: su máximo es 300 puntos. Hamilton adelantó a Russell en Las Vegas y es tercero, tres puntos separan a Hamilton, Russell y Norris, y Leclerc está a 17 de Hamilton. Oscar Piastri, con 167, ya no entra en esa pelea.",
+    "## El Mundial de Constructores",
+    "Mercedes es inalcanzable con 666. Ferrari, con 517, aventaja en 77 puntos a Red Bull, con 440. Red Bull aún puede teóricamente adelantar a Ferrari (77 puntos con un máximo de 86), y McLaren (431) solo igualarla: 431 más 86 son 517. La ventaja de Ferrari es grande. Más cerrado está el tercero: Red Bull y McLaren se separan por nueve puntos. Por el séptimo, Haas (31) saca tres a Audi (28), y Cadillac sigue sin un solo punto.",
+    "![Rueda con rueda: los puestos del segundo al sexto siguen sin decidir](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## Las parrillas de 2027",
+    "Esteban Ocon deja Haas y el equipo ha dicho que no volverá a un asiento de carrera esta temporada. Rafael Camara debutó en São Paulo y correrá con Haas en 2027, y el equipo confirmó a Oliver Bearman el 26 de noviembre. Con eso la parrilla del año próximo queda completa: los 11 equipos han anunciado a sus dos pilotos.",
+    "El fin de semana de Abu Dabi va del 4 al 6 de diciembre, con la carrera de 58 vueltas el domingo 6. A qué hora empieza la carrera en tu zona horaria, míralo en LapRadar."
+   ]
+  },
+  "pt": {
+   "title": "Abu Dhabi: o que se decide no final da temporada da F1",
+   "lead": "O campeão de 2026 já é conhecido, mas a duas corridas do fim continuam em aberto as posições do segundo ao sexto lugar entre os pilotos e o segundo lugar entre os construtores. Todos os números são de depois de Las Vegas e antes da corrida no Catar.",
+   "body": [
+    "## O que já está decidido",
+    "Kimi Antonelli foi campeão ainda na Cidade do México e tem 402 pontos. A Mercedes ganhou o título de construtores em São Paulo. Restam duas etapas: Catar, em 29 de novembro, e a final em Abu Dhabi, em 6 de dezembro.",
+    "## Quantos pontos ainda há",
+    "Nem no Catar nem em Abu Dhabi há sprint, e o ponto pela volta mais rápida acabou em 2025. A vitória vale 25 pontos, então um piloto pode somar no máximo 50 e uma equipe no máximo 86, até 43 por corrida.",
+    "## A briga pelo segundo lugar",
+    "Max Verstappen tem 304 pontos, Lewis Hamilton 267, George Russell e Lando Norris 264 cada. Hamilton está 37 atrás, Russell e Norris 40, e há 50 em jogo, então matematicamente o segundo lugar está aberto aos três. Charles Leclerc, com 250, está 54 atrás e já não entra nessa briga.",
+    "![Um pelotão na reta ao entardecer: faltam duas etapas](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## Do segundo ao sexto lugar",
+    "Cinco pilotos dividem as posições do segundo ao sexto lugar: Verstappen, Hamilton, Russell, Norris e Leclerc. Verstappen pode cair até o quinto, e Leclerc não consegue passá-lo: o máximo de Leclerc é 300 pontos. Hamilton ultrapassou Russell em Las Vegas e é o terceiro, três pontos separam Hamilton, Russell e Norris, e Leclerc está 17 atrás de Hamilton. Oscar Piastri, com 167, já não entra nessa briga.",
+    "## O campeonato de construtores",
+    "A Mercedes está fora de alcance, com 666. A Ferrari, com 517, está 77 pontos à frente da Red Bull, com 440. A Red Bull ainda pode, em teoria, ultrapassar a Ferrari (77 pontos com um máximo de 86), e a McLaren (431) só empatar: 431 mais 86 são 517. A vantagem da Ferrari é grande. Mais apertado é o terceiro: Red Bull e McLaren estão separadas por nove pontos. No sétimo lugar, a Haas (31) tem três de vantagem sobre a Audi (28), e a Cadillac segue sem nenhum ponto.",
+    "![Roda com roda: as posições do segundo ao sexto lugar ainda não estão definidas](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## As formações para 2027",
+    "Esteban Ocon deixa a Haas, e a equipe disse que ele não voltará a um cockpit de corrida nesta temporada. Rafael Camara estreou em São Paulo e correrá pela Haas em 2027, e a equipe confirmou Oliver Bearman em 26 de novembro. Com isso o grid do ano que vem fica completo: as 11 equipes já nomearam os dois pilotos.",
+    "O fim de semana de Abu Dhabi vai de 4 a 6 de dezembro, com a corrida de 58 voltas no domingo, dia 6. A que horas a corrida começa no seu fuso horário, veja no LapRadar."
+   ]
+  },
+  "de": {
+   "title": "Abu Dhabi: was im Saisonfinale der Formel 1 noch entschieden wird",
+   "lead": "Der Weltmeister 2026 steht fest, doch zwei Rennen vor Schluss sind noch die Plätze zwei bis sechs bei den Fahrern und Platz zwei in der Konstrukteurswertung offen. Alle Zahlen gelten nach Las Vegas und vor dem Rennen in Katar.",
+   "body": [
+    "## Was schon feststeht",
+    "Kimi Antonelli hat den Titel bereits in Mexiko-Stadt geholt und liegt bei 402 Punkten. Mercedes sicherte sich die Konstrukteurswertung in São Paulo. Es bleiben zwei Rennen: Katar am 29. November und das Finale in Abu Dhabi am 6. Dezember.",
+    "## Wie viele Punkte es noch gibt",
+    "Weder in Katar noch in Abu Dhabi gibt es einen Sprint, und den Punkt für die schnellste Runde gibt es seit 2025 nicht mehr. Ein Sieg bringt 25 Punkte, ein Fahrer kann also höchstens 50 dazugewinnen und ein Team höchstens 86, bis zu 43 pro Rennen.",
+    "## Der Kampf um Platz zwei",
+    "Max Verstappen hat 304 Punkte, Lewis Hamilton 267, George Russell und Lando Norris je 264. Hamilton liegt 37 zurück, Russell und Norris 40, und es sind 50 zu vergeben, rechnerisch ist Platz zwei also für alle drei offen. Charles Leclerc mit 250 Punkten liegt 54 zurück und greift nicht mehr ein.",
+    "![Ein Pulk auf der Geraden in der Dämmerung: noch zwei Rennen](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## Die Plätze zwei bis sechs",
+    "Fünf Fahrer teilen sich die Plätze zwei bis sechs: Verstappen, Hamilton, Russell, Norris und Leclerc. Verstappen kann bis auf Platz fünf zurückfallen, Leclerc kann ihn nicht überholen: Sein Maximum liegt bei 300 Punkten. Hamilton hat Russell in Las Vegas überholt und ist Dritter, zwischen ihm, Russell und Norris liegen drei Punkte, Leclerc liegt 17 hinter Hamilton. Oscar Piastri mit 167 Punkten greift nicht mehr ein.",
+    "## Die Konstrukteurswertung",
+    "Mercedes ist mit 666 nicht mehr einzuholen. Ferrari mit 517 liegt 77 Punkte vor Red Bull mit 440. Red Bull kann Ferrari theoretisch noch überholen (77 Punkte bei maximal 86), McLaren (431) nur einholen: 431 plus 86 sind 517. Ferraris Vorsprung ist groß. Enger ist es um Platz drei: Red Bull und McLaren trennen neun Punkte. Um Platz sieben liegt Haas (31) drei vor Audi (28), und Cadillac wartet noch auf den ersten Punkt.",
+    "![Rad an Rad: die Plätze zwei bis sechs sind noch nicht vergeben](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## Die Besetzung für 2027",
+    "Esteban Ocon verlässt Haas, und das Team hat erklärt, dass er in dieser Saison nicht mehr in ein Rennauto zurückkehrt. Rafael Camara hat in São Paulo debütiert und fährt 2027 für Haas, Oliver Bearman bestätigte das Team am 26. November. Damit ist das Starterfeld des nächsten Jahres komplett: Alle 11 Teams haben beide Fahrer benannt.",
+    "Das Rennwochenende in Abu Dhabi läuft vom 4. bis 6. Dezember, das Rennen über 58 Runden findet am Sonntag, dem 6. Dezember, statt. Wann das Rennen in Ihrer Zeitzone startet, sehen Sie bei LapRadar."
+   ]
+  },
+  "zh": {
+   "title": "阿布扎比：F1赛季收官战还要决出什么",
+   "lead": "2026年车手总冠军已经产生，但还剩两站，车手第二到第六名，以及车队积分榜第二名都没有定论。下面所有数字都是拉斯维加斯站之后、卡塔尔正赛之前的数据。",
+   "body": [
+    "## 已经决定的事",
+    "基米·安东内利早在墨西哥城站就夺得总冠军，目前有402分。梅赛德斯在圣保罗站拿下车队总冠军。还剩两站：11月29日的卡塔尔站和12月6日的阿布扎比收官战。",
+    "## 还能拿多少分",
+    "卡塔尔站和阿布扎比站都没有冲刺赛，最快圈加1分的规则从2025年起已经取消。冠军25分，所以一名车手最多再拿50分，一支车队最多再拿86分，每站最多43分。",
+    "## 争夺第二名",
+    "马克斯·维斯塔潘304分，刘易斯·汉密尔顿267分，乔治·拉塞尔和兰多·诺里斯各264分。汉密尔顿落后37分，拉塞尔和诺里斯落后40分，而可拿的分数是50分，所以从数学上讲，三人都还有机会拿到第二名。夏尔·勒克莱尔250分，落后54分，已经无法参与第二名的争夺。",
+    "![黄昏时直道上的车群：赛季还剩两站](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-pack.jpg)",
+    "## 第二到第六名",
+    "五名车手争夺第二到第六名：维斯塔潘、汉密尔顿、拉塞尔、诺里斯和勒克莱尔。维斯塔潘最低可能跌到第五，勒克莱尔则不可能超过他：勒克莱尔最多300分。汉密尔顿在拉斯维加斯站超过拉塞尔，目前排第三，他、拉塞尔和诺里斯之间只差3分，勒克莱尔落后汉密尔顿17分。奥斯卡·皮亚斯特里167分，已无法参与这场争夺。",
+    "## 车队积分榜",
+    "梅赛德斯以666分遥遥领先。法拉利517分，领先红牛440分共77分。红牛理论上仍可能超过法拉利（77分差距，最多可拿86分），迈凯伦（431分）则最多只能追平：431加86等于517。法拉利优势很大。更紧张的是第三名：红牛和迈凯伦只差9分。第七名争夺中，哈斯（31分）领先奥迪（28分）3分，凯迪拉克至今一分未得。",
+    "![轮对轮的争夺：第二到第六名尚未确定](/img/articles/3d/abu-dhabi-2026-season-finale-stakes-duel.jpg)",
+    "## 2027年的车手阵容",
+    "埃斯特万·奥康将离开哈斯，车队表示他本赛季不会再回到正赛赛车上。拉斐尔·卡马拉在圣保罗站完成F1首秀，2027年将为哈斯出战，车队则在11月26日确认了奥利弗·贝尔曼的续约。至此，明年的发车阵容已经凑齐：11支车队都已公布了两名车手。",
+    "阿布扎比站的比赛周末为12月4日至6日，58圈的正赛在12月6日星期日举行。比赛在您所在时区几点开始，请看LapRadar。"
+   ]
+  }
+ }
+}
