@@ -1,47 +1,52 @@
 {
  "id": "lapradar-live3d-promo",
+ "slug": "lapradar-live3d-promo",
  "lang": "en",
  "variant": "tall",
  "fps": 30,
+ "studio": 2,
+ "title": "The race in 3D — live, like a broadcast",
+ "caption": "We built this for you: watch the race live in 3D — any camera, driver sectors, flags and race control messages. Qatar this weekend. #LapRadar #F1 #Live3D #racing #formula1 lapradar.com → Live 3D",
  "scenes": [
   {
-   "start": 0,
-   "dur": 3.4,
-   "say": "The race. In 3D. Live."
+   "start": 0.0,
+   "dur": 1.88,
+   "say": "The race in 3D. Live."
   },
   {
-   "start": 3.4,
-   "dur": 2.8,
-   "say": "Onboard camera."
+   "start": 1.88,
+   "dur": 1.88,
+   "say": "We built this for you."
   },
   {
-   "start": 6.2,
-   "dur": 2.8,
-   "say": "Helicopter view."
+   "start": 3.75,
+   "dur": 3.75,
+   "say": "Watch the race live, just like a real broadcast."
   },
   {
-   "start": 9.0,
-   "dur": 4.6,
-   "say": "Tap a driver for sectors and laps."
+   "start": 7.5,
+   "dur": 1.88,
+   "say": "Any camera."
   },
   {
-   "start": 13.6,
-   "dur": 3.6,
-   "say": "Qatar is this weekend."
+   "start": 9.38,
+   "dur": 1.88,
+   "say": "Tap a driver, see the sectors."
   },
   {
-   "start": 17.2,
-   "dur": 3.4,
-   "say": "Flags and penalties, instantly."
+   "start": 11.25,
+   "dur": 1.88,
+   "say": "Flags and race control."
   },
   {
-   "start": 20.6,
-   "dur": 3.2,
+   "start": 13.12,
+   "dur": 1.88,
+   "say": "Qatar, this weekend."
+  },
+  {
+   "start": 18.84,
+   "dur": 3.19,
    "say": "LapRadar dot com. Live 3D."
   }
- ],
- "title": "LapRadar: the race in 3D, live",
- "caption": "Watch the race live in 3D on the site: cameras, sectors, race control. lapradar.com → Live 3D",
- "slug": "lapradar-live3d-promo",
- "studio": 2
+ ]
 }
