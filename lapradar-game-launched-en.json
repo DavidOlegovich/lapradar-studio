@@ -1,0 +1,63 @@
+{
+ "id": "lapradar-game-launched",
+ "slug": "lapradar-game-launched",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "studio": 2,
+ "bed": 0.28,
+ "title": "We launched our own game: LapRadar League",
+ "caption": "We launched our own racing game! Race 1: Yas Marina is open now. Phone or PC, cockpit or chase cam, right in the browser and free. Build your driver, set your time before next Monday and make the weekly podium. lapradar.com → LapRadar League #LapRadar #LapRadarLeague #racing #game #YasMarina",
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 1.82,
+   "say": "We launched our own game!"
+  },
+  {
+   "start": 1.82,
+   "dur": 2.27,
+   "say": "Race one: Yas Marina. Open now."
+  },
+  {
+   "start": 5.0,
+   "dur": 2.73,
+   "say": "On your computer or phone, right in the browser."
+  },
+  {
+   "start": 7.73,
+   "dur": 1.82,
+   "say": "Cockpit or chase cam."
+  },
+  {
+   "start": 10.91,
+   "dur": 2.73,
+   "say": "Build your driver and your car."
+  },
+  {
+   "start": 15.0,
+   "dur": 1.82,
+   "say": "Make the weekly podium."
+  },
+  {
+   "start": 16.82,
+   "dur": 1.82,
+   "say": "Four classes and your flag."
+  },
+  {
+   "start": 20.45,
+   "dur": 1.82,
+   "say": "History and stats."
+  },
+  {
+   "start": 22.27,
+   "dur": 2.73,
+   "say": "Set your time before next Monday!"
+  },
+  {
+   "start": 25.45,
+   "dur": 5.45,
+   "say": "LapRadar dot com. LapRadar League."
+  }
+ ]
+}

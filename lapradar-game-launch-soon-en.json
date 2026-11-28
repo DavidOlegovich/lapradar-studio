@@ -1,0 +1,63 @@
+{
+ "id": "lapradar-game-launch-soon",
+ "slug": "lapradar-game-launch-soon",
+ "lang": "en",
+ "variant": "tall",
+ "fps": 30,
+ "studio": 2,
+ "bed": 0.28,
+ "title": "We are launching our own game: LapRadar League",
+ "caption": "We are launching our own racing game! A weekly race on phone and PC, right in the browser, free. Build your driver and pick your car colours. Starts Monday 00:00 UTC, be the first winner of the week. lapradar.com → LapRadar League #LapRadar #LapRadarLeague #racing #game #browsergame",
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 2.0,
+   "say": "We are launching our own game!"
+  },
+  {
+   "start": 2.0,
+   "dur": 2.0,
+   "say": "LapRadar League. The weekly race."
+  },
+  {
+   "start": 4.0,
+   "dur": 3.0,
+   "say": "On your phone or your computer, right in the browser."
+  },
+  {
+   "start": 9.5,
+   "dur": 3.0,
+   "say": "Build your driver: helmet, visor, number."
+  },
+  {
+   "start": 12.5,
+   "dur": 2.5,
+   "say": "Your car and your flag."
+  },
+  {
+   "start": 15.0,
+   "dur": 2.5,
+   "say": "It starts Monday, midnight UTC."
+  },
+  {
+   "start": 18.75,
+   "dur": 1.75,
+   "say": "Free. No install."
+  },
+  {
+   "start": 20.5,
+   "dur": 2.5,
+   "say": "Four classes by device and camera."
+  },
+  {
+   "start": 23.0,
+   "dur": 2.25,
+   "say": "Be the first winner of the week!"
+  },
+  {
+   "start": 25.5,
+   "dur": 4.5,
+   "say": "LapRadar dot com. LapRadar League."
+  }
+ ]
+}
